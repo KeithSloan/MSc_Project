@@ -1,0 +1,154 @@
+# Create and Load Tables from GAMA Info
+from __future__ import print_function
+import re
+
+#tableFiles = ['GAMA_Data/VisualMorphology/VisualMorphologyv01',
+#              'GAMA_Data/StellarMasses/StellarMasses']
+
+tableFiles = ['GAMA_Data/StellarMasses/StellarMasses']
+
+import mysql.connector
+from mysql.connector import errorcode
+
+class switch(object):
+    value = None
+    def __new__(class_, value):
+        class_.value = value
+        return True
+
+def case(*args):
+    return any((arg == switch.value for arg in args))
+
+
+def makeSQLrequest(cursor,request) :
+    try:
+        print('Making SQLrequest : '+request)
+        cursor.execute(request)
+    except mysql.connector.Error as err:
+        if err.errno == errorcode.ER_TABLE_EXISTS_ERROR:
+            print("already exists.")
+        else:
+            print(err.msg)
+    else:
+        print('OK')
+        
+def createAndLoadTable(cursor,tableFile) :
+    
+    fd = open(tableFile,'r')
+    fp = open(tableFile + '.par','r')
+    #
+    # Get Table Name
+    #
+    raw = fp.readline()
+    line = re.split('; | ',raw)
+    print(line)
+    table = line[1].rstrip()
+    print('Table : '+table)
+
+    request = 'DROP TABLE '+table
+    makeSQLrequest(cursor,request)
+
+    request = 'CREATE TABLE `'+table+ '` ('
+    #
+    # Get field lengths of first line of data 
+    #
+    rawdata = fd.readline()
+    tableData = rawdata.split()
+    fieldLengths = []
+    for j in tableData :
+        fieldLengths.append(len(j))
+    #
+    # Check next n lines of Data
+    #
+    n = 50
+    for i in range(n) :
+        rawdata = fd.readline()
+        tableData = rawdata.split()
+        for j in range(len(tableData)) :
+            if len(tableData[j]) > fieldLengths[j] :
+                fieldLengths[j] = len(tableData[j]) 
+    #
+    #  Process pre information
+    #
+    keyCol = False
+    for raw in fp :
+        line = raw.split()
+        print(line)
+        if  raw[0] != '#' :
+            column = line[0]
+            if keyCol == False :
+                keyCol = column 
+            print('Column : ' + column)
+            request += " `"+column+"` "
+            num = int(line[1])
+            print('num : ' + str(num))
+            lf = fieldLengths[num-1]
+            f3 = line[3]
+            if ';' in f3 :
+                print('Found semi colon')
+                m = f3.index(';')
+                f3 = f3[:m]
+            print(f3)    
+            if f3 == 'meta.id' :
+                request += ' int,' 
+            elif f3 == 'meta.code.class' or f3 == 'meta.ref.url' :
+                request += ' text,'
+            elif line[2] == 'deg' :
+                print('Degrees')
+                request += ' decimal,'
+            else :     
+                print(tableData[num-1])
+                if '.' in tableData[num-1] :
+                    if lf < 37 :
+                        request += 'decimal,'
+                        print('Decimal')
+                    else :
+                        request += ' float(8,4),'    
+                        print('Float,')
+                
+                else :
+                    print('Integer')                
+                    #if lf < 5 :
+                    #   request += ' smallint,'
+                    #elif lf > 11 :
+                    if lf > 11 :
+                        request += ' bigint,'
+                    else :
+                        request += ' int,'
+            print(line)
+    request += " PRIMARY KEY (`" + keyCol + "`))"
+    print(request)        
+    print("End of File")
+    makeSQLrequest(cursor,request)   
+
+    fd.close() 
+    fp.close()
+    #Load Data
+
+
+    fd = open(tableFile,'r')
+    for raw in fd :
+        line = raw.split()
+        request = 'INSERT INTO '+table+' VALUES ('
+        for i in line :
+            request += "'"+i+"',"
+        request = request[:-1]+")"    
+        print(request) 
+        makeSQLrequest(cursor,request)
+     
+    cursor.close()
+    fd.close()
+    print("End of File")
+    
+
+cnx = mysql.connector.connect(user='keith', password='kjhW0rthy#',
+                              host='127.0.0.1',
+                              database='SurveyData')
+
+cursor = cnx.cursor()
+
+DB_NAME = 'SurveyData'
+
+for tab in tableFiles :
+    createAndLoadTable(cursor,tab)
+cnx.commit()

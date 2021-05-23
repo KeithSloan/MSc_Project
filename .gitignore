@@ -1,3 +1,5 @@
-Jupyter/LocalMySQL/GAMA_Data/
+GAMA_Data
 Jupyter/LocalMySQL/.ipynb_checkpoints/
-Jupyter/AstropyTable/GAMA_Data
+Jupyter/AstropyTable/.ipynb_checkpoints
+Jupyter/AstropyTable/.*
+

@@ -1,0 +1,399 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Title - Environments of Ellipitical Galaxies ( GAMA) survey ####
+\end_layout
+
+\begin_layout Title
+Masters Project/Thesis ####
+\end_layout
+
+\begin_layout Author
+08/03/21
+\end_layout
+
+\begin_layout Author
+Author : Keith Sloan
+\end_layout
+
+\begin_layout Author
+keith@sloan-home.co.uk
+\end_layout
+
+\begin_layout Abstract
+[#Abstract mastersthesis - appox 200 words]
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Section
+Investigation
+\end_layout
+
+\begin_layout Standard
+The galaxy luminosity function (LF) is central to studies of galaxy formation
+ and evolution.
+ A strong dependence on local environ- ment of many galactic properties,
+ such as morphology, star forma- tion rate and colour, has long been established
+ (e.g.
+ Dressler 1980, Go ́mez et al.
+ 2003, Balogh et al.
+ 2004).
+ 
+\end_layout
+
+\begin_layout Standard
+In standard halo-occupation models and some semi-empirical ⋆ E-mail: ee@roe.ac.uk
+ † International Centre for Radio Astronomy Research models, galaxy properties
+ are assumed to depend only upon the mass of the host halo or its merger
+ history (Kauffmann et al.
+ 1993, van den Bosch et al.
+ 2007)
+\end_layout
+
+\begin_layout Standard
+For example, a dependence of the galaxy LF on local density has been investigate
+d and the LF has been shown to vary smoothly with overdensity, brightening
+ con- tinuously from void to cluster regions with no significant variation
+ in the LF slope (e.g.
+ Croton et al.
+ 2005, McNaught-Roberts et al.
+ 2014).
+ Guo et al.
+ (2014) measured the satellite LF of primary galax- ies in SDSS and found
+ a significant difference between galaxies 0000RAS ABSTRACT We investigate
+ the dependence of the galaxy luminosity function on geometric environment
+ within the Galaxy And Mass Assembly (GAMA) survey.
+ The tidal tensor prescription, based on the Hessian of the pseudo-gravitational
+ potential, is used to classify the cosmic web and define the geometric
+ environments: for a given smoothing scale, we classify every position of
+ the surveyed region, 0.04 < z < 0.26, as either a void, a sheet, a filament
+ or a knot.
+ We consider how to choose appropriate thresholds in the eigenvalues of
+ the Hessian in order to partition the galaxies approximately evenly between
+ environments.
+ We find a significant variation in the luminosity function of galaxies
+ between different geometric environments; the normalisation, characterised
+ by φ∗ in a Schechter function fit, increases by an order of magnitude from
+ voids to knots.
+ The turnover magnitude, characterised by M∗, brightens by approximately
+ 0.5 mag from voids to knots.
+ However, we show that the observed modula- tion can be entirely attributed
+ to the indirect local-density dependence.
+ We therefore find no evidence of a direct influence of the cosmic web on
+ the galaxy luminosity function.
+ Key words: cosmology: observations, large-scale structure of Universe,
+ surveys, galaxies: luminosity function arXiv:1412.2141v1 [astro-ph.CO] 5
+ Dec 2014 2 E.
+ Eardley residing in filaments and those that do not, suggesting that the
+ fila- mentary environment has a direct effect on the efficiency of galaxy
+ formation.
+\end_layout
+
+\begin_layout Subsection
+Two Galaxy Groups
+\end_layout
+
+\begin_layout Standard
+Plot of redness versus logmstar
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/keithsloan/MSc_Project/ChartsPlots/CountourMapAll.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Papers
+\end_layout
+
+\begin_layout Standard
+Selection via Visual Morphology
+\end_layout
+
+\begin_layout Standard
+Plot
+\end_layout
+
+\begin_layout Subsection
+Distributions
+\end_layout
+
+\begin_layout Standard
+Plots of Distribtions
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/keithsloan/MSc_Project/ChartsPlots/DistributionsCounts-minusr.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/keithsloan/MSc_Project/ChartsPlots/DistributionsCounts-logmstar.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/keithsloan/MSc_Project/ChartsPlots/DistributionsCounts-metal.png
+
+\end_inset
+
+Distribtion parameters
+\end_layout
+
+\begin_layout Subsubsection
+Transform of Distributions to Normal
+\end_layout
+
+\begin_layout Standard
+Coxbox
+\end_layout
+
+\begin_layout Standard
+Coxbox parameters/values
+\end_layout
+
+\begin_layout Standard
+Confidence values
+\end_layout
+
+\begin_layout Standard
+Test of transformation for gaussian
+\end_layout
+
+\begin_layout Standard
+Confidence Values
+\end_layout
+
+\begin_layout Standard
+Plot of inverse transform
+\end_layout
+
+\begin_layout Subsection
+Local Group Information
+\end_layout
+
+\begin_layout Standard
+Group Redness Countor density plots
+\end_layout
+
+\begin_layout Standard
+Correllation with Environmtal variables
+\end_layout
+
+\begin_layout Subsection
+Galaxy Classifications
+\end_layout
+
+\begin_layout Standard
+How classifed Lizzie Eardley PhD
+\end_layout
+
+\begin_layout Standard
+GeometricEnvironments 2015-01-05 Lizzie Eardley <ee@roe.ac.uk>
+\end_layout
+
+\begin_layout Standard
+This DMU identifies the cosmic web of large scale structure within the GAMA
+ II equatorial survey regions by classifying the geometric environment of
+ each point in space as either a void, a sheet, a filament or a knot.
+\end_layout
+
+\begin_layout Standard
+The classification system is based on evaluation of the deformation tensor
+ (i.e.
+ the Hessian of the gravitational potential) on a grid, see <a href="http://adsa
+bs.harvard.edu/abs/2015MNRAS.448.3665E">Eardley et al.
+ (2015)</a> for full details.
+ The number of eigenvalues above an imposed threshold indicates the number
+ of collapsed dimensions of structure at that location - either 0, 1, 2
+ or 3, corresponding to a void, sheet, filament or knot, respectively.
+ The classification of the grid, as given in the GeometricGrid table, allows
+ the geometric environment of any object within the grid (any object in
+ the G09, G12 or G15 regions with 0.04 < z < 0.263) to be determined by assigning
+ the object the same environment as the cell of the grid in which the object
+ is located.
+\end_layout
+
+\begin_layout Standard
+Sample selection
+\end_layout
+
+\begin_layout Standard
+The three equatorial GAMA regions, G09, G12 and G15 are classified.
+ Although this method of classification can in principle be extended to
+ any redshift, the current version of this DMU covers only the range 0.04
+ < z < 0.263.
+ These redshift limits were chosen in order to focus on the lower redshift
+ regime where the number density of galaxies is sufficient for a robust
+ estimate of the density field.
+\end_layout
+
+\begin_layout Subsubsection*
+Voids
+\end_layout
+
+\begin_layout Subsubsection*
+Sheet
+\end_layout
+
+\begin_layout Subsubsection*
+Filament
+\end_layout
+
+\begin_layout Subsubsection*
+Knot
+\end_layout
+
+\begin_layout Subsubsection
+Environment parameters
+\end_layout
+
+\begin_layout Standard
+Distribtions plots
+\begin_inset Graphics
+	filename /Users/keithsloan/MSc_Project/ChartsPlots/DistributionsEnviroments.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Local Group
+\end_layout
+
+\begin_layout Standard
+Group Redness Environment Variables
+\end_layout
+
+\begin_layout Standard
+Countour/density plots
+\end_layout
+
+\begin_layout Standard
+correlation values
+\end_layout
+
+\begin_layout Section
+Discussion
+\end_layout
+
+\begin_layout Subsection
+Correllations Group redness to Environement Values
+\end_layout
+
+\begin_layout Subsection
+Coxbox transformations
+\end_layout
+
+\begin_layout Subsection
+Further research
+\end_layout
+
+\begin_layout Section
+Conclusions
+\end_layout
+
+\begin_layout Section
+\start_of_appendix
+Appendix
+\end_layout
+
+\end_body
+\end_document

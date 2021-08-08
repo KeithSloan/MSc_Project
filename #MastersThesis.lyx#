@@ -319,10 +319,6 @@ status open
 
 \end_layout
 
-\begin_layout Standard
-NEED TO ADD Distributions Plots
-\end_layout
-
 \begin_layout Subsection
 Testing correllation Galaxy redness with Environments
 \end_layout
@@ -513,123 +509,16 @@ Knot
 \end_layout
 
 \begin_layout Subsubsection
-Environment Distributions by Galaxay Classification
+Environment parameters
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
 \begin_inset Graphics
-	filename ChartsPlots/GalaxyTypes-uminusr.png
+	filename /Users/keithsloan/MSc_Project/ChartsPlots/DistributionsEnviroments.png
 
 \end_inset
 
 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename ChartsPlots/GalaxyTypes-logmstar.png
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename ChartsPlots/GalaxyTypes-DistanceTo5nn.png
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-NEED TO ADD the resr
-\end_layout
-
-\begin_layout Standard
-NEED To ADD Histogram of All
 \end_layout
 
 \begin_layout Subsubsection

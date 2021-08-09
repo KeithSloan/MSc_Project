@@ -183,6 +183,7 @@ Plot of redness versus logmstar
 \begin_layout Standard
 \begin_inset Graphics
 	filename /Users/keithsloan/MSc_Project/ChartsPlots/CountourMapAll.png
+	lyxscale 30
 
 \end_inset
 
@@ -192,6 +193,7 @@ Plot of redness versus logmstar
 \begin_layout Standard
 \begin_inset Graphics
 	filename ChartsPlots/CountourMapVisualFilled.png
+	lyxscale 30
 	scale 30
 
 \end_inset
@@ -202,6 +204,7 @@ Plot of redness versus logmstar
 \begin_layout Standard
 \begin_inset Graphics
 	filename ChartsPlots/CountourMapEllipticalFilled.png
+	lyxscale 30
 
 \end_inset
 
@@ -227,6 +230,7 @@ Plots of Distribtions
 \begin_layout Standard
 \begin_inset Graphics
 	filename /Users/keithsloan/MSc_Project/ChartsPlots/DistributionsCounts-minusr.png
+	lyxscale 30
 
 \end_inset
 
@@ -236,6 +240,7 @@ Plots of Distribtions
 \begin_layout Standard
 \begin_inset Graphics
 	filename /Users/keithsloan/MSc_Project/ChartsPlots/DistributionsCounts-logmstar.png
+	lyxscale 30
 
 \end_inset
 
@@ -245,6 +250,7 @@ Plots of Distribtions
 \begin_layout Standard
 \begin_inset Graphics
 	filename /Users/keithsloan/MSc_Project/ChartsPlots/DistributionsCounts-metal.png
+	lyxscale 30
 
 \end_inset
 
@@ -299,6 +305,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename ChartsPlots/DistributionsEnviroments.png
+	lyxscale 30
 
 \end_inset
 
@@ -343,6 +350,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename ChartsPlots/RedDensityLogEnvironments.png
+	lyxscale 30
 
 \end_inset
 
@@ -388,6 +396,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename ChartsPlots/GroupTotRmagHistogram.png
+	lyxscale 30
 	scale 30
 
 \end_inset
@@ -424,6 +433,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename ChartsPlots/GroupDenistyTotRmagLogEnvironments.png
+	lyxscale 30
 
 \end_inset
 
@@ -532,6 +542,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename ChartsPlots/GalaxyTypes-uminusr.png
+	lyxscale 30
 
 \end_inset
 
@@ -568,6 +579,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename ChartsPlots/GalaxyTypes-logmstar.png
+	lyxscale 30
 
 \end_inset
 
@@ -604,6 +616,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename ChartsPlots/GalaxyTypes-DistanceTo5nn.png
+	lyxscale 30
 
 \end_inset
 

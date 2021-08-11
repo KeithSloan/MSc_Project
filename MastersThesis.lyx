@@ -108,6 +108,10 @@ keith@sloan-home.co.uk
 Introduction
 \end_layout
 
+\begin_layout Subsection
+Objective
+\end_layout
+
 \begin_layout Section
 Investigation
 \end_layout
@@ -177,20 +181,25 @@ Two Galaxy Groups
 \end_layout
 
 \begin_layout Standard
-Plot of redness versus logmstar
+It has been well researched [xxxx] that Galaxys fall into two groups, this
+ can be seen by a density map plot of redness (uminusr) versus the log of
+ the galaxys star mass (logmstar) see figure 1
 \end_layout
 
 \begin_layout Standard
-\begin_inset Graphics
-	filename /Users/keithsloan/MSc_Project/ChartsPlots/CountourMapAll.png
-	lyxscale 30
+\begin_inset Float figure
+wide false
+sideways false
+status open
 
-\end_inset
-
+\begin_layout Plain Layout
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
 \begin_inset Graphics
 	filename ChartsPlots/CountourMapVisualFilled.png
 	lyxscale 30
@@ -201,22 +210,73 @@ Plot of redness versus logmstar
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
+### Title | units
+\end_layout
+
+\begin_layout Standard
+One could select a subgroup based on uminusr and logsmstar as in[xxxx],
+ however the GAMA survey also has catogories galaxys based on Visual information
+ #### Zoomivese?? and selecting a subset of galaxies marked as visually
+ elliptical an repeating the uminsr/logmstr density gives figure 2 which
+ comfirms that elliptical galaxies are primarialy elliptical and form one
+ of the groups.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
 \begin_inset Graphics
 	filename ChartsPlots/CountourMapEllipticalFilled.png
 	lyxscale 30
 
 \end_inset
 
-Papers
+Paper
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Selection via Visual Morphology
-\end_layout
-
-\begin_layout Standard
-Plot
+#Title #units Plot of redness versus logmstar
 \end_layout
 
 \begin_layout Subsection
@@ -224,10 +284,24 @@ Distributions
 \end_layout
 
 \begin_layout Standard
-Plots of Distribtions
+The distributions of the main galaxy attributes redness, log mass and metalasity
+ were investigated see figures 3,4,5
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
 \begin_inset Graphics
 	filename /Users/keithsloan/MSc_Project/ChartsPlots/DistributionsCounts-minusr.png
 	lyxscale 30
@@ -237,7 +311,38 @@ Plots of Distribtions
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+units title
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
 \begin_inset Graphics
 	filename /Users/keithsloan/MSc_Project/ChartsPlots/DistributionsCounts-logmstar.png
 	lyxscale 30
@@ -247,13 +352,62 @@ Plots of Distribtions
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
+#Units title
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
 \begin_inset Graphics
 	filename /Users/keithsloan/MSc_Project/ChartsPlots/DistributionsCounts-metal.png
 	lyxscale 30
 
 \end_inset
 
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Distribtion parameters
 \end_layout
 
@@ -289,15 +443,77 @@ Plot of inverse transform
 Distribtions plots
 \end_layout
 
+\begin_layout Section
+Galaxy Environmental Measures
+\end_layout
+
+\begin_layout Standard
+The GAMA survey provides the following as the main measures of a galaxies
+ local environment
+\end_layout
+
+\begin_layout Itemize
+Count In Cylinder
+\end_layout
+
+\begin_layout Itemize
+Distance to 5nn
+\end_layout
+
+\begin_layout Itemize
+AgeDen Par
+\end_layout
+
+\begin_layout Itemize
+Surface Density
+\end_layout
+
+\begin_layout Subsubsection
+Count In Cylinder
+\end_layout
+
+\begin_layout Standard
+#Description
+\end_layout
+
+\begin_layout Subsubsection
+Distance to 5nn
+\end_layout
+
+\begin_layout Standard
+#Description
+\end_layout
+
+\begin_layout Subsubsection
+AgeDenPar - Age Denisty
+\end_layout
+
+\begin_layout Standard
+#Description
+\end_layout
+
+\begin_layout Subsubsection
+Surface Density
+\end_layout
+
+\begin_layout Standard
+#Description
+\end_layout
+
+\begin_layout Subsection
+Distribitions of environmental measures
+\end_layout
+
+\begin_layout Standard
+The distributions of the environmental measures were investigated see figure
+ 6
+\end_layout
+
 \begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -332,6 +548,49 @@ NEED TO ADD Distributions Plots
 
 \begin_layout Subsection
 Testing correllation Galaxy redness with Environments
+\end_layout
+
+\begin_layout Standard
+Density map plots were produced for the four environmental measures figure
+ 7 and also the log of the same measures figure 8
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ChartsPlots/RedDensityEnvironments.png
+	lyxscale 30
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -371,8 +630,106 @@ status open
 
 \end_layout
 
+\begin_layout Standard
+As can be seen from the plots there is no obvious relationship between the
+ redness of a galaxy and the four main environmental measures, however somewhat
+ surppringly the environmental measures do have broad relationship with
+ the redness of the local group that a galaxy is in
+\end_layout
+
 \begin_layout Subsection
 Local Group Information
+\end_layout
+
+\begin_layout Subsubsection
+Group Redness - TotRmag
+\end_layout
+
+\begin_layout Standard
+Group Redness Countor density plots
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ChartsPlots/GroupDensityTotRmagLogEnvironments.png
+	lyxscale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Correllation with Environmtal variables
+\end_layout
+
+\begin_layout Standard
+Looking at other Group parameters
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ChartsPlots/GroupDensityDistanceLogEnvironments.png
+	lyxscale 30
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -404,58 +761,9 @@ status open
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-Group Redness Countor density plots
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename ChartsPlots/GroupDenistyTotRmagLogEnvironments.png
-	lyxscale 30
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Correllation with Environmtal variables
 \end_layout
 
 \begin_layout Subsection
@@ -647,6 +955,48 @@ NEED To ADD Histogram of All
 
 \begin_layout Subsubsection
 Local Group
+\end_layout
+
+\begin_layout Standard
+Redness Density map plots for each Galaxy Environment type
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ChartsPlots/GroupDensityTotRmagLogEnvironmentsGalaxyType.png
+	lyxscale 50
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard

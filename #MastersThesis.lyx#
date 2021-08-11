@@ -119,8 +119,8 @@ Investigation
 \begin_layout Standard
 The galaxy luminosity function (LF) is central to studies of galaxy formation
  and evolution.
- A strong dependence on local environ- ment of many galactic properties,
- such as morphology, star forma- tion rate and colour, has long been established
+ A strong dependence on local environment of many galactic properties, such
+ as morphology, star formation rate and colour, has long been established
  (e.g.
  Dressler 1980, Go ́mez et al.
  2003, Balogh et al.
@@ -140,13 +140,13 @@ In standard halo-occupation models and some semi-empirical ⋆ E-mail: ee@roe.ac
 \begin_layout Standard
 For example, a dependence of the galaxy LF on local density has been investigate
 d and the LF has been shown to vary smoothly with overdensity, brightening
- con- tinuously from void to cluster regions with no significant variation
+ continuously from void to cluster regions with no significant variation
  in the LF slope (e.g.
  Croton et al.
  2005, McNaught-Roberts et al.
  2014).
  Guo et al.
- (2014) measured the satellite LF of primary galax- ies in SDSS and found
+ (2014) measured the satellite LF of primary galaxies in SDSS and found
  a significant difference between galaxies 0000RAS ABSTRACT We investigate
  the dependence of the galaxy luminosity function on geometric environment
  within the Galaxy And Mass Assembly (GAMA) survey.
@@ -164,7 +164,7 @@ d and the LF has been shown to vary smoothly with overdensity, brightening
  voids to knots.
  The turnover magnitude, characterised by M∗, brightens by approximately
  0.5 mag from voids to knots.
- However, we show that the observed modula- tion can be entirely attributed
+ However, we show that the observed modulation can be entirely attributed
  to the indirect local-density dependence.
  We therefore find no evidence of a direct influence of the cosmic web on
  the galaxy luminosity function.
@@ -172,8 +172,32 @@ d and the LF has been shown to vary smoothly with overdensity, brightening
  surveys, galaxies: luminosity function arXiv:1412.2141v1 [astro-ph.CO] 5
  Dec 2014 2 E.
  Eardley residing in filaments and those that do not, suggesting that the
- fila- mentary environment has a direct effect on the efficiency of galaxy
+ filamentary environment has a direct effect on the efficiency of galaxy
  formation.
+\end_layout
+
+\begin_layout Subsection
+Galax Characteritics Formation###
+\end_layout
+
+\begin_layout Standard
+Galaxy formation is understood to be subject to a number of process
+\end_layout
+
+\begin_layout Itemize
+Evolution of star members due to nucleosythesis
+\end_layout
+
+\begin_layout Itemize
+Galaxy mergers
+\end_layout
+
+\begin_layout Itemize
+Star formation
+\end_layout
+
+\begin_layout Standard
+####
 \end_layout
 
 \begin_layout Subsection
@@ -181,9 +205,16 @@ Two Galaxy Groups
 \end_layout
 
 \begin_layout Standard
-It has been well researched [xxxx] that Galaxys fall into two groups, this
- can be seen by a density map plot of redness (uminusr) versus the log of
- the galaxys star mass (logmstar) see figure 1
+It has been well researched that Galaxys fall into two groups
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-1"
+literal "false"
+
+\end_inset
+
+, this can be seen by a density map plot of redness (uminusr) versus the
+ log of the galaxys star mass (logmstar) see figure 1
 \end_layout
 
 \begin_layout Standard
@@ -203,7 +234,7 @@ status open
 \begin_inset Graphics
 	filename ChartsPlots/CountourMapVisualFilled.png
 	lyxscale 30
-	scale 30
+	scale 40
 
 \end_inset
 
@@ -305,6 +336,7 @@ status open
 \begin_inset Graphics
 	filename /Users/keithsloan/MSc_Project/ChartsPlots/DistributionsCounts-minusr.png
 	lyxscale 30
+	scale 40
 
 \end_inset
 
@@ -346,6 +378,7 @@ status open
 \begin_inset Graphics
 	filename /Users/keithsloan/MSc_Project/ChartsPlots/DistributionsCounts-logmstar.png
 	lyxscale 30
+	scale 40
 
 \end_inset
 
@@ -387,6 +420,7 @@ status open
 \begin_inset Graphics
 	filename /Users/keithsloan/MSc_Project/ChartsPlots/DistributionsCounts-metal.png
 	lyxscale 30
+	scale 40
 
 \end_inset
 
@@ -522,6 +556,7 @@ status open
 \begin_inset Graphics
 	filename ChartsPlots/DistributionsEnviroments.png
 	lyxscale 30
+	scale 40
 
 \end_inset
 
@@ -572,7 +607,7 @@ status open
 \begin_inset Graphics
 	filename ChartsPlots/RedDensityEnvironments.png
 	lyxscale 30
-	scale 40
+	scale 60
 
 \end_inset
 
@@ -610,6 +645,7 @@ status open
 \begin_inset Graphics
 	filename ChartsPlots/RedDensityLogEnvironments.png
 	lyxscale 30
+	scale 60
 
 \end_inset
 
@@ -666,6 +702,7 @@ status open
 \begin_inset Graphics
 	filename ChartsPlots/GroupDensityTotRmagLogEnvironments.png
 	lyxscale 30
+	scale 60
 
 \end_inset
 
@@ -687,11 +724,11 @@ status open
 \end_layout
 
 \begin_layout Standard
-Correllation with Environmtal variables
+Correllation with Environmental variables
 \end_layout
 
 \begin_layout Standard
-Looking at other Group parameters
+Looking at other Group parameters ( DISCARD UNLESS FIND CORRELATION)
 \end_layout
 
 \begin_layout Standard
@@ -711,7 +748,7 @@ status open
 \begin_inset Graphics
 	filename ChartsPlots/GroupDensityDistanceLogEnvironments.png
 	lyxscale 30
-	scale 40
+	scale 60
 
 \end_inset
 
@@ -754,7 +791,7 @@ status open
 \begin_inset Graphics
 	filename ChartsPlots/GroupTotRmagHistogram.png
 	lyxscale 30
-	scale 30
+	scale 35
 
 \end_inset
 
@@ -768,6 +805,26 @@ status open
 
 \begin_layout Subsection
 Galaxy Classifications
+\end_layout
+
+\begin_layout Standard
+Whilst on very large scales the universe is homogenous we know that on lesser
+ scales there is structure influneced by the distribution of Dark matter.
+ For the GAMA II equatorial survey regions galaxy's were classified into
+ either, void, sheet, filament or knot, this work was carried out by Lizzie
+ Eardley for her Phd 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-2"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.The structure of the universe is 
 \end_layout
 
 \begin_layout Standard
@@ -851,6 +908,7 @@ status open
 \begin_inset Graphics
 	filename ChartsPlots/GalaxyTypes-uminusr.png
 	lyxscale 30
+	scale 45
 
 \end_inset
 
@@ -869,6 +927,10 @@ status open
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Galaxy Count uminusr
 \end_layout
 
 \begin_layout Standard
@@ -888,6 +950,7 @@ status open
 \begin_inset Graphics
 	filename ChartsPlots/GalaxyTypes-logmstar.png
 	lyxscale 30
+	scale 40
 
 \end_inset
 
@@ -906,6 +969,10 @@ status open
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+dddd
 \end_layout
 
 \begin_layout Standard
@@ -923,8 +990,9 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ChartsPlots/GalaxyTypes-DistanceTo5nn.png
+	filename ChartsPlots/GalaxyTypes-metal.png
 	lyxscale 30
+	scale 40
 
 \end_inset
 
@@ -946,6 +1014,105 @@ status open
 \end_layout
 
 \begin_layout Standard
+eeeee
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ffffff
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ChartsPlots/GalaxyTypes-logmstar.png
+	lyxscale 30
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ChartsPlots/GalaxyTypes-DistanceTo5nn.png
+	lyxscale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ssss
+\end_layout
+
+\begin_layout Standard
 NEED TO ADD the resr
 \end_layout
 
@@ -958,7 +1125,45 @@ Local Group
 \end_layout
 
 \begin_layout Standard
-Density map 
+Redness Density map plots for each Galaxy Environment type
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ChartsPlots/GroupDensityTotRmagLogEnvironmentsGalaxyType.png
+	lyxscale 50
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1014,6 +1219,28 @@ Further research
 
 \begin_layout Section
 Conclusions
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-1"
+
+\end_inset
+
+Galaxy And Mass Assembly (GAMA): Deconstructing Bimodality— I.
+ Red ones and blue ones <arXiv:1408.5984v1> 2018 Taylor et al
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-2"
+
+\end_inset
+
+Galaxy And Mass Assembly (GAMA): The galaxy luminosity function within the
+ cosmic web <arXiv:1412.2141> 2015 Eardley et al
 \end_layout
 
 \begin_layout Section

@@ -31,11 +31,12 @@
 \output_sync 0
 \bibtex_command default
 \index_command default
+\float_placement H
 \paperfontsize default
 \spacing single
 \use_hyperref false
 \papersize default
-\use_geometry false
+\use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
 \use_package cancel 1
@@ -60,6 +61,9 @@
 \shortcut idx
 \color #008000
 \end_index
+\leftmargin 2cm
+\topmargin 2cm
+\bottommargin 3cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -763,6 +767,335 @@ Correllation with Environmental variables
 \end_layout
 
 \begin_layout Standard
+The results of running linear regession tests are documented in Table
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Linear Regression of Group Redness with Galaxy Enviroment measures
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="6">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Environment Variable
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Correlation Coefficient
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T-test
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+m
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+c
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+s
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+CountInCyl
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.598
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8.34
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.41
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-21.351
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0146
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DistanceTo5nn
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.686
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.370
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.129
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-21.857
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0317
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SurfaceDensity
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.691
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.472 e-202
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.568
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-21.552
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0158
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+AGEDenPar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.493
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.184 e-88
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.637
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-21.735
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0298
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Looking at other Group parameters ( DISCARD UNLESS FIND CORRELATION)
 \end_layout
 
@@ -1381,17 +1714,28 @@ Elliptical Galaxies
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Distribution fits for Elliptical Galaxies
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="12">
+<lyxtabular version="3" rows="5" columns="5">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -1439,6 +1783,252 @@ Johnson Fit
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Redness(uminusr)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.23
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.92
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.42
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mass (logmstar)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+16.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10.11
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15.06
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.95
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Metalicity(metal)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-1.02
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.68
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.008
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.003
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+CoxBox for Elliptical Galaxies
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="8">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Characteristic
 \end_layout
 
 \end_inset
@@ -1512,42 +2102,6 @@ Measure of Normal Fit
 </row>
 <row>
 <cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1634,42 +2188,6 @@ Redness(uminusr)
 \begin_inset Text
 
 \begin_layout Plain Layout
-3.23
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2.92
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2.7
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.42
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 2.84
 \end_layout
 
@@ -1736,42 +2254,6 @@ Redness(uminusr)
 
 \begin_layout Plain Layout
 Mass (logmstar)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-16.4
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-10.11
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-15.06
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1.95
 \end_layout
 
 \end_inset
@@ -1854,42 +2336,6 @@ Metalicity(metal)
 \begin_inset Text
 
 \begin_layout Plain Layout
--1.02
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1.68
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.008
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.003
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.07
 \end_layout
 
@@ -1957,22 +2403,42 @@ Metalicity(metal)
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection*
 All Galaxies
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Distribution fits / CoxBox for All Galaxies
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="3" columns="12">
+<lyxtabular version="3" rows="3" columns="5">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -2020,6 +2486,158 @@ Johnson Fit
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mass (logmstar)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.27
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11.11
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.499
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+CoxBox for All Galaxies
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="8">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Characteristic
 \end_layout
 
 \end_inset
@@ -2093,42 +2711,6 @@ Measure of Normal Fit
 </row>
 <row>
 <cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2215,42 +2797,6 @@ Mass (logmstar)
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.27
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1.3
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-11.11
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.499
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 5.7
 \end_layout
 
@@ -2312,6 +2858,33 @@ Mass (logmstar)
 </cell>
 </row>
 </lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \end_inset
 

@@ -304,6 +304,7 @@ name "fig:2"
 \begin_inset Graphics
 	filename ChartsPlots/CountourMapEllipticalFilled.png
 	lyxscale 30
+	scale 40
 
 \end_inset
 
@@ -410,7 +411,7 @@ name "fig:4"
 \begin_inset Graphics
 	filename /Users/keithsloan/MSc_Project/ChartsPlots/DistributionsCounts-logmstar.png
 	lyxscale 30
-	scale 40
+	scale 35
 
 \end_inset
 
@@ -595,7 +596,7 @@ status open
 \begin_inset Graphics
 	filename ChartsPlots/DistributionsEnviroments.png
 	lyxscale 30
-	scale 40
+	scale 55
 
 \end_inset
 
@@ -646,7 +647,7 @@ status open
 \begin_inset Graphics
 	filename ChartsPlots/RedDensityEnvironments.png
 	lyxscale 30
-	scale 60
+	scale 50
 
 \end_inset
 
@@ -684,7 +685,7 @@ status open
 \begin_inset Graphics
 	filename ChartsPlots/RedDensityLogEnvironments.png
 	lyxscale 30
-	scale 60
+	scale 50
 
 \end_inset
 
@@ -1280,7 +1281,7 @@ status open
 \begin_inset Graphics
 	filename ChartsPlots/GalaxyTypes-uminusr.png
 	lyxscale 30
-	scale 45
+	scale 40
 
 \end_inset
 
@@ -1385,6 +1386,11 @@ status open
 
 \end_layout
 
+\begin_layout Standard
+Apart from the case of environment type knot the distributions for the various
+ galaxy enviroment types are similar
+\end_layout
+
 \begin_layout Subsubsection
 Distributions of Galaxy Environment measures by Galax Type
 \end_layout
@@ -1396,6 +1402,18 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Distribtion Count in Cyl
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
@@ -1428,16 +1446,20 @@ status open
 \end_layout
 
 \begin_layout Standard
-ffffff
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Distribution of Distance to 5nn 
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
@@ -1446,7 +1468,7 @@ status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ChartsPlots/GalaxyTypes-logmstar.png
+	filename ChartsPlots/GalaxyTypes-DistanceTo5nn.png
 	lyxscale 30
 	scale 40
 
@@ -1470,25 +1492,7 @@ status collapsed
 \end_layout
 
 \begin_layout Standard
-\begin_inset Caption Standard
 
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename ChartsPlots/GalaxyTypes-DistanceTo5nn.png
-	lyxscale 30
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-ssss
 \end_layout
 
 \begin_layout Standard
@@ -1505,9 +1509,6 @@ Local Group by Galaxy Type
 
 \begin_layout Standard
 Redness Density map plots for each Galaxy Environment type
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1517,9 +1518,19 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+Group Redness for Galaxy Type
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename ChartsPlots/GroupDensityTotRmagLogEnvironmentsGalaxyType.png
-	lyxscale 50
+	lyxscale 40
 	scale 60
 
 \end_inset
@@ -1527,8 +1538,7 @@ status open
 
 \end_layout
 
-\end_inset
-
+\begin_layout Plain Layout
 
 \end_layout
 

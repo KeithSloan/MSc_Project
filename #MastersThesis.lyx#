@@ -304,6 +304,7 @@ name "fig:2"
 \begin_inset Graphics
 	filename ChartsPlots/CountourMapEllipticalFilled.png
 	lyxscale 30
+	scale 40
 
 \end_inset
 
@@ -410,7 +411,7 @@ name "fig:4"
 \begin_inset Graphics
 	filename /Users/keithsloan/MSc_Project/ChartsPlots/DistributionsCounts-logmstar.png
 	lyxscale 30
-	scale 40
+	scale 35
 
 \end_inset
 
@@ -593,9 +594,9 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ChartsPlots/DistributionsEnviroments.png
+	filename ChartsPlots/DistributionsEnvironments.png
 	lyxscale 30
-	scale 40
+	scale 55
 
 \end_inset
 
@@ -646,7 +647,7 @@ status open
 \begin_inset Graphics
 	filename ChartsPlots/RedDensityEnvironments.png
 	lyxscale 30
-	scale 60
+	scale 50
 
 \end_inset
 
@@ -684,7 +685,7 @@ status open
 \begin_inset Graphics
 	filename ChartsPlots/RedDensityLogEnvironments.png
 	lyxscale 30
-	scale 60
+	scale 50
 
 \end_inset
 
@@ -1280,7 +1281,7 @@ status open
 \begin_inset Graphics
 	filename ChartsPlots/GalaxyTypes-uminusr.png
 	lyxscale 30
-	scale 45
+	scale 40
 
 \end_inset
 
@@ -1385,6 +1386,11 @@ status open
 
 \end_layout
 
+\begin_layout Standard
+Apart from the case of environment type knot the distributions for the various
+ galaxy enviroment types are similar
+\end_layout
+
 \begin_layout Subsubsection
 Distributions of Galaxy Environment measures by Galax Type
 \end_layout
@@ -1396,6 +1402,18 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Distribtion Count in Cyl
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
@@ -1428,16 +1446,20 @@ status open
 \end_layout
 
 \begin_layout Standard
-ffffff
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Distribution of Distance to 5nn 
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
@@ -1446,7 +1468,7 @@ status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ChartsPlots/GalaxyTypes-logmstar.png
+	filename ChartsPlots/GalaxyTypes-DistanceTo5nn.png
 	lyxscale 30
 	scale 40
 
@@ -1470,28 +1492,6 @@ status collapsed
 \end_layout
 
 \begin_layout Standard
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename ChartsPlots/GalaxyTypes-DistanceTo5nn.png
-	lyxscale 30
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-ssss
-\end_layout
-
-\begin_layout Standard
 NEED TO ADD the resr
 \end_layout
 
@@ -1505,9 +1505,6 @@ Local Group by Galaxy Type
 
 \begin_layout Standard
 Redness Density map plots for each Galaxy Environment type
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1517,9 +1514,19 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+Group Redness for Galaxy Type
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename ChartsPlots/GroupDensityTotRmagLogEnvironmentsGalaxyType.png
-	lyxscale 50
+	lyxscale 40
 	scale 60
 
 \end_inset
@@ -1527,8 +1534,7 @@ status open
 
 \end_layout
 
-\end_inset
-
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -2437,15 +2443,8 @@ Distribution fits / CoxBox for All Galaxies
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="3" columns="12">
+<lyxtabular version="3" rows="3" columns="5">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -2493,6 +2492,158 @@ Johnson Fit
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mass (logmstar)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.27
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11.11
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.499
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+CoxBox for All Galaxies
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="8">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Characteristic
 \end_layout
 
 \end_inset
@@ -2566,42 +2717,6 @@ Measure of Normal Fit
 </row>
 <row>
 <cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2688,42 +2803,6 @@ Mass (logmstar)
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.27
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1.3
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-11.11
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.499
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 5.7
 \end_layout
 
@@ -2791,29 +2870,20 @@ Mass (logmstar)
 
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status open
-
 \begin_layout Plain Layout
 
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-CoxBox for All Galaxies
-\end_layout
-
-\end_inset
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
 
 
 \end_layout

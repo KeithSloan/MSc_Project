@@ -522,6 +522,69 @@ Galaxy Environmental Measures
 \end_layout
 
 \begin_layout Standard
+SurfaceDensity: This column provides the surface density based on the distance
+ to the 5th nearest neighbour among the density defining population in a
+ velocity cylinder of +/-1000 km/s, i.e.
+ 5 / (Pi * DistanceTo5nn^2).
+\end_layout
+
+\begin_layout Standard
+CountInCyl: This column provides the number of (other) galaxies from the
+ density defining population within a cylinder of co-moving radius 1 Mpc
+ and a velocity range of +/-1000 km/s.
+ The overdensity is given by CountInCyl / (nbar_ref * volume_of_cylinder)
+ where nbar_ref = 0.00911 Mpc^-3 is the average number density of the density
+ defining population.
+ 
+\end_layout
+
+\begin_layout Standard
+AGEDenPar: This column provides the adaptive Gaussian density parameter,
+ as introduced by <a href="http://adsabs.harvard.edu/abs/2007ApJS..173..512S">Schawins
+ki et al.
+ (2007)</a>, but better described by <a href="http://adsabs.harvard.edu/abs/2008Ap
+JS..176..414Y">Yoon et al.
+ (2008)</a>.
+ To calculate this density parameter we first identify all (other) galaxies
+ from the density defining population in an adaptive Gaussian ellipsoid
+ defined by
+\end_layout
+
+\begin_layout Standard
+(r_a/(3*sigma))^2 + (r_z/(AGEScale*3*sigma))^2 <= 1, 
+\end_layout
+
+\begin_layout Standard
+where r_a and r_z are the distances from the centre of the ellipsoid (i.e.
+ from the position of the galaxy in question) in the plane of sky and along
+ the line-of-sight in co-moving Mpc, respectively, and sigma = 2 Mpc.
+ The adaptive scaling factor
+\end_layout
+
+\begin_layout Standard
+AGEScale = 1 + (0.2*n_gals_within_2Mpc) 
+\end_layout
+
+\begin_layout Standard
+is used to scale the value of sigma along the redshift axis by up to a factor
+ of 3 (i.e.
+ n_gals_within_2Mpc[max] = 10) for the highest density environments to compensat
+e for the "finger-of-God" effect.
+ The adaptive Gaussian density parameter is then computed as:
+\end_layout
+
+\begin_layout Standard
+AGEDenPar = 1/sqrt(2*pi)/sigma * SUM_i exp(-0.5 * ((r_a,i/sigma)^2 + (r_z,i/AGESc
+ale*sigma)^2))
+\end_layout
+
+\begin_layout Standard
+Effectively, this parameter is equivalent to a weighted local volume density
+ of galaxies, where closer galaxies receive more weight than more distant
+ ones.
+\end_layout
+
+\begin_layout Standard
 The GAMA survey provides the following as the main measures of a galaxies
  local environment
 \end_layout
@@ -1623,7 +1686,7 @@ The Transformation is of the form of
 \begin_layout Standard
 \begin_inset Formula 
 \[
-y_{i}^{(\lambda)}=\left\{ \begin{array}{c}
+y_{i+1}^{(\lambda)}=\left\{ \begin{array}{c}
 \frac{y_{i}^{\lambda}-1}{\lambda}\quad if\,\lambda\neq\,0\\
 ln\,y_{i}\quad\lambda\,=\,0
 \end{array}\right\} 
@@ -1655,7 +1718,7 @@ where\,llf\:is\,log\,is\,the-likelihood\,function\\
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Experiment
 \end_layout
 
@@ -2892,6 +2955,39 @@ Mass (logmstar)
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Inverse Transform
+\end_layout
+
+\begin_layout Standard
+To get to the observed distribution from a normal distribution then the
+ transform that would need to be applied is the inverse of the Cox Box Transform
+ which for a none zero value of 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ is
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\lambda}{y^{\lambda}-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Which has the following graph for the determined values of 
+\begin_inset Formula $\lambda$
 \end_inset
 
 

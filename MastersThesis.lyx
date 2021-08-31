@@ -2493,7 +2493,7 @@ Sum of logmstar for local Group versus Log(Environments) for Elliptical
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ChartsPlots/GroupDensity-Sum-logmstar-Environments.png
+	filename ChartsPlots/GroupDensity-Sum-logmstar-Log-Environments.png
 	lyxscale 20
 	scale 60
 
@@ -2976,7 +2976,7 @@ Sum of metal for local Group verses Log(Environments) for Elliptical Galaxies
 
 
 \begin_inset Graphics
-	filename ChartsPlots/GroupDensity-Sum-meta-Environments.png
+	filename ChartsPlots/GroupDensity-Sum-metal-Log-Environments.png
 	lyxscale 20
 	scale 40
 
@@ -3568,7 +3568,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ChartsPlots/RedScatterGroupRank.png
+	filename ChartsPlots/Scatter_uminusrGroupRank.png
 	lyxscale 40
 	scale 40
 
@@ -3620,7 +3620,7 @@ Density maps - Redness uminsusr versus relative position
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ChartsPlots/RedContourGroupRank.png
+	filename ChartsPlots/Contour_uminusr_GroupRank.png
 	lyxscale 40
 	scale 40
 

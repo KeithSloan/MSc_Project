@@ -1110,6 +1110,10 @@ As can be seen from the plots there is no obvious relationship between the
 \end_layout
 
 \begin_layout Standard
+Difference Spearman Pearson ?????
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float table
 wide false
 sideways false
@@ -1439,13 +1443,16 @@ Log(AGEDenPar)
 
 \end_layout
 
-\begin_layout Standard
-However somewhat surppringly the environmental measures do have broad relationsh
-ip with the redness of the local group that a galaxy is in
-\end_layout
-
 \begin_layout Subsection
 Local Group Information
+\end_layout
+
+\begin_layout Standard
+Not totally surprisingly a correlation between a galaxies local groups redness
+ TotRmag and the various environmental measures was found.
+ It is not surprising in that if a galaxy is in a dense area, its local
+ group will likely be dense and hence have a corresponding higher group
+ redness
 \end_layout
 
 \begin_layout Subsubsection
@@ -1472,7 +1479,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename ChartsPlots/GroupDensityTotRmagLogEnvironments.png
-	lyxscale 30
+	lyxscale 25
 	scale 60
 
 \end_inset
@@ -1704,7 +1711,7 @@ Log(CountInCyl)
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.008e-259
+1.01e-259
 \end_layout
 
 \end_inset
@@ -1769,7 +1776,7 @@ Log(DistanceTo5nn)
 \begin_inset Text
 
 \begin_layout Plain Layout
-5.933e-222
+5.93e-222
 \end_layout
 
 \end_inset
@@ -1936,67 +1943,11 @@ Log(AGEDenPar)
 \end_layout
 
 \begin_layout Standard
-Log - Pearson Correlation x: CountInCyl y: TotRmag Correlation : -0.6022877010565
-111 T-Test : 6.106052856867392e-150 
+
 \end_layout
 
-\begin_layout Standard
-Log - Spearman Correlation x: CountInCyl y: TotRmag Correlation : -0.737524989281
-7359 T-Test : 1.008610981122229e-259 
-\end_layout
-
-\begin_layout Standard
-Log - Linear Regresion x: CountInCyl y: TotRmag slope : -0.3847684251919775
- Intercept -21.338616683290372 Correlation -0.6022877010565109 Wald test 6.10605285
-6866474e-150 0.013123863891371865 
-\end_layout
-
-\begin_layout Standard
-Log - Pearson Correlation x: DistanceTo5nn y: TotRmag Correlation : 0.68252055726
-88512 T-Test : 7.469758080777828e-208 
-\end_layout
-
-\begin_layout Standard
-Log - Spearman Correlation x: DistanceTo5nn y: TotRmag Correlation : 0.6987858494
-602004 T-Test : 5.933473753618138e-222 
-\end_layout
-
-\begin_layout Standard
-Log - Linear Regresion x: DistanceTo5nn y: TotRmag slope : 1.099687005988298
- Intercept -21.853876212581504 Correlation 0.6825205572688512 Wald test 7.469758080
-776303e-208 0.030304203751598414 
-\end_layout
-
-\begin_layout Standard
-Log - Pearson Correlation x: SurfaceDensity y: TotRmag Correlation : -0.680845014
-3737224 T-Test : 1.8776891985608455e-206 
-\end_layout
-
-\begin_layout Standard
-Log - Spearman Correlation x: SurfaceDensity y: TotRmag Correlation : -0.69964889
-42978943 T-Test : 9.965087717311681e-223 
-\end_layout
-
-\begin_layout Standard
-Log - Linear Regresion x: SurfaceDensity y: TotRmag slope : -0.5339849083583098
- Intercept -21.57768816238052 Correlation -0.6808450143737221 Wald test 1.877689198
-5613808e-206 0.014782806747027977 
-\end_layout
-
-\begin_layout Standard
-Log - Pearson Correlation x: AGEDenPar y: TotRmag Correlation : -0.49695968152910
-12 T-Test : 4.063734892291024e-95 
-\end_layout
-
-\begin_layout Standard
-Log - Spearman Correlation x: AGEDenPar y: TotRmag Correlation : -0.5061213259863
-624 T-Test : 3.757246364254945e-99 
-\end_layout
-
-\begin_layout Standard
-Log - Linear Regresion x: AGEDenPar y: TotRmag slope : -0.6131499414552284
- Intercept -21.691979519090207 Correlation -0.49695968152910136 Wald test
- 4.0637348922889595e-95 0.027552658597272517
+\begin_layout Subsubsection
+Sum of Group redness - uminusr
 \end_layout
 
 \begin_layout Standard
@@ -2029,14 +1980,6 @@ The
 \end_layout
 
 \begin_layout Standard
-The density maps for 
-\begin_inset Formula $\Sigma uminusr$
-\end_inset
-
- were similar to TotRmag
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -2062,7 +2005,8 @@ Sum of uminusr for local Group versus Log(Environments) for Elliptical Galaxies
 \align center
 \begin_inset Graphics
 	filename ChartsPlots/GroupDensity-Sum-uminusr-Environments.png
-	lyxscale 40
+	lyxscale 25
+	scale 60
 
 \end_inset
 
@@ -2088,7 +2032,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Linear Regression of Group Redness (TotRmag) with Log(Galaxy Enviroment
+Linear Regression of Group Redness Sum of uminusr with Log(Galaxy Enviroment
  measures)
 \end_layout
 
@@ -2512,67 +2456,19 @@ Log(AGEDenPar)
 \end_layout
 
 \begin_layout Standard
-Log Pearson Correlation x: CountInCyl y: uminusr Correlation : -0.678895241011596
-2 T-Test : 2.7684251448374416e-193
+The density maps for 
+\begin_inset Formula $\Sigma uminusr$
+\end_inset
+
+ were similar to TotRmag although the results with two peaks hint at two
+ groups for red elliptical galaxies a small group with large red magnitude
+ and high density i.e.
+ small DistanceTo5nn, large CountInCyl, Surface Density and AGEDenPar and
+ a larger group with a lesser red magnitide and smaller denisties.
 \end_layout
 
-\begin_layout Standard
-Log Spearman Correlation x: CountInCyl y: uminusr Correlation : -0.50400217442887
-92 T-Test : 1.0099296180020152e-92 
-\end_layout
-
-\begin_layout Standard
-Log Linear Regresion x: CountInCyl y: uminusr slope : -0.7543860806705238
- Intercept 1.2287679527254731 Correlation -0.5040021744288788 Wald test 1.009929618
-00314e-92 0.03425866064965483 
-\end_layout
-
-\begin_layout Standard
-Log Pearson Correlation x: DistanceTo5nn y: uminusr Correlation : 0.6516161104693
-581 T-Test : 4.048863837054215e-173 
-\end_layout
-
-\begin_layout Standard
-Log Spearman Correlation x: DistanceTo5nn y: uminusr Correlation : 0.647338196305
-5087 T-Test : 3.820195982341256e-170 
-\end_layout
-
-\begin_layout Standard
-Log Linear Regresion x: DistanceTo5nn y: uminusr slope : 2.3668075669726716
- Intercept 0.1904153386114431 Correlation 0.6473381963055086 Wald test 3.8201959823
-45046e-170 0.07384945888102212 
-\end_layout
-
-\begin_layout Standard
-Log Pearson Correlation x: SurfaceDensity y: uminusr Correlation : -0.65484035520
-23747 T-Test : 2.1535929364799248e-175 
-\end_layout
-
-\begin_layout Standard
-Log Spearman Correlation x: SurfaceDensity y: uminusr Correlation : -0.6496781406
-224812 T-Test : 9.139279236853532e-172 
-\end_layout
-
-\begin_layout Standard
-Log Linear Regresion x: SurfaceDensity y: uminusr slope : -1.1553170227655374
- Intercept 0.7844264355696975 Correlation -0.6496781406224813 Wald test 9.139279236
-858627e-172 0.03582458364618143 
-\end_layout
-
-\begin_layout Standard
-Log Pearson Correlation x: AGEDenPar y: uminusr Correlation : -0.4904654538265658
-7 T-Test : 3.518639683946442e-87 
-\end_layout
-
-\begin_layout Standard
-Log Spearman Correlation x: AGEDenPar y: uminusr Correlation : -0.480350119837575
-2 T-Test : 3.373936930524987e-83 
-\end_layout
-
-\begin_layout Standard
-Log Linear Regresion x: AGEDenPar y: uminusr slope : -1.353972234110179 Intercept
- 0.5016874512376839 Correlation -0.48035011983757514 Wald test 3.373936930527898e-8
-3 0.06551405751773402
+\begin_layout Subsubsection
+Sum of Group mass mass - logmstar
 \end_layout
 
 \begin_layout Standard
@@ -2580,10 +2476,6 @@ Log Linear Regresion x: AGEDenPar y: uminusr slope : -1.353972234110179 Intercep
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -2602,7 +2494,8 @@ Sum of logmstar for local Group versus Log(Environments) for Elliptical
 \align center
 \begin_inset Graphics
 	filename ChartsPlots/GroupDensity-Sum-logmstar-Environments.png
-	lyxscale 40
+	lyxscale 20
+	scale 60
 
 \end_inset
 
@@ -2612,6 +2505,457 @@ Sum of logmstar for local Group versus Log(Environments) for Elliptical
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Linear Regression of Group Redness Sum of logmstar with Log(Galaxy Enviroment
+ measures)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="7">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Environment Variable
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pearson
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Spearman
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Linear Regression
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Correlation Coefficient
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+p-value
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Correlation Coefficient
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+p-value
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+m
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+c
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Log(CountInCyl)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.537
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.75e107
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.675
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.59e-190
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.453
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+24.87
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Log(DistanceTo5nn)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.582
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5.32e130
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.638
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8.8e-164
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-1.199
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+25.45
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+log(SurfaceDensity)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.584
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.55e131
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.641
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.40e165
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.575
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+25.15
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Log(AGEDenPar)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.42
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.78e-62
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.44
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5.24e-§7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.667
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+25.29
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Looking at the logmstar density maps for environment measures DistanceTo5nn
+ and SurfaceDensity, these like the ones for redness uminusr also hint at
+ two groups of galaxies
+\end_layout
+
+\begin_layout Subsubsection
+Sum of Group metalisity - metal
 \end_layout
 
 \begin_layout Standard
@@ -2633,7 +2977,462 @@ Sum of metal for local Group verses Log(Environments) for Elliptical Galaxies
 
 \begin_inset Graphics
 	filename ChartsPlots/GroupDensity-Sum-meta-Environments.png
-	lyxscale 40
+	lyxscale 20
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Linear Regression of Group Redness Sum of metal with Log(Galaxy Enviroment
+ measures)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Linear Regression of Group Redness Sum of logmstar with Log(Galaxy Enviroment
+ measures)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="7">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Environment Variable
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pearson
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Spearman
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Linear Regression
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Correlation Coefficient
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+p-value
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Correlation Coefficient
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+p-value
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+m
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+c
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Log(CountInCyl)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.369
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.55e-47
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.714
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5.68e-223
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.042
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.090
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Log(DistanceTo5nn)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.462
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.54e-76
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.683
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.58e-196
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.147
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+log(SurfaceDensity)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.465
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.62e-77
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.686
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.62e-199
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.063
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.115
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Log(AGEDenPar)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.389
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9.86e-53
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.508
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.49e-94
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.083
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.131
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
 
 \end_inset
 
@@ -2717,6 +3516,120 @@ status open
 
 \end_inset
 
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Group Position
+\end_layout
+
+\begin_layout Standard
+Group tables (xxxxx) provide for galaxies their relative position within
+ the Local Group.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Scatter plots - Redness uminusr versus relative position
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/RedScatterGroupRank.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Density maps - Redness uminsusr versus relative position
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/RedContourGroupRank.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -3097,6 +4010,14 @@ Group Redness for Galaxy Type
 \end_layout
 
 \begin_layout Standard
+Group or Sum of Red ?
+\end_layout
+
+\begin_layout Standard
+Filament like logmstar indicate two peaks
+\end_layout
+
+\begin_layout Standard
 Group Redness Environment Variables
 \end_layout
 
@@ -3155,7 +4076,49 @@ noprefix "false"
 
 \begin_layout Standard
 then the variation from a Normal/Gaussien could be attributed to statistical
- variation.
+ variation or to the random value being subject to a transformation or series
+ of transformations.
+\end_layout
+
+\begin_layout Standard
+Measure of gaussien or normal ???? !!!! TESTs for NORMAL distribution.
+\end_layout
+
+\begin_layout Standard
+Galaxy evolution is subject to a number of processes
+\end_layout
+
+\begin_layout Itemize
+The stars in the galaxy undergoing Nucleousynthesis
+\end_layout
+
+\begin_layout Itemize
+Star formation
+\end_layout
+
+\begin_layout Itemize
+Larger stars which are bluer burn out quicker at which point they cease
+ to contribute to the galaxy
+\end_layout
+
+\begin_layout Itemize
+Main sequence stars become Red giants
+\end_layout
+
+\begin_layout Itemize
+Galaxy mergers
+\end_layout
+
+\begin_layout Itemize
+metalicity ????
+\end_layout
+
+\begin_layout Standard
+All of which will over time change the nature of a galaxy.
+\end_layout
+
+\begin_layout Standard
+.
  The Cox Box transformation
 \begin_inset CommandInset citation
 LatexCommand cite

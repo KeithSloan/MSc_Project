@@ -1443,7 +1443,7 @@ Log(AGEDenPar)
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Local Group Information
 \end_layout
 
@@ -1455,7 +1455,7 @@ Not totally surprisingly a correlation between a galaxies local groups redness
  redness
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Group Redness - TotRmag
 \end_layout
 
@@ -1946,8 +1946,8 @@ Log(AGEDenPar)
 
 \end_layout
 
-\begin_layout Subsubsection
-Sum of Group redness - uminusr
+\begin_layout Subsection
+Sum of Local Group 
 \end_layout
 
 \begin_layout Standard
@@ -1977,6 +1977,10 @@ The
  It was also noted that G3CGalv10 had a large number of GroupID's of zero
  i.e.
  Galaxies that were not allocated to a Group.
+\end_layout
+
+\begin_layout Subsubsection
+redness (uminusr) Group Enviromental measures
 \end_layout
 
 \begin_layout Standard
@@ -2468,7 +2472,208 @@ The density maps for
 \end_layout
 
 \begin_layout Subsubsection
-Sum of Group mass mass - logmstar
+Redness - uminusr Positions
+\end_layout
+
+\begin_layout Standard
+Group tables (xxxxx) provide for Elliptical galaxies their relative position
+ within the Local Group.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Scatter plots - Redness uminusr versus relative position
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/Scatter_uminusr_GroupRank.png
+	lyxscale 25
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Density maps - uminsusr versus relative position
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/Contour_uminusr_GroupRank.png
+	lyxscale 25
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/GroupDensity_uminusr_CoMoving_Environments.png
+	lyxscale 25
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+uminsr for Sprial Galaxies in the same Local Groups
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/Spiral_Scatter_uminusr_1_GroupRank.png
+	lyxscale 25
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/Spiral_Contour_uminusr_1_GroupRank.png
+	lyxscale 25
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/Spiral_GroupDensity_uminusr_1_CoMoving_Environments.png
+	lyxscale 25
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Group Mass - logmstar Enviromental measures
 \end_layout
 
 \begin_layout Standard
@@ -2512,10 +2717,6 @@ Sum of logmstar for local Group versus Log(Environments) for Elliptical
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -2955,7 +3156,196 @@ Looking at the logmstar density maps for environment measures DistanceTo5nn
 \end_layout
 
 \begin_layout Subsubsection
-Sum of Group metalisity - metal
+logmstar Group Positions
+\end_layout
+
+\begin_layout Standard
+Group tables (xxxxx) provide for Elliptical galaxies their relative position
+ within the Local Group.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Scatter plots - logmstar versus relative position
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/Scatter_logmstar_GroupRank.png
+	lyxscale 25
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Density maps - logmstar versus relative position
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/Contour_logmstar_GroupRank.png
+	lyxscale 25
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/GroupDensity_logmstar_CoMoving_Environments.png
+	lyxscale 25
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+logmstar for Sprial Galaxies in the same Local Groups
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/Spiral_Scatter_logmstar_1_GroupRank.png
+	lyxscale 25
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/Spiral_Contour_logmstar_1_GroupRank.png
+	lyxscale 25
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/Spiral_GroupDensity_logmstar_1_CoMoving_Environments.png
+	lyxscale 25
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Metalisity - metal
 \end_layout
 
 \begin_layout Standard
@@ -3525,120 +3915,6 @@ status open
 \end_layout
 
 \begin_layout Subsection
-Group Position
-\end_layout
-
-\begin_layout Standard
-Group tables (xxxxx) provide for galaxies their relative position within
- the Local Group.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Scatter plots - Redness uminusr versus relative position
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ChartsPlots/Scatter_uminusrGroupRank.png
-	lyxscale 40
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Density maps - Redness uminsusr versus relative position
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ChartsPlots/Contour_uminusr_GroupRank.png
-	lyxscale 40
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
 Galaxy Classifications
 \end_layout
 
@@ -3966,7 +4242,7 @@ NEED To ADD Histogram of All
 \end_layout
 
 \begin_layout Subsubsection
-Local Group by Galaxy Type
+Local Group Redness TotRmag by by Galaxy Type
 \end_layout
 
 \begin_layout Standard
@@ -3980,7 +4256,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Group Redness for Galaxy Type
+Group TotRmag Redness for Galaxy Type
 \end_layout
 
 \end_inset
@@ -4007,6 +4283,88 @@ Group Redness for Galaxy Type
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsubsection
+Local Group Redness sum uminusr by by Galaxy Type
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Group Redness sum uminsr for Galaxy Type
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/GroupDensity_Sum_uminusr_LogEnvironmentsGalaxyType.png
+	lyxscale 40
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Local Group Mass sum logmstar by by Galaxy Type
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Group Mass sum logmstar for Galaxy Type
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/GroupDensity_Sum_logmstar_LogEnvironmentsGalaxyType.png
+	lyxscale 40
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Redness Density map plots for each Galaxy Environment type
 \end_layout
 
 \begin_layout Standard

@@ -1105,12 +1105,11 @@ status open
 
 \begin_layout Standard
 As can be seen from the plots there is no obvious relationship between the
- redness of a galaxy and the four main environmental measures, Spearman
- and Peterson correllations values are documented in the following table.
-\end_layout
-
-\begin_layout Standard
-Difference Spearman Pearson ?????
+ colour(uminusr) of a galaxy and the four main environmental measures, Peterson
+ and Spearman and correllations values are documented in the following table.
+ Peterson as this is a standard correllation measure and Spearman as it
+ gives a better measure of correllation due to its handling of outlying
+ ns logrimic measured.
 \end_layout
 
 \begin_layout Standard
@@ -1448,11 +1447,18 @@ Local Group Information
 \end_layout
 
 \begin_layout Standard
-Not totally surprisingly a correlation between a galaxies local groups redness
- TotRmag and the various environmental measures was found.
- It is not surprising in that if a galaxy is in a dense area, its local
- group will likely be dense and hence have a corresponding higher group
- redness
+Unlike the straight galaxy measures of galaxy colour the total red magnitude
+ of a galaxies Local Group do show some degree of correlation see Figure
+ 9 ???? and Table 3 ???, this is a little surprising in that within a Local
+ Group there are a number of galaxies all with potentially different environment
+al measures and not neccasrily with the same red magnitude.
+\end_layout
+
+\begin_layout Standard
+However on the other hand as a high density of galaxies is likely to produce
+ a larger Group magnitude and the individual galaxy environmental measures
+ are indicative of its local the density some degree of correllation should
+ be expected.
 \end_layout
 
 \begin_layout Subsection
@@ -1951,17 +1957,16 @@ Sum of Local Group
 \end_layout
 
 \begin_layout Standard
-As a check the GAMA Group Table G3CGalv10 was joined with StellarMasses
- and the sum of uminusr determined as follows
+As a follow up exercise local group information was processed ( GAMA Group
+ Table G3CGalv10 was joined with StellarMasses) and the sum of uminusr determine
+d as follows
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
-\begin{align*}
-\Sigma\:uminusr & =-2.5log(\Sigma\:10^{-0.4\:uminusr})\\
-\Sigma\:logmstar & =log(\Sigma10^{logmstar})\\
-\Sigma\:metal & =\Sigma metal
-\end{align*}
+\[
+\Sigma\:uminusr=-2.5log(\Sigma\:10^{-0.4\:uminusr})
+\]
 
 \end_inset
 
@@ -1969,14 +1974,18 @@ As a check the GAMA Group Table G3CGalv10 was joined with StellarMasses
 \end_layout
 
 \begin_layout Standard
-The 
+It was also noted that G3CGalv10 had a large number of GroupID's of zero
+ i.e.
+ galaxies that were not allocated to a Group.
+\end_layout
+
+\begin_layout Standard
+There was some differences between using the 
 \begin_inset Formula $\Sigma uminusr$
 \end_inset
 
- did not agree with TotRmag ??.
- It was also noted that G3CGalv10 had a large number of GroupID's of zero
- i.e.
- Galaxies that were not allocated to a Group.
+ for the supplied Local Groupes and GAMA supplied TotRmag for the Groups.
+ 
 \end_layout
 
 \begin_layout Subsubsection
@@ -2476,8 +2485,9 @@ Redness - uminusr Positions
 \end_layout
 
 \begin_layout Standard
-Group tables (xxxxx) provide for Elliptical galaxies their relative position
- within the Local Group.
+Group tables (GroupFinding G3CGal ) provide for Elliptical galaxies their
+ relative position within the Local Group Figure 11??? document the results
+ for Elliptical Galaxies within the Local Groups 
 \end_layout
 
 \begin_layout Standard
@@ -2490,55 +2500,20 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Scatter plots - Redness uminusr versus relative position
+Elliptical Galaxies - colour (uminusr) versus relative position
 \end_layout
 
 \end_inset
 
 
 \end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Float figure
-wide false
-sideways false
-status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename ChartsPlots/Scatter_uminusr_GroupRank.png
-	lyxscale 25
+	lyxscale 15
 	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Density maps - uminsusr versus relative position
-\end_layout
 
 \end_inset
 
@@ -2549,35 +2524,8 @@ Density maps - uminsusr versus relative position
 \align center
 \begin_inset Graphics
 	filename ChartsPlots/Contour_uminusr_GroupRank.png
-	lyxscale 25
+	lyxscale 15
 	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \end_inset
 
@@ -2588,7 +2536,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename ChartsPlots/GroupDensity_uminusr_CoMoving_Environments.png
-	lyxscale 25
+	lyxscale 15
 	scale 60
 
 \end_inset
@@ -2596,13 +2544,59 @@ status open
 
 \end_layout
 
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\end_layout
+
 \end_inset
 
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+When looking at the positional information it is important to remember that
+ galaxies are three dimensional where as the data is represneted in two
+ dimension.
+ From the various plots the following can be observed
+\end_layout
+
+\begin_layout Enumerate
+The most likely (mode) value for uminusr is 2.35????
+\end_layout
+
+\begin_layout Enumerate
+The spread of values below the mode is larger than that above
+\end_layout
+
+\begin_layout Enumerate
+Galaxies close to the centre of the Local group have a much larger range
+ of values than more distant galaxies
+\end_layout
+
+\begin_layout Enumerate
+The more distant galaxies are likely to have uminusr similar to the mode
+ of the group
+\end_layout
+
 \begin_layout Subsubsection
 uminsr for Sprial Galaxies in the same Local Groups
+\end_layout
+
+\begin_layout Standard
+A similar exercise was performed for spiral galaxies within the same groups
+ see figure 12???
 \end_layout
 
 \begin_layout Standard
@@ -2619,7 +2613,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
+Spiral Galaxies - colour (uminusr) versus relative position
 \end_layout
 
 \end_inset
@@ -2631,7 +2625,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename ChartsPlots/Spiral_Scatter_uminusr_1_GroupRank.png
-	lyxscale 25
+	lyxscale 15
 	scale 40
 
 \end_inset
@@ -2643,7 +2637,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename ChartsPlots/Spiral_Contour_uminusr_1_GroupRank.png
-	lyxscale 25
+	lyxscale 15
 	scale 40
 
 \end_inset
@@ -2655,7 +2649,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename ChartsPlots/Spiral_GroupDensity_uminusr_1_CoMoving_Environments.png
-	lyxscale 25
+	lyxscale 15
 	scale 40
 
 \end_inset
@@ -2672,8 +2666,23 @@ status open
 
 \end_layout
 
+\begin_layout Standard
+Observations ????
+\end_layout
+
 \begin_layout Subsubsection
 Group Mass - logmstar Enviromental measures
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Sigma\:logmstar=log(\Sigma10^{logmstar})
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3193,7 +3202,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename ChartsPlots/Scatter_logmstar_GroupRank.png
-	lyxscale 25
+	lyxscale 15
 	scale 40
 
 \end_inset
@@ -3233,7 +3242,7 @@ Density maps - logmstar versus relative position
 \align center
 \begin_inset Graphics
 	filename ChartsPlots/Contour_logmstar_GroupRank.png
-	lyxscale 25
+	lyxscale 15
 	scale 40
 
 \end_inset
@@ -3268,7 +3277,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename ChartsPlots/GroupDensity_logmstar_CoMoving_Environments.png
-	lyxscale 25
+	lyxscale 15
 	scale 60
 
 \end_inset
@@ -3307,7 +3316,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename ChartsPlots/Spiral_Scatter_logmstar_1_GroupRank.png
-	lyxscale 25
+	lyxscale 15
 	scale 40
 
 \end_inset
@@ -3319,7 +3328,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename ChartsPlots/Spiral_Contour_logmstar_1_GroupRank.png
-	lyxscale 25
+	lyxscale 15
 	scale 40
 
 \end_inset
@@ -3331,7 +3340,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename ChartsPlots/Spiral_GroupDensity_logmstar_1_CoMoving_Environments.png
-	lyxscale 25
+	lyxscale 15
 	scale 40
 
 \end_inset
@@ -3346,6 +3355,17 @@ status open
 
 \begin_layout Subsubsection
 Metalisity - metal
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Sigma\:metal=\Sigma metal
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard

@@ -339,7 +339,14 @@ Distributions
 
 \begin_layout Standard
 The distributions of the main galaxy attributes redness, log mass and metalasity
- were investigated see figures 3,4,5
+ were investigated see figures 
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Distributions"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -358,56 +365,24 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:3"
+name "fig:Distributions"
 
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename /Users/keithsloan/MSc_Project/ChartsPlots/DistributionsCounts-minusr.png
 	lyxscale 30
 	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-units title
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:4"
 
 \end_inset
 
@@ -422,45 +397,8 @@ name "fig:4"
 
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-#Units title
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:5"
-
-\end_inset
-
-
+\align center
 \begin_inset Graphics
 	filename /Users/keithsloan/MSc_Project/ChartsPlots/DistributionsCounts-metal.png
 	lyxscale 30
@@ -471,17 +409,28 @@ name "fig:5"
 
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
 \begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+units title
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+#Units title
+\end_layout
+
+\begin_layout Standard
 
 \end_layout
 
@@ -1961,9 +1910,12 @@ redness (uminusr) Group Enviromental measures
 \end_layout
 
 \begin_layout Standard
-As a follow up exercise local group information was processed ( GAMA Group
- Table G3CGalv10 was joined with StellarMasses) and the sum of uminusr determine
-d as follows
+As TotRmag would include the contribution of spirale and other galaxies
+ a follow up exercise of calaculating the sum of elliptical galaxies was
+ carried out.
+ The sum of elliptical galaxies was obtained by processing GAMA Group Table
+ G3CGalv10 was joined with StellarMasses and the sum of uminusr determined
+ as follows
 \end_layout
 
 \begin_layout Standard
@@ -2702,6 +2654,11 @@ Group Mass - logmstar Enviromental measures
 \end_layout
 
 \begin_layout Standard
+A similar exercise as was carried out for the sum of elliptical galaxies
+ mass - logmstar within their local group using the following calculation
+\end_layout
+
+\begin_layout Standard
 \begin_inset Formula 
 \[
 \Sigma\:logmstar=log(\Sigma10^{logmstar})
@@ -2710,6 +2667,12 @@ Group Mass - logmstar Enviromental measures
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Density map plots were produced of the sum of logmstar for local groups
+ versus the four galaxy environmental variable CountInCyl, DistanceTo5nn,
+ SurfaceDensity and AGEDenPar as well as correlation and regression analysis.
 \end_layout
 
 \begin_layout Standard
@@ -3372,6 +3335,13 @@ status open
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Looking at details of logmstar of spiral galaxies (within the same local
+ group as elliptical galaxies) versus various measures of position from
+ the centre of of the local group produced very similar results as details
+ of uminsur for spiral galxies
 \end_layout
 
 \begin_layout Subsubsection
@@ -4061,6 +4031,16 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+ffff
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename ChartsPlots/GalaxyTypes-uminusr.png
 	lyxscale 15
@@ -4069,40 +4049,6 @@ status open
 \end_inset
 
 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Galaxy Count uminusr
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
 \begin_inset Graphics
 	filename ChartsPlots/GalaxyTypes-logmstar.png
 	lyxscale 15
@@ -4113,38 +4059,8 @@ status open
 
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-dddd
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename ChartsPlots/GalaxyTypes-metal.png
 	lyxscale 15
@@ -4160,22 +4076,13 @@ status open
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Standard
 Apart from the case of environment type knot the distributions for the various
  galaxy enviroment types are similar
 \end_layout
 
 \begin_layout Subsubsection
-Distributions of Galaxy Environment measures by Galax Type
+Distributions of Galaxy Environment measures by Galaxy Type
 \end_layout
 
 \begin_layout Standard
@@ -4192,7 +4099,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Distribution Count in Cyl
+
 \end_layout
 
 \end_inset
@@ -4201,9 +4108,7 @@ Distribution Count in Cyl
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename ChartsPlots/GalaxyTypes-CountInCyl.png
 	lyxscale 15
@@ -4212,53 +4117,10 @@ Distribution Count in Cyl
 \end_inset
 
 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Distribution of Distance to 5nn 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
 \begin_inset Graphics
 	filename ChartsPlots/GalaxyTypes-DistanceTo5nn.png
 	lyxscale 15
 	scale 40
-
-\end_inset
-
-
-\end_layout
 
 \end_inset
 
@@ -4443,7 +4305,7 @@ If a process is subject to a random value then the expected distribution
  
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:3"
+reference "fig:Distributions"
 plural "false"
 caps "false"
 noprefix "false"

@@ -1956,6 +1956,10 @@ Log(AGEDenPar)
 Sum of Local Group 
 \end_layout
 
+\begin_layout Subsubsection
+redness (uminusr) Group Enviromental measures
+\end_layout
+
 \begin_layout Standard
 As a follow up exercise local group information was processed ( GAMA Group
  Table G3CGalv10 was joined with StellarMasses) and the sum of uminusr determine
@@ -1971,25 +1975,6 @@ d as follows
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-It was also noted that G3CGalv10 had a large number of GroupID's of zero
- i.e.
- galaxies that were not allocated to a Group.
-\end_layout
-
-\begin_layout Standard
-There was some differences between using the 
-\begin_inset Formula $\Sigma uminusr$
-\end_inset
-
- for the supplied Local Groupes and GAMA supplied TotRmag for the Groups.
- 
-\end_layout
-
-\begin_layout Subsubsection
-redness (uminusr) Group Enviromental measures
 \end_layout
 
 \begin_layout Standard
@@ -2469,7 +2454,31 @@ Log(AGEDenPar)
 \end_layout
 
 \begin_layout Standard
-The density maps for 
+It was also noted that G3CGalv10 had a large number of GroupID's of zero
+ i.e.
+ galaxies that were not allocated to a Group.
+\end_layout
+
+\begin_layout Standard
+There was some differences between using the 
+\begin_inset Formula $\Sigma uminusr$
+\end_inset
+
+ for the supplied Local Groupes and GAMA supplied TotRmag for the Groups.
+ 
+\end_layout
+
+\begin_layout Standard
+It should be remembered that TotRmag would have the contribution or non
+ Ellipticals, where as summing of uminusr just sums the contribution of
+ Elliptical galaxies.
+\end_layout
+
+\begin_layout Standard
+Looking at the density plots then there are indications from two peaks that
+ there are two groups of red elliptical galaxies, one small group with a
+ high magnitude close to the centre of the Local Group and a large group
+ further away.The density maps for 
 \begin_inset Formula $\Sigma uminusr$
 \end_inset
 
@@ -2477,7 +2486,7 @@ The density maps for
  groups for red elliptical galaxies a small group with large red magnitude
  and high density i.e.
  small DistanceTo5nn, large CountInCyl, Surface Density and AGEDenPar and
- a larger group with a lesser red magnitide and smaller denisties.
+ a larger group with a lesser red magnitide and smaller densities.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2667,7 +2676,25 @@ Spiral Galaxies - colour (uminusr) versus relative position
 \end_layout
 
 \begin_layout Standard
-Observations ????
+Unlike the situation with elliptical galaxies
+\end_layout
+
+\begin_layout Enumerate
+The values of uminusr are more evenly spread
+\end_layout
+
+\begin_layout Enumerate
+the Mode value is 1.5 ??
+\end_layout
+
+\begin_layout Enumerate
+There is a larger range above the Mode
+\end_layout
+
+\begin_layout Enumerate
+Galaxies at distance are most likely to have a value similar to the Mode
+ but this is not as marked as in the case of ellipticals and galaxies at
+ a distance have a good range of uminusr
 \end_layout
 
 \begin_layout Subsubsection
@@ -2896,7 +2923,7 @@ Log(CountInCyl)
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.537
+-0.654
 \end_layout
 
 \end_inset
@@ -2905,7 +2932,7 @@ Log(CountInCyl)
 \begin_inset Text
 
 \begin_layout Plain Layout
-2.75e107
+1.34e-174
 \end_layout
 
 \end_inset
@@ -2914,7 +2941,7 @@ Log(CountInCyl)
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.675
+-0.472
 \end_layout
 
 \end_inset
@@ -2923,7 +2950,7 @@ Log(CountInCyl)
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.59e-190
+7.34e-80
 \end_layout
 
 \end_inset
@@ -2932,7 +2959,7 @@ Log(CountInCyl)
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.453
+-0.776
 \end_layout
 
 \end_inset
@@ -2941,7 +2968,7 @@ Log(CountInCyl)
 \begin_inset Text
 
 \begin_layout Plain Layout
-24.87
+19.67
 \end_layout
 
 \end_inset
@@ -2961,7 +2988,7 @@ Log(DistanceTo5nn)
 \begin_inset Text
 
 \begin_layout Plain Layout
--0.582
+0.634
 \end_layout
 
 \end_inset
@@ -2970,7 +2997,7 @@ Log(DistanceTo5nn)
 \begin_inset Text
 
 \begin_layout Plain Layout
-5.32e130
+1.50e-155
 \end_layout
 
 \end_inset
@@ -2979,7 +3006,7 @@ Log(DistanceTo5nn)
 \begin_inset Text
 
 \begin_layout Plain Layout
--0.638
+0.625
 \end_layout
 
 \end_inset
@@ -2988,7 +3015,7 @@ Log(DistanceTo5nn)
 \begin_inset Text
 
 \begin_layout Plain Layout
-8.8e-164
+3.68e-155
 \end_layout
 
 \end_inset
@@ -2997,7 +3024,7 @@ Log(DistanceTo5nn)
 \begin_inset Text
 
 \begin_layout Plain Layout
--1.199
+2.522
 \end_layout
 
 \end_inset
@@ -3006,7 +3033,7 @@ Log(DistanceTo5nn)
 \begin_inset Text
 
 \begin_layout Plain Layout
-25.45
+18.58
 \end_layout
 
 \end_inset
@@ -3026,7 +3053,7 @@ log(SurfaceDensity)
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.584
+-0.637
 \end_layout
 
 \end_inset
@@ -3035,7 +3062,7 @@ log(SurfaceDensity)
 \begin_inset Text
 
 \begin_layout Plain Layout
-4.55e131
+1.498e-163
 \end_layout
 
 \end_inset
@@ -3044,7 +3071,7 @@ log(SurfaceDensity)
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.641
+-0.627
 \end_layout
 
 \end_inset
@@ -3053,7 +3080,7 @@ log(SurfaceDensity)
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.40e165
+6.53e-157
 \end_layout
 
 \end_inset
@@ -3062,7 +3089,7 @@ log(SurfaceDensity)
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.575
+-1.232
 \end_layout
 
 \end_inset
@@ -3071,7 +3098,7 @@ log(SurfaceDensity)
 \begin_inset Text
 
 \begin_layout Plain Layout
-25.15
+19.21
 \end_layout
 
 \end_inset
@@ -3091,7 +3118,7 @@ Log(AGEDenPar)
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.42
+-0.475
 \end_layout
 
 \end_inset
@@ -3100,7 +3127,7 @@ Log(AGEDenPar)
 \begin_inset Text
 
 \begin_layout Plain Layout
-4.78e-62
+5.80e-81
 \end_layout
 
 \end_inset
@@ -3109,7 +3136,7 @@ Log(AGEDenPar)
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.44
+-0.460
 \end_layout
 
 \end_inset
@@ -3118,7 +3145,7 @@ Log(AGEDenPar)
 \begin_inset Text
 
 \begin_layout Plain Layout
-5.24e-§7
+1.15e-75
 \end_layout
 
 \end_inset
@@ -3127,7 +3154,7 @@ Log(AGEDenPar)
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.667
+-1.433
 \end_layout
 
 \end_inset
@@ -3136,7 +3163,7 @@ Log(AGEDenPar)
 \begin_inset Text
 
 \begin_layout Plain Layout
-25.29
+18.91
 \end_layout
 
 \end_inset
@@ -3156,12 +3183,6 @@ Log(AGEDenPar)
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-Looking at the logmstar density maps for environment measures DistanceTo5nn
- and SurfaceDensity, these like the ones for redness uminusr also hint at
- two groups of galaxies
 \end_layout
 
 \begin_layout Subsubsection
@@ -4042,7 +4063,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename ChartsPlots/GalaxyTypes-uminusr.png
-	lyxscale 30
+	lyxscale 15
 	scale 40
 
 \end_inset
@@ -4084,7 +4105,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename ChartsPlots/GalaxyTypes-logmstar.png
-	lyxscale 30
+	lyxscale 15
 	scale 40
 
 \end_inset
@@ -4126,7 +4147,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename ChartsPlots/GalaxyTypes-metal.png
-	lyxscale 30
+	lyxscale 15
 	scale 40
 
 \end_inset
@@ -4185,7 +4206,7 @@ Distribution Count in Cyl
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename ChartsPlots/GalaxyTypes-CountInCyl.png
-	lyxscale 30
+	lyxscale 15
 	scale 40
 
 \end_inset
@@ -4231,7 +4252,7 @@ Distribution of Distance to 5nn
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename ChartsPlots/GalaxyTypes-DistanceTo5nn.png
-	lyxscale 30
+	lyxscale 15
 	scale 40
 
 \end_inset

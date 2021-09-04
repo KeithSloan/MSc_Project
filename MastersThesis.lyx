@@ -116,23 +116,35 @@ Introduction
 Objective
 \end_layout
 
+\begin_layout Standard
+For elliptical galaxies to investigate possible relationship between colour
+ redness and local galaxy environment
+\end_layout
+
 \begin_layout Section
-Investigation
+Investigation??
 \end_layout
 
 \begin_layout Standard
-The galaxy luminosity function (LF) is central to studies of galaxy formation
- and evolution.
- A strong dependence on local environment of many galactic properties, such
- as morphology, star formation rate and colour, has long been established
- (e.g.
- Dressler 1980, Go ́mez et al.
- 2003, Balogh et al.
- 2004).
- 
+Previous reseach
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-1,key-2,key-3"
+literal "false"
+
+\end_inset
+
+has establihsed a strong dependence of galactic properties morpholoy, star
+ formation rate and colour on its local environment
 \end_layout
 
 \begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\color red
 In standard halo-occupation models and some semi-empirical ⋆ E-mail: ee@roe.ac.uk
  † International Centre for Radio Astronomy Research models, galaxy properties
  are assumed to depend only upon the mass of the host halo or its merger
@@ -142,6 +154,8 @@ In standard halo-occupation models and some semi-empirical ⋆ E-mail: ee@roe.ac
 \end_layout
 
 \begin_layout Standard
+
+\color red
 For example, a dependence of the galaxy LF on local density has been investigate
 d and the LF has been shown to vary smoothly with overdensity, brightening
  continuously from void to cluster regions with no significant variation
@@ -181,7 +195,7 @@ d and the LF has been shown to vary smoothly with overdensity, brightening
 \end_layout
 
 \begin_layout Subsection
-Galax Characteritics Formation###
+Galaxy Characteristics Formation
 \end_layout
 
 \begin_layout Standard
@@ -189,7 +203,7 @@ Galaxy formation is understood to be subject to a number of process
 \end_layout
 
 \begin_layout Itemize
-Evolution of star members due to nucleosythesis
+Evolution of star members due to nucleosynthesis
 \end_layout
 
 \begin_layout Itemize
@@ -200,25 +214,21 @@ Galaxy mergers
 Star formation
 \end_layout
 
-\begin_layout Standard
-####
-\end_layout
-
 \begin_layout Subsection
 Two Galaxy Groups
 \end_layout
 
 \begin_layout Standard
-It has been well researched that Galaxys fall into two groups
+It has been well researched that Galaxies fall into two groups
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-1"
+key "key-7"
 literal "false"
 
 \end_inset
 
 , this can be seen by a density map plot of redness (uminusr) versus the
- log of the galaxys star mass (logmstar) see figure 1
+ log of the galaxy star mass (logmstar) see figure 1
 \end_layout
 
 \begin_layout Standard
@@ -232,12 +242,13 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:1"
+Density map plot of redness (uminusr) versus the log of the galaxy star
+ mass (logmstar) 
+\end_layout
 
 \end_inset
 
@@ -252,11 +263,6 @@ name "fig:1"
 
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
 \begin_layout Plain Layout
 
 \end_layout
@@ -267,16 +273,31 @@ name "fig:1"
 \end_layout
 
 \begin_layout Standard
-### Title | units
+
+\color red
+units
 \end_layout
 
 \begin_layout Standard
-One could select a subgroup based on uminusr and logsmstar as in[xxxx],
- however the GAMA survey also has catogories galaxys based on Visual information
- #### Zoomivese?? and selecting a subset of galaxies marked as visually
- elliptical an repeating the uminsr/logmstr density gives figure 2 which
- comfirms that elliptical galaxies are primarialy elliptical and form one
- of the groups.
+One could select a subgroup based on uminusr and logmstar as in[xxxx], however
+ the GAMA survey also has categories galaxies based on Visual information
+ 
+\color red
+#### Zoomivese??
+\color inherit
+ and selecting a subset of galaxies marked as visually elliptical an repeating
+ the uminusr/logmstar density gives 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:2-1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ which confirms that elliptical galaxies are primarily elliptical and form
+ one of the groups.
  
 \end_layout
 
@@ -287,13 +308,26 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:2-1"
+
+\end_inset
+
+Density plot for elliptical galaxies redness (uminusr) versus the log of
+ the galaxy star mass (logmstar)
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
+\align center
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:2"
@@ -308,15 +342,6 @@ name "fig:2"
 
 \end_inset
 
-Paper
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -326,11 +351,15 @@ Paper
 \end_layout
 
 \begin_layout Standard
-Linear Regession 0.709 p-value 0.0 m=0.360 c=-1.591
+A Pearson regression gives values of correlation 0.709 p-value 0.0 
 \end_layout
 
 \begin_layout Standard
-#Title #units Plot of redness versus logmstar
+Linear regression slope (m)=0.360 and intersection(c)=-1.591
+\end_layout
+
+\begin_layout Standard
+(SPEARMAN ??? )
 \end_layout
 
 \begin_layout Subsection
@@ -422,6 +451,8 @@ name "fig:Distributions"
 \end_layout
 
 \begin_layout Standard
+
+\color red
 units title
 \end_layout
 
@@ -430,6 +461,8 @@ units title
 \end_layout
 
 \begin_layout Standard
+
+\color red
 #Units title
 \end_layout
 
@@ -438,106 +471,13 @@ units title
 \end_layout
 
 \begin_layout Standard
-Distribtion parameters
-\end_layout
 
-\begin_layout Subsubsection
-Transform of Distributions to Normal
-\end_layout
-
-\begin_layout Standard
-Coxbox
-\end_layout
-
-\begin_layout Standard
-Coxbox parameters/values
-\end_layout
-
-\begin_layout Standard
-Confidence values
-\end_layout
-
-\begin_layout Standard
-Test of transformation for gaussian
-\end_layout
-
-\begin_layout Standard
-Confidence Values
-\end_layout
-
-\begin_layout Standard
-Plot of inverse transform
-\end_layout
-
-\begin_layout Standard
-Distribtions plots
+\color red
+Distribution parameters
 \end_layout
 
 \begin_layout Section
-Galaxy Environmental Measures
-\end_layout
-
-\begin_layout Standard
-SurfaceDensity: This column provides the surface density based on the distance
- to the 5th nearest neighbour among the density defining population in a
- velocity cylinder of +/-1000 km/s, i.e.
- 5 / (Pi * DistanceTo5nn^2).
-\end_layout
-
-\begin_layout Standard
-CountInCyl: This column provides the number of (other) galaxies from the
- density defining population within a cylinder of co-moving radius 1 Mpc
- and a velocity range of +/-1000 km/s.
- The overdensity is given by CountInCyl / (nbar_ref * volume_of_cylinder)
- where nbar_ref = 0.00911 Mpc^-3 is the average number density of the density
- defining population.
- 
-\end_layout
-
-\begin_layout Standard
-AGEDenPar: This column provides the adaptive Gaussian density parameter,
- as introduced by <a href="http://adsabs.harvard.edu/abs/2007ApJS..173..512S">Schawins
-ki et al.
- (2007)</a>, but better described by <a href="http://adsabs.harvard.edu/abs/2008Ap
-JS..176..414Y">Yoon et al.
- (2008)</a>.
- To calculate this density parameter we first identify all (other) galaxies
- from the density defining population in an adaptive Gaussian ellipsoid
- defined by
-\end_layout
-
-\begin_layout Standard
-(r_a/(3*sigma))^2 + (r_z/(AGEScale*3*sigma))^2 <= 1, 
-\end_layout
-
-\begin_layout Standard
-where r_a and r_z are the distances from the centre of the ellipsoid (i.e.
- from the position of the galaxy in question) in the plane of sky and along
- the line-of-sight in co-moving Mpc, respectively, and sigma = 2 Mpc.
- The adaptive scaling factor
-\end_layout
-
-\begin_layout Standard
-AGEScale = 1 + (0.2*n_gals_within_2Mpc) 
-\end_layout
-
-\begin_layout Standard
-is used to scale the value of sigma along the redshift axis by up to a factor
- of 3 (i.e.
- n_gals_within_2Mpc[max] = 10) for the highest density environments to compensat
-e for the "finger-of-God" effect.
- The adaptive Gaussian density parameter is then computed as:
-\end_layout
-
-\begin_layout Standard
-AGEDenPar = 1/sqrt(2*pi)/sigma * SUM_i exp(-0.5 * ((r_a,i/sigma)^2 + (r_z,i/AGESc
-ale*sigma)^2))
-\end_layout
-
-\begin_layout Standard
-Effectively, this parameter is equivalent to a weighted local volume density
- of galaxies, where closer galaxies receive more weight than more distant
- ones.
+Galaxy Environmental Measures 
 \end_layout
 
 \begin_layout Standard
@@ -554,11 +494,11 @@ Distance to 5nn
 \end_layout
 
 \begin_layout Itemize
-AgeDen Par
+Surface Density
 \end_layout
 
 \begin_layout Itemize
-Surface Density
+AgeDenPar
 \end_layout
 
 \begin_layout Subsubsection
@@ -566,7 +506,22 @@ Count In Cylinder
 \end_layout
 
 \begin_layout Standard
-#Description
+The number of (other) galaxies from the density defining population within
+ a cylinder of co-moving radius 1 Mpc and a velocity range of 
+\begin_inset Formula $+/-1000km/s$
+\end_inset
+
+ .
+ The overdensity is given by 
+\begin_inset Formula $CountInCyl/(nba\_ref*volume\_of\_cylinder)$
+\end_inset
+
+ where 
+\begin_inset Formula $nbar_{r}ef=0.00911Mpc^{-}3$
+\end_inset
+
+ is the average number density of the density defining population.
+ 
 \end_layout
 
 \begin_layout Subsubsection
@@ -574,15 +529,7 @@ Distance to 5nn
 \end_layout
 
 \begin_layout Standard
-#Description
-\end_layout
-
-\begin_layout Subsubsection
-AgeDenPar - Age Denisty
-\end_layout
-
-\begin_layout Standard
-#Description
+The distance to 5th nearest neighbour
 \end_layout
 
 \begin_layout Subsubsection
@@ -590,7 +537,81 @@ Surface Density
 \end_layout
 
 \begin_layout Standard
-#Description
+The surface density based on the distance to the 5th nearest neighbour among
+ the density defining population in a velocity cylinder of 
+\begin_inset Formula $+/-1000km/s$
+\end_inset
+
+, i.e.
+ 
+\begin_inset Formula $5/(Pi*DistanceTo5nn^{2}$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsubsection
+AgeDenPar - Age Density
+\end_layout
+
+\begin_layout Standard
+This column provides the adaptive Gaussian density parameter, as introduced
+ by Schawinski et al 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-2"
+literal "false"
+
+\end_inset
+
+ and later described by Yoon et al
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-6"
+literal "false"
+
+\end_inset
+
+.
+ To calculate this density parameter we first identify all (other) galaxies
+ from the density defining population in an adaptive Gaussian ellipsoid
+ defined by
+\begin_inset Formula 
+\[
+(r\_a/(3*sigma))^{2}+(r\_z/(AGEScale*3*sigma))^{2}<=1,
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where r_a and r_z are the distances from the centre of the ellipsoid (i.e.
+ from the position of the galaxy in question) in the plane of sky and along
+ the line-of-sight in co-moving Mpc, respectively, and 
+\begin_inset Formula $sigma=2Mpc$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+AGEDenPar=1/sqrt(2*pi)/sigma*SUM\_i\:exp(-0.5*((r\_a,i/sigma)^{2}+(r\_z,i/AGEScale*sigma)^{2}))
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Effectively, this parameter is equivalent to a weighted local volume density
+ of galaxies, where closer galaxies receive more weight than more distant
+ ones.
 \end_layout
 
 \begin_layout Subsection
@@ -599,28 +620,50 @@ Distribitions of environmental measures
 
 \begin_layout Standard
 The distributions of the environmental measures were investigated see figure
- 6
-\end_layout
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Distributions-of-environmental"
+plural "false"
+caps "false"
+noprefix "false"
 
-\begin_layout Standard
+\end_inset
+
+
 \begin_inset Float figure
 wide false
 sideways false
 status open
 
 \begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-\begin_inset Graphics
-	filename ChartsPlots/DistributionsEnvironments.png
-	lyxscale 30
-	scale 55
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Distributions-of-environmental"
+
+\end_inset
+
+Distributions of environmental measures
+\end_layout
 
 \end_inset
 
 
 \end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/DistributionsEnvironments.png
+	lyxscale 25
+	scale 40
 
 \end_inset
 
@@ -637,16 +680,58 @@ status open
 \end_layout
 
 \begin_layout Standard
+
+\color red
 NEED TO ADD Distributions Plots
 \end_layout
 
 \begin_layout Subsection
-Testing correllation Galaxy redness with Environments
+Testing correlation Galaxy redness with Environments
 \end_layout
 
 \begin_layout Standard
-Density map plots were produced for the four environmental measures figure
- 7 and also the log of the same measures figure 8
+Density map plots and correlation fits were produced for the four environmental
+ measures 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:uminusr-density-plots"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+and table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:uminusr---Environmental"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ and also the log of the same measures figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Density-Plots-for"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ and table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:uminusr---Log(Environmnetal"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -663,15 +748,26 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-\begin_inset Graphics
-	filename ChartsPlots/RedDensityEnvironments.png
-	lyxscale 30
-	scale 50
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:uminusr-density-plots"
+
+\end_inset
+
+uminusr density plots for environmental measures
+\end_layout
 
 \end_inset
 
 
 \end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/RedDensityEnvironments.png
+	lyxscale 30
+	scale 50
 
 \end_inset
 
@@ -701,7 +797,14 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-uminusr - Environmental measures - correlation values
+uminusr 
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:uminusr---Environmental"
+
+\end_inset
+
+- Environmental measures - correlation values
 \end_layout
 
 \end_inset
@@ -1031,15 +1134,26 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-\begin_inset Graphics
-	filename ChartsPlots/RedDensityLogEnvironments.png
-	lyxscale 30
-	scale 50
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Density-Plots-for"
+
+\end_inset
+
+Density Plots for Log(Environmental measures)
+\end_layout
 
 \end_inset
 
 
 \end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/RedDensityLogEnvironments.png
+	lyxscale 30
+	scale 50
 
 \end_inset
 
@@ -1058,10 +1172,10 @@ status open
 \begin_layout Standard
 As can be seen from the plots there is no obvious relationship between the
  colour(uminusr) of a galaxy and the four main environmental measures, Peterson
- and Spearman and correllations values are documented in the following table.
- Peterson as this is a standard correllation measure and Spearman as it
- gives a better measure of correllation due to its handling of outlying
- ns logrimic measured.
+ and Spearman and correlation values are documented in the following table.
+ Peterson, as this is a standard correlation measure and Spearman as it
+ gives a better measure of correlation due to its handling of outlying and
+ logarithmic values.
 \end_layout
 
 \begin_layout Standard
@@ -1078,7 +1192,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-uminusr - Log(Environmnetal measures - correlation values
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:uminusr---Log(Environmnetal"
+
+\end_inset
+
+uminusr - Log(Environmental measures - correlation values
 \end_layout
 
 \end_inset
@@ -1401,15 +1521,34 @@ Local Group Information
 \begin_layout Standard
 Unlike the straight galaxy measures of galaxy colour the total red magnitude
  of a galaxies Local Group do show some degree of correlation see Figure
- 9 ???? and Table 3 ???, this is a little surprising in that within a Local
- Group there are a number of galaxies all with potentially different environment
-al measures and not neccasrily with the same red magnitude.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Density-Plots-for"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ and Table 3 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Linear-Regression-of"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, this is a little surprising in that within a Local Group there are a number
+ of galaxies all with potentially different environmental measures and not
+ necessarily with the same red magnitude.
 \end_layout
 
 \begin_layout Standard
 However on the other hand as a high density of galaxies is likely to produce
  a larger Group magnitude and the individual galaxy environmental measures
- are indicative of its local the density some degree of correllation should
+ are indicative of its local the density some degree of correlation should
  be expected.
 \end_layout
 
@@ -1418,10 +1557,7 @@ Group Redness - TotRmag
 \end_layout
 
 \begin_layout Standard
-Group Redness Countor density plots
-\end_layout
-
-\begin_layout Standard
+Group Redness Contour density plots 
 \begin_inset Float figure
 wide false
 sideways false
@@ -1435,15 +1571,27 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-\begin_inset Graphics
-	filename ChartsPlots/GroupDensityTotRmagLogEnvironments.png
-	lyxscale 25
-	scale 60
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Density-Plots--"
+
+\end_inset
+
+Density Plots - Group Redness(TotRmag) versus Log(Environments) for Elliptical
+ Galaxies
+\end_layout
 
 \end_inset
 
 
 \end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/GroupDensityTotRmagLogEnvironments.png
+	lyxscale 25
+	scale 60
 
 \end_inset
 
@@ -1460,11 +1608,21 @@ status open
 \end_layout
 
 \begin_layout Standard
-Correllation with Environmental variables
+Correlation with Environmental variables
 \end_layout
 
 \begin_layout Standard
-The results of running linear regession tests are documented in Table ???
+The results of running linear regression tests are documented in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Linear-Regression-of"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1477,7 +1635,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Linear Regression of Group Redness (TotRmag) with Log(Galaxy Enviroment
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Linear-Regression-of"
+
+\end_inset
+
+Linear Regression of Group Redness (TotRmag) with Log(Galaxy Environment
  measures)
 \end_layout
 
@@ -1909,13 +2073,13 @@ Sum of Local Group
 \end_layout
 
 \begin_layout Subsubsection
-redness (uminusr) Group Enviromental measures
+redness (uminusr) Group Environmental measures
 \end_layout
 
 \begin_layout Standard
-As TotRmag would include the contribution of spirale and other galaxies
- a follow up exercise of calaculating the sum of elliptical galaxies was
- carried out.
+As TotRmag would include the contribution of spiral and other galaxies a
+ follow up exercise of calculating the sum of elliptical galaxies was carried
+ out.
  The sum of elliptical galaxies was obtained by processing GAMA Group Table
  G3CGalv10 was joined with StellarMasses and the sum of uminusr determined
  as follows
@@ -1926,6 +2090,30 @@ As TotRmag would include the contribution of spirale and other galaxies
 \[
 \Sigma\:uminusr=-2.5log(\Sigma\:10^{-0.4\:uminusr})
 \]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The density plots are shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Sum-of-uminusr"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+and table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Linear-Regression-of-1"
+plural "false"
+caps "false"
+noprefix "false"
 
 \end_inset
 
@@ -1946,6 +2134,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Sum-of-uminusr"
+
+\end_inset
+
 Sum of uminusr for local Group versus Log(Environments) for Elliptical Galaxies
 \end_layout
 
@@ -1985,7 +2179,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Linear Regression of Group Redness Sum of uminusr with Log(Galaxy Enviroment
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Linear-Regression-of-1"
+
+\end_inset
+
+Linear Regression of Group Redness Sum of uminusr with Log(Galaxy Environment
  measures)
 \end_layout
 
@@ -2419,7 +2619,7 @@ There was some differences between using the
 \begin_inset Formula $\Sigma uminusr$
 \end_inset
 
- for the supplied Local Groupes and GAMA supplied TotRmag for the Groups.
+ for the supplied Local Groups and GAMA supplied TotRmag for the Groups.
  
 \end_layout
 
@@ -2441,7 +2641,7 @@ Looking at the density plots then there are indications from two peaks that
  groups for red elliptical galaxies a small group with large red magnitude
  and high density i.e.
  small DistanceTo5nn, large CountInCyl, Surface Density and AGEDenPar and
- a larger group with a lesser red magnitide and smaller densities.
+ a larger group with a lesser red magnitude and smaller densities.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2450,8 +2650,17 @@ Redness - uminusr Positions
 
 \begin_layout Standard
 Group tables (GroupFinding G3CGal ) provide for Elliptical galaxies their
- relative position within the Local Group Figure 11??? document the results
- for Elliptical Galaxies within the Local Groups 
+ relative position within the Local Group Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Elliptical-Galaxies--"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+document the results for Elliptical Galaxies within the Local Groups 
 \end_layout
 
 \begin_layout Standard
@@ -2464,6 +2673,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Elliptical-Galaxies--"
+
+\end_inset
+
 Elliptical Galaxies - colour (uminusr) versus relative position
 \end_layout
 
@@ -2489,7 +2704,7 @@ Elliptical Galaxies - colour (uminusr) versus relative position
 \begin_inset Graphics
 	filename ChartsPlots/Contour_uminusr_GroupRank.png
 	lyxscale 15
-	scale 40
+	scale 35
 
 \end_inset
 
@@ -2501,7 +2716,7 @@ Elliptical Galaxies - colour (uminusr) versus relative position
 \begin_inset Graphics
 	filename ChartsPlots/GroupDensity_uminusr_CoMoving_Environments.png
 	lyxscale 15
-	scale 60
+	scale 35
 
 \end_inset
 
@@ -2531,12 +2746,14 @@ status open
 
 \begin_layout Standard
 When looking at the positional information it is important to remember that
- galaxies are three dimensional where as the data is represneted in two
+ galaxies are three dimensional where as the data is represented in two
  dimension.
  From the various plots the following can be observed
 \end_layout
 
 \begin_layout Enumerate
+
+\color red
 The most likely (mode) value for uminusr is 2.35????
 \end_layout
 
@@ -2550,17 +2767,27 @@ Galaxies close to the centre of the Local group have a much larger range
 \end_layout
 
 \begin_layout Enumerate
-The more distant galaxies are likely to have uminusr similar to the mode
- of the group
+The more distant galaxies are likely to have uminusr values similar to the
+ mode of the group
 \end_layout
 
 \begin_layout Subsubsection
-uminsr for Sprial Galaxies in the same Local Groups
+uminusr for Spiral Galaxies in the same Local Groups
 \end_layout
 
 \begin_layout Standard
 A similar exercise was performed for spiral galaxies within the same groups
- see figure 12???
+ see figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Spiral-Galaxies--"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2577,6 +2804,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Spiral-Galaxies--"
+
+\end_inset
+
 Spiral Galaxies - colour (uminusr) versus relative position
 \end_layout
 
@@ -2602,7 +2835,7 @@ Spiral Galaxies - colour (uminusr) versus relative position
 \begin_inset Graphics
 	filename ChartsPlots/Spiral_Contour_uminusr_1_GroupRank.png
 	lyxscale 15
-	scale 40
+	scale 35
 
 \end_inset
 
@@ -2614,7 +2847,7 @@ Spiral Galaxies - colour (uminusr) versus relative position
 \begin_inset Graphics
 	filename ChartsPlots/Spiral_GroupDensity_uminusr_1_CoMoving_Environments.png
 	lyxscale 15
-	scale 40
+	scale 35
 
 \end_inset
 
@@ -2639,6 +2872,8 @@ The values of uminusr are more evenly spread
 \end_layout
 
 \begin_layout Enumerate
+
+\color red
 the Mode value is 1.5 ??
 \end_layout
 
@@ -2653,7 +2888,7 @@ Galaxies at distance are most likely to have a value similar to the Mode
 \end_layout
 
 \begin_layout Subsubsection
-Group Mass - logmstar Enviromental measures
+Group Mass - logmstar Environmental measures
 \end_layout
 
 \begin_layout Standard
@@ -2724,7 +2959,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Linear Regression of Group Redness Sum of logmstar with Log(Galaxy Enviroment
+Linear Regression of Group Redness Sum of logmstar with Log(Galaxy Environment
  measures)
 \end_layout
 
@@ -3156,8 +3391,12 @@ logmstar Group Positions
 \end_layout
 
 \begin_layout Standard
-Group tables (xxxxx) provide for Elliptical galaxies their relative position
- within the Local Group.
+Group tables 
+\color red
+(xxxxx) 
+\color inherit
+provide for Elliptical galaxies their relative position within the Local
+ Group.
 \end_layout
 
 \begin_layout Standard
@@ -3167,23 +3406,26 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Scatter plots - logmstar versus relative position
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:logmstar-relative-position"
+
+\end_inset
+
+logmstar relative position plots
 \end_layout
 
 \end_inset
 
 
 \end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Float figure
-wide false
-sideways false
-status open
 
 \begin_layout Plain Layout
 \align center
@@ -3197,63 +3439,12 @@ status open
 
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Density maps - logmstar versus relative position
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename ChartsPlots/Contour_logmstar_GroupRank.png
 	lyxscale 15
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
+	scale 35
 
 \end_inset
 
@@ -3265,20 +3456,49 @@ status open
 \begin_inset Graphics
 	filename ChartsPlots/GroupDensity_logmstar_CoMoving_Environments.png
 	lyxscale 15
-	scale 60
+	scale 35
 
 \end_inset
 
 
 \end_layout
 
+\begin_layout Plain Layout
+
+\end_layout
+
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Looking at the mass (logmstar) distribution in Local groups figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:logmstar-relative-position"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+there is a marked differences than red colour uminusr figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Elliptical-Galaxies--"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ in that there is no bulge for distance galaxies corresponding to the mode
+ of the group.
 \end_layout
 
 \begin_layout Subsubsection
-logmstar for Sprial Galaxies in the same Local Groups
+logmstar for Spiral Galaxies in the same Local Groups
 \end_layout
 
 \begin_layout Standard
@@ -3291,7 +3511,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Spiral-galaxies-(same"
 
+\end_inset
+
+Spiral galaxies (same Local Groups) logmstar versus relative positions plots
 \end_layout
 
 \end_inset
@@ -3316,7 +3542,7 @@ status open
 \begin_inset Graphics
 	filename ChartsPlots/Spiral_Contour_logmstar_1_GroupRank.png
 	lyxscale 15
-	scale 40
+	scale 35
 
 \end_inset
 
@@ -3328,7 +3554,7 @@ status open
 \begin_inset Graphics
 	filename ChartsPlots/Spiral_GroupDensity_logmstar_1_CoMoving_Environments.png
 	lyxscale 15
-	scale 40
+	scale 35
 
 \end_inset
 
@@ -3341,10 +3567,30 @@ status open
 \end_layout
 
 \begin_layout Standard
-Looking at details of logmstar of spiral galaxies (within the same local
- group as elliptical galaxies) versus various measures of position from
- the centre of of the local group produced very similar results as details
- of uminsur for spiral galxies
+Looking at figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Spiral-Galaxies--"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+details of logmstar of spiral galaxies (within the same local group as elliptica
+l galaxies) versus various measures of position from the centre of of the
+ local group produced very similar results as details of uminusr for spiral
+ galaxies figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Spiral-Galaxies--"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -3412,7 +3658,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Linear Regression of Group Redness Sum of metal with Log(Galaxy Enviroment
+Linear Regression of Group Redness Sum of metal with Log(Galaxy Environment
  measures)
 \end_layout
 
@@ -3425,7 +3671,7 @@ Linear Regression of Group Redness Sum of metal with Log(Galaxy Enviroment
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Linear Regression of Group Redness Sum of logmstar with Log(Galaxy Enviroment
+Linear Regression of Group Redness Sum of logmstar with Log(Galaxy Environment
  measures)
 \end_layout
 
@@ -3929,50 +4175,43 @@ status open
 \end_layout
 
 \begin_layout Subsection
-Galaxy Classifications
+Galaxy Structure Classifications
 \end_layout
 
 \begin_layout Standard
 Whilst on very large scales the universe is homogenous we know that on lesser
- scales there is structure influneced by the distribution of Dark matter.
- For the GAMA II equatorial survey regions galaxy's were classified into
- either, void, sheet, filament or knot, this work was carried out by Lizzie
- Eardley for her Phd 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "key-2"
-literal "false"
-
-\end_inset
-
-
+ scales there is structure influenced by the distribution of Dark matter.
+ For GAMA II equatorial regions were classified at each point as either
 \end_layout
 
-\begin_layout Standard
-.The structure of the universe is 
+\begin_layout Itemize
+Void
 \end_layout
 
-\begin_layout Standard
-How classifed Lizzie Eardley PhD
+\begin_layout Itemize
+Sheet
 \end_layout
 
-\begin_layout Standard
-GeometricEnvironments 2015-01-05 Lizzie Eardley <ee@roe.ac.uk>
+\begin_layout Itemize
+Filament
 \end_layout
 
-\begin_layout Standard
-This DMU identifies the cosmic web of large scale structure within the GAMA
- II equatorial survey regions by classifying the geometric environment of
- each point in space as either a void, a sheet, a filament or a knot.
+\begin_layout Itemize
+Knot
 \end_layout
 
 \begin_layout Standard
 The classification system is based on evaluation of the deformation tensor
  (i.e.
- the Hessian of the gravitational potential) on a grid, see <a href="http://adsa
-bs.harvard.edu/abs/2015MNRAS.448.3665E">Eardley et al.
- (2015)</a> for full details.
- The number of eigenvalues above an imposed threshold indicates the number
+ the Hessian of the gravitational potential) on a grid
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-7"
+literal "false"
+
+\end_inset
+
+The number of eigenvalues above an imposed threshold indicates the number
  of collapsed dimensions of structure at that location - either 0, 1, 2
  or 3, corresponding to a void, sheet, filament or knot, respectively.
  The classification of the grid, as given in the GeometricGrid table, allows
@@ -3982,42 +4221,9 @@ bs.harvard.edu/abs/2015MNRAS.448.3665E">Eardley et al.
  is located.
 \end_layout
 
-\begin_layout Standard
-Sample selection
-\end_layout
-
-\begin_layout Standard
-The three equatorial GAMA regions, G09, G12 and G15 are classified.
- Although this method of classification can in principle be extended to
- any redshift, the current version of this DMU covers only the range 0.04
- < z < 0.263.
- These redshift limits were chosen in order to focus on the lower redshift
- regime where the number density of galaxies is sufficient for a robust
- estimate of the density field.
-\end_layout
-
-\begin_layout Subsubsection*
-Voids
-\end_layout
-
-\begin_layout Subsubsection*
-Sheet
-\end_layout
-
-\begin_layout Subsubsection*
-Filament
-\end_layout
-
-\begin_layout Subsubsection*
-Knot
-\end_layout
-
 \begin_layout Subsubsection
-Environment Distributions by Galaxay Classification
-\end_layout
-
-\begin_layout Subsubsection
-Distributions of Galaxy Parameters by Galaxy Environment Type
+Distributions of Galaxy counts by measures for the different galaxy structural
+ types
 \end_layout
 
 \begin_layout Standard
@@ -4034,7 +4240,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-ffff
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Galaxy-counts-for"
+
+\end_inset
+
+Galaxy counts for galaxy charateristics by galaxy structure type
 \end_layout
 
 \end_inset
@@ -4052,6 +4264,10 @@ ffff
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename ChartsPlots/GalaxyTypes-logmstar.png
 	lyxscale 15
@@ -4081,11 +4297,21 @@ ffff
 
 \begin_layout Standard
 Apart from the case of environment type knot the distributions for the various
- galaxy enviroment types are similar
+ galaxy environment types are similar see figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Galaxy-counts-for"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
-Distributions of Galaxy Environment measures by Galaxy Type
+Distributions of galaxy environment measures by galaxy structural type
 \end_layout
 
 \begin_layout Standard
@@ -4103,6 +4329,10 @@ status open
 
 \begin_layout Plain Layout
 
+\color black
+Distributions of environmental measures for galaxy structure types
+\color red
+ axis labels
 \end_layout
 
 \end_inset
@@ -4120,6 +4350,10 @@ status open
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename ChartsPlots/GalaxyTypes-DistanceTo5nn.png
 	lyxscale 15
@@ -4140,19 +4374,29 @@ status open
 \end_layout
 
 \begin_layout Standard
-NEED TO ADD the resr
-\end_layout
+With the possible exception of the knot, the distribution of galaxy characterist
+ics are not dissimilar between structural types.
+ On the other hand the galaxy environmental measures do have marked variation
+ between galaxy structural types see figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Galaxy-counts-for"
+plural "false"
+caps "false"
+noprefix "false"
 
-\begin_layout Standard
-NEED To ADD Histogram of All
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
-Local Group Redness TotRmag by by Galaxy Type
+Local Group redness TotRmag by galaxy structural type
 \end_layout
 
 \begin_layout Standard
-Redness Density map plots for each Galaxy Environment type
+Redness TotRmag density map plots for each galaxy environment type split
+ by galaxy structural type
 \begin_inset Float figure
 wide false
 sideways false
@@ -4192,7 +4436,8 @@ Group TotRmag Redness for Galaxy Type
 \end_layout
 
 \begin_layout Subsubsection
-Local Group Redness sum uminusr by by Galaxy Type
+Density maps for redness sum of uminusr for Local Group split by galaxy
+ structural type
 \end_layout
 
 \begin_layout Standard
@@ -4205,7 +4450,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Group Redness sum uminsr for Galaxy Type
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Group-Redness-sum"
+
+\end_inset
+
+Group Redness sum uminusr versus environmental measure for Galaxy Type
 \end_layout
 
 \end_inset
@@ -4244,7 +4495,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Group Mass sum logmstar for Galaxy Type
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Group-Mass-sum"
+
+\end_inset
+
+Group Mass sum logmstar versus environmenatl measure for Galaxy Type
 \end_layout
 
 \end_inset
@@ -4270,31 +4527,66 @@ Group Mass sum logmstar for Galaxy Type
 \end_layout
 
 \begin_layout Standard
-Redness Density map plots for each Galaxy Environment type
-\end_layout
+When broken down into galaxy structure types the density maps for sum of
+ local groups versus log(environmental measures) for uminusr figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Group-Redness-sum"
+plural "false"
+caps "false"
+noprefix "false"
 
-\begin_layout Standard
-Group or Sum of Red ?
-\end_layout
+\end_inset
 
-\begin_layout Standard
-Filament like logmstar indicate two peaks
-\end_layout
+look very similar to logmstar figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Group-Mass-sum"
+plural "false"
+caps "false"
+noprefix "false"
 
-\begin_layout Standard
-Group Redness Environment Variables
-\end_layout
+\end_inset
 
-\begin_layout Standard
-Countour/density plots
-\end_layout
-
-\begin_layout Standard
-correlation values
+ but quite different between galaxy structure types, again emphasising the
+ fact that galaxy environmental measures change quite significantly between
+ galaxy structure types.
 \end_layout
 
 \begin_layout Section
 Distributions and Cox Box Transformation
+\end_layout
+
+\begin_layout Subsubsection
+Transform of Distributions to Normal
+\end_layout
+
+\begin_layout Standard
+Coxbox
+\end_layout
+
+\begin_layout Standard
+Coxbox parameters/values
+\end_layout
+
+\begin_layout Standard
+Confidence values
+\end_layout
+
+\begin_layout Standard
+Test of transformation for gaussian
+\end_layout
+
+\begin_layout Standard
+Confidence Values
+\end_layout
+
+\begin_layout Standard
+Plot of inverse transform
+\end_layout
+
+\begin_layout Standard
+Distributions plots
 \end_layout
 
 \begin_layout Subsection
@@ -4303,8 +4595,8 @@ Cox Box Transformation
 
 \begin_layout Standard
 If a process is subject to a random value then the expected distribution
- is Normal/Gaussian, If one looks at the distribtions for the main galaxy
- characteristics, redness(uminsur), mass(logmstar) metalicity(metal) figures
+ is Normal/Gaussian, If one looks at the distributions for the main galaxy
+ characteristics, redness(uminusr), mass(logmstar) metallically(metal) figures
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -4339,13 +4631,13 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-then the variation from a Normal/Gaussien could be attributed to statistical
+then the variation from a Normal/Gaussian could be attributed to statistical
  variation or to the random value being subject to a transformation or series
  of transformations.
 \end_layout
 
 \begin_layout Standard
-Measure of gaussien or normal ???? !!!! TESTs for NORMAL distribution.
+Measure of gaussian or normal ???? !!!! TESTs for NORMAL distribution.
 \end_layout
 
 \begin_layout Standard
@@ -4353,7 +4645,7 @@ Galaxy evolution is subject to a number of processes
 \end_layout
 
 \begin_layout Itemize
-The stars in the galaxy undergoing Nucleousynthesis
+The stars in the galaxy undergoing Nucleosynthesis
 \end_layout
 
 \begin_layout Itemize
@@ -4374,7 +4666,7 @@ Galaxy mergers
 \end_layout
 
 \begin_layout Itemize
-metalicity ????
+metallicity ????
 \end_layout
 
 \begin_layout Standard
@@ -4386,7 +4678,7 @@ All of which will over time change the nature of a galaxy.
  The Cox Box transformation
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-3"
+key "key-8"
 literal "false"
 
 \end_inset
@@ -4415,11 +4707,11 @@ ln\,y_{i}\quad\lambda\,=\,0
 \end_layout
 
 \begin_layout Standard
-A best fit vaue for 
+A best fit value for 
 \begin_inset Formula $\lambda$
 \end_inset
 
- can be determind and its confidene interval is is give by
+ can be determined and its confidence interval is is give by
 \end_layout
 
 \begin_layout Standard
@@ -4440,11 +4732,11 @@ Experiment
 \end_layout
 
 \begin_layout Standard
-As a experiment the lamda 
+As a experiment the lambda 
 \begin_inset Formula $\lambda$
 \end_inset
 
- values were determined for the main galaxy charateristics distributions
+ values were determined for the main galaxy characteristics distributions
  with a view to seeing if the transformations would have similarities to
  the galaxy environment distributions.
 \end_layout
@@ -4720,7 +5012,7 @@ Mass (logmstar)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Metalicity(metal)
+Metallicity(metal)
 \end_layout
 
 \end_inset
@@ -5113,7 +5405,7 @@ Mass (logmstar)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Metalicity(metal)
+Metallicity(metal)
 \end_layout
 
 \end_inset
@@ -5711,7 +6003,7 @@ Local Groups parameters related to individual galaxy environment, despite
 \end_layout
 
 \begin_layout Itemize
-Enviroments vary between Galaxy types
+Environments vary between Galaxy types
 \end_layout
 
 \begin_layout Itemize
@@ -5724,7 +6016,7 @@ Discussion
 \end_layout
 
 \begin_layout Subsection
-Correllations Group redness to Environement Values
+Correlation Group redness to Environment Values
 \end_layout
 
 \begin_layout Subsection
@@ -5743,6 +6035,43 @@ Conclusions
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
 key "key-1"
+literal "false"
+
+\end_inset
+
+Dressler 1980
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-2"
+literal "false"
+
+\end_inset
+
+Go ́mez et al.
+ 2003
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-3"
+literal "false"
+
+\end_inset
+
+Balogh et al.
+ 2004).
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-4"
+literal "false"
 
 \end_inset
 
@@ -5753,7 +6082,32 @@ Galaxy And Mass Assembly (GAMA): Deconstructing Bimodality— I.
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-2"
+key "key-5"
+literal "false"
+
+\end_inset
+
+<a href="http://adsabs.harvard.edu/abs/2007ApJS..173..512S">Schawinski et al.
+ (2007)</a>
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-6"
+literal "false"
+
+\end_inset
+
+<a href="http://adsabs.harvard.edu/abs/2008ApJS..176..414Y">Yoon et al.
+ (2008)</a>.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-7"
+literal "false"
 
 \end_inset
 
@@ -5764,7 +6118,8 @@ Galaxy And Mass Assembly (GAMA): The galaxy luminosity function within the
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-3"
+key "key-8"
+literal "false"
 
 \end_inset
 

@@ -117,15 +117,6 @@ Objective
 \end_layout
 
 \begin_layout Standard
-For elliptical galaxies to investigate possible relationship between colour
- redness and local galaxy environment
-\end_layout
-
-\begin_layout Section
-Investigation??
-\end_layout
-
-\begin_layout Standard
 Previous reseach
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -135,63 +126,22 @@ literal "false"
 \end_inset
 
 has establihsed a strong dependence of galactic properties morpholoy, star
- formation rate and colour on its local environment
+ formation rate and colour on its local environment, also the dependancy
+ of a galaxy's light function on local density
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-4,key-5,key-6"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
-
-\color red
-In standard halo-occupation models and some semi-empirical ⋆ E-mail: ee@roe.ac.uk
- † International Centre for Radio Astronomy Research models, galaxy properties
- are assumed to depend only upon the mass of the host halo or its merger
- history (Kauffmann et al.
- 1993, van den Bosch et al.
- 2007)
-\end_layout
-
-\begin_layout Standard
-
-\color red
-For example, a dependence of the galaxy LF on local density has been investigate
-d and the LF has been shown to vary smoothly with overdensity, brightening
- continuously from void to cluster regions with no significant variation
- in the LF slope (e.g.
- Croton et al.
- 2005, McNaught-Roberts et al.
- 2014).
- Guo et al.
- (2014) measured the satellite LF of primary galaxies in SDSS and found
- a significant difference between galaxies 0000RAS ABSTRACT We investigate
- the dependence of the galaxy luminosity function on geometric environment
- within the Galaxy And Mass Assembly (GAMA) survey.
- The tidal tensor prescription, based on the Hessian of the pseudo-gravitational
- potential, is used to classify the cosmic web and define the geometric
- environments: for a given smoothing scale, we classify every position of
- the surveyed region, 0.04 < z < 0.26, as either a void, a sheet, a filament
- or a knot.
- We consider how to choose appropriate thresholds in the eigenvalues of
- the Hessian in order to partition the galaxies approximately evenly between
- environments.
- We find a significant variation in the luminosity function of galaxies
- between different geometric environments; the normalisation, characterised
- by φ∗ in a Schechter function fit, increases by an order of magnitude from
- voids to knots.
- The turnover magnitude, characterised by M∗, brightens by approximately
- 0.5 mag from voids to knots.
- However, we show that the observed modulation can be entirely attributed
- to the indirect local-density dependence.
- We therefore find no evidence of a direct influence of the cosmic web on
- the galaxy luminosity function.
- Key words: cosmology: observations, large-scale structure of Universe,
- surveys, galaxies: luminosity function arXiv:1412.2141v1 [astro-ph.CO] 5
- Dec 2014 2 E.
- Eardley residing in filaments and those that do not, suggesting that the
- filamentary environment has a direct effect on the efficiency of galaxy
- formation.
+so the objective was to investigate possible relationship between colour
+ redness and local galaxy environment.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -222,7 +172,7 @@ Two Galaxy Groups
 It has been well researched that Galaxies fall into two groups
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-7"
+key "key-7,key-8"
 literal "false"
 
 \end_inset
@@ -4099,48 +4049,6 @@ Log(AGEDenPar)
 \end_layout
 
 \begin_layout Standard
-Looking at other Group parameters ( DISCARD UNLESS FIND CORRELATION)
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename ChartsPlots/GroupDensityDistanceLogEnvironments.png
-	lyxscale 30
-	scale 60
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -4206,7 +4114,7 @@ The classification system is based on evaluation of the deformation tensor
  the Hessian of the gravitational potential) on a grid
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-7"
+key "key-11"
 literal "false"
 
 \end_inset
@@ -4222,8 +4130,8 @@ The number of eigenvalues above an imposed threshold indicates the number
 \end_layout
 
 \begin_layout Subsubsection
-Distributions of Galaxy counts by measures for the different galaxy structural
- types
+Distributions of Galaxy counts by characteristic measures for the different
+ galaxy structural types
 \end_layout
 
 \begin_layout Standard
@@ -4395,8 +4303,8 @@ Local Group redness TotRmag by galaxy structural type
 \end_layout
 
 \begin_layout Standard
-Redness TotRmag density map plots for each galaxy environment type split
- by galaxy structural type
+Spliting the data on structural type, density plots were produced for Redness
+ TotRmag versus environment measures.
 \begin_inset Float figure
 wide false
 sideways false
@@ -4438,6 +4346,11 @@ Group TotRmag Redness for Galaxy Type
 \begin_layout Subsubsection
 Density maps for redness sum of uminusr for Local Group split by galaxy
  structural type
+\end_layout
+
+\begin_layout Standard
+Similarly density plots were produced for redness sum of Local Group versus
+ environment measures.
 \end_layout
 
 \begin_layout Standard
@@ -4483,6 +4396,11 @@ Group Redness sum uminusr versus environmental measure for Galaxy Type
 
 \begin_layout Subsubsection
 Local Group Mass sum logmstar by by Galaxy Type
+\end_layout
+
+\begin_layout Standard
+The spliting of data on galaxy structure type also allowed density maps
+ to be produced for sum of logmstar versus galaxy environement measure.
 \end_layout
 
 \begin_layout Standard
@@ -4551,6 +4469,81 @@ noprefix "false"
  but quite different between galaxy structure types, again emphasising the
  fact that galaxy environmental measures change quite significantly between
  galaxy structure types.
+\end_layout
+
+\begin_layout Standard
+The possibility that there are two groups of red elliptical galaxies as
+ was indicative in the sum of group measures is most obvious in galaxies
+ allocated galaxy structure type of filament.
+\end_layout
+
+\begin_layout Section
+Summary of Results
+\end_layout
+
+\begin_layout Itemize
+On an individual galaxy basis, no obvious correlation between a Galaxy's
+ environment and parameters ( Redness, Mass, Metalictiy) was observed.
+\end_layout
+
+\begin_layout Itemize
+Local Groups sum of characteristics related to individual galaxy environment,
+ despite variations in Galaxy parameters
+\end_layout
+
+\begin_layout Itemize
+Relationship to environment more obvious in galaxy structure type filament
+\end_layout
+
+\begin_layout Itemize
+Galaxy environment measured vary between galaxy structural types
+\end_layout
+
+\begin_layout Itemize
+Galaxy characteritics vary between galaxy structure types but not dramatically
+ ( Need to be more quantitive )
+\end_layout
+
+\begin_layout Section
+Areas for further investigation
+\end_layout
+
+\begin_layout Section
+Investigation of distributions
+\end_layout
+
+\begin_layout Standard
+Progress is made in astrophysics research by creating models and testing
+ if these produce results similar to actual observations.
+ If the results do not match then efforts are made to improve the model.
+ If the models produce good results then this gives support to the propesistion
+ that physical reality is well modelled.
+\end_layout
+
+\begin_layout Standard
+Lots of ??? in astrophysics happen on time scales much larger often many
+ orders of magnitude longer than human life and the timescale of our scientific
+ knowledge, it is in lot of ??? not possible to make measurements on timescales
+ to give meaningfull results.
+\end_layout
+
+\begin_layout Standard
+However there are billions of stars in our own galaxy and billions of galaxies
+ so we can use the fact that we can observe a very large number of ??? to
+\end_layout
+
+\begin_layout Standard
+Also as light travels at a fix but fast velocity and astronomical distances
+ are so large, that we see light from a very large range of events that
+ happened recently to G years ago.
+\end_layout
+
+\begin_layout Standard
+Draw knowledge from the large distributions
+\end_layout
+
+\begin_layout Standard
+My limited statistics
 \end_layout
 
 \begin_layout Section
@@ -4678,7 +4671,7 @@ All of which will over time change the nature of a galaxy.
  The Cox Box transformation
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-8"
+key "key-12"
 literal "false"
 
 \end_inset
@@ -4759,15 +4752,20 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-\begin_inset Graphics
-	filename ChartsPlots/CoxboxEllipticals.png
-	lyxscale 35
-	scale 40
+Distributions
+\end_layout
 
 \end_inset
 
 
 \end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/CoxboxEllipticals.png
+	lyxscale 35
+	scale 40
 
 \end_inset
 
@@ -5988,46 +5986,39 @@ Which has the following graph for the determined values of
 
 \end_layout
 
-\begin_layout Section
-Summary of Results
-\end_layout
+\begin_layout Subsection
 
-\begin_layout Itemize
-No obvious correlation between a Galaxy's environment and parameters ( Redness,
- Mass, Metalictiy)
-\end_layout
-
-\begin_layout Itemize
-Local Groups parameters related to individual galaxy environment, despite
- variations in Galaxy parameters
-\end_layout
-
-\begin_layout Itemize
-Environments vary between Galaxy types
-\end_layout
-
-\begin_layout Itemize
-Galaxy parameters vary between Galaxy types but not dramatically ( Need
- to be more quantitive )
+\color red
+Future
 \end_layout
 
 \begin_layout Section
+
+\color red
 Discussion
 \end_layout
 
 \begin_layout Subsection
+
+\color red
 Correlation Group redness to Environment Values
 \end_layout
 
 \begin_layout Subsection
+
+\color red
 Coxbox transformations
 \end_layout
 
 \begin_layout Subsection
+
+\color red
 Further research
 \end_layout
 
 \begin_layout Section
+
+\color red
 Conclusions
 \end_layout
 
@@ -6039,7 +6030,8 @@ literal "false"
 
 \end_inset
 
-Dressler 1980
+Galaxy morphology in rich clusters: implications for the formation and evolution
+ of galaxies - Dressler, A 1980.
 \end_layout
 
 \begin_layout Bibliography
@@ -6050,8 +6042,9 @@ literal "false"
 
 \end_inset
 
-Go ́mez et al.
- 2003
+Galaxy Star Formation as a Function of Environment in the Early Data Release
+ of the Sloan Digital Sky Survey - Go ́mez et al.
+ 2003.
 \end_layout
 
 \begin_layout Bibliography
@@ -6062,8 +6055,9 @@ literal "false"
 
 \end_inset
 
-Balogh et al.
- 2004).
+The bimodal galaxy colour distribution: Dependance on luminosity and environment
+ - Balogh et al.
+ 2004.
  
 \end_layout
 
@@ -6075,6 +6069,51 @@ literal "false"
 
 \end_inset
 
+
+\color black
+e.g.
+ Croton et al.
+ 2005,
+\end_layout
+
+\begin_layout Bibliography
+
+\color black
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-5"
+literal "false"
+
+\end_inset
+
+Galaxy And Mass Assembly (GAMA): the dependence of the galaxy luminosity
+ function on environment, redshift and colour - McNaught-Roberts et al.
+ 2014
+\end_layout
+
+\begin_layout Bibliography
+
+\color black
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-6"
+literal "false"
+
+\end_inset
+
+ The clustering of galaxies in the SDSS-III Baryon Oscillation Spectroscopic
+ Survey: modelling of the luminosity and colour dependence - Guo et al.
+ 2014 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-7"
+literal "false"
+
+\end_inset
+
 Galaxy And Mass Assembly (GAMA): Deconstructing Bimodality— I.
  Red ones and blue ones <arXiv:1408.5984v1> 2018 Taylor et al
 \end_layout
@@ -6082,7 +6121,18 @@ Galaxy And Mass Assembly (GAMA): Deconstructing Bimodality— I.
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-5"
+key "key-8"
+literal "false"
+
+\end_inset
+
+Colour bimodality: Implications for galaxy evolution - Baldry et al 2004
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-9"
 literal "false"
 
 \end_inset
@@ -6094,7 +6144,7 @@ literal "false"
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-6"
+key "key-10"
 literal "false"
 
 \end_inset
@@ -6106,7 +6156,7 @@ literal "false"
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-7"
+key "key-11"
 literal "false"
 
 \end_inset
@@ -6118,7 +6168,7 @@ Galaxy And Mass Assembly (GAMA): The galaxy luminosity function within the
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-8"
+key "key-12"
 literal "false"
 
 \end_inset

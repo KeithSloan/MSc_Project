@@ -135,11 +135,7 @@ literal "false"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-so the objective was to investigate possible relationship between colour
+ so the objective was to investigate possible relationships between colour
  redness and local galaxy environment.
  
 \end_layout
@@ -178,7 +174,17 @@ literal "false"
 \end_inset
 
 , this can be seen by a density map plot of redness (uminusr) versus the
- log of the galaxy star mass (logmstar) see figure 1
+ log of the galaxy star mass (logmstar) see figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Density-map-plot"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -196,6 +202,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Density-map-plot"
+
+\end_inset
+
 Density map plot of redness (uminusr) versus the log of the galaxy star
  mass (logmstar) 
 \end_layout

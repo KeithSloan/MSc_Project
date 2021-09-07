@@ -105,7 +105,22 @@ keith@sloan-home.co.uk
 \end_layout
 
 \begin_layout Abstract
-[#Abstract mastersthesis - appox 200 words]
+Data from the GAMA survey [referenec]was examined looking for a relationship
+ for ellipitical galaxies between their characteristics, color, mass and
+ metalicity and their local environment.
+ Whilst a direct and obvious relationship was not found, correlations between
+ galaxy characteristics for the Local Group
+\end_layout
+
+\begin_layout Abstract
+and galaxy environment were found.
+ It was also found that there is the potential to classify red elliptical
+ galaxies into two sub groups based on the distance from the centre of the
+ Local group.
+ The larger of the two sub groups being redder and more distant and a smaller
+ group not as red and nearer the centre of the local group.
+ In addition the distributions of galaxy charcteristics were examined as
+ well as positions within the local group.
 \end_layout
 
 \begin_layout Section
@@ -321,121 +336,7 @@ Linear regression slope (m)=0.360 and intersection(c)=-1.591
 \end_layout
 
 \begin_layout Standard
-(SPEARMAN ??? )
-\end_layout
-
-\begin_layout Subsection
-Distributions
-\end_layout
-
-\begin_layout Standard
-The distributions of the main galaxy attributes redness, log mass and metalasity
- were investigated see figures 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Distributions"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Distributions"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename /Users/keithsloan/MSc_Project/ChartsPlots/DistributionsCounts-minusr.png
-	lyxscale 30
-	scale 40
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename /Users/keithsloan/MSc_Project/ChartsPlots/DistributionsCounts-logmstar.png
-	lyxscale 30
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename /Users/keithsloan/MSc_Project/ChartsPlots/DistributionsCounts-metal.png
-	lyxscale 30
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\color red
-units title
-\end_layout
-
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
-
-\color red
-#Units title
-\end_layout
-
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
-
-\color red
-Distribution parameters
+(SPEARMAN ??? 
 \end_layout
 
 \begin_layout Section
@@ -574,71 +475,6 @@ AGEDenPar=1/sqrt(2*pi)/sigma*SUM\_i\:exp(-0.5*((r\_a,i/sigma)^{2}+(r\_z,i/AGESca
 Effectively, this parameter is equivalent to a weighted local volume density
  of galaxies, where closer galaxies receive more weight than more distant
  ones.
-\end_layout
-
-\begin_layout Subsection
-Distribitions of environmental measures
-\end_layout
-
-\begin_layout Standard
-The distributions of the environmental measures were investigated see figure
- 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Distributions-of-environmental"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Distributions-of-environmental"
-
-\end_inset
-
-Distributions of environmental measures
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ChartsPlots/DistributionsEnvironments.png
-	lyxscale 25
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -4060,40 +3896,6 @@ Log(AGEDenPar)
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename ChartsPlots/GroupTotRmagHistogram.png
-	lyxscale 30
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 Galaxy Structure Classifications
 \end_layout
@@ -4521,10 +4323,14 @@ Areas for further investigation
 \end_layout
 
 \begin_layout Section
+
+\color red
 Investigation of distributions
 \end_layout
 
 \begin_layout Standard
+
+\color red
 Progress is made in astrophysics research by creating models and testing
  if these produce results similar to actual observations.
  If the results do not match then efforts are made to improve the model.
@@ -4533,6 +4339,8 @@ Progress is made in astrophysics research by creating models and testing
 \end_layout
 
 \begin_layout Standard
+
+\color red
 Lots of ??? in astrophysics happen on time scales much larger often many
  orders of magnitude longer than human life and the timescale of our scientific
  knowledge, it is in lot of ??? not possible to make measurements on timescales
@@ -4540,69 +4348,171 @@ Lots of ??? in astrophysics happen on time scales much larger often many
 \end_layout
 
 \begin_layout Standard
+
+\color red
 However there are billions of stars in our own galaxy and billions of galaxies
  so we can use the fact that we can observe a very large number of ??? to
 \end_layout
 
 \begin_layout Standard
+
+\color red
 Also as light travels at a fix but fast velocity and astronomical distances
  are so large, that we see light from a very large range of events that
  happened recently to G years ago.
 \end_layout
 
 \begin_layout Standard
+
+\color red
 Draw knowledge from the large distributions
 \end_layout
 
 \begin_layout Standard
+
+\color red
 My limited statistics
 \end_layout
 
 \begin_layout Section
+
+\color red
 Distributions and Cox Box Transformation
 \end_layout
 
 \begin_layout Subsubsection
+
+\color red
 Transform of Distributions to Normal
 \end_layout
 
 \begin_layout Standard
+
+\color red
 Coxbox
 \end_layout
 
 \begin_layout Standard
+
+\color red
 Coxbox parameters/values
 \end_layout
 
 \begin_layout Standard
+
+\color red
 Confidence values
 \end_layout
 
 \begin_layout Standard
+
+\color red
 Test of transformation for gaussian
 \end_layout
 
 \begin_layout Standard
+
+\color red
 Confidence Values
 \end_layout
 
 \begin_layout Standard
+
+\color red
 Plot of inverse transform
 \end_layout
 
 \begin_layout Standard
+
+\color red
 Distributions plots
 \end_layout
 
 \begin_layout Subsection
+
+\color red
 Cox Box Transformation
 \end_layout
 
 \begin_layout Standard
-If a process is subject to a random value then the expected distribution
- is Normal/Gaussian, If one looks at the distributions for the main galaxy
- characteristics, redness(uminusr), mass(logmstar) metallically(metal) figures
+
+\color red
+I If one looks at the distributions for the main galaxy characteristics
+\end_layout
+
+\begin_layout Standard
+
+\color red
+then the variation from a Normal/Gaussian could be attributed to or to the
+ random value being subject to a transformation or series of transformations.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Measure of gaussian or normal ???? !!!! TESTs for NORMAL distribution.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Galaxy evolution is subject to a number of processes
+\end_layout
+
+\begin_layout Itemize
+
+\color red
+The stars in the galaxy undergoing Nucleosynthesis
+\end_layout
+
+\begin_layout Itemize
+
+\color red
+Star formation
+\end_layout
+
+\begin_layout Itemize
+
+\color red
+Larger stars which are bluer burn out quicker at which point they cease
+ to contribute to the galaxy
+\end_layout
+
+\begin_layout Itemize
+
+\color red
+Main sequence stars become Red giants
+\end_layout
+
+\begin_layout Itemize
+
+\color red
+Galaxy mergers
+\end_layout
+
+\begin_layout Itemize
+
+\color red
+metallicity ????
+\end_layout
+
+\begin_layout Standard
+
+\color red
+All of which will over time change the nature of a galaxy.
+\end_layout
+
+\begin_layout Standard
+.
  
+\end_layout
+
+\begin_layout Section
+Investigation into distributions
+\end_layout
+
+\begin_layout Standard
+Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Distributions"
@@ -4612,142 +4522,10 @@ noprefix "false"
 
 \end_inset
 
-,
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:4"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-, 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:5"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
+ plots the histograms for the distribution of the main galaxy attributes
+ redness uminusr, logmass and metalasity, it also plots fits for a number
+ of different distribtuion functions.
  
-\end_layout
-
-\begin_layout Standard
-then the variation from a Normal/Gaussian could be attributed to statistical
- variation or to the random value being subject to a transformation or series
- of transformations.
-\end_layout
-
-\begin_layout Standard
-Measure of gaussian or normal ???? !!!! TESTs for NORMAL distribution.
-\end_layout
-
-\begin_layout Standard
-Galaxy evolution is subject to a number of processes
-\end_layout
-
-\begin_layout Itemize
-The stars in the galaxy undergoing Nucleosynthesis
-\end_layout
-
-\begin_layout Itemize
-Star formation
-\end_layout
-
-\begin_layout Itemize
-Larger stars which are bluer burn out quicker at which point they cease
- to contribute to the galaxy
-\end_layout
-
-\begin_layout Itemize
-Main sequence stars become Red giants
-\end_layout
-
-\begin_layout Itemize
-Galaxy mergers
-\end_layout
-
-\begin_layout Itemize
-metallicity ????
-\end_layout
-
-\begin_layout Standard
-All of which will over time change the nature of a galaxy.
-\end_layout
-
-\begin_layout Standard
-.
- The Cox Box transformation
-\begin_inset CommandInset citation
-LatexCommand cite
-key "key-12"
-literal "false"
-
-\end_inset
-
-is statistical process to apply a transformation to a distribution so that
- the resulting distribution is Normal/Gaussian.
- 
-\end_layout
-
-\begin_layout Standard
-The Transformation is of the form of
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-y_{i+1}^{(\lambda)}=\left\{ \begin{array}{c}
-\frac{y_{i}^{\lambda}-1}{\lambda}\quad if\,\lambda\neq\,0\\
-ln\,y_{i}\quad\lambda\,=\,0
-\end{array}\right\} 
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-A best fit value for 
-\begin_inset Formula $\lambda$
-\end_inset
-
- can be determined and its confidence interval is is give by
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{align*}
-llf(\hat{\lambda})\,-\,llf(\lambda) & <\frac{1}{2}\chi^{2}(1-\alpha,1)\\
-where\,llf\:is\,log\,is\,the-likelihood\,function\\
-\alpha\,is\,the\,confidence\,interval\,i.e.\,0.05\:is\,95\%
-\end{align*}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-Experiment
-\end_layout
-
-\begin_layout Standard
-As a experiment the lambda 
-\begin_inset Formula $\lambda$
-\end_inset
-
- values were determined for the main galaxy characteristics distributions
- with a view to seeing if the transformations would have similarities to
- the galaxy environment distributions.
-\end_layout
-
-\begin_layout Subsubsection*
-Distributions
 \end_layout
 
 \begin_layout Standard
@@ -4757,14 +4535,16 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Distributions
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Distributions"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -4775,9 +4555,17 @@ Distributions
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ChartsPlots/CoxboxEllipticals.png
-	lyxscale 35
+	filename /Users/keithsloan/MSc_Project/ChartsPlots/DistributionsCounts-minusr.png
+	lyxscale 30
 	scale 40
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/keithsloan/MSc_Project/ChartsPlots/DistributionsCounts-logmstar.png
+	lyxscale 30
+	scale 35
 
 \end_inset
 
@@ -4785,6 +4573,14 @@ Distributions
 \end_layout
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/keithsloan/MSc_Project/ChartsPlots/DistributionsCounts-metal.png
+	lyxscale 30
+	scale 40
+
+\end_inset
+
 
 \end_layout
 
@@ -4794,11 +4590,15 @@ Distributions
 \end_layout
 
 \begin_layout Standard
-the values obtained elliptical were as follows
+
+\color red
+units title
 \end_layout
 
-\begin_layout Subsubsection*
-Elliptical Galaxies
+\begin_layout Standard
+
+\color red
+#Units title
 \end_layout
 
 \begin_layout Standard
@@ -5077,6 +4877,174 @@ Metallicity(metal)
 \end_layout
 
 \begin_layout Standard
+
+\color red
+Distribution parameters
+\end_layout
+
+\begin_layout Standard
+If a process is subject to a random variables then the expected distribution
+ for the variable is a Normal/Gaussian distribution.
+ Looking at the distributions for redness(uminusr), mass(logmstar) metallically(
+metal) figure
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Distributions"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ one could attribute the differences from a normal distributions to statistical
+ variation, however it decided to investigate if the deviation from a normal
+ distribution tcould possibly be related to any of the galaxy environment
+ measures.
+ For this investigation cox box transformations were calculated.
+\end_layout
+
+\begin_layout Subsection
+Cox Box Transformation
+\end_layout
+
+\begin_layout Standard
+The Cox Box transformation
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-12"
+literal "false"
+
+\end_inset
+
+is statistical process to apply a transformation to a distribution so that
+ the resulting distribution is Normal/Gaussian.
+ The Transformation is of the form of
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y_{i+1}^{(\lambda)}=\left\{ \begin{array}{c}
+\frac{y_{i}^{\lambda}-1}{\lambda}\quad if\,\lambda\neq\,0\\
+ln\,y_{i}\quad\lambda\,=\,0
+\end{array}\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A best fit value for 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ can be determined and its confidence interval is is give by
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+llf(\hat{\lambda})\,-\,llf(\lambda) & <\frac{1}{2}\chi^{2}(1-\alpha,1)\\
+where\,llf\:is\,log\,is\,the-likelihood\,function\\
+\alpha\,is\,the\,confidence\,interval\,i.e.\,0.05\:is\,95\%
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Lambda 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ values were determined for the Cox Box transformations that resulted in
+ the transformed data having the best fit to a normal distribtion.
+ The main galaxy characteristics distributions and transformed distributions
+ are shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Distributions-1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+and Lambda 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ documented in table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:CoxBox-for-Elliptical"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Distributions-1"
+
+\end_inset
+
+Distributions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/CoxboxEllipticals.png
+	lyxscale 35
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Elliptical Galaxies
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float table
 wide false
 sideways false
@@ -5090,6 +5058,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:CoxBox-for-Elliptical"
+
+\end_inset
+
 CoxBox for Elliptical Galaxies
 \end_layout
 
@@ -5956,22 +5930,18 @@ Mass (logmstar)
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Inverse Transform
 \end_layout
 
 \begin_layout Standard
 To get to the observed distribution from a normal distribution then the
- transform that would need to be applied is the inverse of the Cox Box Transform
+ transform that would need to be applied is the inverse of the Cox Box transform
  which for a none zero value of 
 \begin_inset Formula $\lambda$
 \end_inset
@@ -5991,11 +5961,144 @@ To get to the observed distribution from a normal distribution then the
 \end_layout
 
 \begin_layout Standard
-Which has the following graph for the determined values of 
+Using the determined values of 
 \begin_inset Formula $\lambda$
 \end_inset
 
+, figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Inverse-Transforms"
+plural "false"
+caps "false"
+noprefix "false"
 
+\end_inset
+
+plots the graphs of the inverse functions required to transform the distribution
+s of uminusr, logmstar and metal to normal distributions.
+ As two of distributions of environmental measures see figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Inverse-Transforms"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+have a reasonable fits with an exponential distribution an exponential function
+ is included for comparison.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Inverse-Transforms"
+
+\end_inset
+
+Inverse Transforms
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/CoxboxInverseTransformsEnvironmentMeasures.png
+	lyxscale 20
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Distributions-of-environmental"
+
+\end_inset
+
+Distributions of environmental measures
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/DistributionsEnvironments.png
+	lyxscale 25
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Cannot draw inference conclusion
+\end_layout
+
+\begin_layout Standard
+Would just be a scalar factor
+\end_layout
+
+\begin_layout Standard
+Candidate for modelling
+\end_layout
+
+\begin_layout Standard
+Plank distribution
+\end_layout
+
+\begin_layout Standard
+etc 
 \end_layout
 
 \begin_layout Subsection

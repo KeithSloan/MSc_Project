@@ -85,7 +85,7 @@
 \begin_body
 
 \begin_layout Title
-Title - Environments of Ellipitical Galaxies ( GAMA) survey ####
+Title - Environments of Elliptical Galaxies ( GAMA) survey ####
 \end_layout
 
 \begin_layout Title
@@ -105,9 +105,9 @@ keith@sloan-home.co.uk
 \end_layout
 
 \begin_layout Abstract
-Data from the GAMA survey [referenec]was examined looking for a relationship
- for ellipitical galaxies between their characteristics, color, mass and
- metalicity and their local environment.
+Data from the GAMA survey [reference]was examined looking for a relationship
+ for elliptical galaxies between their characteristics, color, mass and
+ metallically and their local environment.
  Whilst a direct and obvious relationship was not found, correlations between
  galaxy characteristics for the Local Group
 \end_layout
@@ -119,7 +119,7 @@ and galaxy environment were found.
  Local group.
  The larger of the two sub groups being redder and more distant and a smaller
  group not as red and nearer the centre of the local group.
- In addition the distributions of galaxy charcteristics were examined as
+ In addition the distributions of galaxy characteristics were examined as
  well as positions within the local group.
 \end_layout
 
@@ -132,7 +132,7 @@ Objective
 \end_layout
 
 \begin_layout Standard
-Previous reseach
+Previous research
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-1,key-2,key-3"
@@ -140,8 +140,8 @@ literal "false"
 
 \end_inset
 
-has establihsed a strong dependence of galactic properties morpholoy, star
- formation rate and colour on its local environment, also the dependancy
+has established a strong dependence of galactic properties morphology, star
+ formation rate and colour on its local environment, also the dependency
  of a galaxy's light function on local density
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -3968,7 +3968,7 @@ name "fig:Galaxy-counts-for"
 
 \end_inset
 
-Galaxy counts for galaxy charateristics by galaxy structure type
+Galaxy counts for galaxy characteristics by galaxy structure type
 \end_layout
 
 \end_inset
@@ -4117,7 +4117,7 @@ Local Group redness TotRmag by galaxy structural type
 \end_layout
 
 \begin_layout Standard
-Spliting the data on structural type, density plots were produced for Redness
+Splitting the data on structural type, density plots were produced for Redness
  TotRmag versus environment measures.
 \begin_inset Float figure
 wide false
@@ -4213,8 +4213,8 @@ Local Group Mass sum logmstar by by Galaxy Type
 \end_layout
 
 \begin_layout Standard
-The spliting of data on galaxy structure type also allowed density maps
- to be produced for sum of logmstar versus galaxy environement measure.
+The splitting of data on galaxy structure type also allowed density maps
+ to be produced for sum of logmstar versus galaxy environment measure.
 \end_layout
 
 \begin_layout Standard
@@ -4233,7 +4233,7 @@ name "fig:Group-Mass-sum"
 
 \end_inset
 
-Group Mass sum logmstar versus environmenatl measure for Galaxy Type
+Group Mass sum logmstar versus environmental measure for Galaxy Type
 \end_layout
 
 \end_inset
@@ -4314,64 +4314,8 @@ Galaxy environment measured vary between galaxy structural types
 \end_layout
 
 \begin_layout Itemize
-Galaxy characteritics vary between galaxy structure types but not dramatically
+Galaxy characteristics vary between galaxy structure types but not dramatically
  ( Need to be more quantitive )
-\end_layout
-
-\begin_layout Section
-Areas for further investigation
-\end_layout
-
-\begin_layout Section
-
-\color red
-Investigation of distributions
-\end_layout
-
-\begin_layout Standard
-
-\color red
-Progress is made in astrophysics research by creating models and testing
- if these produce results similar to actual observations.
- If the results do not match then efforts are made to improve the model.
- If the models produce good results then this gives support to the propesistion
- that physical reality is well modelled.
-\end_layout
-
-\begin_layout Standard
-
-\color red
-Lots of ??? in astrophysics happen on time scales much larger often many
- orders of magnitude longer than human life and the timescale of our scientific
- knowledge, it is in lot of ??? not possible to make measurements on timescales
- to give meaningfull results.
-\end_layout
-
-\begin_layout Standard
-
-\color red
-However there are billions of stars in our own galaxy and billions of galaxies
- so we can use the fact that we can observe a very large number of ??? to
-\end_layout
-
-\begin_layout Standard
-
-\color red
-Also as light travels at a fix but fast velocity and astronomical distances
- are so large, that we see light from a very large range of events that
- happened recently to G years ago.
-\end_layout
-
-\begin_layout Standard
-
-\color red
-Draw knowledge from the large distributions
-\end_layout
-
-\begin_layout Standard
-
-\color red
-My limited statistics
 \end_layout
 
 \begin_layout Section
@@ -4437,68 +4381,6 @@ Cox Box Transformation
 \begin_layout Standard
 
 \color red
-I If one looks at the distributions for the main galaxy characteristics
-\end_layout
-
-\begin_layout Standard
-
-\color red
-then the variation from a Normal/Gaussian could be attributed to or to the
- random value being subject to a transformation or series of transformations.
-\end_layout
-
-\begin_layout Standard
-
-\color red
-Measure of gaussian or normal ???? !!!! TESTs for NORMAL distribution.
-\end_layout
-
-\begin_layout Standard
-
-\color red
-Galaxy evolution is subject to a number of processes
-\end_layout
-
-\begin_layout Itemize
-
-\color red
-The stars in the galaxy undergoing Nucleosynthesis
-\end_layout
-
-\begin_layout Itemize
-
-\color red
-Star formation
-\end_layout
-
-\begin_layout Itemize
-
-\color red
-Larger stars which are bluer burn out quicker at which point they cease
- to contribute to the galaxy
-\end_layout
-
-\begin_layout Itemize
-
-\color red
-Main sequence stars become Red giants
-\end_layout
-
-\begin_layout Itemize
-
-\color red
-Galaxy mergers
-\end_layout
-
-\begin_layout Itemize
-
-\color red
-metallicity ????
-\end_layout
-
-\begin_layout Standard
-
-\color red
 All of which will over time change the nature of a galaxy.
 \end_layout
 
@@ -4509,6 +4391,87 @@ All of which will over time change the nature of a galaxy.
 
 \begin_layout Section
 Investigation into distributions
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Discussion"
+
+\end_inset
+
+Discussion
+\end_layout
+
+\begin_layout Standard
+
+\color black
+Lots of processes in astrophysics happen on time scales much larger often
+ many orders of magnitude longer than human life times and the timescale
+ of our scientific knowledge.
+ The result it is for a lot of processes we are not able to make measurements
+ on timescales that would provide meaningful results.
+ However as there are billions of stars in our own galaxy and billions of
+ galaxies Astrophysics so we can use the fact that we can observe a very
+ large number of stars and galaxies to draw conclusions.
+ The use of distributions is an attempt to gain insights by looking at the
+ properties of various distribution
+\color inherit
+ however galaxy evolution is a complex process
+\end_layout
+
+\begin_layout Itemize
+
+\color black
+The stars in the galaxy undergoing Nucleosynthesis
+\end_layout
+
+\begin_layout Itemize
+
+\color black
+Star formation from interstellar material
+\end_layout
+
+\begin_layout Itemize
+
+\color black
+Larger stars which are bluer exhaust their material quicker at which point
+ they cease to contribute to the light of the galaxy
+\end_layout
+
+\begin_layout Itemize
+
+\color black
+Main sequence stars become red giants
+\end_layout
+
+\begin_layout Itemize
+
+\color black
+Galaxy mergers
+\end_layout
+
+\begin_layout Itemize
+
+\color black
+Metallicity of stars which occurs when star complete a life cycle and contribute
+ material to the next cycle of stars.
+\end_layout
+
+\begin_layout Standard
+The result is that inferences from distributions are at best likely to give
+ hints, indications of the physical process involved and better understandings
+ can be obtained by 
+\color black
+creating models and testing if these produce results similar to actual observati
+ons.
+ If the results do not match then efforts are made to improve the model.
+ If the models produce good results then this gives support to the propersistion
+ that physical reality is well modelled.
+\end_layout
+
+\begin_layout Subsection
+Distributions
 \end_layout
 
 \begin_layout Standard
@@ -4524,7 +4487,7 @@ noprefix "false"
 
  plots the histograms for the distribution of the main galaxy attributes
  redness uminusr, logmass and metalasity, it also plots fits for a number
- of different distribtuion functions.
+ of different distribution functions.
  
 \end_layout
 
@@ -4898,7 +4861,7 @@ noprefix "false"
 
  one could attribute the differences from a normal distributions to statistical
  variation, however it decided to investigate if the deviation from a normal
- distribution tcould possibly be related to any of the galaxy environment
+ distribution could possibly be related to any of the galaxy environment
  measures.
  For this investigation cox box transformations were calculated.
 \end_layout
@@ -4962,7 +4925,7 @@ Lambda
 \end_inset
 
  values were determined for the Cox Box transformations that resulted in
- the transformed data having the best fit to a normal distribtion.
+ the transformed data having the best fit to a normal distribution.
  The main galaxy characteristics distributions and transformed distributions
  are shown in figure 
 \begin_inset CommandInset ref
@@ -6081,54 +6044,34 @@ Distributions of environmental measures
 
 \end_layout
 
-\begin_layout Standard
-Cannot draw inference conclusion
-\end_layout
-
-\begin_layout Standard
-Would just be a scalar factor
-\end_layout
-
-\begin_layout Standard
-Candidate for modelling
-\end_layout
-
-\begin_layout Standard
-Plank distribution
-\end_layout
-
-\begin_layout Standard
-etc 
-\end_layout
-
 \begin_layout Subsection
-
-\color red
-Future
+Results from distributions
 \end_layout
 
-\begin_layout Section
+\begin_layout Standard
+Inferring possible links makes a large assumption that there would be a
+ scalar factor in terms of how the distribution of an environmental measures
+ would effect the distribution of the galaxy characteristic.
+ Also it has been assumed that the formation of galaxies has given rise
+ to a gaussian distribution, where as the distribution may be more like
+ a Plank distribution or an ill defined distribution due to the process
+ involved, so as was stated in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Discussion"
+plural "false"
+caps "false"
+noprefix "false"
 
-\color red
-Discussion
-\end_layout
+\end_inset
 
-\begin_layout Subsection
-
-\color red
-Correlation Group redness to Environment Values
-\end_layout
-
-\begin_layout Subsection
-
-\color red
-Coxbox transformations
-\end_layout
-
-\begin_layout Subsection
-
-\color red
-Further research
+one cannot conclude that a physical process is having an effect purely on
+ a distribution measure, the best one could assert is that the environmental
+ measures with an exponential distribution would be better candidates for
+ model parameters.
+ In the future as more advanced telescopes come online and are able to look
+ back further in time at higher redshift then looking at distributions may
+ be able to reveal better information.
 \end_layout
 
 \begin_layout Section

@@ -969,8 +969,11 @@ Density Plots for Log(Environmental measures)
 
 \begin_layout Standard
 As can be seen from the plots there is no obvious relationship between the
- colour(uminusr) of a galaxy and the four main environmental measures, Peterson
- and Spearman and correlation values are documented in the following table.
+ colour(uminusr) of a galaxy and the four main environmental measures, the
+ full range of uminusr values extends over the same set of environmental
+ measures.
+ Peterson and Spearman and correlation values are documented in the following
+ table.
  Peterson, as this is a standard correlation measure and Spearman as it
  gives a better measure of correlation due to its handling of outlying and
  logarithmic values.
@@ -4292,96 +4295,131 @@ The possibility that there are two groups of red elliptical galaxies as
 \end_layout
 
 \begin_layout Section
+Revisiting of correlation Galaxy redness with Environments for Inner and
+ Outer Galaxies within Local Group
+\end_layout
+
+\begin_layout Subsection
+Outer Galaxies
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+uminusr versus Log Environment Measures for Outer Galaxies in Local Group.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/Outer_Group_Density_uminusr_Log_CoMoving_Environments.png
+	lyxscale 20
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Inner Galaxies
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+uminsur versus Log Enviroment Measures for Inner Galaxies in Local Group
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/Inner_GroupDensity_uminusr_Log_CoMoving_Environments.png
+	lyxscale 20
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
 Summary of Results
 \end_layout
 
 \begin_layout Itemize
-On an individual galaxy basis, no obvious correlation between a Galaxy's
- environment and parameters ( Redness, Mass, Metalictiy) was observed.
+On an individual galaxy basis there is no obvious correlation between a
+ Galaxy's environment and parameters ( Redness, Mass, Metalictiy).
 \end_layout
 
 \begin_layout Itemize
-Local Groups sum of characteristics related to individual galaxy environment,
- despite variations in Galaxy parameters
+There is a degree of correlation between the sum of Local Groups and individual
+ galaxy environment measures, this correlation is more obvious in galaxy
+ structure types filament and knot
 \end_layout
 
 \begin_layout Itemize
-Relationship to environment more obvious in galaxy structure type filament
+Looking at galaxies that are in the outer 5% of their local group then there
+ does appear to be a link with environmental measure CountInCyl
 \end_layout
 
 \begin_layout Itemize
-Galaxy environment measured vary between galaxy structural types
+Galaxy environment measures vary between galaxy structural types.
 \end_layout
 
 \begin_layout Itemize
-Galaxy characteristics vary between galaxy structure types but not dramatically
- ( Need to be more quantitive )
-\end_layout
-
-\begin_layout Section
-
-\color red
-Distributions and Cox Box Transformation
-\end_layout
-
-\begin_layout Subsubsection
-
-\color red
-Transform of Distributions to Normal
-\end_layout
-
-\begin_layout Standard
-
-\color red
-Coxbox
-\end_layout
-
-\begin_layout Standard
-
-\color red
-Coxbox parameters/values
-\end_layout
-
-\begin_layout Standard
-
-\color red
-Confidence values
-\end_layout
-
-\begin_layout Standard
-
-\color red
-Test of transformation for gaussian
-\end_layout
-
-\begin_layout Standard
-
-\color red
-Confidence Values
-\end_layout
-
-\begin_layout Standard
-
-\color red
-Plot of inverse transform
-\end_layout
-
-\begin_layout Standard
-
-\color red
-Distributions plots
-\end_layout
-
-\begin_layout Subsection
-
-\color red
-Cox Box Transformation
-\end_layout
-
-\begin_layout Standard
-
-\color red
-All of which will over time change the nature of a galaxy.
+There is some variation betwenn galaxy characteristics for different galaxy
+ structure types.
 \end_layout
 
 \begin_layout Standard
@@ -4487,7 +4525,7 @@ noprefix "false"
 
  plots the histograms for the distribution of the main galaxy attributes
  redness uminusr, logmass and metalasity, it also plots fits for a number
- of different distribtuion functions.
+ of different distribution functions.
  
 \end_layout
 
@@ -4861,7 +4899,7 @@ noprefix "false"
 
  one could attribute the differences from a normal distributions to statistical
  variation, however it decided to investigate if the deviation from a normal
- distribution tcould possibly be related to any of the galaxy environment
+ distribution could possibly be related to any of the galaxy environment
  measures.
  For this investigation cox box transformations were calculated.
 \end_layout
@@ -4925,7 +4963,7 @@ Lambda
 \end_inset
 
  values were determined for the Cox Box transformations that resulted in
- the transformed data having the best fit to a normal distribtion.
+ the transformed data having the best fit to a normal distribution.
  The main galaxy characteristics distributions and transformed distributions
  are shown in figure 
 \begin_inset CommandInset ref
@@ -6076,8 +6114,36 @@ one cannot conclude that a physical process is having an effect purely on
 
 \begin_layout Section
 
-\color red
+\color black
 Conclusions
+\end_layout
+
+\begin_layout Standard
+Looking at galaxies as a whole there does not appear to be a correlation
+ between galaxy charecteristics and environmental measures, however in some
+ circumstances such as galaxies in the outer region of their local group
+ then a degree of correlation is found.
+\end_layout
+
+\begin_layout Standard
+There is a degree of correlation between the sums of galaxy characteristics
+ for a local group i.e.
+ uminusr, logmstar and metalisity and a galaxies envirnmental measures.
+\end_layout
+
+\begin_layout Standard
+One possible explaination for why there is this correlation is that an early
+ stage of the univereses evoloution of the universe shortly before the initial
+ creation of stars the distribution of interstellar material corresponds
+ to what will become over time local groups.
+ The material then sub divides into smaller groups to form stars which then
+ make up galaxies.
+\end_layout
+
+\begin_layout Standard
+The fact that the material that makes up a local group was at one time a
+ single entity would explain why there is a relationship with the sum of
+ group characteristics
 \end_layout
 
 \begin_layout Bibliography

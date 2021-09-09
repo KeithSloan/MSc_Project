@@ -4196,7 +4196,7 @@ Group redness sum of uminusr versus environmental measure for galaxy types
 \begin_layout Subsection
 Local group mass - sum logmstar by galaxy type 
 \color red
-(Remove extra titles and Countour)
+(Remo
 \end_layout
 
 \begin_layout Standard
@@ -6086,17 +6086,18 @@ An inference drawn from the distributions would depend on some large assumption
 \end_layout
 
 \begin_layout Itemize
-How an environmental measure would effect the distribution would not be
- subjec an would be a scalar factor in terms of how the distribution of
- an of the galaxy characteristic.
- 
+How an environmental measure would effect the distribution would be limited
+ to a scalar factor.
 \end_layout
 
 \begin_layout Itemize
 Also it has been assumed that the formation of galaxies has given rise to
  a gaussian distribution, where as the distribution may be more like a Plank
- distribution or an ill defined distribution due to the process involved,
- so as was stated in 
+ distribution or an ill defined distribution due to the process involved.
+\end_layout
+
+\begin_layout Standard
+so as was stated in 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "subsec:Discussion"
@@ -6106,13 +6107,8 @@ noprefix "false"
 
 \end_inset
 
-one cannot conclude that a physical process is having an effect purely on
- a distribution measure, the best one could assert is that the environmental
- measures with an exponential distribution would be better candidates for
- model parameters.
- In the future as more advanced telescopes come online and are able to look
- back further in time at higher redshift then looking at distributions may
- be able to reveal better information.
+ could not be soley be relied upon and would need to be supported by other
+ reseach such as modelling.
 \end_layout
 
 \begin_layout Section
@@ -6122,27 +6118,27 @@ Conclusions
 \end_layout
 
 \begin_layout Itemize
-Looking at galaxies as a whole there does not appear to be a correlation
- between galaxy characteristics and environmental measures, however in some
- circumstances such as galaxies in the outer region of their local group
- then a degree of correlation is found.
+Looking at galaxies as a whole, there does not appear to be a correlation
+ between galaxy characteristics and environmental measures.
+ However, in some circumstances such as galaxies in the outer region of
+ their local group, then a degree of correlation is found.
 \end_layout
 
 \begin_layout Itemize
 There is a degree of correlation between the sums of galaxy characteristics
  for a local group i.e.
- uminusr, logmstar and metalisity and a galaxies environmental measures.
+ uminusr, logmstar and metallicity and a galaxy's environmental measures.
 \end_layout
 
 \begin_layout Itemize
 One possible explanation for why there is this correlation is that an early
- stage of the universes evolution i.e.
- shortly before the initial creation of stars the distribution of interstellar
+ stage of the universe's evolution i.e.
+ shortly before the initial creation of stars, the distribution of interstellar
  material corresponds to what will become over time local groups.
- Over time the material then sub divides into smaller groups to form stars
- which then make up galaxies.
- The galaxies form with dark matter halos and black hoes at their core.
- This subdivision giving rise to galaxies with a full range of colour(uminusr)
+ Over furher time, the material then subdivides into smaller groups to form
+ stars which then make up galaxies.
+ The galaxies form with dark matter halos and black holes at their core,
+ this subdivision giving rise to galaxies with a full range of colour(uminusr)
  and mass (logmstar).
  The fact that the material that makes up a local group was at one time
  a single entity would explain why there is a relationship with the sum

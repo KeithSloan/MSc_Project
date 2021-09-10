@@ -85,8 +85,8 @@
 \begin_body
 
 \begin_layout Title
-Title - Investigation of local environments of elliptical galaxies in (
- GAMA) survey 
+Title - Investigation of local environments of elliptical galaxies in Galaxy
+ and Mass Assembly ( GAMA) project 
 \end_layout
 
 \begin_layout Title
@@ -100,18 +100,25 @@ Masters Project
 \begin_layout Abstract
 
 \color black
-Data from the GAMA survey [reference]was examined looking for a relationship
- for elliptical galaxies between their characteristics, colour, mass and
- metallicity and their local environment.
- Whilst a direct and obvious relationship was not found, correlations between
- galaxy characteristics for the local group and their environment were found.
- It was also found that there is the potential to classify red elliptical
- galaxies into two sub groups based on the distance from the centre of the
- local group, the larger of the two sub groups being redder and more distant
- and a smaller group not as red and nearer the centre of the local group.
- In addition, the distributions of galaxy characteristics were examined
- as well as positions within the local group.
- Too many Founds
+Data from the Galaxy and Mass Assembly (GAMA) project
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-1"
+literal "false"
+
+\end_inset
+
+ was examined looking for relationships between an elliptical galaxy's character
+istics, colour, mass and metallicity and their local environment.
+ Whilst a direct and obvious relationship was not found, some correlation
+ between the characteristics of a galaxy's local group and its environment
+ were noted.
+ This correlation also indicated that it maybe possible to classify red
+ elliptical galaxies into two sub groups based on the distance from the
+ centre of the local group, the larger of the two sub groups being redder
+ and more distant and a smaller group not as red and nearer the centre of
+ the local group.
+ In addition other aspects of a galaxy's local group were investiagted.
 \end_layout
 
 \begin_layout Section
@@ -142,7 +149,7 @@ Star formation.
 Previous research 
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-1,key-2,key-3"
+key "key-2,key-3,key-4"
 literal "false"
 
 \end_inset
@@ -152,7 +159,7 @@ literal "false"
  of a galaxy's light function on local density
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-4,key-5,key-6"
+key "key-5,key-6,key-7"
 literal "false"
 
 \end_inset
@@ -171,7 +178,7 @@ Two galaxy groups
 It has been well researched that galaxies fall into two groups 
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-7,key-8"
+key "key-8,key-9"
 literal "false"
 
 \end_inset
@@ -245,17 +252,17 @@ units
 \end_layout
 
 \begin_layout Standard
-One could select a subgroup based on uminusr and logmstar as in
-\color red
-[xxxx
-\color inherit
-], however the GAMA survey also has categories of galaxies based on visual
- information 
-\color red
-#### Zoomivese??
-\color inherit
- and selecting a subset of galaxies marked as visually elliptical and repeating
- the uminusr/logmstar density as shown in figure
+One could select a subgroup based on uminusr and logmstar as in 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-4,key-9"
+literal "false"
+
+\end_inset
+
+, however the GAMA survey also has categories of galaxies based on visual
+ information and selecting a subset of galaxies marked as visually elliptical
+ and repeating the uminusr/logmstar density as shown in figure
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:2-1"
@@ -320,19 +327,257 @@ name "fig:2"
 \end_layout
 
 \begin_layout Standard
-A Pearson regression gives values of correlation 0.709 p-value 0.0 
+The results of correlation and linear regression tests are documented in
+ table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Correlation-results"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
 \end_layout
 
-\begin_layout Standard
-Linear regression slope (m)=0.360 and intersection(c)=-1.591
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Correlation-results"
+
+\end_inset
+
+Correlation results
 \end_layout
 
-\begin_layout Standard
+\end_inset
 
-\color red
-(SPEARMAN ???
-\color inherit
- 
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Correlation 
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Linear Regression
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Value
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+p
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Slope
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Intercept
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pearson
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.709
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.360
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-1.590
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Spearman
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.741
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -418,7 +663,7 @@ This column provides the adaptive Gaussian density parameter, as introduced
  by Schawinski et al 
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-2"
+key "key-10"
 literal "false"
 
 \end_inset
@@ -426,7 +671,7 @@ literal "false"
  and later described by Yoon et al
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-6"
+key "key-11"
 literal "false"
 
 \end_inset
@@ -2514,22 +2759,6 @@ Elliptical galaxies - colour (uminusr) versus relative position
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \end_inset
 
 
@@ -2544,8 +2773,8 @@ When looking at the positional information, it is important to remember
 
 \begin_layout Enumerate
 
-\color red
-The most likely mode value for uminusr is 2.35????
+\color black
+uminusr - Median : 2.286 Mode : 2.232
 \end_layout
 
 \begin_layout Enumerate
@@ -2579,12 +2808,6 @@ noprefix "false"
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-
-\color red
-axis subscript
 \end_layout
 
 \begin_layout Standard
@@ -2669,9 +2892,7 @@ The values of uminusr are more evenly spread
 \end_layout
 
 \begin_layout Enumerate
-
-\color red
-the mode value is 1.5 ??
+uminusr - Medium : 1.651 Mode : 1.422
 \end_layout
 
 \begin_layout Enumerate
@@ -3280,7 +3501,11 @@ logmstar relative position plots
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
+logmstar - Median : 10.528 Mode : 9.894 
+\end_layout
+
+\begin_layout Itemize
 Looking at the mass (logmstar) distribution in local groups figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -3306,9 +3531,7 @@ noprefix "false"
 \end_layout
 
 \begin_layout Subsubsection
-logmstar for spiral galaxies in the same local groups 
-\color red
-(axis sub)
+logmstar for spiral galaxies in the same local groups
 \end_layout
 
 \begin_layout Standard
@@ -3376,7 +3599,11 @@ Spiral galaxies (same local groups) logmstar versus relative positions
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
+logmstar - Medium : 9.560 Mode : 10.474
+\end_layout
+
+\begin_layout Itemize
 Looking at figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -3915,7 +4142,7 @@ The classification system is based on evaluation of the deformation tensor
  the Hessian of the gravitational potential) on a grid
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-11"
+key "key-12"
 literal "false"
 
 \end_inset
@@ -4098,9 +4325,7 @@ noprefix "false"
 \end_layout
 
 \begin_layout Subsection
-Local group redness TotRmag by galaxy structural type 
-\color red
-(Remove extra titles and Countour)
+Local group redness TotRmag by galaxy structural type
 \end_layout
 
 \begin_layout Standard
@@ -4142,9 +4367,7 @@ Group Redness(TotRmag) for galaxy types
 
 \begin_layout Subsection
 Density maps for redness sum of uminusr for local group split by galaxy
- structural type 
-\color red
-(Remove extra titles and Countour)
+ structural type
 \end_layout
 
 \begin_layout Standard
@@ -4194,9 +4417,7 @@ Group redness sum of uminusr versus environmental measure for galaxy types
 \end_layout
 
 \begin_layout Subsection
-Local group mass - sum logmstar by galaxy type 
-\color red
-(Remo
+Local group mass - sum logmstar by galaxy type
 \end_layout
 
 \begin_layout Standard
@@ -4905,7 +5126,7 @@ Cox Box transformation
 The Cox Box transformation 
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-12"
+key "key-13"
 literal "false"
 
 \end_inset
@@ -5125,7 +5346,7 @@ Confidence Interval
 \begin_inset Text
 
 \begin_layout Plain Layout
-Mean
+Shapiro Test for Normality
 \end_layout
 
 \end_inset
@@ -5134,21 +5355,21 @@ Mean
 \begin_inset Text
 
 \begin_layout Plain Layout
-Standard Deviation
+
 \end_layout
 
 \end_inset
 </cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Measure of Normal Fit
+
 \end_layout
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5181,7 +5402,7 @@ Measure of Normal Fit
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+min
 \end_layout
 
 \end_inset
@@ -5190,7 +5411,7 @@ Measure of Normal Fit
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+max
 \end_layout
 
 \end_inset
@@ -5199,7 +5420,7 @@ Measure of Normal Fit
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Before C.B Transform
 \end_layout
 
 \end_inset
@@ -5208,7 +5429,7 @@ Measure of Normal Fit
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+p
 \end_layout
 
 \end_inset
@@ -5217,7 +5438,8 @@ Measure of Normal Fit
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+After C.B.
+ Transform
 \end_layout
 
 \end_inset
@@ -5226,7 +5448,7 @@ Measure of Normal Fit
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+p
 \end_layout
 
 \end_inset
@@ -5273,7 +5495,7 @@ Redness(uminusr)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.971
 \end_layout
 
 \end_inset
@@ -5282,7 +5504,7 @@ Redness(uminusr)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+4.89e-20
 \end_layout
 
 \end_inset
@@ -5291,7 +5513,7 @@ Redness(uminusr)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.994
 \end_layout
 
 \end_inset
@@ -5300,7 +5522,7 @@ Redness(uminusr)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+9.24e-08
 \end_layout
 
 \end_inset
@@ -5347,7 +5569,7 @@ Mass (logmstar)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.994
 \end_layout
 
 \end_inset
@@ -5365,7 +5587,7 @@ Mass (logmstar)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.996
 \end_layout
 
 \end_inset
@@ -5421,7 +5643,7 @@ Metallicity(metal)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.862
 \end_layout
 
 \end_inset
@@ -5430,468 +5652,7 @@ Metallicity(metal)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection*
-All Galaxies
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Distribution fits / Cox Box for all galaxies
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="3" columns="5">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Characteristic
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Johnson Fit
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Mass (logmstar)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1.27
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1.3
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-11.11
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.499
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Cox Box for all galaxies
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="3" columns="8">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Characteristic
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $Lamda\:\lambda$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Confidence Interval
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Mean
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Standard Deviation
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Measure of Normal Fit
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Mass (logmstar)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5.7
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5.66
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5.74
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+2.05e-39
 \end_layout
 
 \end_inset
@@ -5919,10 +5680,6 @@ Mass (logmstar)
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -6153,6 +5910,16 @@ literal "false"
 
 \end_inset
 
+Galaxy And Mass Assembly (GAMA) : Project http://www.gama-survey.org
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-2"
+
+\end_inset
+
 Galaxy morphology in rich clusters: implications for the formation and evolution
  of galaxies - Dressler, A 1980.
 \end_layout
@@ -6160,7 +5927,7 @@ Galaxy morphology in rich clusters: implications for the formation and evolution
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-2"
+key "key-3"
 literal "false"
 
 \end_inset
@@ -6173,7 +5940,7 @@ Galaxy Star Formation as a Function of Environment in the Early Data Release
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-3"
+key "key-4"
 literal "false"
 
 \end_inset
@@ -6187,7 +5954,7 @@ The bimodal galaxy colour distribution: Dependance on luminosity and environment
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-4"
+key "key-5"
 literal "false"
 
 \end_inset
@@ -6204,7 +5971,7 @@ e.g.
 \color black
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-5"
+key "key-6"
 literal "false"
 
 \end_inset
@@ -6219,7 +5986,7 @@ Galaxy And Mass Assembly (GAMA): the dependence of the galaxy luminosity
 \color black
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-6"
+key "key-7"
 literal "false"
 
 \end_inset
@@ -6232,7 +5999,7 @@ literal "false"
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-7"
+key "key-8"
 literal "false"
 
 \end_inset
@@ -6244,7 +6011,7 @@ Galaxy And Mass Assembly (GAMA): Deconstructing Bimodality— I.
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-8"
+key "key-9"
 literal "false"
 
 \end_inset
@@ -6255,7 +6022,7 @@ Colour bimodality: Implications for galaxy evolution - Baldry et al 2004
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-9"
+key "key-10"
 literal "false"
 
 \end_inset
@@ -6267,7 +6034,7 @@ literal "false"
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-10"
+key "key-11"
 literal "false"
 
 \end_inset
@@ -6279,7 +6046,7 @@ literal "false"
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-11"
+key "key-12"
 literal "false"
 
 \end_inset
@@ -6291,7 +6058,7 @@ Galaxy And Mass Assembly (GAMA): The galaxy luminosity function within the
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-12"
+key "key-13"
 literal "false"
 
 \end_inset

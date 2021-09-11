@@ -732,17 +732,6 @@ Effectively, this parameter is equivalent to a weighted local volume density
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Testing the correlation of galaxy redness uminusr with environmental measures
-\end_layout
-
-\begin_layout Standard
 Density map plots and correlation fits were produced for the four environmental
  measures see figure 
 \begin_inset CommandInset ref
@@ -1575,6 +1564,13 @@ Log(AGEDenPar)
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -2763,7 +2759,7 @@ Elliptical galaxies - colour (uminusr) versus relative position
 \begin_inset Graphics
 	filename ChartsPlots/Contour_uminusr_GroupRank.png
 	lyxscale 15
-	scale 35
+	scale 40
 
 \end_inset
 
@@ -3517,7 +3513,7 @@ logmstar relative position plots
 \begin_inset Graphics
 	filename ChartsPlots/Contour_logmstar_GroupRank.png
 	lyxscale 15
-	scale 35
+	scale 40
 
 \end_inset
 
@@ -3676,6 +3672,13 @@ plural "false"
 caps "false"
 noprefix "false"
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -4592,7 +4595,7 @@ Group mass sum (logmstar) versus environmental measures for galaxy types
 \begin_layout Standard
 For galaxy structural types filament and knot there is a clear correlation
  between the local group attribute and environment meaures.
- The correlation is less clear for structural types Voids and Sheet.
+ The correlation is less clear for structural types voids and sheet.
 \end_layout
 
 \begin_layout Standard
@@ -4636,6 +4639,10 @@ The possibility that there are two groups of red elliptical galaxies, as
 \end_layout
 
 \begin_layout Section
+Inner and outer galaxies within their local group
+\end_layout
+
+\begin_layout Standard
 Revisiting of any correlation between galaxy redness and their environments
  for inner and outer galaxies within their local group
 \end_layout
@@ -4649,10 +4656,6 @@ Outer galaxies
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -4698,10 +4701,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -4731,8 +4730,8 @@ uminsur versus log(environment measures) for inner galaxies in local group
 \end_layout
 
 \begin_layout Standard
-In the case of outer galaxy's there does appear to be a correlation between
- uminusr and log(CountinCyl) but this is not seen in the case of Inner galaxies.
+In the case of outer galaxies there does appear to be a correlation between
+ uminusr and log(CountinCyl) but this is not seen in the case of inner galaxies.
 \end_layout
 
 \begin_layout Section
@@ -4796,7 +4795,7 @@ Discussion
 
 \color black
 Lots of processes in astrophysics happen on large time scales, often many
- orders of magnitude longer than a human life time or the timescale of our
+ orders of magnitude longer than a human lifetime or the timescale of our
  scientific knowledge.
  The result is for a lot of processes we are not able to make measurements
  on timescales that would provide meaningful results.
@@ -4819,7 +4818,7 @@ owever galaxy evolution is a complex process
 \begin_layout Itemize
 
 \color black
-The stars in the galaxy undergo Nucleosynthesis.
+The stars in the galaxy undergo nucleosynthesis.
 \end_layout
 
 \begin_layout Itemize
@@ -4850,8 +4849,9 @@ Galaxy mergers.
 \begin_layout Itemize
 
 \color black
-Metallicity of stars which they obtain from star that have completed a previous
- life cycle and contribute material to the next cycle of stars.
+Metallicity of stars which comes from stars that have completed a previous
+ life cycle.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -4863,7 +4863,7 @@ creating models and testing if these produce results similar to actual observati
 ons.
  If the results do not match, then efforts are made to improve the model.
  If the models produce good results then this gives support to the proposition
- that physical reality is well modelled.
+ that physical reality is being well modelled.
 \end_layout
 
 \begin_layout Standard
@@ -4922,7 +4922,7 @@ Distributions
 \begin_inset Graphics
 	filename /Users/keithsloan/MSc_Project/ChartsPlots/DistributionsCounts-minusr.png
 	lyxscale 30
-	scale 40
+	scale 30
 
 \end_inset
 
@@ -4930,7 +4930,7 @@ Distributions
 \begin_inset Graphics
 	filename /Users/keithsloan/MSc_Project/ChartsPlots/DistributionsCounts-logmstar.png
 	lyxscale 30
-	scale 35
+	scale 30
 
 \end_inset
 
@@ -4942,7 +4942,7 @@ Distributions
 \begin_inset Graphics
 	filename /Users/keithsloan/MSc_Project/ChartsPlots/DistributionsCounts-metal.png
 	lyxscale 30
-	scale 40
+	scale 35
 
 \end_inset
 
@@ -4975,7 +4975,7 @@ Distribution fits for elliptical galaxies
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="5">
+<lyxtabular version="3" rows="4" columns="5">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -5020,53 +5020,6 @@ Johnson Fit
 \end_inset
 </cell>
 <cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5245,9 +5198,9 @@ noprefix "false"
 
 , one could attribute the differences from a normal distribution to statistical
  variation.
- However investigating if the deviation from a normal distribution could
- possibly be related to any of the galaxy environment measures Cox Box transform
-ations were investigated.
+ However to investigate if the deviation from a normal distribution could
+ possibly be related to any of the galaxy environment measures, Cox Box
+ transformations were applied.
 \end_layout
 
 \begin_layout Subsection
@@ -5310,7 +5263,7 @@ Lambda
 
  values were determined for the Cox Box transformations which provide the
  best fit to a normal distribution.
- The main galaxy characteristic(uminusr, logmstar, metal) distributions
+ The main galaxy characteristic distributions (uminusr, logmstar, metal)
  and transformed distributions are shown in the left and right hand columns
  respectively of the charts in figure 
 \begin_inset CommandInset ref
@@ -5373,7 +5326,7 @@ Distributions
 \begin_inset Graphics
 	filename ChartsPlots/CoxboxEllipticals.png
 	lyxscale 35
-	scale 40
+	scale 46
 
 \end_inset
 
@@ -5478,7 +5431,7 @@ Confidence Interval
 \begin_inset Text
 
 \begin_layout Plain Layout
-Shapiro Test for Normality
+Shapiro test for Normality
 \end_layout
 
 \end_inset
@@ -5819,6 +5772,19 @@ Metallicity(metal)
 
 \end_layout
 
+\begin_layout Standard
+
+\color red
+A Shapiro test for normality was performed on the distribution before and
+ after the Cox Box transformation.
+ The distributions before the transformation show high values for the test
+ meaning the variations can be purely attributed to statistical variation,
+ however as no obvious correlation was found between galaxy measures and
+ environmental measures then it is still possible that environment measures
+ are not totally random and do have an influence for which the small variation
+ from normality is a tracer.
+\end_layout
+
 \begin_layout Subsection
 Inverse transform
 \end_layout
@@ -5830,7 +5796,7 @@ To get to the observed distribution from a normal distribution then the
 \begin_inset Formula $\lambda$
 \end_inset
 
- is
+ is given by
 \end_layout
 
 \begin_layout Standard
@@ -5861,7 +5827,9 @@ noprefix "false"
 
  plots the graphs of the inverse functions required to transform the distributio
 ns of uminusr, logmstar and metal to normal distributions.
- As two of the distributions of environmental measures see figure 
+ For comparison an exponential distribution is included as two of the distributi
+ons of environmental measures have reasonable fits with an exponential distribut
+ion see figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Inverse-Transforms"
@@ -5871,8 +5839,7 @@ noprefix "false"
 
 \end_inset
 
- have reasonable fits with an exponential distribution which is included
- for comparison.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -5886,6 +5853,101 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align left
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -5970,7 +6032,8 @@ Results from distributions
 \end_layout
 
 \begin_layout Standard
-An inference drawn from the distributions would depend on some large assumption
+An inference drawn from the distributions would depend on some very large
+ assumptions
 \end_layout
 
 \begin_layout Itemize
@@ -5981,7 +6044,7 @@ How an environmental measure would effect the distribution would be limited
 \begin_layout Itemize
 Also it has been assumed that the formation of galaxies has given rise to
  a gaussian distribution, where as the distribution may be more like a Plank
- distribution or an ill defined distribution due to the process involved.
+ distribution or an ill defined distribution due to the processes involved.
 \end_layout
 
 \begin_layout Itemize
@@ -5989,7 +6052,7 @@ The Shapiro tests for normality before any Cox Box transformation are high
 \end_layout
 
 \begin_layout Standard
-so as was stated in 
+so, as was stated in 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "subsec:Discussion"
@@ -5999,7 +6062,7 @@ noprefix "false"
 
 \end_inset
 
- could not be solely be relied upon and would need to be supported by other
+ could not solely be relied upon and would need to be supported by other
  research such as modelling.
 \end_layout
 

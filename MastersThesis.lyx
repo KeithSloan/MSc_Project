@@ -92,7 +92,7 @@ Title - Investigation of local environments of elliptical galaxies from
 \begin_layout Abstract
 
 \color black
-Data from the Galaxy and Mass Assembly (GAMA) project
+Data from the Galaxy and Mass Assembly (GAMA) project 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-1"
@@ -133,7 +133,7 @@ Galaxy formation is understood to be subject to a number of processes
 \end_layout
 
 \begin_layout Itemize
-Evolution of star members due to Nucleosynthesis.
+Evolution of star members due to nucleosynthesis.
 \end_layout
 
 \begin_layout Itemize
@@ -276,7 +276,7 @@ literal "false"
 , however the GAMA survey also has categories of galaxies based on visual
  information.
  By selecting a subset of galaxies marked as visually elliptical and repeating
- the uminusr/logmstar density as shown in figure
+ the uminusr/logmstar density as shown in figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:2-1"
@@ -690,7 +690,7 @@ literal "false"
 \end_inset
 
 .
- To calculate this density parameter we first identify all (other) galaxies
+ To calculate this density parameter, we first identify all (other) galaxies
  from the density defining population in an adaptive Gaussian ellipsoid
  defined by
 \begin_inset Formula 
@@ -731,15 +731,8 @@ Effectively, this parameter is equivalent to a weighted local volume density
  ones.
 \end_layout
 
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
-Testing the correlation of galaxy redness uminusr with environmental measures
+Density plots & correlations
 \end_layout
 
 \begin_layout Standard
@@ -784,7 +777,7 @@ noprefix "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -1580,6 +1573,13 @@ Log(AGEDenPar)
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Local group information
 \end_layout
@@ -1591,7 +1591,7 @@ Group redness - TotRmag
 \begin_layout Standard
 Unlike the straight galaxy measures of galaxy colour, the total red magnitude
  of a galaxy's local group TotRMag do show some degree of correlation see
- Figure 
+ figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Density-Plots-for"
@@ -1601,7 +1601,7 @@ noprefix "false"
 
 \end_inset
 
- and Table 
+ and table 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:Linear-Regression-of"
@@ -1716,7 +1716,7 @@ Linear regression of group redness (TotRmag) with log(galaxy environment
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1725,7 +1725,7 @@ Environment Variable
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1734,7 +1734,7 @@ Pearson
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1743,7 +1743,7 @@ Pearson
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1752,7 +1752,7 @@ Spearman
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1781,7 +1781,7 @@ Linear Regression
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2258,7 +2258,7 @@ Linear regression of group sum of uminusr with log(galaxy environment measures)
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2267,7 +2267,7 @@ Environment Variable
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2276,7 +2276,7 @@ Pearson
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2285,7 +2285,7 @@ Pearson
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2294,7 +2294,7 @@ Spearman
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2323,7 +2323,7 @@ Linear Regression
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2689,7 +2689,7 @@ l galaxies.
 Looking at the density plots, there are indications of two peaks suggesting
  that red elliptical galaxies might subdivide into two groups, one small
  group with a high magnitude close to the centre of the local group (small
- DistanceTo5nn ) and a larger group further away.
+ DistanceTo5nn) and a larger group further away.
  
 \end_layout
 
@@ -2705,8 +2705,8 @@ Positions within local group - uminusr
 \end_layout
 
 \begin_layout Standard
-Group tables ( G3CGal ) provide the relative positions of galaxies within
- their local group.
+Group table G3CGal provide the relative positions of galaxies within their
+ local group.
  Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2763,7 +2763,7 @@ Elliptical galaxies - colour (uminusr) versus relative position
 \begin_inset Graphics
 	filename ChartsPlots/Contour_uminusr_GroupRank.png
 	lyxscale 15
-	scale 35
+	scale 40
 
 \end_inset
 
@@ -3034,7 +3034,7 @@ Linear regression of group sum of logmstar with log(galaxy environment measures)
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3043,7 +3043,7 @@ Environment Variable
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3052,7 +3052,7 @@ Pearson
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3061,7 +3061,7 @@ Pearson
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3070,7 +3070,7 @@ Spearman
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3099,7 +3099,7 @@ Linear Regression
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3517,7 +3517,7 @@ logmstar relative position plots
 \begin_inset Graphics
 	filename ChartsPlots/Contour_logmstar_GroupRank.png
 	lyxscale 15
-	scale 35
+	scale 40
 
 \end_inset
 
@@ -3681,6 +3681,13 @@ noprefix "false"
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Metallicity - metal
 \end_layout
@@ -3759,7 +3766,7 @@ Linear regression of group sum of metal with log(galaxy environment measures)
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3768,7 +3775,7 @@ Environment Variable
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3777,7 +3784,7 @@ Pearson
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3786,7 +3793,7 @@ Pearson
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3795,7 +3802,7 @@ Spearman
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3824,7 +3831,7 @@ Linear Regression
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4172,7 +4179,7 @@ Galaxy structure classifications
 \end_layout
 
 \begin_layout Standard
-Whilst on very large scale,s the universe is homogeneous, we know that on
+Whilst on very large scales, the universe is homogeneous, we know that on
  lesser scales there is structure influenced by the distribution of dark
  matter.
  For GAMA II, equatorial regions were classified at each point as either
@@ -4197,7 +4204,7 @@ Knot
 \begin_layout Standard
 The classification system is based on evaluation of the deformation tensor
  (i.e.
- the Hessian of the gravitational potential) on a grid
+ the Hessian of the gravitational potential) on a grid 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-12"
@@ -4205,7 +4212,8 @@ literal "false"
 
 \end_inset
 
-The number of eigenvalues above an imposed threshold indicates the number
+.
+ The number of eigenvalues above an imposed threshold indicates the number
  of collapsed dimensions of structure at that location - either 0, 1, 2
  or 3, corresponding to a void, sheet, filament or knot, respectively.
  The classification of the grid, as given in the GeometricGrid table, allows
@@ -4441,7 +4449,7 @@ Group Redness(TotRmag) for galaxy types
 \begin_inset Graphics
 	filename ChartsPlots/GroupDensityTotRmagLogEnvironmentsGalaxyType.png
 	lyxscale 40
-	scale 60
+	scale 55
 
 \end_inset
 
@@ -4461,13 +4469,16 @@ Group Redness(TotRmag) for galaxy types
 \end_layout
 
 \begin_layout Subsection
-Density maps for redness sum of uminusr for local group split by galaxy
- structural type
+Density maps for sum of uminusr for local group by galaxy structural type
 \end_layout
 
 \begin_layout Standard
 Similarly density plots were produced for redness sum of local group versus
- environment measures see figure 
+ environment measures
+\end_layout
+
+\begin_layout Standard
+see figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Group-Redness-sum"
@@ -4509,7 +4520,7 @@ Group redness sum of uminusr versus environmental measure for galaxy types
 \begin_inset Graphics
 	filename ChartsPlots/GroupDensity_Sum_uminusr_LogEnvironmentsGalaxyType.png
 	lyxscale 40
-	scale 60
+	scale 55
 
 \end_inset
 
@@ -4577,7 +4588,7 @@ Group mass sum (logmstar) versus environmental measures for galaxy types
 \begin_inset Graphics
 	filename ChartsPlots/GroupDensity_Sum_logmstar_LogEnvironmentsGalaxyType.png
 	lyxscale 40
-	scale 60
+	scale 50
 
 \end_inset
 
@@ -4628,15 +4639,12 @@ The possibility that there are two groups of red elliptical galaxies, as
  allocated to a galaxy structure type of filament.
 \end_layout
 
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
+\begin_layout Section
+Inner and outer galaxies within their local group
 \end_layout
 
-\begin_layout Section
-Revisiting of any correlation between galaxy redness and their environments
+\begin_layout Standard
+Revisiting any correlations between galaxy redness and their environments
  for inner and outer galaxies within their local group
 \end_layout
 
@@ -4649,10 +4657,6 @@ Outer galaxies
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -4671,7 +4675,7 @@ uminusr versus log(environment measures) for outer galaxies in local group.
 \begin_inset Graphics
 	filename ChartsPlots/Outer_Group_Density_uminusr_Log_CoMoving_Environments.png
 	lyxscale 20
-	scale 40
+	scale 36
 
 \end_inset
 
@@ -4698,10 +4702,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -4718,7 +4718,7 @@ uminsur versus log(environment measures) for inner galaxies in local group
 \begin_inset Graphics
 	filename ChartsPlots/Inner_GroupDensity_uminusr_Log_CoMoving_Environments.png
 	lyxscale 20
-	scale 40
+	scale 36
 
 \end_inset
 
@@ -4741,7 +4741,7 @@ Summary of results
 
 \begin_layout Itemize
 On an individual galaxy basis, there is no obvious correlation between a
- galaxy's environment and parameters ( redness, mass, metallicity).
+ galaxy's environment and parameters (redness, mass, metallicity).
 \end_layout
 
 \begin_layout Itemize
@@ -4923,7 +4923,7 @@ Distributions
 \begin_inset Graphics
 	filename /Users/keithsloan/MSc_Project/ChartsPlots/DistributionsCounts-minusr.png
 	lyxscale 30
-	scale 40
+	scale 30
 
 \end_inset
 
@@ -4931,7 +4931,7 @@ Distributions
 \begin_inset Graphics
 	filename /Users/keithsloan/MSc_Project/ChartsPlots/DistributionsCounts-logmstar.png
 	lyxscale 30
-	scale 35
+	scale 30
 
 \end_inset
 
@@ -4943,7 +4943,7 @@ Distributions
 \begin_inset Graphics
 	filename /Users/keithsloan/MSc_Project/ChartsPlots/DistributionsCounts-metal.png
 	lyxscale 30
-	scale 40
+	scale 35
 
 \end_inset
 
@@ -5327,7 +5327,7 @@ Distributions
 \begin_inset Graphics
 	filename ChartsPlots/CoxboxEllipticals.png
 	lyxscale 35
-	scale 40
+	scale 46
 
 \end_inset
 
@@ -5432,7 +5432,7 @@ Confidence Interval
 \begin_inset Text
 
 \begin_layout Plain Layout
-Shapiro Test for Normality
+Shapiro test for normality
 \end_layout
 
 \end_inset
@@ -5773,6 +5773,19 @@ Metallicity(metal)
 
 \end_layout
 
+\begin_layout Standard
+
+\color black
+A Shapiro test for normality was performed on the distribution before and
+ after the Cox Box transformation.
+ The distributions before the transformation showed high values for the
+ test meaning the variations can be purely attributed to statistical variation.
+ However as no obvious correlation was found between galaxy measures and
+ environmental measures, then it is still possible that environment measures
+ are not totally random and do have an influence for which the small variation
+ from normality is a tracer.
+\end_layout
+
 \begin_layout Subsection
 Inverse transform
 \end_layout
@@ -5827,7 +5840,15 @@ noprefix "false"
 
 \end_inset
 
- 
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Standard
@@ -5841,6 +5862,7 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\align left
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -5936,12 +5958,12 @@ How an environmental measure would effect the distribution would be limited
 
 \begin_layout Itemize
 Also it has been assumed that the formation of galaxies has given rise to
- a gaussian distribution, where as the distribution may be more like a Plank
+ a Gaussian distribution, where as the distribution may be more like a Plank
  distribution or an ill defined distribution due to the processes involved.
 \end_layout
 
 \begin_layout Itemize
-The Shapiro tests for normality before any Cox Box transformation are high
+The Shapiro tests for normality before any Cox Box transformation are high.
 \end_layout
 
 \begin_layout Standard
@@ -5955,7 +5977,7 @@ noprefix "false"
 
 \end_inset
 
- could not solely be relied upon and would need to be supported by other
+, could not solely be relied upon and would need to be supported by other
  research such as modelling.
 \end_layout
 
@@ -6052,9 +6074,9 @@ literal "false"
 
 
 \color black
-e.g.
- Croton et al.
- 2005,
+The many lives of active galactic nuclei: cooling flows, black holes and
+ the luminosities and colours of galaxies - Croton et al.
+ 2005
 \end_layout
 
 \begin_layout Bibliography

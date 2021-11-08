@@ -2745,7 +2745,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ChartsPlots/TotRmag_Log10(Mean(Environments).png
+	filename ChartsPlots/TotRmag_Log10(Mean_Environments).png
 	lyxscale 40
 	scale 40
 
@@ -3291,10 +3291,6 @@ status open
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -4195,7 +4191,7 @@ A similar exercise was carried out for galaxy mass - logmstar within their
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\Sigma\:logmstar=log(\Sigma10^{logmstar})
+\Sigma\:logmstar=log_{10}(\Sigma10^{logmstar})
 \]
 
 \end_inset
@@ -5678,6 +5674,12 @@ status open
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Should bin count = max value for CountInCyl?
 \end_layout
 
 \begin_layout Subsubsection
@@ -7284,6 +7286,12 @@ obvious correlation was found between galaxy measures and environmental
  is a tracer.
 \end_layout
 
+\begin_layout Standard
+
+\color red
+Same for local group data
+\end_layout
+
 \begin_layout Subsection
 Inverse transform 
 \color red
@@ -7440,6 +7448,30 @@ Distributions of environmental measures
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Rational for Plank function
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Further work
+\end_layout
+
+\begin_layout Itemize
+
+\color red
+Test distribution with Plank function ( temp?
+\end_layout
+
+\begin_layout Itemize
+
+\color red
+Cox box technique but with Plank Function rather than Gaussien
 \end_layout
 
 \begin_layout Subsection

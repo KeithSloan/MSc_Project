@@ -953,19 +953,9 @@ uminusr density plots for environmental measures
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-
-\color red
-Changes ranges to fill
 \end_layout
 
 \begin_layout Standard
@@ -973,10 +963,6 @@ Changes ranges to fill
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -1711,7 +1697,7 @@ Log(AGEDenPar)
 
 \begin_layout Subsection
 Absolute red magnitude xxxx density plots & correlations for elliptical
- galaxies
+ galaxies in a local group
 \end_layout
 
 \begin_layout Standard
@@ -2734,7 +2720,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
+Density Plots for TotRmag versus Log10 (Means of Environments)
 \end_layout
 
 \end_inset
@@ -2745,7 +2731,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ChartsPlots/TotRmag_Log10(Mean_Environments).png
+	filename ChartsPlots/TotRmag_Log10_Mean_Environments.png
 	lyxscale 40
 	scale 40
 
@@ -3303,606 +3289,6 @@ status open
 Sum of local group
 \end_layout
 
-\begin_layout Subsubsection
-Sum redness (uminusr) group versus environmental measures
-\end_layout
-
-\begin_layout Standard
-
-\color red
-Check sum u minus sumr with Ivan
-\end_layout
-
-\begin_layout Standard
-As TotRmag would include the contribution of spiral and other galaxies,
- a follow up exercise of calculating the sum of elliptical galaxies was
- carried out.
- The sum of elliptical galaxies was obtained by processing GAMA group table
- G3CGalv10 which was joined with the StellarMasses table and the sum of
- uminusr determined as follows
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-{\color{red}\Sigma\:uminusr=-2.5log(\Sigma\:10^{-0.4\:uminusr})}
-\]
-
-\end_inset
-
-
-\color red
- i don't think this makes sense.
- You are summing the flux ratios.
- 
-\end_layout
-
-\begin_layout Standard
-
-\color red
-still not 100% clear.
- Probably best to sum the u-band flux separately from the r-band flux.
-
-\color inherit
- 
-\end_layout
-
-\begin_layout Standard
-The density plots are shown in figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Sum-of-uminusr"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- and correlation information in table 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:Linear-Regression-of-1"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Sum-of-uminusr"
-
-\end_inset
-
-Sum of uminusr for local group versus log(environments) for elliptical galaxies
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ChartsPlots/GroupDensity-Sum-uminusr-Environments.png
-	lyxscale 25
-	scale 60
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "tab:Linear-Regression-of-1"
-
-\end_inset
-
-Linear regression of group sum of uminusr with log(galaxy environment measures)
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="6" columns="7">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Environment Variable
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Pearson
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Spearman
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Linear Regression
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Correlation Coefficient
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-p-value
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Correlation Coefficient
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-p-value
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-m
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-c
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Log(CountInCyl)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--0.679
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2.77e-193
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--0.504
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1.01e-92
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--0.754
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1.229
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Log(DistanceTo5nn)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.652
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-34.05e-173
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.648
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3.82e-170
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2.367
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.190
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Log(SurfaceDensity)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--0.655
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2.15e-175
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--0.650
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2.153e-175
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--1.155
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.784
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Log(AGEDenPar)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--0.490
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3.52e-87
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--0.480
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3.37e-83
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--1.35
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.502
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Paragraph
-Observations
-\end_layout
-
-\begin_layout Itemize
-It was also noted that the G3CGalv10 table had a large number of GroupID's
- of zero i.e.
- galaxies that were not allocated to a local group.
- 
-\color red
-That's right.
- They are a group of 1 if you like.
-
-\color inherit
- 
-\end_layout
-
-\begin_layout Itemize
-There were some differences between using the 
-\begin_inset Formula $\Sigma uminusr$
-\end_inset
-
- for the supplied local groups and GAMA supplied TotRmag value for the local
- group.
- 
-\end_layout
-
-\begin_layout Itemize
-It should be remembered that TotRmag would have the contribution of non
- ellipticals, whereas summing of 
-\color red
-uminusr
-\color inherit
- just sums the contribution of elliptical galaxies.
- 
-\color red
-except you want to sum on r-band flux of ellipticals perhaps?
-\color inherit
- 
-\end_layout
-
-\begin_layout Itemize
-Looking at the density plots, there are indications of two peaks suggesting
- that red elliptical galaxies might subdivide into two groups, one small
- group with a high magnitude close to the centre of the local group (small
- DistanceTo5nn) and a larger group further away.
- 
-\end_layout
-
 \begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
@@ -4206,21 +3592,6 @@ Density map plots and regression analysis were produced for the sum of local
 \end_layout
 
 \begin_layout Standard
-
-\color red
-these group masses are too large.
- So looks like a mistake in the addition of the linear masses
-\end_layout
-
-\begin_layout Standard
-
-\color red
-so does a large group appear many times because there are several galaxies?
- probably should only include each group once.
- 
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -4230,7 +3601,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Sum of logmstar for local group versus log(environments) for elliptical
+Sum of logmstar for local group versus log10 (Environments) for elliptical
  galaxies
 \end_layout
 
@@ -4267,6 +3638,7 @@ status open
 
 \begin_layout Plain Layout
 Linear regression of group sum of logmstar with log(galaxy environment measures)
+ for elliptical galaxies
 \end_layout
 
 \end_inset
@@ -4695,6 +4067,52 @@ Log(AGEDenPar)
 \begin_layout Standard
 As was found for colour uminusr, the sum of the masses for the local group
  had some correlation with galaxy environment measures.
+\end_layout
+
+\begin_layout Subsection
+Group mass - logmstar versus Log10 (Means(Environmental measures)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Sum of logmstar for local group versus log10 ( Mean( Environments ))
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ChartsPlots/GroupDensity-Sum-logmstar-Log-Mean-Environments.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -5906,47 +5324,10 @@ Group Redness(TotRmag) for galaxy types
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Density maps for sum of uminusr for local group by galaxy structural type
-\end_layout
-
-\begin_layout Standard
-
-\color red
-As noted previously, not clear this is a useful quantity.
- 
-\end_layout
-
-\begin_layout Standard
-Similarly density plots were produced for redness sum of local group versus
- environment measures
-\end_layout
-
-\begin_layout Standard
-see figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Group-Redness-sum"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -6255,6 +5636,88 @@ There is some variation between galaxy characteristics for different galaxy
 
 \begin_layout Section
 Investigation into distributions
+\end_layout
+
+\begin_layout Standard
+The formation of the first galaxies was preceded by the formation of stars
+ from gas clouds at/aroundZ=???? Gyr, We cannot directly determine the initial
+ distribution of gas, stars and in turn galaxies.
+ We do know from measurements of the Cosmic Background Radiation emmitted
+ when expansion of the universe reach the recombination epoch? at Z=???
+ Gy i.e..n Gyr perviously that the universe was a near prefect blackbody plasma,
+ progressive measurements 10^-n .
+ Distribution of Gas randam guassien 
+\color red
+Given that the motion of particles in a gas random.
+\end_layout
+
+\begin_layout Standard
+We cannot tell/confirm,
+\end_layout
+
+\begin_layout Standard
+Prior at time z Recombination
+\end_layout
+
+\begin_layout Standard
+Near perfcet black body
+\end_layout
+
+\begin_layout Standard
+Not unreasonab;e
+\end_layout
+
+\begin_layout Standard
+Very lage numbe rof paartica
+\end_layout
+
+\begin_layout Standard
+Heatsed photos Plank distribution
+\end_layout
+
+\begin_layout Standard
+
+\color orange
+In the early evolution stages of the universe it was a hot ionised plasma
+ that was cooling due to expansion, an epoch of recombination occured when
+ tempertaure cooled to the point of electrons recombining and the plasma
+ no longer being totay ionised, at this point photon were no longer totally
+ scattered by Compton scattering in the plasma, we can measure the light
+ from these photon as the Cosmic background radiation, the wavelength of
+ which has been streatched by the expansion of the universe.
+ We know from increasing measurements of the Cosmic background radiation
+ that at the time of recombination the universe was nearly a perfect black
+ body.
+ We can determined the age of the universe at recombination as NNN Z=???a
+ long time before the first stars start to appear and galaxies start to
+ form NNN Z=??? however it does not seem unreasonable to assume that distributio
+n of material at this time would conform to an exellent guasian fit ( Or
+ distribution follow a Plank function )
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Forecasts of non-Gaussian parameter spaces using Box-Cox transformations
+ Joachimi, B.
+ ; Taylor, A.
+ N.
+ arXiv:1103.3370 
+\end_layout
+
+\begin_layout Standard
+
+\color red
+The origin of the Gaussian initial mass function of old globular cluster
+ systems Geneviève Parmentier, Gerard Gilmore https://doi.org/10.1111/j.1365-2966.20
+07.11611.x
+\end_layout
+
+\begin_layout Standard
+
+\color red
+The Formation of Stellar Clusters: Gaussian Cloud Conditions I Ralf S.
+ Klessen Andreas Burkert arXiv:astro-ph/9904090
 \end_layout
 
 \begin_layout Subsection

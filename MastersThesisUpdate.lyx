@@ -2129,19 +2129,19 @@ G3CGal was joined with EnvironmentMeasures to add environmental measures
 \end_layout
 
 \begin_layout Standard
-As Group to Galaxy is a one to many relationship joining G3CGAL with G3CFFGroup
- on GroupID results in a table with a unique key of CATAID ( galaxy identifier
- ) and Group information.
+As Local Group to Galaxy is a one to many relationship joining G3CGAL with
+ G3CFFGroup on GroupID results in a table with a unique key of CATAID (
+ galaxy identifier ) and Group information.
  The group information being repeated for each galaxy in the group.
 \end_layout
 
 \begin_layout Standard
 Looking for any correlation between a group property e.g TotRmag and galaxy
  environmental measures has the following effects.
- Differences in environment measures for galaxies within the same Group
- will be working against any calculation of correlation so correlation values
- of 0.6 - 0.7 are quite indicative as one is unlikely to see values as high
- as 0.8 - 0.9.
+ Differences in environment measures for galaxies within the same Local
+ Group will be working against the degree of correlation of correlation
+ values of 0.6 - 0.7 are quite indicative as one is unlikely to see values
+ as high as 0.8 - 0.9.
  Similarly for density plots the differences with a Group will result in
  the contours being spread away from a straight line.
  One could argue that there is a bias towards larger Groups as they have
@@ -3236,6 +3236,12 @@ Log(AGEDenPar)
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Normally one would look at a groups characterstic versus a measure of the
+ groups environment so to determine measures of the environmental measurements
+ of the group, means of all the galaxy's within the local group were calculated.
 \end_layout
 
 \begin_layout Subsection
@@ -4892,494 +4898,6 @@ possibly less mass segregation than for ellipticals.
 
 \end_layout
 
-\begin_layout Subsection
-Metallicity - metal
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-\Sigma\:metal=\Sigma metal
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\color red
-what's this? which table? how measured? it doesn't make sense to sum metal.
-
-\color inherit
- 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Sum of metal for local group verses log(environments) for elliptical galaxies
-\end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename ChartsPlots/GroupDensity-Sum-metal-Log-Environments.png
-	lyxscale 20
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Linear regression of group sum of metal with log(galaxy environment measures)
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="6" columns="7">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Environment Variable
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Pearson
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Spearman
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Linear Regression
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Correlation Coefficient
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-p-value
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Correlation Coefficient
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-p-value
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-m
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-c
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Log(CountInCyl)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.369
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2.55e-47
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.714
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5.68e-223
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.042
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.090
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Log(DistanceTo5nn)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--0.462
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1.54e-76
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--0.683
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1.58e-196
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--0.12
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.147
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Log(SurfaceDensity)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.465
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1.62e-77
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.686
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3.62e-199
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.063
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.115
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Log(AGEDenPar)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.389
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-9.86e-53
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.508
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1.49e-94
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.083
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.131
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
@@ -5813,7 +5331,7 @@ name "fig:Group-Redness(TotRmag)-for"
 
 \end_inset
 
-Group Redness(TotRmag) for galaxy types
+Group R magnitude(TotRmag) for galaxy types
 \end_layout
 
 \end_inset
@@ -5923,7 +5441,7 @@ name "fig:Group-Mass-sum"
 
 \end_inset
 
-Group mass sum (logmstar) versus environmental measures for galaxy types
+Group sum (logmstar) mass versus environmental measures for galaxy types
 \end_layout
 
 \end_inset
@@ -7457,6 +6975,42 @@ Results from distributions
 \end_layout
 
 \begin_layout Standard
+The lamda values for redness uminsur and logmstar have similar values with
+ overlapping confidence ranges see table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:CoxBox-for-Elliptical"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Now it is known from previos research[??] and confirmed by the results
+ of correlation between uminusr and logmstar see table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Correlation-results"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ that there is a linear relationship which means a power of one and therefore
+ one would not expect any difference in lamda.
+ However the lamda for metallicity is quite different.
+ Given star mellicity is a result of stars of different sizes recycling
+ material in supernova raises the question of whether any useful information
+ could be obtained from looking at lamda for different ranges of metal values
+\color red
+(Check Physics Logic)
+\color inherit
+.
+\end_layout
+
+\begin_layout Standard
 An inference drawn from the distributions would depend on some very large
  assumptions
 \end_layout
@@ -7500,14 +7054,26 @@ Conclusions
 \begin_layout Itemize
 Looking at galaxies as a whole, there does not appear to be a correlation
  between galaxy characteristics and environmental measures.
- However, in some circumstances such as galaxies in the outer region of
- their local group, then a degree of correlation is found.
+ 
+\color orange
+However, in some circumstances such as galaxies in the outer region of their
+ local group, then a degree of correlation is found.
 \end_layout
 
 \begin_layout Itemize
-There is a degree of correlation between the sums of galaxy characteristics
- for a local group i.e.
- uminusr, logmstar and metallicity and a galaxy's environmental measures.
+Howver looking at things at agroup level there is a degree of correlation
+ between the group characteristics such as TotRMag, sum of logmstar and
+ metallicity and a galaxy's environmental measures.
+\end_layout
+
+\begin_layout Itemize
+The environment of a galaxy is understandably being influenced by its local
+ group i.e.
+ Where a local group is in a dense part of the universe the environmtal
+ measures of galaxies within the group will exhibit more dense enviroment
+ measures, singulary and as a group.
+ Likewise if the local group is in a less dense part of the univere the
+ galaxy enviromenal measures will reflect this.
 \end_layout
 
 \begin_layout Itemize

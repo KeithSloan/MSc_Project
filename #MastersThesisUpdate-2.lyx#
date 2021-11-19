@@ -143,12 +143,47 @@ This work was very much a broad exploration with brief notes for each figure.
 \end_layout
 
 \begin_layout Standard
+The presiding inference from research is that the structure of the univsere
+ is that small deviations as measured observations of the cosmic background
+ microwave and a primordial field of dark mattter have evolved under the
+ influence of gravity over a very long time, which has resulted in regions
+ of different density.
+ That a galaxy's local environment is strongly influences by dark matter
+ halo mass.
+ Research shows that galaxies in dense environments tend to be redder.[a]
+ 
+\end_layout
+
+\begin_layout Standard
+That there is a correlation between galaxy/halo/dark matter and the environment
+ also that older galaxies are more strongly clustered in denser enviroments
+ (Norberg et al.
+ 2002; Zehavi et al.
+ 2005; Sheth et al.
+ 2006; Li et al.
+ 2006; Tinker et al.
+ 2008; Ellison et al.
+ 2009; Skibba & Sheth 2009; Skibba et al.
+ 2009; de la Torre et al.
+ 2011).
+\end_layout
+
+\begin_layout Standard
+The aim was to examine the resultds of gthe GAMA survey for the relationships
+ between galaxies characteristics and the environmental measures
+\end_layout
+
+\begin_layout Standard
+
+\color orange
 []Stuart I.
  Muldrew,et al Measures of galaxy environment – I.
  What is ‘environment’?https://doi.org/10.1111/j.1365-2966.2011.19922.x
 \end_layout
 
 \begin_layout Standard
+
+\color orange
 The resulting correlation also shows that nearest-neighbour galaxy environment
  is largely independent of dark matter halo mass.
  Conversely, aperture-based methods that probe superhalo scales accurately
@@ -164,6 +199,8 @@ The resulting correlation also shows that nearest-neighbour galaxy environment
 \end_layout
 
 \begin_layout Standard
+
+\color orange
 In the paradigm of hierarchical structure formation, the evolution of the
  primordial density field acting under gravitational instability drives
  dark matter to cluster and collapse into virialized objects (haloes).
@@ -178,6 +215,8 @@ In the paradigm of hierarchical structure formation, the evolution of the
 \end_layout
 
 \begin_layout Standard
+
+\color orange
 Such galaxy/halo/dark matter correlations with environment have led to a
  variety of work examining the environmental dependence of the physics of
  galaxy formation, both theoretical and observational.
@@ -199,6 +238,8 @@ Such galaxy/halo/dark matter correlations with environment have led to a
 \end_layout
 
 \begin_layout Standard
+
+\color orange
 Measuring galaxy environment in large scale photometric surveys - James
  Daniel et al Etherington &Thomas (2015) and Etherington et al.
  (in DES collaboration review).
@@ -293,11 +334,61 @@ it does not appear to offer facilities to selectively subset or join tables.
 http://www.gama-survey.org/data/cat/ and AstropyTable having the facility
  to load the fits version of data into tables and from there utilise subset
  and join facilities.
- Data was cleaned by using appropriate subsetting of tables, especially
- StellarMasses.
- The python package scripy was used to 
+ Data was cleaned by using appropriate subsetting of tables, especially.Python
+ programs were created in Jupyter and the data analysed using the following
+ python packages
 \end_layout
 
+\begin_layout Itemize
+astropy Tables
+\end_layout
+
+\begin_layout Itemize
+matplot, numpy, scipy seaborn and pandas
+\end_layout
+
+\begin_layout Subsubsection
+Astro Tables
+\end_layout
+
+\begin_layout Itemize
+For single Elliptical galaxy information the following tables were joined
+ on CATAID stellarmasses, EnvironmetMeasures,VisualMorphology and a subset
+ created by selected just ELLIPTICAL_CODE = 1 i.e.
+ Elliptical Galaxy.
+\end_layout
+
+\begin_layout Itemize
+Prior to the join the tables were subsetted to select only valid measurements
+ and ranges
+\end_layout
+
+\begin_layout Itemize
+For Local Group information
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+G3CGalv was used as the primary table joining others such as the above using
+ CATAID
+\end_layout
+
+\begin_layout Itemize
+Selecting out GroupID = 0 to remove Galaxies not in a Local Group
+\end_layout
+
+\begin_layout Itemize
+For Galaxy information within its local group, a new table was created using
+ the group_by(GroupID) facility and performing such calculations of mean
+ etc
+\end_layout
+
+\begin_layout Itemize
+The resulting table was then joined with G3CFoFGroup using GroupID for local
+ group information such as TotRMag
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 Test correlations
 \end_layout
@@ -331,7 +422,7 @@ Two galaxy groups
 \end_layout
 
 \begin_layout Standard
-It has been well researched that galaxies fall into two groups 
+It has been well researched that galaxies fall into two colour spaces 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-8,key-9"
@@ -339,11 +430,6 @@ literal "false"
 
 \end_inset
 
-.
- 
-\color red
-in colour spaces, in particular
-\color inherit
 .
  This can be seen by a density map plot of redness (uminusr) versus the
  log of the galaxy star mass (logmstar) see figure 
@@ -932,10 +1018,53 @@ Effectively, this parameter is equivalent to a weighted local volume density
 Redness uminusr density plots & correlations for elliptical galaxies
 \end_layout
 
+\begin_layout Subsubsection
+All elliptical galaxies
+\end_layout
+
 \begin_layout Standard
 
 \color red
 uminusr - definition
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Density Plots for uminusr and Environment Meaures
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/RedDensityLogEnvironments.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1014,9 +1143,33 @@ uminusr density plots for environmental measures
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ChartsPlots/RedDensityEnvironments.png
+	filename ChartsPlots/RedDensityLogEnvironments.png
 	lyxscale 30
 	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/Density_LocalGroup_Log10_Environments.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/DensityPlot_HighMass_uminusr_Log10_Environments.png
+	lyxscale 30
+	scale 30
 
 \end_inset
 
@@ -1366,40 +1519,6 @@ AGEDenPar
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Density-Plots-for"
-
-\end_inset
-
-Density Plots for log(Environmental measures)
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ChartsPlots/RedDensityLogEnvironments.png
-	lyxscale 30
-	scale 50
-
-\end_inset
-
-
-\end_layout
 
 \begin_layout Plain Layout
 
@@ -1765,6 +1884,14 @@ Log(AGEDenPar)
 
 \end_layout
 
+\begin_layout Subsubsection
+Subset of only Elliptical Galaxies within a locak Goup
+\end_layout
+
+\begin_layout Subsubsection
+Subset of large mass Elliptical Galaxies logmstar > 
+\end_layout
+
 \begin_layout Subsection
 Absolute red magnitude xxxx density plots & correlations for elliptical
  galaxies in a local group
@@ -1774,373 +1901,6 @@ Absolute red magnitude xxxx density plots & correlations for elliptical
 
 \color red
 defintion
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Density-Plots for absmag_r Absolute magnitude in restframe r-band from SPS
- SED fits for log(Environmenatl measures)
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ChartsPlots/AbsRedDensityLogEnvironments.png
-	lyxscale 30
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-absmag_r Absolute magnitude - log(Environmental measures) - correlation
- values 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="6" columns="5">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Environment Measure
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Pearson
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Spearman
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Correlation value
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-p-value
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Correlation value
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-p-value
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Log(CountInCyl)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.0526
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.0299
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.0685
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.0046
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Log(DistanceTo5nn)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--0.0739
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.0022
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--0.0669
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.0057
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Log(SurfaceDensity)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.0758
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.0017
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.0674
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.0053
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Log(AGEDenPar)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.0079
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.7451
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.0178
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.4634
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -3332,52 +3092,6 @@ Normally one would look at a groups characterstic versus a measure of the
 \end_layout
 
 \begin_layout Subsection
-
-\color red
-Group Absolute Red Magnitude versus StdDev(Environmental measures) within
- the Group
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ChartsPlots/TotRmag_StdDev(Environments).png
-	lyxscale 40
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
 Sum of local group
 \end_layout
 
@@ -3483,10 +3197,83 @@ Elliptical galaxies - colour (uminusr) versus relative position
 \end_layout
 
 \begin_layout Standard
+
+\color red
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\color red
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/Boxplot_uminusr_CoSepBCG.png
+	lyxscale 30
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/Boxplot_logmstar_CoSepBCG.png
+	lyxscale 30
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Box chart plots
+\end_layout
+
+\begin_layout Standard
+One needs to define the centre of the halo before stacking the ESD profiles
+ of the groups.
+ Following R+11, we have three choices for the group centre: the centre
+ of light (Cen), the Brightest Cluster Galaxy (BCG) and the brightest galaxy
+ left after iteratively removing the most distant galaxies from the group
+ centre of light (IterCen).
+ Throughout the paper, unless stated otherwise, we use the BCG as the definition
+ of the centre, as it is a common choice in the literature.
+ 
+\end_layout
+
+\begin_layout Standard
 When looking at the positional information, it is important to remember
  that galaxies are three dimensional whereas the data is represented in
  two dimensions.
  From the various plots, the following can be observed
+\end_layout
+
+\begin_layout Standard
+[]Dark matter halo properties of GAMA galaxy groups from 100 square degrees
+ of KiDS weak lensing data M.
+ Viola et al 
 \end_layout
 
 \begin_layout Enumerate
@@ -3523,102 +3310,10 @@ The more distant galaxies are likely to have uminusr values similar to the
 
 \end_layout
 
-\begin_layout Subsubsection
-uminusr for spiral galaxies in the same local groups
-\end_layout
-
-\begin_layout Standard
-A similar exercise was performed for spiral galaxies within the same groups
- see figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Spiral-Galaxies--"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Spiral-Galaxies--"
-
-\end_inset
-
-Spiral galaxies - colour (uminusr) versus relative position
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ChartsPlots/Spiral_Scatter_uminusr_1_GroupRank.png
-	lyxscale 15
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ChartsPlots/Spiral_Contour_uminusr_1_GroupRank.png
-	lyxscale 15
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ChartsPlots/Spiral_GroupDensity_uminusr_1_CoMoving_Environments.png
-	lyxscale 15
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Standard
 
 \color red
-X-Range for last set of plots
+X-Range for last set of plotsb
 \end_layout
 
 \begin_layout Standard
@@ -4868,75 +4563,6 @@ more distant galaxies are lower mass on average.
 
 \end_layout
 
-\begin_layout Subsubsection
-logmstar for spiral galaxies in the same local group.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Spiral-galaxies-(same"
-
-\end_inset
-
-Spiral galaxies (same local group) logmstar versus relative positions
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ChartsPlots/Spiral_Scatter_logmstar_1_GroupRank.png
-	lyxscale 15
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ChartsPlots/Spiral_Contour_logmstar_1_GroupRank.png
-	lyxscale 15
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ChartsPlots/Spiral_GroupDensity_logmstar_1_CoMoving_Environments.png
-	lyxscale 15
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Itemize
 logmstar - medium : 9.560 mode : 10.474
 \end_layout
@@ -4975,6 +4601,10 @@ possibly less mass segregation than for ellipticals.
 
 \color inherit
  
+\end_layout
+
+\begin_layout Subsection
+Galaxy Types within Local Group
 \end_layout
 
 \begin_layout Standard
@@ -5597,114 +5227,6 @@ The possibility that there are two groups of red elliptical galaxies, as
 
 \color red
 This is not clear and needs a better explanation
-\end_layout
-
-\begin_layout Section
-Inner and outer galaxies within their local group
-\end_layout
-
-\begin_layout Standard
-Revisiting any correlations between galaxy redness and their environments
- for
-\color magenta
- inner and outer galaxies
-\color inherit
- 
-\color red
-how defined?
-\color inherit
- within their local group
-\end_layout
-
-\begin_layout Subsection
-Outer galaxies
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-uminusr versus log(environment measures) for outer galaxies in local group.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ChartsPlots/Outer_Group_Density_uminusr_Log_CoMoving_Environments.png
-	lyxscale 20
-	scale 36
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Inner galaxies
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-uminsur versus log(environment measures) for inner galaxies in local group
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ChartsPlots/Inner_GroupDensity_uminusr_Log_CoMoving_Environments.png
-	lyxscale 20
-	scale 36
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-In the case of outer galaxies there does appear to be a correlation between
- uminusr and log(CountinCyl) but this is not seen in the case of inner galaxies.
-\end_layout
-
-\begin_layout Section
-Summary of results
 \end_layout
 
 \begin_layout Itemize
@@ -6721,6 +6243,8 @@ Mass (logmstar)
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\color red
 2.35
 \end_layout
 
@@ -7044,6 +6568,10 @@ Rational for Plank function
 Further work
 \end_layout
 
+\begin_layout Standard
+Similar Lamda for ell and Mass
+\end_layout
+
 \begin_layout Itemize
 
 \color red
@@ -7348,6 +6876,18 @@ Box, George E.
  Journal of the Royal Statistical Society, Series B.
  26 (2): 211–252.
  1964
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-1"
+
+\end_inset
+
+[a] tuart I.
+ Muldrew,et al Measures of galaxy environment – I.
+ What is ‘environment’?https://doi.org/10.1111/j.1365-2966.2011.19922.x
 \end_layout
 
 \end_body

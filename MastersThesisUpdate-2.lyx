@@ -3102,249 +3102,6 @@ Sum of local group
 
 \end_layout
 
-\begin_layout Subsubsection
-Positions within local group - uminusr
-\end_layout
-
-\begin_layout Standard
-Group table G3CGal provide the relative positions of galaxies within their
- local group.
- Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Elliptical-Galaxies--"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- documents the scatter plots and density maps for elliptical galaxy positions
- within their local group.
- 
-\end_layout
-
-\begin_layout Standard
-
-\color red
-RankIterCen explain what this parameter means.
- why not use separation rather than rank? 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Elliptical-Galaxies--"
-
-\end_inset
-
-Elliptical galaxies - colour (uminusr) versus relative position
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ChartsPlots/Scatter_uminusr_GroupRank.png
-	lyxscale 15
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ChartsPlots/Contour_uminusr_GroupRank.png
-	lyxscale 15
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ChartsPlots/GroupDensity_uminusr_CoMoving_Environments.png
-	lyxscale 15
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\color red
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\color red
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ChartsPlots/Boxplot_uminusr_CoSepBCG.png
-	lyxscale 30
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ChartsPlots/Boxplot_logmstar_CoSepBCG.png
-	lyxscale 30
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-Box chart plots
-\end_layout
-
-\begin_layout Standard
-One needs to define the centre of the halo before stacking the ESD profiles
- of the groups.
- Following R+11, we have three choices for the group centre: the centre
- of light (Cen), the Brightest Cluster Galaxy (BCG) and the brightest galaxy
- left after iteratively removing the most distant galaxies from the group
- centre of light (IterCen).
- Throughout the paper, unless stated otherwise, we use the BCG as the definition
- of the centre, as it is a common choice in the literature.
- 
-\end_layout
-
-\begin_layout Standard
-When looking at the positional information, it is important to remember
- that galaxies are three dimensional whereas the data is represented in
- two dimensions.
- From the various plots, the following can be observed
-\end_layout
-
-\begin_layout Standard
-[]Dark matter halo properties of GAMA galaxy groups from 100 square degrees
- of KiDS weak lensing data M.
- Viola et al 
-\end_layout
-
-\begin_layout Enumerate
-
-\color black
-uminusr - median : 2.286 mode : 2.232
-\end_layout
-
-\begin_layout Enumerate
-The spread of values below the mode is larger than that above.
-\end_layout
-
-\begin_layout Enumerate
-
-\color magenta
-Galaxies close to the centre of the local group have a much larger range
- of values than more distant galaxies.
- 
-\color red
-you can't obviously tell that because you need to correct for the density
- of the data points.
- Histograms of uminusr in bins of distance could be used to check this
-\end_layout
-
-\begin_layout Enumerate
-The more distant galaxies are likely to have uminusr values similar to the
- mode of the group.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\color red
-X-Range for last set of plotsb
-\end_layout
-
-\begin_layout Standard
-Using the above for spiral galaxies
-\end_layout
-
-\begin_layout Enumerate
-The values of uminusr are more evenly spread
-\end_layout
-
-\begin_layout Enumerate
-uminusr - medium : 1.651 mode : 1.422
-\end_layout
-
-\begin_layout Enumerate
-There is a larger range above the mode
-\end_layout
-
-\begin_layout Enumerate
-Galaxies at some distance also have a 
-\color magenta
-considerable range of values.
- 
-\color red
-hard to know the significance of this without different types of visualization.
- or measure of standard deviation in bins of distance, for example
-\color magenta
-.
- 
-\end_layout
-
 \begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
@@ -4418,32 +4175,89 @@ Log(AGEDenPar)
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
 
 
 \end_layout
 
-\begin_layout Subsubsection
-logmstar group positions
+\begin_layout Subsection
+Positions with local Group
 \end_layout
 
 \begin_layout Standard
-Table G3CGal provides the relative positions of galaxies within their local
- group.
- 
-\color magenta
-A subset of elliptical galaxies 
-\color red
-criteira for subset?
-\color inherit
- produced the scatter and density plots in figure 
+Group table G3CGal provide the relative positions of galaxies within their
+ local group.
+ Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:logmstar-relative-position"
+reference "fig:Elliptical-Galaxies--"
 plural "false"
 caps "false"
 noprefix "false"
+
+\end_inset
+
+ documents the scatter plots and density maps for elliptical galaxy positions
+ within their local group.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\color red
+RankIterCen explain what this parameter means.
+ why not use separation rather than rank? 
+\end_layout
+
+\begin_layout Standard
+
+\color red
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\color red
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/Boxplot_uminusr_CoSepBCG.png
+	lyxscale 30
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/Boxplot_logmstar_CoSepBCG.png
+	lyxscale 30
+	scale 40
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -4457,16 +4271,14 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:logmstar-relative-position"
 
-\end_inset
-
-logmstar relative position plots
 \end_layout
 
 \end_inset
@@ -4477,21 +4289,9 @@ logmstar relative position plots
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ChartsPlots/Scatter_logmstar_GroupRank.png
+	filename ChartsPlots/GroupDensity_uminusr_CoMoving_Environments.png
 	lyxscale 15
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ChartsPlots/Contour_logmstar_GroupRank.png
-	lyxscale 15
-	scale 40
+	scale 35
 
 \end_inset
 
@@ -4510,9 +4310,127 @@ logmstar relative position plots
 
 \end_layout
 
-\begin_layout Plain Layout
+\end_inset
+
 
 \end_layout
+
+\begin_layout Standard
+
+\color red
+Box chart plots
+\end_layout
+
+\begin_layout Standard
+One needs to define the centre of the halo before stacking the ESD profiles
+ of the groups.
+ Following R+11, we have three choices for the group centre: the centre
+ of light (Cen), the Brightest Cluster Galaxy (BCG) and the brightest galaxy
+ left after iteratively removing the most distant galaxies from the group
+ centre of light (IterCen).
+ Throughout the paper, unless stated otherwise, we use the BCG as the definition
+ of the centre, as it is a common choice in the literature.
+ 
+\end_layout
+
+\begin_layout Standard
+When looking at the positional information, it is important to remember
+ that galaxies are three dimensional whereas the data is represented in
+ two dimensions.
+ From the various plots, the following can be observed
+\end_layout
+
+\begin_layout Standard
+[]Dark matter halo properties of GAMA galaxy groups from 100 square degrees
+ of KiDS weak lensing data M.
+ Viola et al 
+\end_layout
+
+\begin_layout Enumerate
+
+\color black
+uminusr - median : 2.286 mode : 2.232
+\end_layout
+
+\begin_layout Enumerate
+The spread of values below the mode is larger than that above.
+\end_layout
+
+\begin_layout Enumerate
+
+\color magenta
+Galaxies close to the centre of the local group have a much larger range
+ of values than more distant galaxies.
+ 
+\color red
+you can't obviously tell that because you need to correct for the density
+ of the data points.
+ Histograms of uminusr in bins of distance could be used to check this
+\end_layout
+
+\begin_layout Enumerate
+The more distant galaxies are likely to have uminusr values similar to the
+ mode of the group.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color red
+X-Range for last set of plotsb
+\end_layout
+
+\begin_layout Standard
+Using the above for spiral galaxies
+\end_layout
+
+\begin_layout Enumerate
+The values of uminusr are more evenly spread
+\end_layout
+
+\begin_layout Enumerate
+uminusr - medium : 1.651 mode : 1.422
+\end_layout
+
+\begin_layout Enumerate
+There is a larger range above the mode
+\end_layout
+
+\begin_layout Enumerate
+Galaxies at some distance also have a 
+\color magenta
+considerable range of values.
+ 
+\color red
+hard to know the significance of this without different types of visualization.
+ or measure of standard deviation in bins of distance, for example
+\color magenta
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Table G3CGal provides the relative positions of galaxies within their local
+ group.
+ 
+\color magenta
+A subset of elliptical galaxies 
+\color red
+criteira for subset?
+\color inherit
+ produced the scatter and density plots in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:logmstar-relative-position"
+plural "false"
+caps "false"
+noprefix "false"
 
 \end_inset
 
@@ -4615,6 +4533,46 @@ Galaxy Types within Local Group
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/Histogram_GalaxyTypes_CoSepBCG.png
+	lyxscale 30
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -5469,7 +5427,9 @@ ons.
 \end_layout
 
 \begin_layout Subsection
-Distributions
+Distributions 
+\color red
+DELETE ??
 \end_layout
 
 \begin_layout Standard
@@ -5939,6 +5899,12 @@ Distributions
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Spiral
 \end_layout
 
 \begin_layout Subsubsection*

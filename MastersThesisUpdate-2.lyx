@@ -166,11 +166,21 @@ That there is a correlation between galaxy/halo/dark matter and the environment
  2009; Skibba & Sheth 2009; Skibba et al.
  2009; de la Torre et al.
  2011).
+ Previous reasearch of the GAMA survey data has also shown that the red
+ fraction of satellite galaxies within a radial distribribution correlates
+ with environmental measures.
+ Although there is some uncertantity inbest measure of environmental charcterist
+ic 
 \end_layout
 
 \begin_layout Standard
 The aim was to examine the resultds of gthe GAMA survey for the relationships
  between galaxies characteristics and the environmental measures
+\end_layout
+
+\begin_layout Standard
+Galaxy and Mass Assembly (GAMA): the red fraction and radial distribution
+ of satellite galaxies Matthew Prescott at al doi:10.1111/j.1365-2966.2011.19353.x
 \end_layout
 
 \begin_layout Standard
@@ -1029,47 +1039,8 @@ uminusr - definition
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Density Plots for uminusr and Environment Meaures
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ChartsPlots/RedDensityLogEnvironments.png
-	lyxscale 30
-	scale 30
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Density map plots and correlation fits were produced for the four environmental
- measures see figure 
+Density map plots and correlation fits were produced for the four redness
+ uminusr environmental measures see figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:uminusr-density-plots"
@@ -1110,6 +1081,10 @@ noprefix "false"
 \end_inset
 
 .
+ As there was no obvious correlation with all red elliptical galaxies(REG)
+ in the survey.
+ Subsets of REG galaxies within local groups and isolated galaxies were
+ also examined, as was a subset of high mass REG galaxies logmstar > 11
 \end_layout
 
 \begin_layout Standard
@@ -1132,7 +1107,7 @@ name "fig:uminusr-density-plots"
 
 \end_inset
 
-uminusr density plots for environmental measures
+Redness density plots for environmental measures
 \end_layout
 
 \end_inset
@@ -1156,6 +1131,18 @@ uminusr density plots for environmental measures
 \align center
 \begin_inset Graphics
 	filename ChartsPlots/Density_LocalGroup_Log10_Environments.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/DensityPlot_Isolated_uminusr-LogEnvironments.png
 	lyxscale 30
 	scale 30
 
@@ -1916,18 +1903,26 @@ Local group information
 
 \begin_layout Standard
 One would not normally expect a high degree of correlation looking at a
- charcteritic of a group versus differnt charetristisc of indiviual members
+ charcteritic of a group versus different charetristisc of indiviual members
  of the group.
  However a degree of correlation was found between group measures TotRmag
- and a appropriatly calaculated sum of logmstar and the enviromental meausres
- of the galaxies with the local group.
- This becomes less illogical if one considers that all the galaxies in a
+ and a appropriatly calaculated sum of logmstar for the group and the enviroment
+al meausres of the galaxies within the local group.
+ TotRmag being the r-band absolute magnitude of the group, obtained by adding
+ up all the r-band luminosities of its members
+\end_layout
+
+\begin_layout Standard
+This becomes less illogical if one considers that all the galaxies in a
  local group will be in the same part of the universe and hence tend to
- have similar envionmenatl meeasures that are measuring density.
- As the differences in evionmemgtal meausres will be in effect a noise signal
- in terms of the local group meausres.
- Local Group Charactisc versrs means of enviroment meausres were looked
- at.
+ have similar envionmentalal measures i.e.
+ density measuries One way of rationalising the effect of differences in
+ evironmental meausres on the degree of correlation of the local group measures
+ would be in effect an averaging and noise signal reducing the degree of
+ correlation.
+ Looking at the same relationship but using means of environmnatal meausres
+ so that there is a one to one relationship between the group measures and
+ the means of group environmental measures produced similar results.
  
 \end_layout
 
@@ -3089,24 +3084,6 @@ Log(AGEDenPar)
 Normally one would look at a groups characterstic versus a measure of the
  groups environment so to determine measures of the environmental measurements
  of the group, means of all the galaxy's within the local group were calculated.
-\end_layout
-
-\begin_layout Subsection
-Sum of local group
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -4526,6 +4503,16 @@ Galaxy Types within Local Group
 \end_layout
 
 \begin_layout Standard
+Research has shown that galaxy evolution is influced by a galaxies environment
+ so galaxy types within ten equal ranges of the comoving distances to the
+ centre of local groups were investigated
+\end_layout
+
+\begin_layout Subsubsection
+Type within range of comoving distance for centre of local group.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -4600,6 +4587,68 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
+	filename ChartsPlots/Histogram_Percentage_Range_CoSepBCG.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+There is no clear trend in the percentage of red elliptical galaxies within
+ ranges of comoving separation form the local group centre.
+\end_layout
+
+\begin_layout Subsubsection
+Galaxy type within ranges of the sum of masses within local groups.
+\end_layout
+
+\begin_layout Standard
+A similar exercise was carried out for galaxy type within ten equal ranges
+ of the sum of the masses of galaxies with the group.
+ The sum being calculated as 
+\begin_inset Formula 
+\[
+\Sigma\:logmstar=log_{10}(\Sigma10^{logmstar})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
 	filename ChartsPlots/Histogram_GalaxyTypes_Range_Sum_logmstar.png
 	lyxscale 30
 	scale 40
@@ -4658,6 +4707,11 @@ status open
 \end_layout
 
 \begin_layout Standard
+It can clearly be seen that the number and ratio of red elliptical galaxies
+ increass in larger mass local groups 
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -4673,15 +4727,14 @@ Whilst on very large scales, the universe is homogeneous, we know that on
  lesser scales there is structure influenced by the distribution of dark
  matter.
  For GAMA II, equatorial regions were classified at each point as either
+ in a
 \end_layout
 
 \begin_layout Itemize
-Void s
-\color red
-cales of 1 to 10 Mpc.
+Void 
+\color black
+- no other galaxy with the range of 1 to 10 Mpc.
  approx.
-
-\color inherit
  
 \end_layout
 
@@ -4825,6 +4878,16 @@ noprefix "false"
 
 \begin_layout Subsection
 Distributions of galaxy environment measures by galaxy structural type
+\end_layout
+
+\begin_layout Standard
+The distribution of environmental measures between the four large scale
+ structure types were examined and a distribution curve fitted to the counts
+ versus environmental measures.
+ The distribtion curves were then plotted on the same chart.
+ This illustrates that there are marked differences in the enviromental
+ measures between large scale structure types and was most obvious for he
+ measures Distanceto5nn and AgeDenPar.
 \end_layout
 
 \begin_layout Subsubsection
@@ -5166,6 +5229,11 @@ Group redness sum of uminusr versus environmental measure for galaxy types
 \begin_layout Subsection
 Local group mass - sum logmstar for elliptical galaxies by galaxy structural
  type
+\end_layout
+
+\begin_layout Standard
+Revisting the relationship between Group measures and environmental measures
+ but split by large scale structure produced the results as seen in
 \end_layout
 
 \begin_layout Standard

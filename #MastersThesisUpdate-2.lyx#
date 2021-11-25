@@ -4145,10 +4145,6 @@ Log(AGEDenPar)
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -4168,77 +4164,41 @@ Positions with local Group
 \begin_layout Standard
 Group table G3CGal provide the relative positions of galaxies within their
  local group.
- Figure 
+ Density plots for the three types of comoving distange of a galaxy from
+ the centre of its local group CoSepIterCen, CoSepBCG, CoSepCen are shown
+ in figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Elliptical-Galaxies--"
+reference "fig:uminusr-&-logmstar"
 plural "false"
 caps "false"
 noprefix "false"
 
 \end_inset
 
- documents the scatter plots and density maps for elliptical galaxy positions
- within their local group.
- 
-\end_layout
-
-\begin_layout Standard
-
-\color red
-RankIterCen explain what this parameter means.
- why not use separation rather than rank? 
-\end_layout
-
-\begin_layout Standard
-
-\color red
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\color red
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
+ The comoving distances from galaxy's to the 
+\color black
+brightest cluster galaxy BCG
+\color inherit
+ (this being the commonst measure of centre of a local group) are split
+ into eight equal ranges and a histogram of uminusr values for the range
+ created.
+ A second histogram is created for logmstar across the ranges.
+ see figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:uminusr-versus-ranges"
+plural "false"
+caps "false"
+noprefix "false"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ChartsPlots/Boxplot_uminusr_CoSepBCG.png
-	lyxscale 30
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ChartsPlots/Boxplot_logmstar_CoSepBCG.png
-	lyxscale 30
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
+.
+ As can be seen from the density plots and histograms the central core of
+ uminsur and logmstar values occur over 75% of the range of CoSepBCG, also
+ that there is a small number of galaxies nearer the centre of the local
+ group with a larger range of values, especially with values below the mean.
 \end_layout
 
 \begin_layout Standard
@@ -4248,14 +4208,17 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:uminusr-&-logmstar"
 
+\end_inset
+
+uminusr & logmstar desnity plots for comoving distances to the center of
+ the galaxies local group.
 \end_layout
 
 \end_inset
@@ -4281,6 +4244,67 @@ status open
 	filename ChartsPlots/GroupDensity_logmstar_CoMoving_Environments.png
 	lyxscale 15
 	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\color red
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\color red
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:uminusr-versus-ranges"
+
+\end_inset
+
+uminusr versus ranges of CoSepBCG
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/Boxplot_uminusr_CoSepBCG.png
+	lyxscale 30
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/Boxplot_logmstar_CoSepBCG.png
+	lyxscale 30
+	scale 40
 
 \end_inset
 
@@ -4502,17 +4526,53 @@ possibly less mass segregation than for ellipticals.
 Galaxy Types within Local Group
 \end_layout
 
-\begin_layout Standard
-Research has shown that galaxy evolution is influced by a galaxies environment
- so galaxy types within ten equal ranges of the comoving distances to the
- centre of local groups were investigated
+\begin_layout Subsubsection
+Galaxy Type and CoSepBCG
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+Research has shown that galaxy evolution is influced by a galaxies environment
+ so galaxy types within ten equal ranges of the comoving distances to the
+ centre of local groups as measured from the brightest cluster galaxy were
+ investigated.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Galaxy-Type-by"
+plural "false"
+caps "false"
+noprefix "false"
+
 \end_inset
 
+shows the galaxy counts in each range and figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Galaxy-Type-percentages"
+plural "false"
+caps "false"
+noprefix "false"
 
+\end_inset
+
+the counts expressed as percentages.
+ 
+\end_layout
+
+\begin_layout Standard
+As can be seen from the charts 
+\end_layout
+
+\begin_layout Itemize
+The number of all galaxies decreases rapidly with distance
+\end_layout
+
+\begin_layout Itemize
+Spiral galaxies far out number older red elliptical galaxies
+\end_layout
+
+\begin_layout Itemize
+That the mixture of galaxy type does not change significantly with distance
 \end_layout
 
 \begin_layout Standard
@@ -4529,7 +4589,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Galaxy-Type-by"
 
+\end_inset
+
+Galaxy Type by range of CosepBCG
 \end_layout
 
 \end_inset
@@ -4572,8 +4638,26 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Galaxy-Type-percentages"
+
+\end_inset
+
+Galaxy Type percentages by range of coSepBCG
+\end_layout
+
+\end_inset
+
 
 \end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/Histogram_Percentage_Range_CoSepBCG.png
+	lyxscale 30
+	scale 30
 
 \end_inset
 
@@ -4584,13 +4668,13 @@ status open
 
 \end_layout
 
-\begin_layout Plain Layout
+\end_inset
+
 
 \end_layout
 
-\end_inset
-
-Percnetages
+\begin_layout Subsubsection
+Galaxy type within ranges of the sum of masses within local groups.
 \end_layout
 
 \begin_layout Standard
@@ -4608,6 +4692,47 @@ A similar exercise was carried out for galaxy type within ten equal ranges
 \end_layout
 
 \begin_layout Standard
+Counts are shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Local-Group-:galaxy-type-logmstar"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+and percentages in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Local-Group-:Percentages_logmstar"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It can clearly be seen that 
+\end_layout
+
+\begin_layout Itemize
+the number and ratio of red elliptical galaxies increases in larger mass
+ local groups
+\end_layout
+
+\begin_layout Itemize
+That low mass groups are dominated by spiral galaxies
+\end_layout
+
+\begin_layout Itemize
+The occurance of Large Blue Stars (LBS check) decreases in larger mass groups
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -4617,7 +4742,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Local-Group-:galaxy-type-logmstar"
 
+\end_inset
+
+Local Group : Galaxy type by range of sum(logmstar)
 \end_layout
 
 \end_inset
@@ -4656,7 +4787,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Local-Group-:Percentages_logmstar"
 
+\end_inset
+
+Local Group : Galaxy Type percentages for ranges of sum(logmstar)
 \end_layout
 
 \end_inset
@@ -4683,11 +4820,6 @@ status open
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-It can clearly be seen that the number and ratio of red elliptical galaxies
- increass in larger mass local groups 
 \end_layout
 
 \begin_layout Standard

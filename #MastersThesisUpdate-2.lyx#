@@ -263,6 +263,61 @@ Measuring galaxy environment in large scale photometric surveys - James
  Feb 2016
 \end_layout
 
+\begin_layout Standard
+Galaxy And Mass Assembly: resolving the role of environment in galaxy evolution
+ S.
+ Brough
+\end_layout
+
+\begin_layout Standard
+We present observations of 18 galaxies from the Galaxy And Mass Assembly
+ (GAMA) survey made with the SPIRAL optical integral field unit (IFU) on
+ the Anglo-Australian Telescope.
+ The galaxies are selected to have a narrow range in stellar mass (6 × 109
+ < M* < 2 × 1010 M⊙) in order to focus on the effects of environment.
+ Local galaxy environments are measured quantitatively using fifth nearest
+ neighbour surface densities.
+ We find that the total star formation rates (SFR) measured from the IFU
+ data are consistent with total SFRs measured from aperture correcting either
+ GAMA or Sloan Digital Sky Survey single-fibre observations.
+ The mean differences are SFRGAMA/SFRIFU = 1.26 ± 0.23, σ = 0.90 and for the
+ Sloan Digital Sky Survey we similarly find SFRBrinchmann/SFRIFU = 1.34 ±
+ 0.17, σ = 0.67.
+ Examining the relationships with environment, we find that off-centre and
+ clumpy Hα emission is not significantly dependent on environment, being
+ present in 2/7 (29+20−11 per cent) galaxies in high-density environments
+ (>0.77 Mpc−2), and 5/11 (45+15−13 per cent) galaxies in low-density environments
+ (<0.77 Mpc−2).
+ We find a weak but not significant relationship of the total SFRs of star-formi
+ng galaxies with environment.
+ Due to the size of our sample and the scatter observed we do not draw a
+ definitive conclusion about a possible SFR dependence on environment.
+ Examining the spatial distribution of the Hα emission, we find no evidence
+ for a change in shape or amplitude of the radial profile of star-forming
+ galaxies with environment.
+ If these observations are borne out in larger samples, this would infer
+ that any environment-driven star formation suppression must either act
+ very rapidly (the ‘infall-and-quench’ model) or that galaxies must evolve
+ in a density-dependent manner (an ‘in situ evolution’ model).
+\end_layout
+
+\begin_layout Standard
+2Monthly Notices of the Royal Astronomical Society, Volume 435, Issue 4,
+ 11 November 2013, Pages 2903–2917, https://doi.org/10.1093/mnras/stt1489
+\end_layout
+
+\begin_layout Standard
+Galaxy And Mass Assembly (GAMA): end of survey report and data release 2
+ J.
+ Liske, I.
+ K.
+ Baldry, 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
 \begin_layout Section
 Introduction
 \end_layout
@@ -2266,7 +2321,7 @@ c
 \begin_inset Text
 
 \begin_layout Plain Layout
-Log(CountInCyl)
+Log10(CountInCyl)
 \end_layout
 
 \end_inset
@@ -2331,7 +2386,7 @@ Log(CountInCyl)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Log(DistanceTo5nn)
+Log10(DistanceTo5nn)
 \end_layout
 
 \end_inset
@@ -2396,7 +2451,7 @@ Log(DistanceTo5nn)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Log(SurfaceDensity)
+Log10(SurfaceDensity)
 \end_layout
 
 \end_inset
@@ -2461,7 +2516,7 @@ Log(SurfaceDensity)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Log(AGEDenPar)
+Log10(AGEDenPar)
 \end_layout
 
 \end_inset
@@ -2574,7 +2629,7 @@ Density Plots for TotRmag versus Log10 (Means of Environments)
 \align center
 \begin_inset Graphics
 	filename ChartsPlots/TotRmag_Log10_Mean_Environments.png
-	lyxscale 40
+	lyxscale 30
 	scale 40
 
 \end_inset
@@ -2606,7 +2661,8 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
+Correlations and linear regression results for TotRMag vesus log10(Mean(Environm
+ent Measures))
 \end_layout
 
 \end_inset
@@ -2761,7 +2817,16 @@ c
 \begin_inset Text
 
 \begin_layout Plain Layout
-Log(CountInCyl)
+Log10(CountInCyl)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.353
 \end_layout
 
 \end_inset
@@ -2771,8 +2836,8 @@ Log(CountInCyl)
 
 \begin_layout Plain Layout
 
-\color red
--0.602
+\color black
+4e-21
 \end_layout
 
 \end_inset
@@ -2782,8 +2847,8 @@ Log(CountInCyl)
 
 \begin_layout Plain Layout
 
-\color red
-6.10e-150
+\color black
+-0.38
 \end_layout
 
 \end_inset
@@ -2793,8 +2858,8 @@ Log(CountInCyl)
 
 \begin_layout Plain Layout
 
-\color red
--0.737
+\color black
+1.56e-24
 \end_layout
 
 \end_inset
@@ -2804,19 +2869,8 @@ Log(CountInCyl)
 
 \begin_layout Plain Layout
 
-\color red
-1.01e-259
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\color red
--0.385
+\color black
+-1.15
 \end_layout
 
 \end_inset
@@ -2826,7 +2880,84 @@ Log(CountInCyl)
 
 \begin_layout Plain Layout
 
-\color red
+\color black
+-20.58
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Log10(DistanceTo5nn)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color black
+0.326
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color black
+4.35e-18
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color black
+0.369
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color black
+3.6e-23
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color black
+1.29
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color black
 -21.34
 \end_layout
 
@@ -2838,7 +2969,7 @@ Log(CountInCyl)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Log(DistanceTo5nn)
+Log10(SurfaceDensity)
 \end_layout
 
 \end_inset
@@ -2848,8 +2979,8 @@ Log(DistanceTo5nn)
 
 \begin_layout Plain Layout
 
-\color red
-0.682
+\color black
+-0.339
 \end_layout
 
 \end_inset
@@ -2859,8 +2990,8 @@ Log(DistanceTo5nn)
 
 \begin_layout Plain Layout
 
-\color red
-7.46e-208
+\color black
+1.592e-19
 \end_layout
 
 \end_inset
@@ -2870,8 +3001,8 @@ Log(DistanceTo5nn)
 
 \begin_layout Plain Layout
 
-\color red
-0.699
+\color black
+-0.3853
 \end_layout
 
 \end_inset
@@ -2881,8 +3012,8 @@ Log(DistanceTo5nn)
 
 \begin_layout Plain Layout
 
-\color red
-5.93e-222
+\color black
+3.22
 \end_layout
 
 \end_inset
@@ -2892,8 +3023,8 @@ Log(DistanceTo5nn)
 
 \begin_layout Plain Layout
 
-\color red
-1.099
+\color black
+-0.64
 \end_layout
 
 \end_inset
@@ -2903,85 +3034,8 @@ Log(DistanceTo5nn)
 
 \begin_layout Plain Layout
 
-\color red
--21.85
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Log(SurfaceDensity)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\color red
--0.681
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\color red
-1.88e-206
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\color red
--0.700
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\color red
-2.153
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\color red
--0.534
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\color red
--21.58
+\color black
+-21.88
 \end_layout
 
 \end_inset
@@ -2992,7 +3046,7 @@ Log(SurfaceDensity)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Log(AGEDenPar)
+Log10(AGEDenPar)
 \end_layout
 
 \end_inset
@@ -3071,13 +3125,41 @@ Log(AGEDenPar)
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Log Pearson Correlation x: SurfaceDensity y: TotRmag Correlation : -0.33891763791
+924534 T-Test : 1.5920665601448372e-19 
+\end_layout
+
+\begin_layout Standard
+Log Spearman Correlation x: SurfaceDensity y: TotRmag Correlation : -0.3853789171
+3391975 T-Test : 3.222495565969988e-25
+\end_layout
+
+\begin_layout Standard
+Log Linear Regresion x: SurfaceDensity y: TotRmag slope : -0.6389167488643501
+ Intercept -21.188048851236783 Correlation -0.3853789171339199 Wald test 3.22249556
+596834e-25 0.05910264722109587 
+\end_layout
+
+\begin_layout Standard
+Log Pearson Correlation x: AGEDenPar y: TotRmag Correlation : -0.2562198946985873
+ T-Test : 1.5570271338932114e-11
+\end_layout
+
+\begin_layout Standard
+Log Spearman Correlation x: AGEDenPar y: TotRmag Correlation : -0.254541216169222
+9 T-Test : 2.1304851674141474e-11
+\end_layout
+
+\begin_layout Standard
+Log Linear Regresion x: AGEDenPar y: TotRmag slope : -0.702269851288884 Intercept
+ -21.14665935764088 Correlation -0.2545412161692229 Wald test 2.130485167413083e-11
+ 0.10307724288012664
 \end_layout
 
 \begin_layout Standard
@@ -3314,7 +3396,7 @@ c
 \begin_inset Text
 
 \begin_layout Plain Layout
-Log(CountInCyl)
+Log10(CountInCyl)
 \end_layout
 
 \end_inset
@@ -3379,7 +3461,7 @@ Log(CountInCyl)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Log(DistanceTo5nn)
+Log10(DistanceTo5nn)
 \end_layout
 
 \end_inset
@@ -3444,7 +3526,7 @@ Log(DistanceTo5nn)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Log(SurfaceDensity)
+Log10(SurfaceDensity)
 \end_layout
 
 \end_inset
@@ -3509,7 +3591,7 @@ Log(SurfaceDensity)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Log(AGEDenPar)
+Log10(AGEDenPar)
 \end_layout
 
 \end_inset
@@ -3628,10 +3710,6 @@ Sum of logmstar for local group versus log10 ( Mean( Environments ))
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -3645,9 +3723,7 @@ status open
 
 \begin_layout Plain Layout
 
-\end_layout
-
-\begin_layout Plain Layout
+\color black
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -3662,6 +3738,8 @@ Linear regression of group sum of logmstar with log(Mean galaxy environment
 
 \begin_layout Plain Layout
 \align center
+
+\color black
 \begin_inset Tabular
 <lyxtabular version="3" rows="6" columns="7">
 <features tabularvalignment="middle">
@@ -3678,7 +3756,7 @@ Linear regression of group sum of logmstar with log(Mean galaxy environment
 
 \begin_layout Plain Layout
 
-\color red
+\color black
 Environment Variable
 \end_layout
 
@@ -3689,7 +3767,7 @@ Environment Variable
 
 \begin_layout Plain Layout
 
-\color red
+\color black
 Pearson
 \end_layout
 
@@ -3709,7 +3787,7 @@ Pearson
 
 \begin_layout Plain Layout
 
-\color red
+\color black
 Spearman
 \end_layout
 
@@ -3729,7 +3807,7 @@ Spearman
 
 \begin_layout Plain Layout
 
-\color red
+\color black
 Linear Regression
 \end_layout
 
@@ -3760,7 +3838,7 @@ Linear Regression
 
 \begin_layout Plain Layout
 
-\color red
+\color black
 Correlation Coefficient
 \end_layout
 
@@ -3771,7 +3849,7 @@ Correlation Coefficient
 
 \begin_layout Plain Layout
 
-\color red
+\color black
 p-value
 \end_layout
 
@@ -3782,7 +3860,7 @@ p-value
 
 \begin_layout Plain Layout
 
-\color red
+\color black
 Correlation Coefficient
 \end_layout
 
@@ -3793,7 +3871,7 @@ Correlation Coefficient
 
 \begin_layout Plain Layout
 
-\color red
+\color black
 p-value
 \end_layout
 
@@ -3804,7 +3882,7 @@ p-value
 
 \begin_layout Plain Layout
 
-\color red
+\color black
 m
 \end_layout
 
@@ -3815,7 +3893,7 @@ m
 
 \begin_layout Plain Layout
 
-\color red
+\color black
 c
 \end_layout
 
@@ -3828,7 +3906,7 @@ c
 
 \begin_layout Plain Layout
 
-\color red
+\color black
 Log(CountInCyl)
 \end_layout
 
@@ -3839,8 +3917,8 @@ Log(CountInCyl)
 
 \begin_layout Plain Layout
 
-\color red
--0.654
+\color black
+0.680
 \end_layout
 
 \end_inset
@@ -3850,8 +3928,8 @@ Log(CountInCyl)
 
 \begin_layout Plain Layout
 
-\color red
-1.34e-174
+\color black
+0
 \end_layout
 
 \end_inset
@@ -3861,8 +3939,8 @@ Log(CountInCyl)
 
 \begin_layout Plain Layout
 
-\color red
--0.472
+\color black
+0.673
 \end_layout
 
 \end_inset
@@ -3872,8 +3950,8 @@ Log(CountInCyl)
 
 \begin_layout Plain Layout
 
-\color red
-7.34e-80
+\color black
+0
 \end_layout
 
 \end_inset
@@ -3883,8 +3961,8 @@ Log(CountInCyl)
 
 \begin_layout Plain Layout
 
-\color red
--0.776
+\color black
+1.396
 \end_layout
 
 \end_inset
@@ -3894,8 +3972,8 @@ Log(CountInCyl)
 
 \begin_layout Plain Layout
 
-\color red
-19.67
+\color black
+9.93
 \end_layout
 
 \end_inset
@@ -3907,7 +3985,7 @@ Log(CountInCyl)
 
 \begin_layout Plain Layout
 
-\color red
+\color black
 Log(DistanceTo5nn)
 \end_layout
 
@@ -3918,8 +3996,8 @@ Log(DistanceTo5nn)
 
 \begin_layout Plain Layout
 
-\color red
-0.634
+\color black
+-0.647
 \end_layout
 
 \end_inset
@@ -3929,8 +4007,8 @@ Log(DistanceTo5nn)
 
 \begin_layout Plain Layout
 
-\color red
-1.50e-155
+\color black
+0
 \end_layout
 
 \end_inset
@@ -3940,8 +4018,8 @@ Log(DistanceTo5nn)
 
 \begin_layout Plain Layout
 
-\color red
-0.625
+\color black
+-0.608
 \end_layout
 
 \end_inset
@@ -3951,8 +4029,8 @@ Log(DistanceTo5nn)
 
 \begin_layout Plain Layout
 
-\color red
-3.68e-155
+\color black
+0
 \end_layout
 
 \end_inset
@@ -3962,8 +4040,8 @@ Log(DistanceTo5nn)
 
 \begin_layout Plain Layout
 
-\color red
-2.522
+\color black
+-1.61
 \end_layout
 
 \end_inset
@@ -3973,8 +4051,8 @@ Log(DistanceTo5nn)
 
 \begin_layout Plain Layout
 
-\color red
-18.58
+\color black
+10.89
 \end_layout
 
 \end_inset
@@ -3986,7 +4064,7 @@ Log(DistanceTo5nn)
 
 \begin_layout Plain Layout
 
-\color red
+\color black
 Log(SurfaceDensity)
 \end_layout
 
@@ -3997,8 +4075,8 @@ Log(SurfaceDensity)
 
 \begin_layout Plain Layout
 
-\color red
--0.637
+\color black
+0.671
 \end_layout
 
 \end_inset
@@ -4008,8 +4086,8 @@ Log(SurfaceDensity)
 
 \begin_layout Plain Layout
 
-\color red
-1.498e-163
+\color black
+0
 \end_layout
 
 \end_inset
@@ -4019,8 +4097,8 @@ Log(SurfaceDensity)
 
 \begin_layout Plain Layout
 
-\color red
--0.627
+\color black
+0.639
 \end_layout
 
 \end_inset
@@ -4030,8 +4108,8 @@ Log(SurfaceDensity)
 
 \begin_layout Plain Layout
 
-\color red
-6.53e-157
+\color black
+0
 \end_layout
 
 \end_inset
@@ -4041,8 +4119,8 @@ Log(SurfaceDensity)
 
 \begin_layout Plain Layout
 
-\color red
--1.232
+\color black
+0.777
 \end_layout
 
 \end_inset
@@ -4052,8 +4130,8 @@ Log(SurfaceDensity)
 
 \begin_layout Plain Layout
 
-\color red
-19.21
+\color black
+10.67
 \end_layout
 
 \end_inset
@@ -4065,7 +4143,7 @@ Log(SurfaceDensity)
 
 \begin_layout Plain Layout
 
-\color red
+\color black
 Log(AGEDenPar)
 \end_layout
 
@@ -4076,8 +4154,8 @@ Log(AGEDenPar)
 
 \begin_layout Plain Layout
 
-\color red
--0.475
+\color black
+0.524
 \end_layout
 
 \end_inset
@@ -4087,8 +4165,8 @@ Log(AGEDenPar)
 
 \begin_layout Plain Layout
 
-\color red
-5.80e-81
+\color black
+0
 \end_layout
 
 \end_inset
@@ -4098,8 +4176,8 @@ Log(AGEDenPar)
 
 \begin_layout Plain Layout
 
-\color red
--0.460
+\color black
+0.534
 \end_layout
 
 \end_inset
@@ -4109,8 +4187,8 @@ Log(AGEDenPar)
 
 \begin_layout Plain Layout
 
-\color red
-1.15e-75
+\color black
+0
 \end_layout
 
 \end_inset
@@ -4120,8 +4198,8 @@ Log(AGEDenPar)
 
 \begin_layout Plain Layout
 
-\color red
--1.433
+\color black
+1.141
 \end_layout
 
 \end_inset
@@ -4131,8 +4209,8 @@ Log(AGEDenPar)
 
 \begin_layout Plain Layout
 
-\color red
-18.91
+\color black
+10.742
 \end_layout
 
 \end_inset
@@ -4145,13 +4223,6 @@ Log(AGEDenPar)
 
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -4426,16 +4497,6 @@ A subset of elliptical galaxies
 criteira for subset?
 \color inherit
  produced the scatter and density plots in figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:logmstar-relative-position"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Itemize
@@ -4443,28 +4504,10 @@ logmstar - median : 10.528 mode : 9.894
 \end_layout
 
 \begin_layout Itemize
-Looking at the mass (logmstar) distribution in local groups figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:logmstar-relative-position"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-, there are marked differences from the red colour uminusr figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Elliptical-Galaxies--"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-, most notably there is no bulge for distant galaxies corresponding to the
- mode of the group.
+Looking at the mass (logmstar) distribution in local groups figure , there
+ are marked differences from the red colour uminusr figure , most notably
+ there is no bulge for distant galaxies corresponding to the mode of the
+ group.
 \end_layout
 
 \begin_layout Itemize
@@ -4487,30 +4530,10 @@ logmstar - medium : 9.560 mode : 10.474
 \end_layout
 
 \begin_layout Itemize
-Looking at figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Spiral-galaxies-(same"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-, details of logmstar of spiral galaxies (within the same local group as
- elliptical galaxies) versus various measures of position from the centre
- of the local group produced very similar results as details of uminusr
- for spiral galaxies figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Spiral-Galaxies--"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
+Looking at figure , details of logmstar of spiral galaxies (within the same
+ local group as elliptical galaxies) versus various measures of position
+ from the centre of the local group produced very similar results as details
+ of uminusr for spiral galaxies figure 
 \end_layout
 
 \begin_layout Itemize
@@ -4822,6 +4845,561 @@ Local Group : Galaxy Type percentages for ranges of sum(logmstar)
 
 \end_layout
 
+\begin_layout Subsubsection
+Galaxy type percentages verus mean environments
+\end_layout
+
+\begin_layout Standard
+Previous research [] looking at satellite galaxies had shown a relationship
+ between the percentage of red elliptical galaxies and the galaxies environment,
+ so a similar exercise was carried out to determine tghe percentages of
+ galaxy types with a local group, this did not reveal a clear relationship
+ until on galaxies in local groups with over 5 galaxies were considered
+ the resulting density plots are shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Density-map-plot"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ and the correlation results and linear regression in table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Correlation-results"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ As can be seen there is a reasonable degree of correlation apart from AGEDenPar
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Density-Plots-:"
+
+\end_inset
+
+Density Plots : Local Groups with more than 5 galaxies versus log10(Mean(Environ
+ment Measures)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/Local_Group5_RedPercent_versus_Log10_Mean_Environments.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Correlation-and-Linear"
+
+\end_inset
+
+Correlation and Linear Regression for Percentage of red elliptical galaxies
+ and log10(Mean(Environment Measures))
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="7">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Environment Variable
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pearson
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Spearman
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Linear Regression
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Correlation Coefficient
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+p-value
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Correlation Coefficient
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+p-value
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+m
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+c
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Log10(CountInCyl)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.541
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.07e-13
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.556
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5.03e-14
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-44.86
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+103.40
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Log10(DistanceTo5nn)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.480
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.38e-10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.522
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.68e-1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+44.62
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+72.65
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Log10(SurfaceDensity)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.504
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.01e-11
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+–0.557
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.25e-14
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-21.20
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+79.07
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Log10(AGEDenPar)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.284
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.0e-4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.287
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2e-4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-22.20
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+71.11
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Having established a degree of correlation between the percentage of elliptical
+ galaxies and environments for galaxies in local groups with more than 5
+ galaxies it was decided to revist investigating any realtionship between
+ uminusr and logmstar for the subset of such galaxies.
+ However the density plots and coorelation results did not indicate any
+ direct relationship see figures 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Density-Plots-:-1-uminusr"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Density-Plots-:-1-logmstar"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset Float figure
 wide false
@@ -4836,7 +5414,14 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Density-Plots-:-1-uminusr"
 
+\end_inset
+
+Density Plots : uminusr versus log10(environments) for the subset of galaxies
+ in local groups containing 5 or more galaxies
 \end_layout
 
 \end_inset
@@ -4847,9 +5432,59 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ChartsPlots/Local_Group5_RedPercent_versus_Log10_Mean_Environments.png
+	filename ChartsPlots/Elliptical_Galaxes_Local_Group5_uminusr_versus_Environments_Measures.png
 	lyxscale 30
-	scale 30
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Density-Plots-:-1-logmstar"
+
+\end_inset
+
+Density Plots : logmstar versus log10(environments) for the subset of galaxies
+ in local groups containing 5 or more galaxies
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/Elliptical_Galaxes_Local_Group5_logmstar_versus_Environments_Measures.png
+	lyxscale 30
+	scale 40
 
 \end_inset
 
@@ -7015,6 +7650,10 @@ One possible explanation for why there is this correlation is that an early
  
 \color red
 it was unconnected.
+\end_layout
+
+\begin_layout Itemize
+Galaxy environment influeneces Galacy evolution from Sprial to agged Ellipticals
 \end_layout
 
 \begin_layout Bibliography

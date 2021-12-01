@@ -145,21 +145,19 @@ This work was very much a broad exploration with brief notes for each figure.
 \begin_layout Standard
 The presiding inference from a large body of research is that the structure
  of the universe we see today is the result of initally very small deviations
- from stage when the universe was a plasma that have grown over very long
- timescales.
+ from the time when the universe was a plasma have grown over very long
+ timescales to form the structure we see today.
+ We know from studies of the cosmic background radiation which have measured
+ only very small variations in tempertaure 10-xx that prior to recombination
+ that the univese was a very uniform plasma.
  The cosmic background microwave radiation came about as the universe cooled
  due to its expansion and photons where no longer fully contained due to
  compton scattering.
- The wavelength of the light emitted due to recombination of electrons and
- 
-\color orange
-hydrogen ions?e
+ The profile of wavelength followd a 
+\color black
+Planck
 \color inherit
- having now being strteched to microwave wavelengths.
- Deviations in the temperature of the cosmic are extermely small 10-xx and
- the tempertaure profile followds that or a perfect blackbodyit is nearly
- a perfect blackbody, again this is supporting evidence that there were
- only very small deviations in the structure of the universe at that stage.
+ function so well that it is stated to be a nearly a perfect blackbody,
 \end_layout
 
 \begin_layout Standard
@@ -169,10 +167,16 @@ We know that dark matter makes up xx% of the universe and the concesus is
  density that we see today.
  That a galaxy's local environment is strongly influences by dark matter
  halo mass.
- Research, especially studies of satellite galaxies has shown that galaxy
- evolution from young spiral glaxies to older redder elliptical galaxies
- is strongly infleuence by the local denisty environments and there are
- indications that galaxies in high denity regions tend to be redder.[a] 
+ Research has shown that there is a correlation between galaxy/halo/dark
+ matter and the environment also that older galaxies are more strongly clustered
+ in denser environments [xxx] Previous research of the GAMA survey data
+ has also shown that the red fraction of satellite galaxies within a radial
+ distribribution correlates with environmental measures.
+ Although there is some uncertantity in the best measure to use for environmenta
+l characteristic.
+ There are indications that galaxies in high denity regions tend to be redder.[a]
+ and the purpose of the project was to investigate any relationship between
+ redness and enviroment.
 \end_layout
 
 \begin_layout Standard
@@ -180,9 +184,7 @@ We know that dark matter makes up xx% of the universe and the concesus is
 \end_layout
 
 \begin_layout Standard
-That there is a correlation between galaxy/halo/dark matter and the environment
- also that older galaxies are more strongly clustered in denser environments
- (Norberg et al.
+[xxx]Norberg et al.
  2002; Zehavi et al.
  2005; Sheth et al.
  2006; Li et al.
@@ -191,11 +193,7 @@ That there is a correlation between galaxy/halo/dark matter and the environment
  2009; Skibba & Sheth 2009; Skibba et al.
  2009; de la Torre et al.
  2011).
- Previous research of the GAMA survey data has also shown that the red fraction
- of satellite galaxies within a radial distribribution correlates with environme
-ntal measures.
- Although there is some uncertantity inbest measure of environmental characteris
-tic 
+ 
 \end_layout
 
 \begin_layout Standard
@@ -406,7 +404,86 @@ GAMA Survey http://www.gama-survey.org/dr3/
 \end_layout
 
 \begin_layout Standard
-Descrip
+The objective of the GAMA survey is the collection of data from various
+ projects to faciklitate study of comslogy aan galacxy formation, it covers
+ approximatelyt 375,000 galaxies over a 360 deg region of the skylooking
+ at the structure at scales of 1kpc to 1Mpc
+\end_layout
+
+\begin_layout Standard
+The prime sources of the data are
+\end_layout
+
+\begin_layout Itemize
+Anglo Australian Telescope
+\end_layout
+
+\begin_layout Itemize
+Data from the Sloan digital sky survey(SDSS)
+\end_layout
+
+\begin_layout Itemize
+2dF Galaxy Redshift Survey
+\end_layout
+
+\begin_layout Itemize
+Millenniu Galax Catalogue ( MGC)
+\end_layout
+
+\begin_layout Standard
+
+\color red
+DescripGAMA is a project to exploit the latest generation of ground-based
+ and space-borne survey facilities to study cosmology and galaxy formation
+ and evolution.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+At the heart of this project lies the GAMA spectroscopic survey of ~300,000
+ galaxies down to r < 19.8 mag over ~286 deg2, carried out using the AAOmega
+ multi-object spectrograph on the Anglo-Australian Telescope (AAT) by the
+ GAMA team.
+ This project was awarded 210 nights over 7 years (2008–2014) and the observatio
+ns are now completed.
+ This survey builds on, and is augmented by, previous spectroscopic surveys
+ such as the Sloan Digital Sky Survey (SDSS), the 2dF Galaxy Redshift Survey
+ (2dFGRS) and the Millennium Galaxy Catalogue (MGC).
+\end_layout
+
+\begin_layout Standard
+Galaxy And Mass Assembly survey Galaxy images from the GAMA survey.jpg Composite
+ picture shows how a typical galaxy appears at different wavelengths in
+ the GAMA survey Website www.gama-survey.org [edit on Wikidata] File:A fly-though
+ of the GAMA galaxy survey.webm This simulated flythrough shows the real
+ positions and images of the galaxies that have been mapped so far.
+ Distances are to scale, but the galaxy images have been enlarged for your
+ viewing pleasure.
+ The Galaxy And Mass Assembly (GAMA) survey[1] is a project to exploit the
+ latest generation of ground-based wide-field survey facilities to study
+ cosmology and galaxy formation and evolution.
+ GAMA will bring together data from a number of world class instruments:
+\end_layout
+
+\begin_layout Standard
+The Anglo-Australian Telescope (AAT), The VLT Survey Telescope (VST) The
+ Visible and Infrared Survey Telescope for Astronomy (VISTA) The Australian
+ Square Kilometre Array Pathfinder (ASKAP) The Herschel Space Observatory
+ The Galaxy Evolution Explorer (GALEX) Data from these instruments will
+ be used to construct a state-of-the-art multi-wavelength database of ~375,000
+ galaxies in the local Universe over a 360 deg2 region of sky, based on
+ a spectroscopic redshift survey on the AAT's AAOmega spectrograph.
+\end_layout
+
+\begin_layout Standard
+The main objective of GAMA is to study structure on scales of 1 kpc to 1
+ Mpc.
+ This includes galaxy clusters, groups, mergers and coarse measurements
+ of galaxy structure (i.e., bulges and discs).
+ It is on these scales where baryons play a critical role in the galaxy
+ formation and subsequent evolutionary processes and where our understanding
+ of structure in the Universe breaks down.
 \end_layout
 
 \begin_layout Subsection
@@ -417,11 +494,8 @@ Method
 The Gama Survey website [reference] http://www.gama-survey.org/dr3/ suggest
  that for python usage the data could accessed using astroquery [reference]
  http://astroquery.readthedocs.org/ whilst astroquery provides access to the
- data via tables
-\end_layout
-
-\begin_layout Standard
-it does not appear to offer facilities to selectively subset or join tables.
+ data via tables, unfortunaly it did not appear to offer facilities to selective
+ly subset or join tables.
  A more flexible approach was to download the GAMA data and then process
  with the python package AstropyTable.
  Details of the tables and their contents being available at [reference]
@@ -1959,12 +2033,35 @@ Log(AGEDenPar)
 
 \end_layout
 
-\begin_layout Subsubsection
-Subset of only Elliptical Galaxies within a local Goup
+\begin_layout Standard
+The exercise was repeated for a subsets of elliptical galaxies 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:uminusr-density-plots"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Subsubsection
-Subset of large mass Elliptical Galaxies logmstar > 
+\begin_layout Itemize
+within a local goup
+\end_layout
+
+\begin_layout Itemize
+that were isolated not in a group
+\end_layout
+
+\begin_layout Itemize
+high mass galaxies logmstar > 11
+\end_layout
+
+\begin_layout Standard
+In all cases no obvious correlation between uminusr or logmstar with any
+ of the environmental measures was observed
 \end_layout
 
 \begin_layout Subsection
@@ -2158,14 +2255,6 @@ l galaxies
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-
-\color red
-Change to Log10 on plot
-\color inherit
-s
 \end_layout
 
 \begin_layout Standard
@@ -2678,7 +2767,6 @@ Density Plots for TotRmag versus Log10 (Means of Environments)
 \begin_layout Standard
 
 \color red
-Correlation table
 \begin_inset Float table
 wide false
 sideways false
@@ -3728,6 +3816,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Linear-Regression-of-Mean-Measures"
+
+\end_inset
+
 Linear regression of group sum of logmstar with log(Mean galaxy environment
  measures) for elliptical galaxies
 \end_layout
@@ -4227,6 +4321,20 @@ Log(AGEDenPar)
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+One can see that comparing the results in table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Linear-Regression-of-Mean-Measures"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+with of Using a single measure for 
 \end_layout
 
 \begin_layout Subsection
@@ -4848,7 +4956,7 @@ Local Group : Galaxy Type percentages for ranges of sum(logmstar)
 \end_layout
 
 \begin_layout Subsubsection
-Galaxy type percentages virus mean environments
+Galaxy type percentages verus mean environments
 \end_layout
 
 \begin_layout Standard
@@ -6357,6 +6465,22 @@ ons.
 \end_layout
 
 \begin_layout Standard
+
+\color orange
+The size distribution of galaxies in the Sloan Digital Sky Survey Shiyin
+ Shen,et al https://doi.org/10.1046/j.1365-8711.2003.06740.x
+\end_layout
+
+\begin_layout Standard
+
+\color orange
+A log-normal process is the statistical realization of the multiplicative
+ product of many independent random variables, each of which is positive.
+ This is justified by considering the central limit theorem in the log domain
+ (sometimes called Gibrat's law).
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -6701,6 +6825,12 @@ Cox Box transformation
 not seen this used in astrophysics papers.
  It's worth having a literature search for this.
  
+\end_layout
+
+\begin_layout Standard
+
+\color orange
+More detail cox bxo
 \end_layout
 
 \begin_layout Standard
@@ -7162,7 +7292,7 @@ Redness(uminusr)
 \begin_inset Text
 
 \begin_layout Plain Layout
-2.84
+2.840
 \end_layout
 
 \end_inset
@@ -7171,7 +7301,7 @@ Redness(uminusr)
 \begin_inset Text
 
 \begin_layout Plain Layout
-2.53
+2.538
 \end_layout
 
 \end_inset
@@ -7180,7 +7310,7 @@ Redness(uminusr)
 \begin_inset Text
 
 \begin_layout Plain Layout
-3.15
+3.151
 \end_layout
 
 \end_inset
@@ -7236,7 +7366,7 @@ Mass (logmstar)
 \begin_inset Text
 
 \begin_layout Plain Layout
-2.57
+2.574
 \end_layout
 
 \end_inset
@@ -7245,7 +7375,7 @@ Mass (logmstar)
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.8
+1.803
 \end_layout
 
 \end_inset
@@ -7256,7 +7386,7 @@ Mass (logmstar)
 \begin_layout Plain Layout
 
 \color black
-3.35
+3.351
 \end_layout
 
 \end_inset
@@ -7312,7 +7442,7 @@ Metallicity(metal)
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.07
+0.069
 \end_layout
 
 \end_inset
@@ -7321,7 +7451,7 @@ Metallicity(metal)
 \begin_inset Text
 
 \begin_layout Plain Layout
--0.02
+-0.018
 \end_layout
 
 \end_inset
@@ -7330,7 +7460,7 @@ Metallicity(metal)
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.16
+0.157
 \end_layout
 
 \end_inset
@@ -7460,7 +7590,7 @@ Redness(uminusr)
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.898
+0.278
 \end_layout
 
 \end_inset
@@ -7469,7 +7599,7 @@ Redness(uminusr)
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.886
+0.240
 \end_layout
 
 \end_inset
@@ -7478,7 +7608,7 @@ Redness(uminusr)
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.910
+0.317
 \end_layout
 
 \end_inset
@@ -7487,7 +7617,7 @@ Redness(uminusr)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.947
 \end_layout
 
 \end_inset
@@ -7496,7 +7626,7 @@ Redness(uminusr)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.0
 \end_layout
 
 \end_inset
@@ -7505,7 +7635,7 @@ Redness(uminusr)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.982
 \end_layout
 
 \end_inset
@@ -7514,7 +7644,7 @@ Redness(uminusr)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+2.51e-32
 \end_layout
 
 \end_inset
@@ -7534,7 +7664,7 @@ Mass (logmstar)
 \begin_inset Text
 
 \begin_layout Plain Layout
-5.334
+-1.275
 \end_layout
 
 \end_inset
@@ -7543,7 +7673,7 @@ Mass (logmstar)
 \begin_inset Text
 
 \begin_layout Plain Layout
-5.307
+-1.558
 \end_layout
 
 \end_inset
@@ -7552,7 +7682,7 @@ Mass (logmstar)
 \begin_inset Text
 
 \begin_layout Plain Layout
-5.374
+-0.989
 \end_layout
 
 \end_inset
@@ -7561,7 +7691,7 @@ Mass (logmstar)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.986
 \end_layout
 
 \end_inset
@@ -7570,7 +7700,7 @@ Mass (logmstar)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.625
 \end_layout
 
 \end_inset
@@ -7579,7 +7709,7 @@ Mass (logmstar)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.995
 \end_layout
 
 \end_inset
@@ -7588,7 +7718,7 @@ Mass (logmstar)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+3.03
 \end_layout
 
 \end_inset
@@ -7608,7 +7738,7 @@ Metallicity(metal)
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.347
+0.403
 \end_layout
 
 \end_inset
@@ -7617,7 +7747,7 @@ Metallicity(metal)
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.342
+0.371
 \end_layout
 
 \end_inset
@@ -7626,7 +7756,7 @@ Metallicity(metal)
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.352
+0.436
 \end_layout
 
 \end_inset
@@ -7635,7 +7765,7 @@ Metallicity(metal)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.899
 \end_layout
 
 \end_inset
@@ -7644,7 +7774,7 @@ Metallicity(metal)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0
 \end_layout
 
 \end_inset
@@ -7653,7 +7783,7 @@ Metallicity(metal)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.970
 \end_layout
 
 \end_inset
@@ -7662,7 +7792,7 @@ Metallicity(metal)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1.72
 \end_layout
 
 \end_inset
@@ -7680,52 +7810,8 @@ Metallicity(metal)
 
 \end_layout
 
-\begin_layout Standard
-For ellipticals the Lamda 
-\begin_inset Formula $\lambda$
-\end_inset
-
- values for redness(uminusr) and mass(logmstar) are quite similar with overlappi
-ng ranges.
- Mass could be a square law but redness is beyond a square law.
- etalicity for elliptical is quite low as there is much less creation of
- metals as a result of stars creating metals and recycling them at the end
- of their lives.
-\end_layout
-
-\begin_layout Standard
-For Spirals the value
-\end_layout
-
-\begin_layout Standard
-
-\color black
-A Shapiro test for normality was performed on the distribution before and
- after the Cox Box transformation.
- The distributions before the transformation showed high values for the
- test meaning the variations can be purely attributed to statistical variation.
- However as no 
-\end_layout
-
-\begin_layout Standard
-
-\color black
-obvious correlation was found between galaxy measures and environmental
- measures, then it is still possible that environment measures are not totally
- random and do have an influence for which the small variation from normality
- is a tracer.
-\end_layout
-
-\begin_layout Standard
-
-\color red
-Same for local group data
-\end_layout
-
 \begin_layout Subsection
 Inverse transform 
-\color red
-i don't think environment need be the only driver of non-Gaussianity
 \end_layout
 
 \begin_layout Standard
@@ -7750,133 +7836,6 @@ To get to the observed distribution from a normal distribution then the
 \end_layout
 
 \begin_layout Standard
-Using the determined values of 
-\begin_inset Formula $\lambda$
-\end_inset
-
-, figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Inverse-Transforms"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- plots the graphs of the inverse functions required to transform the distributio
-ns of uminusr, logmstar and metal to normal distributions.
- For comparison an exponential distribution is included as two of the distributi
-ons of environmental measures have reasonable fits with an exponential distribut
-ion see figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Inverse-Transforms"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\align left
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Inverse-Transforms"
-
-\end_inset
-
-Inverse transforms
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ChartsPlots/CoxboxInverseTransformsEnvironmentMeasures.png
-	lyxscale 20
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Distributions-of-environmental"
-
-\end_inset
-
-Distributions of environmental measures
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ChartsPlots/DistributionsEnvironments.png
-	lyxscale 25
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
 
 \end_layout
 
@@ -8026,6 +7985,58 @@ noprefix "false"
  research such as modelling.
 \end_layout
 
+\begin_layout Standard
+The Cox-Box Lamda 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ is the exponent for a tranform function that if applied wouth transform
+ a diFor ellipticals the Lamdvalues for redness(uminusr) and mass(logmstar)
+ are quite similar with overlapping ranges.
+ A 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ value of two would correstpond to a square law but redness is beyond a
+ square law.
+ etalicity for elliptical is quite low as there is much less creation of
+ metals as a result of stars creating metals and recycling them at the end
+ of their lives.
+\end_layout
+
+\begin_layout Standard
+For Spirals the Lamda 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ value of redness is just under one so only a small change whereas for mass
+ Lamda 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ is 5.33 indicating that in Spiral galaxy evolution there are rapid changes
+ of mass.
+\end_layout
+
+\begin_layout Standard
+
+\color black
+A Shapiro test for normality was performed on the distribution before and
+ after the Cox Box transformation.
+ The distributions before the transformation showed high values for the
+ test meaning the variations can be purely attributed to statistical variation.
+ However as no 
+\end_layout
+
+\begin_layout Standard
+
+\color black
+obvious correlation was found between galaxy measures and environmental
+ measures, then it is still possible that environment measures are not totally
+ random and do have an influence for which the small variation from normality
+ is a tracer.
+\end_layout
+
 \begin_layout Section
 
 \color black
@@ -8033,22 +8044,18 @@ Conclusions
 \end_layout
 
 \begin_layout Itemize
-Looking at galaxies as a whole, there does not appear to be a correlation
+Looking at galaxies as a whole, there does not appear to be a direct correlation
  between galaxy characteristics and environmental measures.
  
-\color orange
-However, in some circumstances such as galaxies in the outer region of their
- local group, then a degree of correlation is found.
 \end_layout
 
 \begin_layout Itemize
-Howver looking at things at agroup level there is a degree of correlation
- between the group characteristics such as TotRMag, sum of logmstar and
- metallicity and a galaxy's environmental measures.
-\end_layout
-
-\begin_layout Itemize
-The environment of a galaxy is understandably being influenced by its local
+Looking at a group level there is a degree of correlation between the group
+ characteristics such as TotRMag, sum of logmstar and a galaxy's environmental
+ measures, however this probaby just due to these characteristics having
+ higher values in denser parts of the universe which is reflected in the
+ averages og group enironmental measuers.
+ The environment of a galaxy is understandably being influenced by its local
  group i.e.
  Where a local group is in a dense part of the universe the environmtal
  measures of galaxies within the group will exhibit more dense enviroment
@@ -8058,25 +8065,20 @@ The environment of a galaxy is understandably being influenced by its local
 \end_layout
 
 \begin_layout Itemize
-One possible explanation for why there is this correlation is that an early
- stage of the universe's evolution i.e.
- shortly before the initial creation of stars, the distribution of interstellar
- material corresponds to what will become over time local groups.
- Over further time, the material then subdivides into smaller groups to
- form stars which then make up galaxies.
- The galaxies form with dark matter halos and black holes at their core,
- this subdivision giving rise to galaxies with a full range of colour(uminusr)
- and mass (logmstar).
- The fact that the material that makes up a local group was at one time
- a single entity would explain why there is a relationship with the sum
- of group characteristics.
- 
-\color red
-it was unconnected.
+A relationship is observed between the fraction of elliptical galxies in
+ local groups with more than five members and their environmental measures
+ and is consitent with previous research for an evaluation of satellite
+ galaxies[x]
 \end_layout
 
 \begin_layout Itemize
+
+\color red
 Galaxy environment influeneces Galacy evolution from Sprial to agged Ellipticals
+\end_layout
+
+\begin_layout Itemize
+Envirnmental measures vary signifantly with large scale structure
 \end_layout
 
 \begin_layout Bibliography

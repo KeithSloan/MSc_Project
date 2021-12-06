@@ -400,14 +400,19 @@ galaxy luminosity function.
 \end_layout
 
 \begin_layout Subsection
+Data & Method
+\end_layout
+
+\begin_layout Subsubsection
 GAMA Survey http://www.gama-survey.org/dr3/
 \end_layout
 
 \begin_layout Standard
 The objective of the GAMA survey is the collection of data from various
  projects to faciklitate study of comslogy aan galacxy formation, it covers
- approximatelyt 375,000 galaxies over a 360 deg region of the skylooking
- at the structure at scales of 1kpc to 1Mpc
+ approximatelyt 375,000 galaxies with magnitudes down to 19.8 rmag, over
+ a 360 deg region of the skylooking at the structure at scales of 1kpc to
+ 1Mpc
 \end_layout
 
 \begin_layout Standard
@@ -430,85 +435,20 @@ Data from the Sloan digital sky survey(SDSS)
 Millenniu Galax Catalogue ( MGC)
 \end_layout
 
-\begin_layout Standard
-
-\color red
-DescripGAMA is a project to exploit the latest generation of ground-based
- and space-borne survey facilities to study cosmology and galaxy formation
- and evolution.
-\end_layout
-
-\begin_layout Standard
-
-\color red
-At the heart of this project lies the GAMA spectroscopic survey of ~300,000
- galaxies down to r < 19.8 mag over ~286 deg2, carried out using the AAOmega
- multi-object spectrograph on the Anglo-Australian Telescope (AAT) by the
- GAMA team.
- This project was awarded 210 nights over 7 years (2008–2014) and the observatio
-ns are now completed.
- This survey builds on, and is augmented by, previous spectroscopic surveys
- such as the Sloan Digital Sky Survey (SDSS), the 2dF Galaxy Redshift Survey
- (2dFGRS) and the Millennium Galaxy Catalogue (MGC).
-\end_layout
-
-\begin_layout Standard
-Galaxy And Mass Assembly survey Galaxy images from the GAMA survey.jpg Composite
- picture shows how a typical galaxy appears at different wavelengths in
- the GAMA survey Website www.gama-survey.org [edit on Wikidata] File:A fly-though
- of the GAMA galaxy survey.webm This simulated flythrough shows the real
- positions and images of the galaxies that have been mapped so far.
- Distances are to scale, but the galaxy images have been enlarged for your
- viewing pleasure.
- The Galaxy And Mass Assembly (GAMA) survey[1] is a project to exploit the
- latest generation of ground-based wide-field survey facilities to study
- cosmology and galaxy formation and evolution.
- GAMA will bring together data from a number of world class instruments:
-\end_layout
-
-\begin_layout Standard
-The Anglo-Australian Telescope (AAT), The VLT Survey Telescope (VST) The
- Visible and Infrared Survey Telescope for Astronomy (VISTA) The Australian
- Square Kilometre Array Pathfinder (ASKAP) The Herschel Space Observatory
- The Galaxy Evolution Explorer (GALEX) Data from these instruments will
- be used to construct a state-of-the-art multi-wavelength database of ~375,000
- galaxies in the local Universe over a 360 deg2 region of sky, based on
- a spectroscopic redshift survey on the AAT's AAOmega spectrograph.
-\end_layout
-
-\begin_layout Standard
-The main objective of GAMA is to study structure on scales of 1 kpc to 1
- Mpc.
- This includes galaxy clusters, groups, mergers and coarse measurements
- of galaxy structure (i.e., bulges and discs).
- It is on these scales where baryons play a critical role in the galaxy
- formation and subsequent evolutionary processes and where our understanding
- of structure in the Universe breaks down.
-\end_layout
-
-\begin_layout Subsection
+\begin_layout Subsubsection
 Method
 \end_layout
 
 \begin_layout Standard
-The Gama Survey website [reference] http://www.gama-survey.org/dr3/ suggest
- that for python usage the data could accessed using astroquery [reference]
- http://astroquery.readthedocs.org/ whilst astroquery provides access to the
- data via tables, unfortunaly it did not appear to offer facilities to selective
-ly subset or join tables.
- A more flexible approach was to download the GAMA data and then process
- with the python package AstropyTable.
- Details of the tables and their contents being available at [reference]
- 
-\end_layout
-
-\begin_layout Standard
-http://www.gama-survey.org/data/cat/ and AstropyTable having the facility
- to load the fits version of data into tables and from there utilise subset
- and join facilities.
- Data was cleaned by using appropriate subsetting of tables, especially.Python
- programs were created in Jupyter and the data analysed using the following
- python packages
+The Gama Survey website suggest that for python usage, the data could accessed
+ using astroquery [reference] http://astroquery.readthedocs.org/ but as astroquery
+ does not have facilities for selectivly joing and manipulating tabes, a
+ more flexible approach was to download the GAMA data and then process with
+ the python package AstropyTable that has facilities to subset and join
+ tables.
+ Details of the tables and their contents being available at [reference
+ - http://www.gama-survey.org/data/cat] Python programs were created in Jupyter
+ and the data analysed using the following python packages
 \end_layout
 
 \begin_layout Itemize
@@ -519,13 +459,13 @@ astropy Tables
 matplot, numpy, scipy seaborn and pandas
 \end_layout
 
-\begin_layout Subsubsection
-Astro Tables
+\begin_layout Subparagraph
+Red Elliptical Galaxies
 \end_layout
 
 \begin_layout Itemize
 For single Elliptical galaxy information the following tables were joined
- on CATAID stellarmasses, EnvironmetMeasures,VisualMorphology and a subset
+ on CATAID, stellarmasses, EnvironmetMeasures,VisualMorphology and a subset
  created by selected just ELLIPTICAL_CODE = 1 i.e.
  Elliptical Galaxy.
 \end_layout
@@ -533,6 +473,10 @@ For single Elliptical galaxy information the following tables were joined
 \begin_layout Itemize
 Prior to the join the tables were subsetted to select only valid measurements
  and ranges
+\end_layout
+
+\begin_layout Subparagraph
+Local Groups
 \end_layout
 
 \begin_layout Itemize
@@ -562,11 +506,11 @@ The resulting table was then joined with G3CFoFGroup using GroupID for local
 
 \end_deeper
 \begin_layout Itemize
-Test correlations
+Test Pearson and Spearman correlations between vaiabless
 \end_layout
 
 \begin_layout Itemize
-Produce Density maps
+Produce Density maps and other charts
 \end_layout
 
 \begin_layout Subsection
@@ -1033,6 +977,24 @@ correlations
 \end_layout
 
 \begin_layout Section
+Main Measures
+\end_layout
+
+\begin_layout Itemize
+uminusr - Restframe (u-r) colour from spectral energy distributionEneSED
+ fit
+\end_layout
+
+\begin_layout Itemize
+logmstar - Estimated total stelar mass of all luminous material, at the
+ time of observation.
+\end_layout
+
+\begin_layout Itemize
+TotRMag - Sum of all r-band absolute magnitude for the group
+\end_layout
+
+\begin_layout Section
 Galaxy environmental measures 
 \end_layout
 
@@ -1040,11 +1002,17 @@ Galaxy environmental measures
 The GAMA survey provides the following as the main measures of a galaxy's
  local environment 
 \color red
-Citation to Brough et al.
+Sarah Brough <s.brough@unsw.edu.au>Citation to Brough et al.
  paper.
 
 \color inherit
  
+\end_layout
+
+\begin_layout Standard
+[Galaxy And Mass Assembly (GAMA): Resolving the role of environment in galaxy
+ evolution S.
+ Brough et al]
 \end_layout
 
 \begin_layout Itemize
@@ -1065,6 +1033,17 @@ AgeDenPar
 
 \begin_layout Subsubsection
 Count In Cylinder
+\end_layout
+
+\begin_layout Standard
+
+\color orange
+This column provides the number of (other) galaxies from the density defining
+ population within a cylinder of co-moving radius 1 Mpc and a velocity range
+ of +/-1000 km/s.
+ The overdensity is given by CountInCyl / (nbar_ref * volume_of_cylinder)
+ where nbar_ref = 0.00734 Mpc^-3 is the average number density of the density
+ defining population.
 \end_layout
 
 \begin_layout Standard
@@ -1127,7 +1106,9 @@ AgeDenPar - Age Density
 \end_layout
 
 \begin_layout Standard
-This column provides the adaptive Gaussian density parameter, as introduced
+T
+\color orange
+his column provides the adaptive Gaussian density parameter, as introduced
  by Schawinski et al 
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -1148,6 +1129,8 @@ literal "false"
  To calculate this density parameter, we first identify all (other) galaxies
  from the density defining population in an adaptive Gaussian ellipsoid
  defined by
+\color inherit
+
 \begin_inset Formula 
 \[
 (r\_a/(3*sigma))^{2}+(r\_z/(AGEScale*3*sigma))^{2}<=1,
@@ -1184,6 +1167,18 @@ AGEDenPar=1/sqrt(2*pi)/sigma*SUM\_i\:exp(-0.5*((r\_a,i/sigma)^{2}+(r\_z,i/AGESca
 Effectively, this parameter is equivalent to a weighted local volume density
  of galaxies, where closer galaxies receive more weight than more distant
  ones.
+\end_layout
+
+\begin_layout Standard
+MAin measures
+\end_layout
+
+\begin_layout Standard
+uminusr lomstar TotRmag
+\end_layout
+
+\begin_layout Section
+Investigation of correlations
 \end_layout
 
 \begin_layout Subsection
@@ -2452,7 +2447,7 @@ Log10(CountInCyl)
 \begin_inset Text
 
 \begin_layout Plain Layout
--0.602
+-0.639
 \end_layout
 
 \end_inset
@@ -2461,7 +2456,7 @@ Log10(CountInCyl)
 \begin_inset Text
 
 \begin_layout Plain Layout
-6.10e-150
+7.731e-144
 \end_layout
 
 \end_inset
@@ -2470,7 +2465,7 @@ Log10(CountInCyl)
 \begin_inset Text
 
 \begin_layout Plain Layout
--0.737
+-0.646
 \end_layout
 
 \end_inset
@@ -2479,7 +2474,7 @@ Log10(CountInCyl)
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.01e-259
+4.86e-148
 \end_layout
 
 \end_inset
@@ -2488,7 +2483,7 @@ Log10(CountInCyl)
 \begin_inset Text
 
 \begin_layout Plain Layout
--0.385
+-2.105
 \end_layout
 
 \end_inset
@@ -2497,7 +2492,7 @@ Log10(CountInCyl)
 \begin_inset Text
 
 \begin_layout Plain Layout
--21.34
+-20.46
 \end_layout
 
 \end_inset
@@ -2517,7 +2512,7 @@ Log10(DistanceTo5nn)
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.682
+0.577
 \end_layout
 
 \end_inset
@@ -2526,7 +2521,7 @@ Log10(DistanceTo5nn)
 \begin_inset Text
 
 \begin_layout Plain Layout
-7.46e-208
+3.599e-111
 \end_layout
 
 \end_inset
@@ -2535,7 +2530,7 @@ Log10(DistanceTo5nn)
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.699
+0.619
 \end_layout
 
 \end_inset
@@ -2544,7 +2539,7 @@ Log10(DistanceTo5nn)
 \begin_inset Text
 
 \begin_layout Plain Layout
-5.93e-222
+3.279e-132
 \end_layout
 
 \end_inset
@@ -2553,7 +2548,7 @@ Log10(DistanceTo5nn)
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.099
+2.298
 \end_layout
 
 \end_inset
@@ -2562,7 +2557,7 @@ Log10(DistanceTo5nn)
 \begin_inset Text
 
 \begin_layout Plain Layout
--21.85
+-21.87
 \end_layout
 
 \end_inset
@@ -2582,7 +2577,7 @@ Log10(SurfaceDensity)
 \begin_inset Text
 
 \begin_layout Plain Layout
--0.681
+-0.576
 \end_layout
 
 \end_inset
@@ -2591,7 +2586,7 @@ Log10(SurfaceDensity)
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.88e-206
+6.448e-111
 \end_layout
 
 \end_inset
@@ -2600,7 +2595,7 @@ Log10(SurfaceDensity)
 \begin_inset Text
 
 \begin_layout Plain Layout
--0.700
+-0.620
 \end_layout
 
 \end_inset
@@ -2609,7 +2604,7 @@ Log10(SurfaceDensity)
 \begin_inset Text
 
 \begin_layout Plain Layout
-2.153
+4.705e-133
 \end_layout
 
 \end_inset
@@ -2618,7 +2613,7 @@ Log10(SurfaceDensity)
 \begin_inset Text
 
 \begin_layout Plain Layout
--0.534
+-1.123
 \end_layout
 
 \end_inset
@@ -2627,7 +2622,7 @@ Log10(SurfaceDensity)
 \begin_inset Text
 
 \begin_layout Plain Layout
--21.58
+-21.62
 \end_layout
 
 \end_inset
@@ -2647,7 +2642,7 @@ Log10(AGEDenPar)
 \begin_inset Text
 
 \begin_layout Plain Layout
--0.497
+-0.379
 \end_layout
 
 \end_inset
@@ -2656,7 +2651,7 @@ Log10(AGEDenPar)
 \begin_inset Text
 
 \begin_layout Plain Layout
-4.06e-99
+1.100e-43
 \end_layout
 
 \end_inset
@@ -2665,7 +2660,7 @@ Log10(AGEDenPar)
 \begin_inset Text
 
 \begin_layout Plain Layout
--0.458
+-0.410
 \end_layout
 
 \end_inset
@@ -2674,7 +2669,7 @@ Log10(AGEDenPar)
 \begin_inset Text
 
 \begin_layout Plain Layout
-3.512
+1.223e-51
 \end_layout
 
 \end_inset
@@ -2683,7 +2678,7 @@ Log10(AGEDenPar)
 \begin_inset Text
 
 \begin_layout Plain Layout
--0.613
+-1.132
 \end_layout
 
 \end_inset
@@ -2692,7 +2687,7 @@ Log10(AGEDenPar)
 \begin_inset Text
 
 \begin_layout Plain Layout
--21.69
+-21.68
 \end_layout
 
 \end_inset
@@ -2782,6 +2777,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Correlations-and-linear"
+
+\end_inset
+
 Correlations and linear regression results for TotRMag vesus log10(Mean(Environm
 ent Measures))
 \end_layout
@@ -2958,7 +2959,7 @@ Log10(CountInCyl)
 \begin_layout Plain Layout
 
 \color black
-4e-21
+4.01e-21
 \end_layout
 
 \end_inset
@@ -2969,7 +2970,7 @@ Log10(CountInCyl)
 \begin_layout Plain Layout
 
 \color black
--0.38
+-0.380
 \end_layout
 
 \end_inset
@@ -2991,7 +2992,7 @@ Log10(CountInCyl)
 \begin_layout Plain Layout
 
 \color black
--1.15
+-1.152
 \end_layout
 
 \end_inset
@@ -3112,7 +3113,7 @@ Log10(SurfaceDensity)
 \begin_layout Plain Layout
 
 \color black
-1.592e-19
+1.59e-19
 \end_layout
 
 \end_inset
@@ -3123,7 +3124,7 @@ Log10(SurfaceDensity)
 \begin_layout Plain Layout
 
 \color black
--0.3853
+-0.385
 \end_layout
 
 \end_inset
@@ -3156,7 +3157,7 @@ Log10(SurfaceDensity)
 \begin_layout Plain Layout
 
 \color black
--21.88
+-21.18
 \end_layout
 
 \end_inset
@@ -3252,9 +3253,29 @@ Log10(AGEDenPar)
 \end_layout
 
 \begin_layout Standard
-Normally one would look at a groups characteristic versus a measure of the
- groups environment so to determine measures of the environmental measurements
- of the group, means of all the galaxy's within the local group were calculated.
+The density maps for the mean environment measures show a small degree of
+ correlation between TotRMag but comparing table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Linear-Regression-of"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ with 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Correlations-and-linear"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+the Pearsom and Spearman coefficients for the mean of environmental measures
+ are less when comparing the individual galxies grouped by local group.
 \end_layout
 
 \begin_layout Subsection
@@ -3329,6 +3350,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Linear-regression-of-logmstar"
+
+\end_inset
+
 Linear regression of group sum of logmstar with log(galaxy environment measures)
  for elliptical galaxies
 \end_layout
@@ -4334,11 +4361,28 @@ noprefix "false"
 
 \end_inset
 
-with of Using a single measure for 
+with those of table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Linear-regression-of-logmstar"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+that using as single measure of the mean of all galaxies within the group
+ produced slighly better degrees of correlation which is in contrast to
+ the results for TotRMag
 \end_layout
 
 \begin_layout Subsection
-Positions with local Group
+Elliptical galaxies - variations of measures with positions within local
+ Group
+\end_layout
+
+\begin_layout Subsubsection
+Density Plots
 \end_layout
 
 \begin_layout Standard
@@ -4440,6 +4484,174 @@ uminusr & logmstar density plots for comoving distances to the center of
 \end_layout
 
 \begin_layout Standard
+When looking at the positional information, it is important to remember
+ that galaxies are three dimensional whereas the data is represented in
+ two dimensions, the y axis being the measure uminusr or logmsar and the
+ xaxis the distance from the center of the local group.
+ there are a number of ways of defining the center of a group.
+ The most common measure quoted in astrophyics lituature is CoSepBCG.
+\end_layout
+
+\begin_layout Itemize
+The centre of light - Cen
+\end_layout
+
+\begin_layout Itemize
+The Brightest Cluster Galaxy - BCG 
+\end_layout
+
+\begin_layout Itemize
+The brightest galaxy left after iteratively removing the most distant galaxies
+ from the group centre of light - IterCen
+\end_layout
+
+\begin_layout Standard
+Resulting statistics from the tables
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Measure
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Median
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mode
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+uminusr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.286
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.232
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+logmstar 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9,560
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10,474
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Histogram Ranges
+\end_layout
+
+\begin_layout Standard
+The data uminusr & logmstar was also plotted as boxplots for eight equal
+ ranges of CoSepBCG
+\end_layout
+
+\begin_layout Standard
 
 \color red
 \begin_inset Float figure
@@ -4472,7 +4684,7 @@ uminusr versus ranges of CoSepBCG
 \begin_inset Graphics
 	filename ChartsPlots/Boxplot_uminusr_CoSepBCG.png
 	lyxscale 30
-	scale 40
+	scale 25
 
 \end_inset
 
@@ -4484,7 +4696,7 @@ uminusr versus ranges of CoSepBCG
 \begin_inset Graphics
 	filename ChartsPlots/Boxplot_logmstar_CoSepBCG.png
 	lyxscale 30
-	scale 40
+	scale 25
 
 \end_inset
 
@@ -4496,62 +4708,56 @@ uminusr versus ranges of CoSepBCG
 
 \end_layout
 
-\begin_layout Standard
-
-\color red
-Box chart plots
+\begin_layout Subsubsection
+Observations 
 \end_layout
 
 \begin_layout Standard
-One needs to define the centre of the halo before stacking the ESD profiles
- of the groups.
- Following R+11, we have three choices for the group centre: the centre
- of light (Cen), the Brightest Cluster Galaxy (BCG) and the brightest galaxy
- left after iteratively removing the most distant galaxies from the group
- centre of light (IterCen).
- Throughout the paper, unless stated otherwise, we use the BCG as the definition
- of the centre, as it is a common choice in the literature.
- 
-\end_layout
+From figures 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:uminusr-&-logmstar"
+plural "false"
+caps "false"
+noprefix "false"
 
-\begin_layout Standard
-When looking at the positional information, it is important to remember
- that galaxies are three dimensional whereas the data is represented in
- two dimensions.
- From the various plots, the following can be observed
-\end_layout
+\end_inset
 
-\begin_layout Standard
-[]Dark matter halo properties of GAMA galaxy groups from 100 square degrees
- of KiDS weak lensing data M.
- Viola et al 
-\end_layout
+and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:uminusr-versus-ranges"
+plural "false"
+caps "false"
+noprefix "false"
 
-\begin_layout Enumerate
+\end_inset
 
-\color black
-uminusr - median : 2.286 mode : 2.232
+ the following can be observed
 \end_layout
 
 \begin_layout Enumerate
-The spread of values below the mode is larger than that above.
+The spread of values below the mode for the local group is larger than that
+ above.
 \end_layout
 
 \begin_layout Enumerate
-
-\color magenta
-Galaxies close to the centre of the local group have a much larger range
- of values than more distant galaxies.
- 
-\color red
-you can't obviously tell that because you need to correct for the density
- of the data points.
- Histograms of uminusr in bins of distance could be used to check this
+The core range of uminusr and logmstar are consistent across the first 75%
+ of the range of comoving distance from the center
 \end_layout
 
 \begin_layout Enumerate
-The more distant galaxies are likely to have uminusr values similar to the
- mode of the group.
+Closer to the center of the local group there a small number of galaxies
+ have a larger range of values
+\end_layout
+
+\begin_layout Enumerate
+The mode vales of uminusr and logmstar are consitent acroff the whole rnage
+ of comoving distances.
+\end_layout
+
+\begin_layout Subsection
+Spiral galaxies ??
 \end_layout
 
 \begin_layout Standard
@@ -4635,10 +4841,6 @@ more distant galaxies are lower mass on average.
 \end_layout
 
 \begin_layout Itemize
-logmstar - medium : 9.560 mode : 10.474
-\end_layout
-
-\begin_layout Itemize
 Looking at figure , details of logmstar of spiral galaxies (within the same
  local group as elliptical galaxies) versus various measures of position
  from the centre of the local group produced very similar results as details
@@ -4696,7 +4898,7 @@ As can be seen from the charts
 \end_layout
 
 \begin_layout Itemize
-The number of all galaxies decreases rapidly with distance
+The number of all galaxies decreases rapidly with comoving distance
 \end_layout
 
 \begin_layout Itemize
@@ -4704,7 +4906,8 @@ Spiral galaxies far out number older red elliptical galaxies
 \end_layout
 
 \begin_layout Itemize
-That the mixture of galaxy type does not change significantly with distance
+That the mixture of galaxy type does not change significantly with comoving
+ distance
 \end_layout
 
 \begin_layout Standard
@@ -4852,8 +5055,8 @@ It can clearly be seen that
 \end_layout
 
 \begin_layout Itemize
-the number and ratio of red elliptical galaxies increases in larger mass
- local groups
+the number and ratio of red elliptical galaxies increases in local groups
+ of larger mass.
 \end_layout
 
 \begin_layout Itemize
@@ -4956,16 +5159,16 @@ Local Group : Galaxy Type percentages for ranges of sum(logmstar)
 \end_layout
 
 \begin_layout Subsubsection
-Galaxy type percentages verus mean environments
+Galaxy type percentages versus mean environments
 \end_layout
 
 \begin_layout Standard
 Previous research [] looking at satellite galaxies had shown a relationship
  between the percentage of red elliptical galaxies and the galaxies environment,
  so a similar exercise was carried out to determine the percentages of galaxy
- types with a local group, this did not reveal a clear relationship until
- on galaxies in local groups with over 5 galaxies were considered the resulting
- density plots are shown in figure 
+ types within a local group, this did not reveal a clear relationship until
+ local groups with over 5 galaxies were considered, the resulting density
+ plots are shown in figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Density-map-plot"
@@ -4985,7 +5188,8 @@ noprefix "false"
 
 \end_inset
 
- As can be seen there is a reasonable degree of correlation apart from AGEDenPar
+ As can be seen there is a reasonable degree of correlation with the various
+ environmental measures apart from AGEDenPar
 \end_layout
 
 \begin_layout Standard
@@ -6312,19 +6516,19 @@ Not unreasonable
 \end_layout
 
 \begin_layout Standard
-Very large number of particals
+Very large number of particles
 \end_layout
 
 \begin_layout Standard
-Heatsed photos Plank distribution
+Heated photos Plank distribution
 \end_layout
 
 \begin_layout Standard
 
 \color orange
 In the early evolution stages of the universe it was a hot ionised plasma
- that was cooling due to expansion, an epoch of recombination occured when
- tempertaure cooled to the point of electrons recombining and the plasma
+ that was cooling due to expansion, an epoch of recombination occurred when
+ temperature cooled to the point of electrons recombining and the plasma
  no longer being totay ionised, at this point photon were no longer totally
  scattered by Compton scattering in the plasma, we can measure the light
  from these photon as the Cosmic background radiation, the wavelength of
@@ -6830,7 +7034,7 @@ not seen this used in astrophysics papers.
 \begin_layout Standard
 
 \color orange
-More detail cox bxo
+More detail cox box
 \end_layout
 
 \begin_layout Standard
@@ -6986,7 +7190,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Spiral Galaxy Distribtions
+Spiral Galaxy Distributions
 \end_layout
 
 \end_inset
@@ -7875,7 +8079,7 @@ Assumptions
 \end_layout
 
 \begin_layout Standard
-Is the intial distributions of minor fluctuations in temp normal distribution/
+Is the initial distributions of minor fluctuations in temp normal distribution/
 \end_layout
 
 \begin_layout Standard
@@ -7907,7 +8111,7 @@ Test distribution with Plank function ( temp?
 \begin_layout Itemize
 
 \color red
-Cox box technique but with Plank Function rather than Gaussien
+Cox box technique but with Plank Function rather than Gaussian
 \end_layout
 
 \begin_layout Subsection
@@ -7915,7 +8119,7 @@ Results from distributions
 \end_layout
 
 \begin_layout Standard
-The lamda values for redness uminsur and logmstar have similar values with
+The lambda values for redness uminusr and logmstar have similar values with
  overlapping confidence ranges see table 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -7927,7 +8131,7 @@ noprefix "false"
 \end_inset
 
 .
- Now it is known from previos research[??] and confirmed by the results
+ Now it is known from previous research[??] and confirmed by the results
  of correlation between uminusr and logmstar see table 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -7939,11 +8143,12 @@ noprefix "false"
 \end_inset
 
  that there is a linear relationship which means a power of one and therefore
- one would not expect any difference in lamda.
- However the lamda for metallicity is quite different.
+ one would not expect any difference in lambda.
+ However the lambda for metallicity is quite different.
  Given star mellicity is a result of stars of different sizes recycling
  material in supernova raises the question of whether any useful information
- could be obtained from looking at lamda for different ranges of metal values
+ could be obtained from looking at lambda for different ranges of metal
+ values
 \color red
 (Check Physics Logic)
 \color inherit
@@ -7990,16 +8195,18 @@ The Cox-Box Lamda
 \begin_inset Formula $\lambda$
 \end_inset
 
- is the exponent for a tranform function that if applied wouth transform
- a diFor ellipticals the Lamdvalues for redness(uminusr) and mass(logmstar)
+ is the exponent for a transform function that if applied would transform
+ a distribution to another distribution which has a higher degree of fit
+ with a Gausing function.
+ For ellipticals the Lamda values for redness(uminusr) and mass(logmstar)
  are quite similar with overlapping ranges.
  A 
 \begin_inset Formula $\lambda$
 \end_inset
 
- value of two would correstpond to a square law but redness is beyond a
- square law.
- etalicity for elliptical is quite low as there is much less creation of
+ value of two would correspond to a square law but redness is beyond a square
+ law.
+ metalicity for elliptical is quite low as there is much less creation of
  metals as a result of stars creating metals and recycling them at the end
  of their lives.
 \end_layout
@@ -8052,33 +8259,33 @@ Looking at galaxies as a whole, there does not appear to be a direct correlation
 \begin_layout Itemize
 Looking at a group level there is a degree of correlation between the group
  characteristics such as TotRMag, sum of logmstar and a galaxy's environmental
- measures, however this probaby just due to these characteristics having
+ measures, however this probably just due to these characteristics having
  higher values in denser parts of the universe which is reflected in the
- averages og group enironmental measuers.
+ averages of group environmental measures.
  The environment of a galaxy is understandably being influenced by its local
  group i.e.
- Where a local group is in a dense part of the universe the environmtal
- measures of galaxies within the group will exhibit more dense enviroment
- measures, singulary and as a group.
- Likewise if the local group is in a less dense part of the univere the
+ Where a local group is in a dense part of the universe the environmental
+ measures of galaxies within the group will exhibit more dense environment
+ measures, singularly and as a group.
+ Likewise if the local group is in a less dense part of the universe the
  galaxy enviromenal measures will reflect this.
 \end_layout
 
 \begin_layout Itemize
-A relationship is observed between the fraction of elliptical galxies in
+A relationship is observed between the fraction of elliptical galaxies in
  local groups with more than five members and their environmental measures
- and is consitent with previous research for an evaluation of satellite
+ and is consistent with previous research for an evaluation of satellite
  galaxies[x]
 \end_layout
 
 \begin_layout Itemize
 
 \color red
-Galaxy environment influeneces Galacy evolution from Sprial to agged Ellipticals
+Galaxy environment influences Galaxy evolution from Spiral to aged Ellipticals
 \end_layout
 
 \begin_layout Itemize
-Envirnmental measures vary signifantly with large scale structure
+Environmental measures vary significantly with large scale structure
 \end_layout
 
 \begin_layout Bibliography

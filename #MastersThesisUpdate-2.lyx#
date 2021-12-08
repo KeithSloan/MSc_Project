@@ -167,11 +167,27 @@ We know that dark matter makes up xx% of the universe and the concesus is
  density that we see today.
  That a galaxy's local environment is strongly influences by dark matter
  halo mass.
- Research has shown that there is a correlation between galaxy/halo/dark
- matter and the environment also that older galaxies are more strongly clustered
+\color orange
+[1]
+\end_layout
+
+\begin_layout Standard
+Research such as Norberg et al.
+ 2002; Zehavi et al.
+ 2005; Sheth et al.
+ 2006; Li et al.
+ 2006; Tinker et al.
+ 2008; Ellison et al.
+ 2009; Skibba & Sheth 2009; Skibba et al.
+ 2009; de la Torre et al.
+ 2011 has shown that there is a correlation between galaxy/halo/dark matter
+ and the environment also that older galaxies are more strongly clustered
  in denser environments [xxx] Previous research of the GAMA survey data
  has also shown that the red fraction of satellite galaxies within a radial
  distribribution correlates with environmental measures.
+\color orange
+[2]
+\color inherit
  Although there is some uncertantity in the best measure to use for environmenta
 l characteristic.
  There are indications that galaxies in high denity regions tend to be redder.[a]
@@ -180,94 +196,8 @@ l characteristic.
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
-[xxx]Norberg et al.
- 2002; Zehavi et al.
- 2005; Sheth et al.
- 2006; Li et al.
- 2006; Tinker et al.
- 2008; Ellison et al.
- 2009; Skibba & Sheth 2009; Skibba et al.
- 2009; de la Torre et al.
- 2011).
- 
-\end_layout
-
-\begin_layout Standard
 The aim was to examine the results of the GAMA survey for the relationships
  between galaxies characteristics and the environmental measures
-\end_layout
-
-\begin_layout Standard
-Galaxy and Mass Assembly (GAMA): the red fraction and radial distribution
- of satellite galaxies Matthew Prescott at al doi:10.1111/j.1365-2966.2011.19353.x
-\end_layout
-
-\begin_layout Standard
-
-\color orange
-[]Stuart I.
- Muldrew,et al Measures of galaxy environment – I.
- What is ‘environment’?https://doi.org/10.1111/j.1365-2966.2011.19922.x
-\end_layout
-
-\begin_layout Standard
-
-\color orange
-The resulting correlation also shows that nearest-neighbour galaxy environment
- is largely independent of dark matter halo mass.
- Conversely, aperture-based methods that probe superhalo scales accurately
- identify high-density regions corresponding to high-mass haloes.
- Both methods show how galaxies in dense environments tend to be redder,
- with the exception of the largest apertures, but these are the strongest
- at recovering the background dark matter environment.
- onversely, aperture-based methods that probe superhalo scales accurately
- identify high-density regions corresponding to high-mass haloes.
- Both methods show how galaxies in dense environments tend to be redder,
- with the exception of the largest apertures, but these are the strongest
- at recovering the background dark matter environment
-\end_layout
-
-\begin_layout Standard
-
-\color orange
-In the paradigm of hierarchical structure formation, the evolution of the
- primordial density field acting under gravitational instability drives
- dark matter to cluster and collapse into virialized objects (haloes).
- Such haloes provide the potential wells into which baryons fall and galaxies
- subsequently form (White & Rees 1978).
- Haloes, galaxies and their environments also interact and merge as structure
- formation unfolds with time.
- It therefore follows that the properties of a galaxy should be correlated
- with the properties of its host halo and that a galaxy’s environment, its
- host halo’s environment and the dark matter density field are all related
- in some measurable way.
-\end_layout
-
-\begin_layout Standard
-
-\color orange
-Such galaxy/halo/dark matter correlations with environment have led to a
- variety of work examining the environmental dependence of the physics of
- galaxy formation, both theoretical and observational.
- Measurements of the galaxy two-point correlation function and halo occupation
- distribution (HOD) function have shown that more massive, brighter, redder
- and passive early-type galaxies tend to be more strongly clustered and
- hence presumably located in denser environments, while the reverse is true
- for galaxies that have lower mass, are fainter, bluer and star forming
- (e.g.
- Norberg et al.
- 2002; Zehavi et al.
- 2005; Sheth et al.
- 2006; Li et al.
- 2006; Tinker et al.
- 2008; Ellison et al.
- 2009; Skibba & Sheth 2009; Skibba et al.
- 2009; de la Torre et al.
- 2011).
 \end_layout
 
 \begin_layout Standard
@@ -606,17 +536,6 @@ Density map plot of redness (uminusr) versus the log of the galaxy star
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-
-\color red
-figure presentation.
- Show more of the useful area.
- 7.5 to 11.5 in mass.
-
-\color inherit
- 
 \end_layout
 
 \begin_layout Standard
@@ -4506,6 +4425,8 @@ The brightest galaxy left after iteratively removing the most distant galaxies
 \end_layout
 
 \begin_layout Standard
+
+\color orange
 Resulting statistics from the tables
 \end_layout
 
@@ -8296,178 +8217,23 @@ literal "false"
 
 \end_inset
 
-Galaxy And Mass Assembly (GAMA) : Project http://www.gama-survey.org
+
+\color orange
+Stuart I.
+ Muldrew,et al Measures of galaxy environment – I.
+ What is ‘environment’?https://doi.org/10.1111/j.1365-2966.2011.19922.
 \end_layout
 
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
 key "key-2"
-
-\end_inset
-
-Galaxy morphology in rich clusters: implications for the formation and evolution
- of galaxies - Dressler, A 1980.
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "key-3"
 literal "false"
 
 \end_inset
 
-Galaxy Star Formation as a Function of Environment in the Early Data Release
- of the Sloan Digital Sky Survey - Go ́mez et al.
- 2003.
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "key-4"
-literal "false"
-
-\end_inset
-
-The bimodal galaxy colour distribution: Dependance on luminosity and environment
- - Balogh et al.
- 2004.
- 
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "key-5"
-literal "false"
-
-\end_inset
-
-
-\color black
-The many lives of active galactic nuclei: cooling flows, black holes and
- the luminosities and colours of galaxies - Croton et al.
- 2005
-\end_layout
-
-\begin_layout Bibliography
-
-\color black
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "key-6"
-literal "false"
-
-\end_inset
-
-Galaxy And Mass Assembly (GAMA): the dependence of the galaxy luminosity
- function on environment, redshift and colour - McNaught-Roberts et al.
- 2014
-\end_layout
-
-\begin_layout Bibliography
-
-\color black
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "key-7"
-literal "false"
-
-\end_inset
-
- The clustering of galaxies in the SDSS-III Baryon Oscillation Spectroscopic
- Survey: modelling of the luminosity and colour dependence - Guo et al.
- 2014 
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "key-8"
-literal "false"
-
-\end_inset
-
-Galaxy And Mass Assembly (GAMA): Deconstructing Bimodality— I.
- Red ones and blue ones <arXiv:1408.5984v1> 2018 Taylor et al
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "key-9"
-literal "false"
-
-\end_inset
-
-Colour bimodality: Implications for galaxy evolution - Baldry et al 2004
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "key-10"
-literal "false"
-
-\end_inset
-
-http://adsabs.harvard.edu/abs/2007ApJS..173..512S" - Schawinski et al.
- (2007)
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "key-11"
-literal "false"
-
-\end_inset
-
-http://adsabs.harvard.edu/abs/2008ApJS..176..414Y" - Yoon et al.
- (2008)
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "key-12"
-literal "false"
-
-\end_inset
-
-Galaxy And Mass Assembly (GAMA): The galaxy luminosity function within the
- cosmic web <arXiv:1412.2141> 2015 Eardley et al
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "key-13"
-literal "false"
-
-\end_inset
-
-Box, George E.
- P.; Cox, D.
- R.
- "An analysis of transformations".
- Journal of the Royal Statistical Society, Series B.
- 26 (2): 211–252.
- 1964
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "key-1"
-
-\end_inset
-
-[a] tuart I.
- Muldrew,et al Measures of galaxy environment – I.
- What is ‘environment’?https://doi.org/10.1111/j.1365-2966.2011.19922.x
+Galaxy and Mass Assembly (GAMA): the red fraction and radial distribution
+ of satellite galaxies Matthew Prescott at al doi:10.1111/j.1365-2966.2011.19353.x
 \end_layout
 
 \end_body

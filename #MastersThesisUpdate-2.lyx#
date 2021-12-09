@@ -166,13 +166,7 @@ We know that dark matter makes up xx% of the universe and the concesus is
  of gravity over a very long time and giving rise to the variations in regional
  density that we see today.
  That a galaxy's local environment is strongly influences by dark matter
- halo mass.
-\color orange
-[1]
-\end_layout
-
-\begin_layout Standard
-Research such as Norberg et al.
+ halo mass, research such as Norberg et al.
  2002; Zehavi et al.
  2005; Sheth et al.
  2006; Li et al.
@@ -182,44 +176,60 @@ Research such as Norberg et al.
  2009; de la Torre et al.
  2011 has shown that there is a correlation between galaxy/halo/dark matter
  and the environment also that older galaxies are more strongly clustered
- in denser environments [xxx] Previous research of the GAMA survey data
- has also shown that the red fraction of satellite galaxies within a radial
- distribribution correlates with environmental measures.
+ in denser environments.
+ Galaxy Redshift Survey (2dFGRS; Colless et al.
+ 2001, 2003) and the Sloan Digital Sky Survey (SDSS; York et al.
+ 2000; Alam et al.
+ 2015) demonstrated convincingly that the description of large-scale structure
+ formation provided by the cold dark matter (CDM) paradigm is remarkably
+ accurate (e.g.
+ Peacock et al.
+ 2001; Percival et al.
+ 2001, 2007; Tegmark et al.
+ 2004; Cole et al.
+ 2005; Eisenstein et al.
+ 2005).
+\end_layout
+
+\begin_layout Standard
+Intensive studies of galaxy clusters have demonstrated a clear connection
+ between galaxy properties and environment ( Dressler 1980; Whitmore et
+ al.
+ 1993; Balogh et al.
+ 1997, 1998, 1999; Hashimoto et al.
+ 1998; Poggianti et al.
+ 1999; Couch et al.
+ 2001; Lewis et al.
+ 2002; Go ́mez et al.
+ 2003; Blanton et al.
+ 2003a) with possible evolution (Butcher & Oemler 1984; Couch & Sharples
+ 1987; Dressler et al.
+ 1997; Andreon 1998; Fasano et al.
+ 2000; Goto et al.
+ 2003a, 2004).
+ Lewis et al.
+ (2002) and Go ́ mez et al leading to the conclusion that Galaxy properties
+ depend on environment, red early-type galaxies dominate galaxy clusters
+ 
+\end_layout
+
+\begin_layout Standard
+Previous research of the GAMA survey data has also shown that the red fraction
+ of satellite galaxies within a radial distribribution correlates with environme
+ntal measures
 \color orange
-[2]
+[4]
 \color inherit
  Although there is some uncertantity in the best measure to use for environmenta
 l characteristic.
- There are indications that galaxies in high denity regions tend to be redder.[a]
- and the purpose of the project was to investigate any relationship between
- redness and enviroment.
 \end_layout
 
 \begin_layout Standard
-The aim was to examine the results of the GAMA survey for the relationships
+With such a large body of research indicating that the redness of early
+ type galaxies is realted to their environment then one would expect to
+ find obvious and direct relationships between a galaxies redness and The
+ aim was to examine the results of the GAMA survey for the relationships
  between galaxies characteristics and the environmental measures
-\end_layout
-
-\begin_layout Standard
-
-\color orange
-Measuring galaxy environment in large scale photometric surveys - James
- Daniel et al Etherington &Thomas (2015) and Etherington et al.
- (in DES collaboration review).
- easuring galaxy environment in large scale photometric surveys Etherington,
- J.
- D.
- L.
- (Author), Maraston, C.
- (Author), Capozzi, D.
- (Author).
- Feb 2016
-\end_layout
-
-\begin_layout Standard
-Galaxy And Mass Assembly: resolving the role of environment in galaxy evolution
- S.
- Brough
 \end_layout
 
 \begin_layout Standard
@@ -265,10 +275,6 @@ Galaxy And Mass Assembly (GAMA): end of survey report and data release 2
  Liske, I.
  K.
  Baldry, 
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Section
@@ -931,7 +937,9 @@ Sarah Brough <s.brough@unsw.edu.au>Citation to Brough et al.
 \begin_layout Standard
 [Galaxy And Mass Assembly (GAMA): Resolving the role of environment in galaxy
  evolution S.
- Brough et al]
+ Brough et al]Galaxy And Mass Assembly: resolving the role of environment
+ in galaxy evolution S.
+ Brough
 \end_layout
 
 \begin_layout Itemize
@@ -8209,6 +8217,19 @@ Galaxy environment influences Galaxy evolution from Spiral to aged Ellipticals
 Environmental measures vary significantly with large scale structure
 \end_layout
 
+\begin_layout Itemize
+
+\color orange
+Stuart I.
+ Muldrew,et al Measures of galaxy environment – I.
+ What is ‘environment’?https://doi.org/10.1111/j.1365-2966.2011.19922.
+\end_layout
+
+\begin_layout Itemize
+Galaxy and Mass Assembly (GAMA): the red fraction and radial distribution
+ of satellite galaxies Matthew Prescott at al doi:10.1111/j.1365-2966.2011.19353.x
+\end_layout
+
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
@@ -8218,22 +8239,57 @@ literal "false"
 \end_inset
 
 
-\color orange
+\color black
 Stuart I.
  Muldrew,et al Measures of galaxy environment – I.
  What is ‘environment’?https://doi.org/10.1111/j.1365-2966.2011.19922.
 \end_layout
 
 \begin_layout Bibliography
+
+\color black
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-2"
-literal "false"
+key "key-7"
 
 \end_inset
 
-Galaxy and Mass Assembly (GAMA): the red fraction and radial distribution
- of satellite galaxies Matthew Prescott at al doi:10.1111/j.1365-2966.2011.19353.x
+Measuring galaxy environment in large scale photometric surveys - James
+ Daniel et al Etherington &Thomas (2015)
+\end_layout
+
+\begin_layout Bibliography
+
+\color black
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-8"
+
+\end_inset
+
+ Measuring galaxy environment in large scale photometric surveys (in DES
+ collaboration review).
+ Etherington, J.
+ D.
+ L.
+ (Author), Maraston, C.
+ (Author), Capozzi, D.
+ (Author).
+ Feb 2016
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-9"
+
+\end_inset
+
+Galaxy And Mass Assembly (GAMA): end of survey report and data release 2
+ J.
+ Liske, I.
+ K.
+ Baldry, 
 \end_layout
 
 \end_body

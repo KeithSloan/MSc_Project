@@ -142,6 +142,10 @@ This work was very much a broad exploration with brief notes for each figure.
  
 \end_layout
 
+\begin_layout Section
+Introduction
+\end_layout
+
 \begin_layout Standard
 The presiding inference from a large body of research is that the structure
  of the universe we see today is the result of initally very small deviations
@@ -214,14 +218,16 @@ Intensive studies of galaxy clusters have demonstrated a clear connection
 \end_layout
 
 \begin_layout Standard
-Previous research of the GAMA survey data has also shown that the red fraction
- of satellite galaxies within a radial distribribution correlates with environme
-ntal measures
+The GAMA end of survey report and data release 2 J.
+ Liske, I.
+ K.
+ Baldry shown that the red fraction of satellite galaxies within a radial
+ distribribution correlates with environmental measures
 \color orange
-[4]
+, 
 \color inherit
- Although there is some uncertantity in the best measure to use for environmenta
-l characteristic.
+although there is some uncertantity in the best measure to use for environmental
+ characteristic.
 \end_layout
 
 \begin_layout Standard
@@ -231,81 +237,6 @@ With such a large body of research indicating that the redness of early
  environmental measures.
  The aim was therefore to examine the results of the GAMA survey for the
  relationships between galaxies characteristics and the environmental measures
-\end_layout
-
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
-2Monthly Notices of the Royal Astronomical Society, Volume 435, Issue 4,
- 11 November 2013, Pages 2903–2917, https://doi.org/10.1093/mnras/stt1489
-\end_layout
-
-\begin_layout Standard
-Galaxy And Mass Assembly (GAMA): end of survey report and data release 2
- J.
- Liske, I.
- K.
- Baldry, 
-\end_layout
-
-\begin_layout Section
-Introduction
-\end_layout
-
-\begin_layout Subsection
-Objective
-\end_layout
-
-\begin_layout Standard
-Galaxy formation is understood to be subject to a number of processes
-\end_layout
-
-\begin_layout Itemize
-Evolution of star members due to nucleosynthesis.
-\end_layout
-
-\begin_layout Itemize
-Galaxy mergers.
-\end_layout
-
-\begin_layout Itemize
-Star formation.
-\end_layout
-
-\begin_layout Itemize
-More processes could be described: rotation, gas and stellar dynamics.
- supernovae feedback, AGN feedback.
- 
-\end_layout
-
-\begin_layout Standard
-Previous research 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "key-2,key-3,key-4"
-literal "false"
-
-\end_inset
-
- has established a strong dependence of galactic properties, morphology,
- star formation rate and colour on its local environment and also the dependency
- of a galaxy's light function on local density 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "key-5,key-6,key-7"
-literal "false"
-
-\end_inset
-
-.
- The objective was to investigate possible relationships between colour
- redness and local galaxy environment.
- 
-\color red
-galaxy luminosity function.
- iIt's quite a specific terminology.
 \end_layout
 
 \begin_layout Subsection
@@ -936,17 +867,6 @@ Count In Cylinder
 \end_layout
 
 \begin_layout Standard
-
-\color orange
-This column provides the number of (other) galaxies from the density defining
- population within a cylinder of co-moving radius 1 Mpc and a velocity range
- of +/-1000 km/s.
- The overdensity is given by CountInCyl / (nbar_ref * volume_of_cylinder)
- where nbar_ref = 0.00734 Mpc^-3 is the average number density of the density
- defining population.
-\end_layout
-
-\begin_layout Standard
 The number of (other) galaxies from the density defining population within
  a cylinder of co-moving radius 1 Mpc and a velocity range of 
 \begin_inset Formula $+/-1000km/s$
@@ -962,13 +882,10 @@ The over density is given by
 \end_inset
 
  where 
-\begin_inset Formula ${\color{red}nbar_{r}ef}=0.00911Mpc^{-}3$
+\begin_inset Formula $nbar\_ref=0.00734\:Mpc^{-}3$
 \end_inset
 
  is the average number density of the density defining population.
- 
-\color red
-LaTeX formatting issues.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1006,10 +923,10 @@ AgeDenPar - Age Density
 \end_layout
 
 \begin_layout Standard
-T
-\color orange
-his column provides the adaptive Gaussian density parameter, as introduced
- by Schawinski et al 
+
+\color black
+The adaptive Gaussian density parameter, as introduced by Schawinski et
+ al 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-10"
@@ -1026,9 +943,9 @@ literal "false"
 \end_inset
 
 .
- To calculate this density parameter, we first identify all (other) galaxies
- from the density defining population in an adaptive Gaussian ellipsoid
- defined by
+ The value is calculated by first identify all (other) galaxies from the
+ density defining population in an adaptive Gaussian ellipsoid defined by
+ the following
 \color inherit
 
 \begin_inset Formula 
@@ -1069,12 +986,35 @@ Effectively, this parameter is equivalent to a weighted local volume density
  ones.
 \end_layout
 
-\begin_layout Standard
-MAin measures
+\begin_layout Section
+Main galaxy characteritic measures
 \end_layout
 
-\begin_layout Standard
-uminusr lomstar TotRmag
+\begin_layout Subsection
+Galaxy
+\end_layout
+
+\begin_layout Itemize
+uminusr 
+\end_layout
+
+\begin_layout Itemize
+logmstar 
+\end_layout
+
+\begin_layout Subsection
+Local Group
+\end_layout
+
+\begin_layout Itemize
+TotRmag
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Sigma\:logmstar=log_{10}(\Sigma10^{logmstar})$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -5061,7 +5001,7 @@ Local Group : Galaxy Type percentages for ranges of sum(logmstar)
 \end_layout
 
 \begin_layout Subsubsection
-Galaxy type percentages versus mean environments
+Galaxy type percentages versus mean of log10 environments
 \end_layout
 
 \begin_layout Standard

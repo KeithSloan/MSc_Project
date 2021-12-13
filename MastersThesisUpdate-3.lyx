@@ -7944,15 +7944,168 @@ Observations on results
 \end_layout
 
 \begin_layout Standard
-The 
-\end_layout
 
-\begin_layout Subsection
-Inverse transform 
+\color orange
+The 
+\begin_inset Formula $Lamda\:\lambda$
+\end_inset
+
+ values for redness(uminusr) and mass(logmstar) have similar values and
+ overlapping ranges, this is not to be unexpected given that for elliptical
+ galaxies a relationship between uminusr and logmstar has been observed
+ see 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Correlation-results"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 
+\color orange
+The lambda values for redness uminusr and logmstar have similar values with
+ overlapping confidence ranges see table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:CoxBox-for-Elliptical"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Now it is known from previous research[??] and confirmed by the results
+ of correlation between uminusr and logmstar see table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Correlation-results"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ that there is a linear relationship which means a power of one and therefore
+ one would not expect any difference in lambda.
+ However the lambda for metallicity is quite different.
+ Given star mellicity is a result of stars of different sizes recycling
+ material in supernova raises the question of whether any useful information
+ could be obtained from looking at lambda for different ranges of metal
+ values(Check Physics Logic).
+\end_layout
+
+\begin_layout Standard
+
+\color orange
+An inference drawn from the distributions would depend on some very large
+ assumptions
+\end_layout
+
+\begin_layout Itemize
+
+\color orange
+How an environmental measure would effect the distribution would be limited
+ to a scalar factor.
+\end_layout
+
+\begin_layout Itemize
+
+\color orange
+Also it has been assumed that the formation of galaxies has given rise to
+ a Gaussian distribution, where as the distribution may be more like a Plank
+ distribution or an ill defined distribution due to the processes involved.
+\end_layout
+
+\begin_layout Itemize
+
+\color orange
+The Shapiro tests for normality before any Cox Box transformation are high.
+\end_layout
+
+\begin_layout Standard
+
+\color orange
+so, as was stated in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Discussion"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, could not solely be relied upon and would need to be supported by other
+ research such as modelling.
+\end_layout
+
+\begin_layout Standard
+
+\color orange
+The Cox-Box Lamda 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ is the exponent for a transform function that if applied would transform
+ a distribution to another distribution which has a higher degree of fit
+ with a Gausing function.
+ For ellipticals the Lamda values for redness(uminusr) and mass(logmstar)
+ are quite similar with overlapping ranges.
+ A 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ value of two would correspond to a square law but redness is beyond a square
+ law.
+ metalicity for elliptical is quite low as there is much less creation of
+ metals as a result of stars creating metals and recycling them at the end
+ of their lives.
+\end_layout
+
+\begin_layout Standard
+
+\color orange
+For Spirals the Lamda 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ value of redness is just under one so only a small change whereas for mass
+ Lamda 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ is 5.33 indicating that in Spiral galaxy evolution there are rapid changes
+ of mass.
+\end_layout
+
+\begin_layout Standard
+
+\color orange
+A Shapiro test for normality was performed on the distribution before and
+ after the Cox Box transformation.
+ The distributions before the transformation showed high values for the
+ test meaning the variations can be purely attributed to statistical variation.
+ However as no 
+\end_layout
+
+\begin_layout Standard
+
+\color orange
+obvious correlation was found between galaxy measures and environmental
+ measures, then it is still possible that environment measures are not totally
+ random and do have an influence for which the small variation from normality
+ is a tracer.
+\end_layout
+
+\begin_layout Subsection
+Inverse transform 
 \end_layout
 
 \begin_layout Standard
@@ -8011,42 +8164,12 @@ Sets of galaxy characteritics for different redshifts and how the distributions
 \end_layout
 
 \begin_layout Standard
+
+\color orange
 Fisher Matrix ??? Forecasts of non-Gaussian parameter spaces using Box-Cox
  transformations Joachimi, B.
  ; Taylor, A.
  N.
-\end_layout
-
-\begin_layout Standard
-GALAXY EVOVLE OVER TIME, So Question change from Normal Distribution.
-\end_layout
-
-\begin_layout Standard
-EXERCISE Different Z
-\end_layout
-
-\begin_layout Standard
-Similar Lamda for ell and Mass
-\end_layout
-
-\begin_layout Standard
-Assumptions
-\end_layout
-
-\begin_layout Standard
-Is the initial distributions of minor fluctuations in temp normal distribution/
-\end_layout
-
-\begin_layout Itemize
-
-\color red
-Test distribution with Plank function ( temp?
-\end_layout
-
-\begin_layout Itemize
-
-\color red
-Cox box technique but with Plank Function rather than Gaussian
 \end_layout
 
 \begin_layout Subsection
@@ -8054,129 +8177,9 @@ Results from distributions
 \end_layout
 
 \begin_layout Standard
-The lambda values for redness uminusr and logmstar have similar values with
- overlapping confidence ranges see table 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:CoxBox-for-Elliptical"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
- Now it is known from previous research[??] and confirmed by the results
- of correlation between uminusr and logmstar see table 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:Correlation-results"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- that there is a linear relationship which means a power of one and therefore
- one would not expect any difference in lambda.
- However the lambda for metallicity is quite different.
- Given star mellicity is a result of stars of different sizes recycling
- material in supernova raises the question of whether any useful information
- could be obtained from looking at lambda for different ranges of metal
- values
-\color red
-(Check Physics Logic)
-\color inherit
-.
-\end_layout
-
-\begin_layout Standard
-An inference drawn from the distributions would depend on some very large
- assumptions
-\end_layout
-
-\begin_layout Itemize
-How an environmental measure would effect the distribution would be limited
- to a scalar factor.
-\end_layout
-
-\begin_layout Itemize
-Also it has been assumed that the formation of galaxies has given rise to
- a Gaussian distribution, where as the distribution may be more like a Plank
- distribution or an ill defined distribution due to the processes involved.
-\end_layout
-
-\begin_layout Itemize
-The Shapiro tests for normality before any Cox Box transformation are high.
-\end_layout
-
-\begin_layout Standard
-so, as was stated in 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "subsec:Discussion"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-, could not solely be relied upon and would need to be supported by other
- research such as modelling.
-\end_layout
-
-\begin_layout Standard
-The Cox-Box Lamda 
-\begin_inset Formula $\lambda$
-\end_inset
-
- is the exponent for a transform function that if applied would transform
- a distribution to another distribution which has a higher degree of fit
- with a Gausing function.
- For ellipticals the Lamda values for redness(uminusr) and mass(logmstar)
- are quite similar with overlapping ranges.
- A 
-\begin_inset Formula $\lambda$
-\end_inset
-
- value of two would correspond to a square law but redness is beyond a square
- law.
- metalicity for elliptical is quite low as there is much less creation of
- metals as a result of stars creating metals and recycling them at the end
- of their lives.
-\end_layout
-
-\begin_layout Standard
-For Spirals the Lamda 
-\begin_inset Formula $\lambda$
-\end_inset
-
- value of redness is just under one so only a small change whereas for mass
- Lamda 
-\begin_inset Formula $\lambda$
-\end_inset
-
- is 5.33 indicating that in Spiral galaxy evolution there are rapid changes
- of mass.
-\end_layout
-
-\begin_layout Standard
 
 \color black
-A Shapiro test for normality was performed on the distribution before and
- after the Cox Box transformation.
- The distributions before the transformation showed high values for the
- test meaning the variations can be purely attributed to statistical variation.
- However as no 
-\end_layout
-
-\begin_layout Standard
-
-\color black
-obvious correlation was found between galaxy measures and environmental
- measures, then it is still possible that environment measures are not totally
- random and do have an influence for which the small variation from normality
- is a tracer.
+≈
 \end_layout
 
 \begin_layout Section

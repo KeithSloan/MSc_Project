@@ -127,21 +127,6 @@ elliptical galaxy's
 
 \end_layout
 
-\begin_layout Standard
-
-\color red
-This work was very much a broad exploration with brief notes for each figure.
- Some of the results were informative, others were not usefully wrangled.
- in many cases, more explanation of how the results were obtained was needed.
- The main issue would be missing of relevant material in the Introduction,
- For example, what other work has looked at the properties of elliptical
- galaxies as a function of environment? The understanding of large body
- of literature is important for putting the results in context
-\color inherit
-.
- 
-\end_layout
-
 \begin_layout Section
 Introduction
 \end_layout
@@ -781,30 +766,6 @@ Spearman
 
 \end_layout
 
-\begin_layout Standard
-
-\color red
-For galaxies that fall into the blue group
-\end_layout
-
-\begin_layout Standard
-
-\color red
-selection
-\end_layout
-
-\begin_layout Standard
-
-\color red
-plot
-\end_layout
-
-\begin_layout Standard
-
-\color red
-correlations
-\end_layout
-
 \begin_layout Section
 Main Measures
 \end_layout
@@ -893,11 +854,10 @@ Distance to 5nn
 \end_layout
 
 \begin_layout Standard
-The distance to 5th nearest neighbour 
-\color red
-also within a velocity range.
- And only for a certain galaxies above a selected absolute magnitude.
- 
+The distance to 5th nearest neighbour in comoving units 
+\color black
+with ±1000km s−1 within a pseudo- 231 2 176 volume limited density-defining
+ population: Σ5 = 5/πd5
 \end_layout
 
 \begin_layout Subsubsection
@@ -937,7 +897,7 @@ literal "false"
  and later described by Yoon et al
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-11"
+key "key-10"
 literal "false"
 
 \end_inset
@@ -995,11 +955,14 @@ Galaxy
 \end_layout
 
 \begin_layout Itemize
-uminusr 
+uminusr - Restframe (u-r) colour from spectral energy density fit - units
+ magnitude
 \end_layout
 
 \begin_layout Itemize
-logmstar 
+logmstar - Stellar mass within the photometric aperture i.e.
+ not allowing for mass that falls outside of the aperture used for the spectral
+ energy density measurement
 \end_layout
 
 \begin_layout Subsection
@@ -1027,12 +990,6 @@ Redness uminusr density plots & correlations for elliptical galaxies
 
 \begin_layout Subsubsection
 All elliptical galaxies
-\end_layout
-
-\begin_layout Standard
-
-\color red
-uminusr - definition
 \end_layout
 
 \begin_layout Standard
@@ -1900,14 +1857,12 @@ In all cases no obvious correlation between uminusr or logmstar with any
 \end_layout
 
 \begin_layout Subsection
-Absolute red magnitude xxxx density plots & correlations for elliptical
+Absolute red magnitude absmag_r density plots & correlations for elliptical
  galaxies in a local group
 \end_layout
 
 \begin_layout Standard
-
-\color red
-definition
+Using absolute red magnitude also did not show any correlation.
 \end_layout
 
 \begin_layout Standard
@@ -1922,62 +1877,96 @@ Local group information
 \end_layout
 
 \begin_layout Standard
+Two local group measures were looked at
+\end_layout
+
+\begin_layout Itemize
+TotRmag - being the r-band absolute magnitude of the group, obtained by
+ adding up all the r-band luminosities of its members
+\end_layout
+
+\begin_layout Itemize
+Sum of logmstar within the local group 
+\begin_inset Formula $\Sigma\:logmstar=log_{10}(\Sigma10^{logmstar})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 One would not normally expect a high degree of correlation looking at a
  characteristic of a group versus different characteristics of individual
  members of the group.
- However a degree of correlation was found between group measures TotRmag
- and a appropriately calculated sum of logmstar for the group and the environmen
-tal measures of the galaxies within the local group.
- TotRmag being the r-band absolute magnitude of the group, obtained by adding
- up all the r-band luminosities of its members
-\end_layout
+ However a degree of correlation was found between group measures and the
+ log of environmental measures of the galaxies within the local group.
+ The fact that members of the local group have different environmental measures
+ means these differences act as noise signal on any density plot or calculated
+ Pearson, Spearman correlation see figures 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Density-Plots--"
+plural "false"
+caps "false"
+noprefix "false"
 
-\begin_layout Standard
-This becomes less illogical if one considers that all the galaxies in a
- local group will be in the same part of the universe and hence tend to
- have similar envionmental measures i.e.
- density measures One way of rationalising the effect of differences in
- environmental measures on the degree of correlation of the local group
- measures would be in effect an averaging and noise signal reducing the
- degree of correlation.
- Looking at the same relationship but using means of environmental measures
- so that there is a one to one relationship between the group measures and
- the means of group environmental measures produced similar results.
- 
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Sum-of-logmstar"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ In order to achieve a one to one correspondance between group characterisitc
+ and enviromental measure a similar exercise was performed on the group
+ characteritics versus the means of logs of the environmental measures see
+ figures 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Density-Plots-for"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Sum-of-logmstar-1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+The use of means being a different way of handling the noise of differences
+ within the local group.
+ i.e one would not expect to see values as high as 0.8 - 0.9 but correlation
+ values of 0.6 - 0.7 show there is some correlation.
+ The most likely explanation as to why such correlations do not show up
+ with the analysis of indivdual galaxies is that there are a wide range
+ of values for indvidual galaxies and it is only when you subset them on
+ a group basis.
+ The group caharcteristics being influnced by the density within the universe
+ which is also effecting the indivudaul environmatl measures
 \end_layout
 
 \begin_layout Subsection
-Group Absolute Red Magnitude - TotRmag total 
-\color black
-versus log10(Environmental measures) 
-\color red
-(R mag is not the redness, it is the luminosity.) 
+Method
 \end_layout
 
 \begin_layout Standard
-
-\color red
-How r band magnitude determined,
-\end_layout
-
-\begin_layout Standard
-
-\color red
-explain how obtained.
- is it the galaxy's r-band total magnitude or that of the group it is in?
- 
-\end_layout
-
-\begin_layout Standard
-
-\color red
-which tables were joined? 
-\end_layout
-
-\begin_layout Standard
-Table GroupFindings G3CFoFGroup contains ToRmag which is computed as the
- r-band absolute magnitude of the group, obtained by adding up the r-band
- luminosities of its members.
+The analysis of the Group information was carried out on data downloaded
+ for the GAMA website and loaded into Astrotables.
+ The tables were then processed as follows Table GroupFindings G3CFoFGroup
+ contains ToRmag which is computed as the r-band absolute magnitude of the
+ group, obtained by adding up the r-band luminosities of its members.
 \end_layout
 
 \begin_layout Standard
@@ -1998,55 +1987,23 @@ As Local Group to Galaxy is a one to many relationship joining G3CGAL with
 \end_layout
 
 \begin_layout Standard
-Looking for any correlation between a group property e.g TotRmag and galaxy
- environmental measures has the following effects.
- Differences in environment measures for galaxies within the same Local
- Group will be working against the degree of correlation of correlation
- values of 0.6 - 0.7 are quite indicative as one is unlikely to see values
- as high as 0.8 - 0.9.
- Similarly for density plots the differences with a Group will result in
- the contours being spread away from a straight line.
- One could argue that there is a bias towards larger Groups as they have
- more table entries, to address this the same analysis is performed for
- Group parameter TotRMag and averages of galaxy environment measures for
- the galaxy within each Group see 
+as such differences between enviromnetal measures of galaxies with the local
+ group will work against the calucluation of correlation and be a spread
+ in the density plots.
 \end_layout
 
 \begin_layout Standard
+Means for group enviromental measures were calculated using the GroupBy
+ facility.
+\end_layout
 
-\color magenta
-Unlike the straight galaxy measures of galaxy colour, the total red magnitude
- of a galaxy's local group TotRMag do show some degree of correlation see
- figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Density-Plots-for"
-plural "false"
-caps "false"
-noprefix "false"
+\begin_layout Subsection
+Group Absolute Red Magnitude - TotRmag total 
+\color black
+versus log10(Environmental measures) 
+\end_layout
 
-\end_inset
-
- and table 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:Linear-Regression-of"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
- This is a little surprising in that within a local group there are a number
- of galaxies all with potentially different environmental measures and not
- necessarily with the same red magnitude.
- However, on the other hand as a high density of galaxies is likely to produce
- a larger group magnitude and the individual galaxy environmental measures
- are indicative of its local density, some degree of correlation might be
- expected.
-\color inherit
-
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -2574,6 +2531,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Density-Plots-for"
+
+\end_inset
+
 Density Plots for TotRmag versus Log10 (Means of Environments)
 \end_layout
 
@@ -3154,6 +3117,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Sum-of-logmstar"
+
+\end_inset
+
 Sum of logmstar for local group versus log10 (Environments) for elliptical
  galaxies
 \end_layout
@@ -3646,6 +3615,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Sum-of-logmstar-1"
+
+\end_inset
+
 Sum of logmstar for local group versus log10 ( Mean( Environments ))
 \end_layout
 
@@ -4346,12 +4321,6 @@ The brightest galaxy left after iteratively removing the most distant galaxies
 \end_layout
 
 \begin_layout Standard
-
-\color orange
-Resulting statistics from the tables
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float table
 wide false
 sideways false
@@ -4365,7 +4334,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
+Statistics for meaures uminusr and logmstar
 \end_layout
 
 \end_inset
@@ -5694,7 +5663,7 @@ The classification system is based on evaluation of the deformation tensor
  the Hessian of the gravitational potential) on a grid 
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-12"
+key "key-11"
 literal "false"
 
 \end_inset
@@ -5787,14 +5756,12 @@ Galaxy counts for galaxy characteristics by galaxy structure type
 \begin_layout Standard
 Apart from the case of environment 
 \color magenta
-type knot
+t
+\color black
+ype knot, which has higher characteristic masses first,
 \color inherit
-, 
-\color red
-which has higher characteristic masses first
-\color inherit
-.the distributions for the various galaxy environment types are similar see
- figure 
+ the distributions for the various galaxy environment types are similar
+ see figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Galaxy-counts-for"
@@ -5833,6 +5800,22 @@ CountInCyl
 \end_layout
 
 \begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Histogram-and-distributions-2"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+provides for CountInCyl a histogram and fitted distribution for each of
+ galaxy structural types and a combined fitted distribution for all structural
+ types on one plot
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -5846,7 +5829,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Histogram-and-distributions-2"
 
+\end_inset
+
+Histogram and distributions plots for DistanceTo5nn
 \end_layout
 
 \end_inset
@@ -5898,6 +5887,22 @@ DistanceTo5nn
 \end_layout
 
 \begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Histogram-and-distributions"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+provides for DistanceTo5nn a histogram and fitted distribution for each
+ of galaxy structural types and a combined fitted distribution for all structura
+l types on one plot
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -5911,7 +5916,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Histogram-and-distributions"
 
+\end_inset
+
+Histogram and distributions plots for DistanceTo5nn
 \end_layout
 
 \end_inset
@@ -5953,7 +5964,23 @@ Combined Distribution Plots
 \end_layout
 
 \begin_layout Subsubsection
-AgeDen
+AgeDenPar
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Histogram-and-distributions-1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+provides for AgeDenPar a histogram and fitted distribution for each of galaxy
+ structural types and a combined fitted distribution for all structural
+ types on one plot
 \end_layout
 
 \begin_layout Standard
@@ -5970,7 +5997,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Histogram-and-distributions-1"
 
+\end_inset
+
+Histogram and distributions plots for AgeDenPar
 \end_layout
 
 \end_inset
@@ -6008,21 +6041,7 @@ status open
 \end_layout
 
 \begin_layout Subsubsection
-Surface Density
-\end_layout
-
-\begin_layout Standard
-
-\color red
-Plots and Distributions
-\end_layout
-
-\begin_layout Standard
-
-\color red
-This is quite a useful plot.
- Are these curves smoothed in some way? what method was used? it's not clear.
- 
+Observations
 \end_layout
 
 \begin_layout Standard
@@ -6076,6 +6095,39 @@ Given that the density of the universe increases from voids though sheets
 
 \begin_layout Standard
 classified as being part of a Sheet.
+ It is important when viewing these plots to remember that the envronmental
+ measures change considerably between structural types see combined plots
+ in figures 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Histogram-and-distributions-2"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Histogram-and-distributions"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Histogram-and-distributions-1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -6150,6 +6202,8 @@ Group redness sum of uminusr versus environmental measure for galaxy types
 \end_layout
 
 \begin_layout Standard
+The density plots clearly show a relationship between TotRmag and the mean
+ of log environmental measures.
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -6159,11 +6213,6 @@ Group redness sum of uminusr versus environmental measure for galaxy types
 \begin_layout Subsection
 Local group mass - sum logmstar for elliptical galaxies by galaxy structural
  type
-\end_layout
-
-\begin_layout Standard
-Revisiting the relationship between Group measures and environmental measures
- but split by large scale structure produced the results as seen in
 \end_layout
 
 \begin_layout Standard
@@ -6209,7 +6258,7 @@ Group sum (logmstar) mass versus environmental measures for galaxy types
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ChartsPlots/GroupDensityTotRmagMeanLog10EnvironmentsGalaxyType.png
+	filename ChartsPlots/SumLogmstar_versus_mean_LogEnvironments_GalaxyType.png
 	lyxscale 40
 	scale 50
 
@@ -6221,6 +6270,12 @@ Group sum (logmstar) mass versus environmental measures for galaxy types
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Why not look similar need to
 \end_layout
 
 \begin_layout Standard
@@ -6321,95 +6376,14 @@ Investigation into distributions
 \end_layout
 
 \begin_layout Standard
-The formation of the first galaxies was preceded by the formation of stars
- from gas clouds at/aroundZ=???? Gyr, We cannot directly determine the initial
- distribution of gas, stars and in turn galaxies.
- We do know from measurements of the Cosmic Background Radiation emitted
- when expansion of the universe reach the recombination epoch? at Z=???
- Gy i.e..n Gyr perviously that the universe was a near prefect blackbody plasma,
- progressive measurements 10^-n .
- Distribution of Gas random Gaussian 
-\color red
-Given that the motion of particles in a gas random.
-\end_layout
+\begin_inset Newpage pagebreak
+\end_inset
 
-\begin_layout Standard
-We cannot tell/confirm,
-\end_layout
 
-\begin_layout Standard
-Prior at time z Recombination
-\end_layout
-
-\begin_layout Standard
-Near perfect black body
-\end_layout
-
-\begin_layout Standard
-Not unreasonable
-\end_layout
-
-\begin_layout Standard
-Very large number of particles
-\end_layout
-
-\begin_layout Standard
-Heated photos Plank distribution
-\end_layout
-
-\begin_layout Standard
-
-\color orange
-In the early evolution stages of the universe it was a hot ionised plasma
- that was cooling due to expansion, an epoch of recombination occurred when
- temperature cooled to the point of electrons recombining and the plasma
- no longer being totay ionised, at this point photon were no longer totally
- scattered by Compton scattering in the plasma, we can measure the light
- from these photon as the Cosmic background radiation, the wavelength of
- which has been streatched by the expansion of the universe.
- We know from increasing measurements of the Cosmic background radiation
- that at the time of recombination the universe was nearly a perfect black
- body.
- We can determined the age of the universe at recombination as NNN Z=???a
- long time before the first stars start to appear and galaxies start to
- form NNN Z=??? however it does not seem unreasonable to assume that distributio
-n of material at this time would conform to an exellent guasian fit ( Or
- distribution follow a Plank function )
-\end_layout
-
-\begin_layout Standard
-
-\color red
-Forecasts of non-Gaussian parameter spaces using Box-Cox transformations
- Joachimi, B.
- ; Taylor, A.
- N.
- arXiv:1103.3370 
-\end_layout
-
-\begin_layout Standard
-
-\color red
-The origin of the Gaussian initial mass function of old globular cluster
- systems Geneviève Parmentier, Gerard Gilmore https://doi.org/10.1111/j.1365-2966.20
-07.11611.x
-\end_layout
-
-\begin_layout Standard
-
-\color red
-The Formation of Stellar Clusters: Gaussian Cloud Conditions I Ralf S.
- Klessen Andreas Burkert arXiv:astro-ph/9904090
 \end_layout
 
 \begin_layout Subsection
-\begin_inset CommandInset label
-LatexCommand label
-name "subsec:Discussion"
-
-\end_inset
-
-Discussion
+Distributions 
 \end_layout
 
 \begin_layout Standard
@@ -6433,102 +6407,6 @@ yes.
  Can't easily do in GAMA though because of flux-li
 \color black
 mit biases.
- 
-\end_layout
-
-\begin_layout Paragraph
-
-\color black
-H
-\color inherit
-owever galaxy evolution is a complex process
-\end_layout
-
-\begin_layout Itemize
-
-\color black
-The stars in the galaxy undergo nucleosynthesis.
-\end_layout
-
-\begin_layout Itemize
-
-\color black
-Star formation from interstellar material.
-\end_layout
-
-\begin_layout Itemize
-
-\color black
-Larger stars which are bluer, exhaust their material quicker at which point
- they cease to contribute to the light of the galaxy.
-\end_layout
-
-\begin_layout Itemize
-
-\color black
-Main sequence stars become red giants.
-\end_layout
-
-\begin_layout Itemize
-
-\color black
-Galaxy mergers.
-\end_layout
-
-\begin_layout Itemize
-
-\color black
-Metallicity of stars which comes from stars that have completed a previous
- life cycle.
- 
-\end_layout
-
-\begin_layout Itemize
-
-\color purple
-accretion of new gas, expelling gas via feedback.
- 
-\end_layout
-
-\begin_layout Standard
-The result is that inferences from distributions are at best likely to give
- hints of the physical process involved and better understandings can be
- obtained by 
-\color black
-creating models and testing if these produce results similar to actual observati
-ons.
- If the results do not match, then efforts are made to improve the model.
- If the models produce good results then this gives support to the proposition
- that physical reality is being well modelled.
-\end_layout
-
-\begin_layout Standard
-
-\color orange
-The size distribution of galaxies in the Sloan Digital Sky Survey Shiyin
- Shen,et al https://doi.org/10.1046/j.1365-8711.2003.06740.x
-\end_layout
-
-\begin_layout Standard
-
-\color orange
-A log-normal process is the statistical realization of the multiplicative
- product of many independent random variables, each of which is positive.
- This is justified by considering the central limit theorem in the log domain
- (sometimes called Gibrat's law).
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Distributions 
-\color red
-DELETE ??
 \end_layout
 
 \begin_layout Standard
@@ -6543,7 +6421,7 @@ noprefix "false"
 \end_inset
 
  plots the histograms and distribution functions for the main galaxy attributes
- - redness uminusr, logmass and metallicity.
+ - redness uminusr, logmstar and metallicity.
  
 \end_layout
 
@@ -6618,6 +6496,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Distribution-fits-for"
+
+\end_inset
+
 Distribution fits for elliptical galaxies
 \end_layout
 
@@ -6837,10 +6721,10 @@ Metallicity(metal)
 \end_layout
 
 \begin_layout Standard
-If a process involves random variables then the expected distribution for
- the variable is a Normal/Gaussian distribution.
- Looking at the distributions for redness(uminusr), mass(logmstar) metallicity(m
-etal) figure 
+The distribution of the galaxies in the universe are essentially lognormal
+ distribution[xxx] whilst one could attribute the differences from a normal
+ distribution to statistical variation but given the research and plots
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Distributions"
@@ -6850,16 +6734,17 @@ noprefix "false"
 
 \end_inset
 
-, one could attribute the differences from a normal distribution to statistical
- variation.
- However to investigate if the deviation from a normal distribution could
- possibly be related to any of the galaxy environment measures, Cox Box
- transformations were applied.
-\end_layout
+and table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Distribution-fits-for"
+plural "false"
+caps "false"
+noprefix "false"
 
-\begin_layout Standard
-The distribution of the gaxalies in the universe is a lognormal distribution[xxx
-]
+\end_inset
+
+ indicate they are not pure normal distributions
 \end_layout
 
 \begin_layout Itemize
@@ -6887,19 +6772,66 @@ Lognormal distributions come about from the statistical realisation of a
  namely
 \end_layout
 
-\begin_layout Standard
-Mergers
+\begin_layout Itemize
+
+\color black
+The stars in the galaxy undergo nucleosynthesis.
+\end_layout
+
+\begin_layout Itemize
+
+\color black
+Star formation from interstellar material.
+\end_layout
+
+\begin_layout Itemize
+
+\color black
+Larger stars which are bluer, exhaust their material quicker at which point
+ they cease to contribute to the light of the galaxy.
+\end_layout
+
+\begin_layout Itemize
+
+\color black
+Main sequence stars become red giants.
+\end_layout
+
+\begin_layout Itemize
+
+\color black
+Galaxy mergers.
+\end_layout
+
+\begin_layout Itemize
+
+\color black
+Metallicity of stars which comes from stars that have completed a previous
+ life cycle.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\color black
+Accretion of new gas, leading to star creation 
+\end_layout
+
+\begin_layout Itemize
+
+\color black
+Expelling of gas via feedback, so not available for star creation 
 \end_layout
 
 \begin_layout Standard
 it is not surprising that the results we see are a lognormal distribution.
-\end_layout
-
-\begin_layout Standard
-Now in the distant past the things that initially effect galaxy distribution
+ Now in the distant past the things that initially effect galaxy distribution
  were probably distributed normally.
- For example in the modelling of the early stages of evolution it is often
- assumed that things are distributed normally
+ We know from detailed measurements of the cosmic background that at the
+ time of recombination that matter in the universe was very uniformly distribute
+d and at the much later time for initial star formation from clouds gas
+ that it is standard procedure to assume normal distributions when modelling
+ of the early stages of galaxy evolution.
 \end_layout
 
 \begin_layout Standard
@@ -6933,19 +6865,92 @@ Radial distribution of dust, stars, gas, and star-formation rate in DustPedia
 \end_layout
 
 \begin_layout Standard
-Now statistics has a well known technique the Cox Box transformation that
- enables the determination the best tranform that when applied to a ditribution
+Statistics has a well known technique the Cox Box transformation that enables
+ the determination the best transform that when applied to a distribution
  would produce a normal distribution which has the highest degree of normality.
 \end_layout
 
 \begin_layout Standard
-Now ideally one woud like an equivalent technique that worked out the transform
- that would deterimine the transformation of an inital distribution, the
+Now ideally one would like an equivalent technique that worked out the transform
+ that would determine the transformation of an initial distribution, the
  only real constraint of which being that it is a normal distribution and
  produces the various galaxy characteristics we see today.
  In the absence of such a technique it was decided to look at performing
  cox box transformations on the various distributions and look at the inverse
  of the transformations to see if they provided any useful information.
+\end_layout
+
+\begin_layout Standard
+T
+\color orange
+)
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Forecasts of non-Gaussian parameter spaces using Box-Cox transformations
+ Joachimi, B.
+ ; Taylor, A.
+ N.
+ arXiv:1103.3370 
+\end_layout
+
+\begin_layout Standard
+
+\color red
+The origin of the Gaussian initial mass function of old globular cluster
+ systems Geneviève Parmentier, Gerard Gilmore https://doi.org/10.1111/j.1365-2966.20
+07.11611.x
+\end_layout
+
+\begin_layout Standard
+
+\color red
+The Formation of Stellar Clusters: Gaussian Cloud Conditions I Ralf S.
+ Klessen Andreas Burkert arXiv:astro-ph/9904090
+\end_layout
+
+\begin_layout Standard
+The Formation of Stellar Clusters: Gaussian Cloud Conditions.
+ II.
+ R.
+ Klessen, A.
+ Burkert Published 1 June 2000 Physics The Astrophysical Journal
+\end_layout
+
+\begin_layout Standard
+The dependence of star formation on initial conditions and molecular cloud
+ structure M.
+ Bate Physics 2009
+\end_layout
+
+\begin_layout Standard
+
+\color orange
+The result is that inferences from distributions are at best likely to give
+ hints of the physical process involved and better understandings can be
+ obtained by creating models and testing if these produce results similar
+ to actual observations.
+ If the results do not match, then efforts are made to improve the model.
+ If the models produce good results then this gives support to the proposition
+ that physical reality is being well modelled.
+\end_layout
+
+\begin_layout Standard
+
+\color orange
+The size distribution of galaxies in the Sloan Digital Sky Survey Shiyin
+ Shen,et al https://doi.org/10.1046/j.1365-8711.2003.06740.x
+\end_layout
+
+\begin_layout Standard
+
+\color orange
+A log-normal process is the statistical realization of the multiplicative
+ product of many independent random variables, each of which is positive.
+ This is justified by considering the central limit theorem in the log domain
+ (sometimes called Gibrat's law).
 \end_layout
 
 \begin_layout Subsection
@@ -7995,7 +8000,7 @@ noprefix "false"
  that there is a linear relationship which means a power of one and therefore
  one would not expect any difference in lambda.
  However the lambda for metallicity is quite different.
- Given star mellicity is a result of stars of different sizes recycling
+ Given star metalicity is a result of stars of different sizes recycling
  material in supernova raises the question of whether any useful information
  could be obtained from looking at lambda for different ranges of metal
  values(Check Physics Logic).
@@ -8055,7 +8060,7 @@ The Cox-Box Lamda
 
  is the exponent for a transform function that if applied would transform
  a distribution to another distribution which has a higher degree of fit
- with a Gausing function.
+ with a Gaussian function.
  For ellipticals the Lamda values for redness(uminusr) and mass(logmstar)
  are quite similar with overlapping ranges.
  A 
@@ -8064,9 +8069,9 @@ The Cox-Box Lamda
 
  value of two would correspond to a square law but redness is beyond a square
  law.
- metalicity for elliptical is quite low as there is much less creation of
- metals as a result of stars creating metals and recycling them at the end
- of their lives.
+ metallically for elliptical is quite low as there is much less creation
+ of metals as a result of stars creating metals and recycling them at the
+ end of their lives.
 \end_layout
 
 \begin_layout Standard
@@ -8145,7 +8150,7 @@ Look at
 
 \begin_layout Itemize
 The first principals of CoxBox transformation to see if a suitable method
- of working out a tranform that when applied to an initial distribution
+ of working out a transform that when applied to an initial distribution
  the only real constraint being that it is a normal distribution and produce
  a given transformation.
 \end_layout
@@ -8159,7 +8164,7 @@ Other galaxy characteristics
 \end_layout
 
 \begin_layout Itemize
-Sets of galaxy characteritics for different redshifts and how the distributions
+Sets of galaxy characteristics for different redshifts and how the distributions
  change with redshift
 \end_layout
 
@@ -8206,7 +8211,7 @@ Looking at a group level there is a degree of correlation between the group
  measures of galaxies within the group will exhibit more dense environment
  measures, singularly and as a group.
  Likewise if the local group is in a less dense part of the universe the
- galaxy enviromenal measures will reflect this.
+ galaxy enviromental measures will reflect this.
 \end_layout
 
 \begin_layout Itemize
@@ -8299,6 +8304,30 @@ Galaxy And Mass Assembly (GAMA): end of survey report and data release 2
  Liske, I.
  K.
  Baldry, 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-10"
+literal "false"
+
+\end_inset
+
+http://adsabs.harvard.edu/abs/2007ApJS..173..512S" - Schawinski et al.
+ (2007)
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-11"
+literal "false"
+
+\end_inset
+
+http://adsabs.harvard.edu/abs/2008ApJS..176..414Y" - Yoon et al.
+ (2008)
 \end_layout
 
 \end_body

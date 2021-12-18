@@ -6871,17 +6871,13 @@ Statistics has a well known technique the Cox Box transformation that enables
 \end_layout
 
 \begin_layout Standard
-Now ideally one would like an equivalent technique that worked out the transform
- that would determine the transformation of an initial distribution, the
- only real constraint of which being that it is a normal distribution and
- produces the various galaxy characteristics we see today.
- In the absence of such a technique it was decided to look at performing
- cox box transformations on the various distributions and look at the inverse
- of the transformations to see if they provided any useful information.
+It was decided to look at performing cox box transformations on the various
+ distributions and look at the inverse of the transformations to see if
+ they provided any useful information.
 \end_layout
 
 \begin_layout Standard
-T
+
 \color orange
 )
 \end_layout
@@ -8145,27 +8141,152 @@ Further work
 \end_layout
 
 \begin_layout Standard
-Look at
+What is really required is to determine the transformation that would take
+ a normal distribution and produce the observed galaxy distributions we
+ see today.
+\end_layout
+
+\begin_layout Standard
+https://www.cl.cam.ac.uk/teaching/2003/Probability/prob11.pdf
+\end_layout
+
+\begin_layout Standard
+https://stats.libretexts.org/Bookshelves/Probability_Theory/Probability_Mathematic
+al_Statistics_and_Stochastic_Processes_(Siegrist)/03%3A_Distributions/3.07%3A_Tra
+nsformations_of_Random_Variables
+\end_layout
+
+\begin_layout Standard
+It is possible to transform the probability distribution function PDF 
+\begin_inset Formula $f(x)$
+\end_inset
+
+ of one variable into the PDF of another variable 
+\begin_inset Formula $g(y)$
+\end_inset
+
+.
+ Now taking the initial distribution of gas or primordial dark matter as
+ the source normally distributed variable and the observed galaxy characteristcs
+ as the target variable.
+\end_layout
+
+\begin_layout Standard
+For the transform to work the following conditions need to be meet.
 \end_layout
 
 \begin_layout Itemize
-The first principals of CoxBox transformation to see if a suitable method
- of working out a transform that when applied to an initial distribution
- the only real constraint being that it is a normal distribution and produce
- a given transformation.
+\begin_inset Formula $f(x)$
+\end_inset
+
+ has a single value for all x
 \end_layout
 
 \begin_layout Itemize
-If the initial distributions could be constrained in any way
+\begin_inset Formula $f(x)\geq\;0$
+\end_inset
+
+ for all x
 \end_layout
 
 \begin_layout Itemize
-Other galaxy characteristics
+\begin_inset Formula $\intop_{-\infty}^{\infty}f(x)\:dx=1$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Itemize
-Sets of galaxy characteristics for different redshifts and how the distributions
- change with redshift
+\begin_layout Standard
+The relationship between the two PDF's would conform to the following differenti
+al equation [xxx]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+g(y)=f(x)\mid\frac{dx}{dy}\mid
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Now for a normal distribution we have a PDF of 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+f(x)=\frac{1}{\sqrt{2\pi}}e^{-\frac{1}{2}x^{2}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For a johnson distribution we have a PDF of
+\begin_inset Formula 
+\begin{equation}
+g(y)=\frac{\delta}{\lambda\sqrt{2\pi}}\frac{1}{\sqrt{1+\left(\frac{y-\xi}{\lambda}\right)^{2}}}e^{-\frac{1}{2}(\gamma+\delta\:sinh^{-1\left(\frac{y-\xi}{\lambda}\right)}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where the four values 
+\begin_inset Formula $\gamma,\xi,\delta,\lambda$
+\end_inset
+
+ are determined from the fit of the distribution data.
+\end_layout
+
+\begin_layout Standard
+Or for a Gamma fit
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+g(y)=\frac{1}{\varGamma(k)\:\theta^{k}}y^{k-1}e^{-\frac{y}{\theta}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+and the two values 
+\begin_inset Formula $k,\theta$
+\end_inset
+
+ are determined for the fit of the distribution data
+\end_layout
+
+\begin_layout Standard
+Clearly it would not be possible to analytically determination the transformatio
+n function from the differential equation 
+\begin_inset Formula $\mid\frac{dx}{dy}\mid=\frac{g(y)}{f(x)}$
+\end_inset
+
+ of and one would have to resort to numerical methods.
+\end_layout
+
+\begin_layout Standard
+The question then is could anything about galaxy evolution be determined
+ from the numerically arrived at differential equation.
+\end_layout
+
+\begin_layout Standard
+With the James Webb telescope becoming operational shortly it should be
+ possible to view
 \end_layout
 
 \begin_layout Standard

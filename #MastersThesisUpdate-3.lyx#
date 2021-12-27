@@ -7253,8 +7253,8 @@ Expelling of gas via feedback, so not available for star creation
 \end_layout
 
 \begin_layout Standard
-It would not be surprising that the distribution of galaxies turn out to
- be lognormal distributions.
+It would not surprising that the distribution of galaxies are a lognormal
+ distributions.
 \end_layout
 
 \begin_layout Standard
@@ -7374,7 +7374,11 @@ For GAMA data not seeing log normal see plot??? but johnson which has a
 \end_layout
 
 \begin_layout Standard
-Does not lend itself to the equating of the two PDF
+Does not lead to equating two PDF
+\end_layout
+
+\begin_layout Standard
+So looking for a ttransform from normal to actual.
 \end_layout
 
 \begin_layout Standard

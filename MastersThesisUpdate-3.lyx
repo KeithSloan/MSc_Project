@@ -86,7 +86,7 @@
 
 \begin_layout Title
 Title - Investigation of local environments of elliptical galaxies from
- the Galaxy and Mass Assembly ( GAMA) project 
+ the Galaxy and Mass Assembly (GAMA) project 
 \end_layout
 
 \begin_layout Author
@@ -96,7 +96,7 @@ Keith Sloan
 \begin_layout Abstract
 
 \color black
-Data from the Galaxy and Mass Assembly (GAMA) project 
+Data from the Galaxy and Mass Assembly (GAMA) project
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-1"
@@ -104,16 +104,11 @@ literal "false"
 
 \end_inset
 
-was examined looking for relationships between an elliptical galaxy's characteri
-stics, colour, mass and metallicity and their local environment.
+was examined looking for relationships between an elliptical galaxyies character
+istics, colour, mass and metallicity and their local environment.
  Whilst a direct and obvious relationship was not found, some correlation
  between the characteristics of a galaxy's local group and its environment
  were noted.
- This correlation also indicated that it maybe possible to classify red
- elliptical galaxies into two sub groups based on the distance from the
- centre of the local group, the larger of the two sub groups being redder
- and more distant and a smaller group not as red and nearer the centre of
- the local group.
  In addition other aspects of a galaxy's local group were investigated.
 \end_layout
 
@@ -129,73 +124,47 @@ Introduction
 \end_layout
 
 \begin_layout Standard
+
+\color orange
 The presiding inference from a large body of research is that the structure
- of the universe we see today is the result of initially very small deviations
- from the time when the universe was a plasma which have grown over very
- long timescales to form the structure we see today.
+ of the universe is the result of initially very small deviations from the
+ time when the universe was a plasma which have grown over very long timescales
+ to form the structure we see today.
  We know from studies of the cosmic background radiation which have measured
  only very small variations in temperature 10-xx that prior to recombination
  that the universe was a very uniform plasma.
- The profile of the radiations wavelength follow a 
-\color black
-Planck
-\color inherit
- function so well that it is stated to be a nearly a perfect blackbody,
+ The profile of the radiations wavelength follow a Planck function so well
+ that it is stated to be a nearly perfect blackbody.
 \end_layout
 
 \begin_layout Standard
+
+\color orange
 We know that dark matter makes up xx% of the universe and the consensus
  is that an initial primordial field of dark matter has evolved under the
  influence of gravity over a very long time and giving rise to the variations
  in regional density that we see today.
- That a galaxy's local environment is strongly influences by dark matter
- halo mass, research such as Norberg et al.
- 2002; Zehavi et al.
- 2005; Sheth et al.
- 2006; Li et al.
- 2006; Tinker et al.
- 2008; Ellison et al.
- 2009; Skibba & Sheth 2009; Skibba et al.
- 2009; de la Torre et al.
- 2011 has shown that there is a correlation between galaxy/halo/dark matter
- and the environment also that older galaxies are more strongly clustered
- in denser environments.
- Galaxy Redshift Survey (2dFGRS; Colless et al.
- 2001, 2003) and the Sloan Digital Sky Survey (SDSS; York et al.
- 2000; Alam et al.
- 2015) demonstrated convincingly that the description of large-scale structure
- formation provided by the cold dark matter (CDM) paradigm is remarkably
- accurate (e.g.
- Peacock et al.
- 2001; Percival et al.
- 2001, 2007; Tegmark et al.
- 2004; Cole et al.
- 2005; Eisenstein et al.
- 2005).
+ That a galaxy's local environment is strongly influenced by dark matter
+ halo mass, research [xxx] such as has shown that there is a correlation
+ between galaxy/halo/dark matter and the environment also that older galaxies
+ are more strongly clustered in denser environments.
+ [yyy] Data from the Galaxy Redshift Survey and the Sloan Digital Sky Survey
+ [zzz] accord very well with the premiss that large-scale structure formation
+ is formed as a result of the cold dark matter (CDM) paradigm [aaa] 
 \end_layout
 
 \begin_layout Standard
+
+\color orange
 Intensive studies of galaxy clusters have demonstrated a clear connection
- between galaxy properties and environment ( Dressler 1980; Whitmore et
- al.
- 1993; Balogh et al.
- 1997, 1998, 1999; Hashimoto et al.
- 1998; Poggianti et al.
- 1999; Couch et al.
- 2001; Lewis et al.
- 2002; Go ́mez et al.
- 2003; Blanton et al.
- 2003a) with possible evolution (Butcher & Oemler 1984; Couch & Sharples
- 1987; Dressler et al.
- 1997; Andreon 1998; Fasano et al.
- 2000; Goto et al.
- 2003a, 2004).
- Lewis et al.
- (2002) and Go ́ mez et al leading to the conclusion that Galaxy properties
- depend on environment, red early-type galaxies dominate galaxy clusters.
+ between galaxy properties and environment [bbb]with possible evolution
+ [ccc] leading to the conclusion that Galaxy properties depend on environmentm
+ for red early-type galaxies dominate galaxy clusters.
 \end_layout
 
 \begin_layout Standard
+
+\color orange
 With such a large body of research indicating that the redness of early
  type galaxies is related to their environment then one would expect to
  find obvious and direct relationships between a galaxies redness and their
@@ -209,7 +178,7 @@ Data & Method
 \end_layout
 
 \begin_layout Subsubsection
-GAMA Survey 
+GAMA Survey
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-1"
@@ -222,10 +191,10 @@ literal "false"
 
 \begin_layout Standard
 The objective of the GAMA survey is the collection of data from various
- projects to facilitate study of cosmology and galaxy formation, it covers
- approximately 375,000 galaxies with magnitudes down to 19.8 rmag, over a
- 360 deg region of the sky looking at the structure at scales of 1kpc to
- 1Mpc
+ projects to facilitate study of cosmology and galaxy formation.
+ It covers approximately 375,000 galaxies with magnitudes down to 19.8 rmag,
+ over a 360 deg region of the sky looking at the structure at scales of
+ 1kpc to 1Mpc
 \end_layout
 
 \begin_layout Standard
@@ -253,39 +222,39 @@ Method
 \end_layout
 
 \begin_layout Standard
-The GAMA Survey website suggest that for python usage, the data could accessed
- using astroquery
+The GAMA Survey website suggests that for python usage, the data could be
+ accessed using astroquer
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-2"
+key "key-8"
 literal "false"
 
 \end_inset
 
  but as astroquery does not have facilities for selectively joining and
- manipulating tabes, a more flexible approach was to download the GAMA data
- and then process with the python package astropy table 
+ manipulating tables, a more flexible approach was to download the GAMA
+ data and then process with the python package astropy table
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-3"
+key "key-9"
 literal "false"
 
 \end_inset
 
  that has facilities to subset and join tables.
- Details of the tables and their contents being available at the GAMA survey
- website 
+ Details of the tables and their contents are available at the GAMA survey
+ website
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-4"
+key "key-10"
 literal "false"
 
 \end_inset
 
- Python programs were created in Jupyter 
+ Python programs were created in Jupyter
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-5"
+key "key-11"
 literal "false"
 
 \end_inset
@@ -302,27 +271,27 @@ Matplot, numpy, scipy seaborn and pandas
 \end_layout
 
 \begin_layout Subparagraph
-Red Elliptical Galaxies
+Red elliptical galaxies
 \end_layout
 
 \begin_layout Itemize
 For single elliptical galaxy information the following tables were joined
- on CATAID, Stellarmasses, environmentMeasures,VisualMorphology and a subset
+ on CATAID, StellarMasses, EnvironmentMeasures, VisualMorphology and a subset
  created by selected just ELLIPTICAL_CODE = 1 i.e.
- Elliptical Galaxy.
+ elliptical galaxy.
 \end_layout
 
 \begin_layout Itemize
-Prior to the join the tables were subsetted to select only valid measurements
+Prior to the join, the tables were subsetted to select only valid measurements
  and ranges
 \end_layout
 
 \begin_layout Subparagraph
-Local Groups
+Local groups
 \end_layout
 
 \begin_layout Itemize
-For Local Group information
+For local group information
 \end_layout
 
 \begin_deeper
@@ -332,11 +301,11 @@ G3CGalv was used as the primary table joining others such as the above using
 \end_layout
 
 \begin_layout Itemize
-Selecting out GroupID = 0 to remove Galaxies not in a Local Group
+Selecting out GroupID = 0 to remove galaxies not in a local group
 \end_layout
 
 \begin_layout Itemize
-For Galaxy information within its local group, a new table was created using
+For galaxy information within its local group, a new table was created using
  the group_by(GroupID) facility and performing such calculations of mean
  etc
 \end_layout
@@ -352,7 +321,7 @@ Test Pearson and Spearman correlations between variables
 \end_layout
 
 \begin_layout Itemize
-Produce Density maps and other charts
+Produce density maps and other charts
 \end_layout
 
 \begin_layout Subsection
@@ -451,8 +420,8 @@ Density map plot of redness (uminusr) versus the log of the galaxy star
 \end_layout
 
 \begin_layout Standard
-By explicitly choosing the x range and y range.
- One could select a subgroup based on uminusr and logmstar as in 
+By explicitly choosing the x range and y range, one could select a subgroup
+ based on uminusr and logmstar as in
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-6,key-7"
@@ -461,7 +430,7 @@ literal "false"
 \end_inset
 
 .
- , however the GAMA survey also has categories of galaxies based on visual
+ However the GAMA survey also has categories of galaxies based on visual
  information.
  
 \color black
@@ -789,12 +758,12 @@ Main Measures
 \end_layout
 
 \begin_layout Itemize
-uminusr - Rest frame (u-r) colour from spectral energy distribution SED
+uminusr - Rest frame (u-r) colour from Spectral Energy Distribution SED
  fit
 \end_layout
 
 \begin_layout Itemize
-logmstar - Estimated total stelar mass of all luminous material, at the
+logmstar - Estimated total stellar mass of all luminous material, at the
  time of observation.
 \end_layout
 
@@ -808,6 +777,7 @@ Galaxy environmental measures
 
 \begin_layout Standard
 The measurement of local galaxy environment is covered in a number of papers
+ 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-8,key-9,key-10,key-11"
@@ -902,7 +872,7 @@ The adaptive Gaussian density parameter, as introduced by Schawinski et
  al 
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-22"
+key "key-28"
 literal "false"
 
 \end_inset
@@ -912,7 +882,7 @@ and later described by Yoon et al
  
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-18"
+key "key-24"
 literal "false"
 
 \end_inset
@@ -982,7 +952,7 @@ logmstar - Stellar mass within the photometric aperture i.e.
 \end_layout
 
 \begin_layout Subsection
-Local Group
+Local group
 \end_layout
 
 \begin_layout Itemize
@@ -1009,31 +979,15 @@ All elliptical galaxies
 \end_layout
 
 \begin_layout Standard
-Density map plots and correlation fits were produced for the four redness
- uminusr environmental measures see figure 
+Density map plots and correlation uminusr versus 
+\begin_inset Formula $log_{10}$
+\end_inset
+
+ of the environmental measures fits for four sets of elliptical galaxies
+ see figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:uminusr-density-plots"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- and table 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:uminusr---Environmental"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- and also the log of the same measures, figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Density-Plots-for"
 plural "false"
 caps "false"
 noprefix "false"
@@ -1050,11 +1004,24 @@ noprefix "false"
 
 \end_inset
 
-.
- As there was no obvious correlation with all red elliptical galaxies(REG)
- in the survey.
- Subsets of REG galaxies within local groups and isolated galaxies were
- also examined, as was a subset of high mass REG galaxies logmstar > 11
+
+\end_layout
+
+\begin_layout Itemize
+All elliptical galaxies
+\end_layout
+
+\begin_layout Itemize
+Elliptical galaxies that were in a local group of more than one galaxy
+\end_layout
+
+\begin_layout Itemize
+Isolated elliptical galaxies i.e.
+ unique GroupID
+\end_layout
+
+\begin_layout Itemize
+Set of elliptical galaxies with logmstar > 11 
 \end_layout
 
 \begin_layout Standard
@@ -1139,354 +1106,6 @@ Redness density plots for environmental measures
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-uminusr 
-\begin_inset CommandInset label
-LatexCommand label
-name "tab:uminusr---Environmental"
-
-\end_inset
-
-- Environmental measures - correlation values
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="6" columns="5">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Environment Measure
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Pearson
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Spearman
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Correlation value
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-p-value
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Correlation value
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-p-value
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-CountInCyl
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.0283
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.228
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.0575
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.0142
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-DistanceTo5nn
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--0.0753
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.0013
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--0.0692
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.0031
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-SurfaceDensity
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.0327
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.163
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.0694
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.003
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-AGEDenPar
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.368
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.116
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.0493
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.0354
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 As can be seen from the plots, there is no obvious relationship between
  the colour (uminusr) of an elliptical galaxy and the four main environmental
  measures.
@@ -1507,6 +1126,11 @@ noprefix "false"
  The reason for including a Spearman test was because it gives a better
  measure when dealing with outlying and logarithmic values.
  Similar results were obtained for mass (logmstar)
+\end_layout
+
+\begin_layout Standard
+The rational for trying galaxies with logmstar>11 was that research had
+ indicated a possible relationship in high density environments.
 \end_layout
 
 \begin_layout Standard
@@ -1841,37 +1465,6 @@ Log(AGEDenPar)
 
 \end_layout
 
-\begin_layout Standard
-The exercise was repeated for a subsets of elliptical galaxies 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:uminusr-density-plots"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-within a local group
-\end_layout
-
-\begin_layout Itemize
-that were isolated not in a group
-\end_layout
-
-\begin_layout Itemize
-high mass galaxies logmstar > 11
-\end_layout
-
-\begin_layout Standard
-In all cases no obvious correlation between uminusr or logmstar with any
- of the environmental measures was observed
-\end_layout
-
 \begin_layout Subsection
 Absolute red magnitude absmag_r density plots & correlations for elliptical
  galaxies in a local group
@@ -1910,6 +1503,8 @@ Sum of logmstar within the local group
 \end_layout
 
 \begin_layout Standard
+
+\color black
 One would not normally expect a high degree of correlation looking at a
  characteristic of a group versus different characteristics of individual
  members of the group.
@@ -1937,8 +1532,16 @@ noprefix "false"
 
 \end_inset
 
+
+\color orange
 .
- In order to achieve a one to one correspondence between group characteristic
+ 
+\end_layout
+
+\begin_layout Standard
+
+\color black
+In order to achieve a one to one correspondence between group characteristic
  and environmental measure a similar exercise was performed on the group
  characteristics versus the means of logs of the environmental measures
  see figures 
@@ -1961,16 +1564,18 @@ noprefix "false"
 
 \end_inset
 
-The use of means being a different way of handling the noise of differences
- within the local group.
- i.e one would not expect to see values as high as 0.8 - 0.9 but correlation
- values of 0.6 - 0.7 show there is some correlation.
+.
+ The use of means being a different way of handling the differences within
+ the local group.
+ Given the differences between galaxies with a local group one would not
+ expect to see values as high as 0.8 - 0.9 but the observed correlation values
+ of 0.6 - 0.7 show there is some correlation.
  The most likely explanation as to why such correlations do not show up
- with the analysis of individual galaxies is that there are a wide range
+ with the analysis of individual galaxies, is that there are a wide range
  of values for individual galaxies and it is only when you subset them on
- a group basis.
+ a group basis that some correlation is observed.
  The group characteristics being influenced by the density within the universe
- which is also effecting the individual environmental measures
+ which is also effecting the individual environmental measures.
 \end_layout
 
 \begin_layout Subsection
@@ -1978,16 +1583,16 @@ Method
 \end_layout
 
 \begin_layout Standard
-The analysis of the Group information was carried out on data downloaded
+The analysis of the group information was carried out on data downloaded
  for the GAMA website and loaded into astrotables.
  The tables were then processed as follows Table GroupFindings G3CFoFGroup
- contains ToRmag which is computed as the r-band absolute magnitude of the
- group, obtained by adding up the r-band luminosities of its members.
+ contains TotRmag which is computed as the r-band absolute magnitude of
+ the group, obtained by adding up the r-band luminosities of its members.
 \end_layout
 
 \begin_layout Standard
 Table GroupFinding - G3CGal contains unique galaxy identifies CATAID and
- which Group they are in GroupID, single galaxies having a GroupID of 0.
+ which group they are in GroupID, single galaxies having a GroupID of 0.
 \end_layout
 
 \begin_layout Standard
@@ -1996,9 +1601,9 @@ G3CGal was joined with EnvironmentMeasures to add environmental measures
 \end_layout
 
 \begin_layout Standard
-As Local Group to Galaxy is a one to many relationship joining G3CGAL with
+As local group to galaxy is a one to many relationship joining G3CGAL with
  G3CFFGroup on GroupID results in a table with a unique key of CATAID (
- galaxy identifier ) and Group information.
+ galaxy identifier ) and group information.
  The group information being repeated for each galaxy in the group.
 \end_layout
 
@@ -4192,7 +3797,7 @@ noprefix "false"
 
 \end_inset
 
-with those of table 
+ with those of table 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:Linear-regression-of-logmstar"
@@ -4202,14 +3807,14 @@ noprefix "false"
 
 \end_inset
 
-that using as single measure of the mean of all galaxies within the group
+ that using as single measure of the mean of all galaxies within the group
  produced slightly better degrees of correlation which is in contrast to
  the results for TotRMag
 \end_layout
 
 \begin_layout Subsection
 Elliptical galaxies - variations of measures with positions within local
- Group
+ group
 \end_layout
 
 \begin_layout Subsubsection
@@ -4231,7 +3836,8 @@ noprefix "false"
 
 \end_inset
 
- The comoving distances from galaxy's to the 
+ .
+ The comoving distances from galaxies to the 
 \color black
 brightest cluster galaxy BCG
 \color inherit
@@ -4318,8 +3924,8 @@ uminusr & logmstar density plots for comoving distances to the center of
 When looking at the positional information, it is important to remember
  that galaxies are three dimensional whereas the data is represented in
  two dimensions, the y axis being the measure uminusr or logmstar and the
- x axis the distance from the center of the local group.
- there are a number of ways of defining the center of a group.
+ x axis the distance from the centre of the local group.
+ There are a number of ways of defining the center of a group.
  The most common measure quoted in astrophysics literature is CoSepBCG.
 \end_layout
 
@@ -4550,7 +4156,7 @@ noprefix "false"
 
 \end_inset
 
-and 
+ and 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:uminusr-versus-ranges"
@@ -4697,7 +4303,7 @@ possibly less mass segregation than for ellipticals.
 \end_layout
 
 \begin_layout Subsection
-Galaxy Types within Local Group
+Galaxy types within local group
 \end_layout
 
 \begin_layout Standard
@@ -4726,7 +4332,7 @@ It was decided to perform a similar exercise on the galaxy types with local
 \end_layout
 
 \begin_layout Subsubsection
-Galaxy Type and CoSepBCG
+Galaxy type and CoSepBCG
 \end_layout
 
 \begin_layout Standard
@@ -4742,7 +4348,7 @@ noprefix "false"
 
 \end_inset
 
-shows the galaxy counts in each range and figure 
+ shows the galaxy counts in each range and figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Galaxy-Type-percentages"
@@ -4752,7 +4358,7 @@ noprefix "false"
 
 \end_inset
 
-the counts expressed as percentages.
+ the counts expressed as percentages.
  
 \end_layout
 
@@ -4793,7 +4399,7 @@ name "fig:Galaxy-Type-by"
 
 \end_inset
 
-Galaxy Type by range of CosepBCG
+Galaxy type by range of CosepBCG
 \end_layout
 
 \end_inset
@@ -4842,7 +4448,7 @@ name "fig:Galaxy-Type-percentages"
 
 \end_inset
 
-Galaxy Type percentages by range of coSepBCG
+Galaxy type percentages by range of coSepBCG
 \end_layout
 
 \end_inset
@@ -4900,7 +4506,7 @@ noprefix "false"
 
 \end_inset
 
-and percentages in 
+ and percentages in 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Local-Group-:Percentages_logmstar"
@@ -4947,7 +4553,7 @@ name "fig:Local-Group-:galaxy-type-logmstar"
 
 \end_inset
 
-Local Group : Galaxy type by range of sum(logmstar)
+Local group : galaxy type by range of sum(logmstar)
 \end_layout
 
 \end_inset
@@ -4992,7 +4598,7 @@ name "fig:Local-Group-:Percentages_logmstar"
 
 \end_inset
 
-Local Group : Galaxy Type percentages for ranges of sum(logmstar)
+Local group : Galaxy type percentages for ranges of sum(logmstar)
 \end_layout
 
 \end_inset
@@ -5026,25 +4632,30 @@ Galaxy type percentages versus mean of log10 environments
 \end_layout
 
 \begin_layout Standard
-Previous research [] looking at satellite galaxies had shown a relationship
- between the percentage of red elliptical galaxies and the galaxies environment,
- so a similar exercise was carried out to determine the percentages of galaxy
- types within a local group, this did not reveal a clear relationship until
- local groups with over 5 galaxies were considered, the resulting density
- plots are shown in figure 
+Previous research
+\color red
+ []
+\color inherit
+ looking at satellite galaxies had shown a relationship between the percentage
+ of red elliptical galaxies and their environment, so a similar exercise
+ was carried out to determine the percentages of galaxy types within a local
+ group.
+ This did not reveal a clear relationship until local groups with over 5
+ galaxies were considered, the resulting density plots are shown in figure
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Density-map-plot"
+reference "fig:Density-Plots--"
 plural "false"
 caps "false"
 noprefix "false"
 
 \end_inset
 
- and the correlation results and linear regression in table 
+and the correlation results and linear regression in table 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "tab:Correlation-results"
+reference "tab:Correlations-and-linear"
 plural "false"
 caps "false"
 noprefix "false"
@@ -5071,7 +4682,7 @@ name "fig:Density-Plots-:"
 
 \end_inset
 
-Density Plots : Local Groups with more than 5 galaxies versus log10(Mean(Environ
+Density Plots : Local groups with more than 5 galaxies versus log10(Mean(Environ
 ment Measures)
 \end_layout
 
@@ -5715,7 +5326,7 @@ The classification system is based on evaluation of the deformation tensor
  the Hessian of the gravitational potential) on a grid 
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-22"
+key "key-28"
 literal "false"
 
 \end_inset
@@ -5807,10 +5418,8 @@ Galaxy counts for galaxy characteristics by galaxy structure type
 
 \begin_layout Standard
 Apart from the case of environment 
-\color magenta
-t
 \color black
-ype knot, which has higher characteristic masses first,
+type knot, which has higher characteristic masses first,
 \color inherit
  the distributions for the various galaxy environment types are similar
  see figure 
@@ -6202,7 +5811,7 @@ name "fig:Local-Group--"
 
 \end_inset
 
-Local Group - TotRmag versus Mean(Log10(Environment Measures)) for galaxy
+Local group - TotRmag versus Mean(Log10(Environment Measures)) for galaxy
  types
 \end_layout
 
@@ -7493,7 +7102,7 @@ More detail cox box
 The Cox Box transformation 
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-21"
+key "key-27"
 literal "false"
 
 \end_inset
@@ -9389,7 +8998,15 @@ literal "false"
 
 \end_inset
 
-http://astroquery.readthedocs.org/
+xxx Norberg et al.
+ 2002; Zehavi et al.
+ 2005; Sheth et al.
+ 2006; Li et al.
+ 2006; Tinker et al.
+ 2008; Ellison et al.
+ 2009; Skibba & Sheth 2009; Skibba et al.
+ 2009; de la Torre et al.
+ 2011
 \end_layout
 
 \begin_layout Bibliography
@@ -9400,7 +9017,8 @@ literal "false"
 
 \end_inset
 
-https://docs.astropy.org/en/stable/table/index.html
+yyyGalaxy Redshift Survey (2dFGRS; Colless et al.
+ 2001, 2003)
 \end_layout
 
 \begin_layout Bibliography
@@ -9411,7 +9029,9 @@ literal "false"
 
 \end_inset
 
-http://www.gama-survey.org/data/cat
+zzz (SDSS; York et al.
+ 2000; Alam et al.
+ 2015)
 \end_layout
 
 \begin_layout Bibliography
@@ -9422,13 +9042,97 @@ literal "false"
 
 \end_inset
 
-https://jupyter.org
+aaa Peacock et al.
+ 2001; Percival et al.
+ 2001, 2007; Tegmark et al.
+ 2004; Cole et al.
+ 2005; Eisenstein et al.
+ 2005).
 \end_layout
 
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
 key "key-6"
+literal "false"
+
+\end_inset
+
+bbb Dressler 1980; Whitmore et al.
+ 1993; Balogh et al.
+ 1997, 1998, 1999; Hashimoto et al.
+ 1998; Poggianti et al.
+ 1999; Couch et al.
+ 2001; Lewis et al.
+ 2002; Go ́mez et al.
+ 2003; Blanton et al.
+ 2003a
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-7"
+literal "false"
+
+\end_inset
+
+ccc Butcher & Oemler 1984; Couch & Sharples 1987; Dressler et al.
+ 1997; Andreon 1998; Fasano et al.
+ 2000; Goto et al.
+ 2003a, 2004).
+ Lewis et al.
+ (2002) and Go ́ mez et al 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-8"
+literal "false"
+
+\end_inset
+
+http://astroquery.readthedocs.org/
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-9"
+literal "false"
+
+\end_inset
+
+https://docs.astropy.org/en/stable/table/index.html
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-10"
+literal "false"
+
+\end_inset
+
+http://www.gama-survey.org/data/cat
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-11"
+literal "false"
+
+\end_inset
+
+https://jupyter.org
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-12"
 literal "false"
 
 \end_inset
@@ -9440,7 +9144,7 @@ Galaxy And Mass Assembly (GAMA): Deconstructing Bimodality— I.
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-7"
+key "key-13"
 literal "false"
 
 \end_inset
@@ -9451,7 +9155,7 @@ Colour bimodality: Implications for galaxy evolution - Baldry et al 2004
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-8"
+key "key-14"
 literal "false"
 
 \end_inset
@@ -9464,7 +9168,7 @@ Galaxy And Mass Assembly (GAMA): Resolving the role of environment in galaxy
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-9"
+key "key-15"
 literal "false"
 
 \end_inset
@@ -9479,7 +9183,7 @@ Stuart I.
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-10"
+key "key-16"
 literal "false"
 
 \end_inset
@@ -9495,7 +9199,7 @@ Measuring galaxy environment in large scale photometric surveys - James
 \color black
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-11"
+key "key-17"
 literal "false"
 
 \end_inset
@@ -9514,7 +9218,7 @@ Measuring galaxy environment in large scale photometric surveys (in DES
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-12"
+key "key-18"
 literal "false"
 
 \end_inset
@@ -9526,7 +9230,7 @@ http://adsabs.harvard.edu/abs/2007ApJS..173..512S" - Schawinski et al.
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-13"
+key "key-19"
 literal "false"
 
 \end_inset
@@ -9538,7 +9242,7 @@ http://adsabs.harvard.edu/abs/2008ApJS..176..414Y" - Yoon et al.
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-14"
+key "key-20"
 literal "false"
 
 \end_inset
@@ -9547,7 +9251,7 @@ The GAMA end of survey report and data release 2 J.
  Liske, I.
  K.
  Baldry 
-\color orange
+\color red
 date
 \color inherit
  s
@@ -9556,7 +9260,7 @@ date
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-15"
+key "key-21"
 literal "false"
 
 \end_inset
@@ -9568,7 +9272,7 @@ Galaxy and Mass Assembly (GAMA): the red fraction and radial distribution
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-16"
+key "key-22"
 literal "false"
 
 \end_inset
@@ -9580,7 +9284,7 @@ The relationship between galaxy environment and the quenching of star formation
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-17"
+key "key-23"
 literal "false"
 
 \end_inset
@@ -9592,7 +9296,7 @@ A Dynamical Classification of the Cosmic Web J.E.
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-18"
+key "key-24"
 literal "false"
 
 \end_inset
@@ -9610,7 +9314,7 @@ A lognormal model for the cosmological mass distribution January 1991Monthly
 \color black
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-19"
+key "key-25"
 literal "false"
 
 \end_inset
@@ -9623,7 +9327,7 @@ s from Dark Energy Survey maps L.
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-20"
+key "key-26"
 literal "false"
 
 \end_inset
@@ -9639,7 +9343,7 @@ The Formation of Stellar Clusters: Gaussian Cloud Conditions I - Klessen,Burket
 \color black
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-21"
+key "key-27"
 literal "false"
 
 \end_inset
@@ -9657,7 +9361,7 @@ Fragmentation and Evolution of Molecular Clouds.
 \color black
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-22"
+key "key-28"
 literal "false"
 
 \end_inset

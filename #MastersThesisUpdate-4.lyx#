@@ -7445,7 +7445,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Galaxy counts versus uminusr
+
 \end_layout
 
 \end_inset
@@ -7488,7 +7488,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Galaxy counts versus logmstar
+
 \end_layout
 
 \end_inset
@@ -7524,11 +7524,7 @@ For redness uminusr the fitted curve to equation 2 matches the histogram
 \end_layout
 
 \begin_layout Standard
-
-\color red
-In reality given the complexity of galaxy evolution as described in 8.3 the
- transform function and its inverse are highly likely to be quite complex
- functions
+In reality given the complexity of galaxy evolution as described in 
 \end_layout
 
 \begin_layout Subsection

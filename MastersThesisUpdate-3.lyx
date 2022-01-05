@@ -107,9 +107,17 @@ literal "false"
 was examined looking for relationships between an elliptical galaxyies character
 istics, colour, mass and metallicity and their local environment.
  Whilst a direct and obvious relationship was not found, some correlation
- between the characteristics of a galaxy's local group and its environment
- were noted.
- In addition other aspects of a galaxy's local group were investigated.
+ between the characteristics of a galaxy's local group, especially averages
+ of environmental measures were noted.
+ In addition other aspects of a galaxy's local group were investigated such
+ as separtion within a galaxies local group.
+ Looking at environment measures for galaxies in the various types of large
+ scale structure, differences were observed especily for those deamed to
+ be in a knot structure.
+ In a similar way to previous research on a satellite galaxies has looked
+ at galaxy types and red fraction, local groups with five or more galaxies
+ were investigated and their dependance on environment observed.
+ 
 \end_layout
 
 \begin_layout Abstract
@@ -125,46 +133,92 @@ Introduction
 
 \begin_layout Standard
 
-\color orange
-The presiding inference from a large body of research is that the structure
- of the universe is the result of initially very small deviations from the
+\color black
+The presiding inference from a large body of research is that the universe
+ we see today is the result of initially very small deviations from the
  time when the universe was a plasma which have grown over very long timescales
  to form the structure we see today.
- We know from studies of the cosmic background radiation which have measured
- only very small variations in temperature 10-xx that prior to recombination
- that the universe was a very uniform plasma.
+ We have evidence of the nature of the plasma before the recombination epoch
+ in the form of the cosmic background radiation which has today has cooled
+ and is a uniform 2.725 Kelvin with variations of only 0.0002K.
  The profile of the radiations wavelength follow a Planck function so well
  that it is stated to be a nearly perfect blackbody.
 \end_layout
 
 \begin_layout Standard
 
-\color orange
-We know that dark matter makes up xx% of the universe and the consensus
+\color black
+We know that dark matter makes up around 27% of the universe and the consensus
  is that an initial primordial field of dark matter has evolved under the
- influence of gravity over a very long time and giving rise to the variations
+ influence of gravity over a very long time, giving rise to the variations
  in regional density that we see today.
  That a galaxy's local environment is strongly influenced by dark matter
- halo mass, research [xxx] such as has shown that there is a correlation
- between galaxy/halo/dark matter and the environment also that older galaxies
- are more strongly clustered in denser environments.
- [yyy] Data from the Galaxy Redshift Survey and the Sloan Digital Sky Survey
- [zzz] accord very well with the premiss that large-scale structure formation
- is formed as a result of the cold dark matter (CDM) paradigm [aaa] 
+ halo mass, research
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-2"
+literal "false"
+
+\end_inset
+
+such as has shown that there is a correlation between galaxy/halo/dark matter
+ and the environment also that older galaxies are more strongly clustered
+ in denser environments.
+ Data from the Galaxy Redshift Survey
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-3"
+literal "false"
+
+\end_inset
+
+ and the Sloan Digital Sky Survey 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-4"
+literal "false"
+
+\end_inset
+
+accord very well with the premiss that large-scale structure formation is
+ formed as a result of the cold dark matter (CDM) paradigm
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-5"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 
-\color orange
+\color black
 Intensive studies of galaxy clusters have demonstrated a clear connection
- between galaxy properties and environment [bbb]with possible evolution
- [ccc] leading to the conclusion that Galaxy properties depend on environmentm
+ between galaxy properties and environment 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-6"
+literal "false"
+
+\end_inset
+
+with possible evolution 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-7"
+literal "false"
+
+\end_inset
+
+leading to the conclusion that Galaxy properties depend on environmentm
  for red early-type galaxies dominate galaxy clusters.
 \end_layout
 
 \begin_layout Standard
 
-\color orange
+\color black
 With such a large body of research indicating that the redness of early
  type galaxies is related to their environment then one would expect to
  find obvious and direct relationships between a galaxies redness and their
@@ -223,7 +277,7 @@ Method
 
 \begin_layout Standard
 The GAMA Survey website suggests that for python usage, the data could be
- accessed using astroquer
+ accessed using astroquery
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-8"
@@ -352,7 +406,7 @@ Two galaxy groups
 It has been well researched that galaxies fall into two colour spaces 
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-6,key-7"
+key "key-12,key-13"
 literal "false"
 
 \end_inset
@@ -424,7 +478,7 @@ By explicitly choosing the x range and y range, one could select a subgroup
  based on uminusr and logmstar as in
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-6,key-7"
+key "key-12,key-13"
 literal "false"
 
 \end_inset
@@ -780,7 +834,7 @@ The measurement of local galaxy environment is covered in a number of papers
  
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-8,key-9,key-10,key-11"
+key "key-14,key-15,key-16,key-17"
 literal "false"
 
 \end_inset
@@ -872,7 +926,7 @@ The adaptive Gaussian density parameter, as introduced by Schawinski et
  al 
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-28"
+key "key-18"
 literal "false"
 
 \end_inset
@@ -882,7 +936,7 @@ and later described by Yoon et al
  
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-24"
+key "key-19"
 literal "false"
 
 \end_inset
@@ -4310,12 +4364,12 @@ Galaxy types within local group
 Several research papers 
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-14,key-15,key-16"
+key "key-20,key-21,key-22"
 literal "false"
 
 \end_inset
 
- have shown a correlation between the fraction of red satellite galaxies
+have shown a correlation between the fraction of red satellite galaxies
  within a radial distribution,
 \color orange
  
@@ -4634,7 +4688,15 @@ Galaxy type percentages versus mean of log10 environments
 \begin_layout Standard
 Previous research
 \color red
- []
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-20,key-21,key-22"
+literal "false"
+
+\end_inset
+
+
 \color inherit
  looking at satellite galaxies had shown a relationship between the percentage
  of red elliptical galaxies and their environment, so a similar exercise
@@ -5326,7 +5388,7 @@ The classification system is based on evaluation of the deformation tensor
  the Hessian of the gravitational potential) on a grid 
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-28"
+key "key-23"
 literal "false"
 
 \end_inset
@@ -6198,8 +6260,13 @@ Distribution fits for elliptical galaxies
 
 \begin_layout Plain Layout
 \align center
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="11">
+<lyxtabular version="3" rows="5" columns="14">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -6212,8 +6279,11 @@ Distribution fits for elliptical galaxies
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
 <row>
-<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6231,7 +6301,7 @@ Johnson Fit
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6240,7 +6310,7 @@ Johnson Fit
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6249,7 +6319,7 @@ Johnson Fit
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6312,9 +6382,36 @@ Normal
 
 \end_inset
 </cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Log Normal 
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6332,7 +6429,7 @@ a
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6341,7 +6438,7 @@ b
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6350,7 +6447,7 @@ loc
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6359,7 +6456,7 @@ scale
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6368,7 +6465,7 @@ k
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6377,7 +6474,7 @@ loc
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6386,7 +6483,7 @@ loc
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6395,7 +6492,7 @@ loc
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6404,11 +6501,38 @@ loc
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 σ
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+a
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+b
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+c
 \end_layout
 
 \end_inset
@@ -6505,11 +6629,38 @@ Redness(uminusr)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 0.256
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0026
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-94.40
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+96.50
 \end_layout
 
 \end_inset
@@ -6606,11 +6757,38 @@ Mass (logmstar)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 0.509
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0055
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-81.79
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+92.07
 \end_layout
 
 \end_inset
@@ -6707,11 +6885,38 @@ Metallicity(metal)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 0.003
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.2028
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.003
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.014
 \end_layout
 
 \end_inset
@@ -6721,83 +6926,19 @@ Metallicity(metal)
 
 \end_inset
 
-LOG NORMAL DATA
-\end_layout
-
-\end_inset
-
 
 \end_layout
 
-\begin_layout Standard
-A standard way of describing a distribution is with a Probability Density
- Function PDF.
- If one has a transform function that specifies how one variable is transformed
- into another and a PDF describing the distribtion for one variable then
- the PDF describing the distribtion of target variable can be calculated.
-\end_layout
-
-\begin_layout Standard
-The details are descibeded at [] Section 11 https://www.cl.cam.ac.uk/teaching/2003/P
-robability/prob11.pdf
-\end_layout
-
-\begin_layout Standard
-Then for a PDF 
-\begin_inset Formula $\intop_{a}^{b}f(x)\:dx$
-\end_inset
-
- with a tranfromation function 
-\begin_inset Formula $y(x)$
-\end_inset
-
- and inverse 
-\begin_inset Formula $x(y)$
-\end_inset
-
- then the PDF of the transformed variable 
-\begin_inset Formula $\intop_{y(a)}^{y(b)}g(y)\:dy$
-\end_inset
-
- is given by 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
-\intop_{y(a)}^{y(b)}f(x(y))\frac{dx}{dy}dy
-\end{equation}
-
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-Now in the distant past the things that initially effect galaxy distribution
- were probably distributed normally.
- We know from detailed measurements of the cosmic background that at the
- time of recombination that matter in the universe was very uniformly distribute
-d and at the much later time for initial star formation from clouds gas
- that it is standard procedure to assume normal distributions when modelling
- of the early stages of galaxy evolution.
-\begin_inset CommandInset citation
-LatexCommand cite
-key "key-20,key-21,key-22"
-literal "false"
-
-\end_inset
-
-It is not unreasonable to assume that gaseous matter and or primordial dark
- matter that predates and lead to galaxy evoloution is highly random and
- hence has a normal/gaussien distribution.
 \end_layout
 
 \begin_layout Standard
 Now acording to research 
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-18,key-19"
+key "key-24,key-25,key-26"
 literal "false"
 
 \end_inset
@@ -6864,11 +7005,168 @@ Expelling of gas via feedback, so not available for star creation
 \begin_layout Standard
 It would not be surprising that the distribution of galaxies turn out to
  be lognormal distributions.
+ Now in the distant past the things that initially effect galaxy distribution
+ were probably distributed normally.
+ We know from detailed measurements of the cosmic background that at the
+ time of recombination that matter in the universe was very uniformly distribute
+d and at the much later time for initial star formation from clouds gas
+ that it is standard procedure to assume normal distributions when modelling
+ of the early stages of galaxy evolution.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-27,key-28,key-29,key-30,key-31"
+literal "false"
+
+\end_inset
+
+It is not unreasonable to assume that gaseous matter and or primordial dark
+ matter that predates and lead to galaxy evoloution is highly random and
+ hence has a normal/gaussien distribution.
+\end_layout
+
+\begin_layout Subsection
+Probability Distribution Function PDF
+\end_layout
+
+\begin_layout Standard
+The standard way of describing a distribution is with a Probability Distribution
+ Function PDF 
+\begin_inset Formula 
+\[
+PDF=\intop_{a}^{b}f(x)\:dx
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+PDF of Normal distribution
+\end_layout
+
+\begin_layout Standard
+The PDF for a Normal Distribution is given by 
+\begin_inset Formula 
+\[
+PDF\:Normal\:Distribution=\intop_{-\infty}^{\infty}f(x)\:dx=\intop_{-\infty}^{\infty}\frac{1}{\sigma_{1}\sqrt{2\pi}}e^{-\frac{\left[x-\mu_{1}\right]^{2}}{2\sigma_{1}^{2}}}dx
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where 
+\begin_inset Formula $\mu_{1}$
+\end_inset
+
+ is the mean of the distribution and 
+\begin_inset Formula $\sigma_{1}$
+\end_inset
+
+ is the variance of the distribution.
+\end_layout
+
+\begin_layout Subsubsection
+PDF of Log Normal Distribution
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+PDF\:Log\:Normal\:Distribution\intop g(y)\:dy=\frac{1}{y\sigma_{2}\sqrt{2\pi}}e^{-\frac{\left[ln(y)-\mu_{2}\right]^{2}}{2\sigma_{2}^{2}}}dy
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The mean is gien by
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Mean=exp(\mu+\frac{\sigma^{2}}{2})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+And Variance
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Variance=\left(exp(\sigma^{2})-1\right)exp(2\mu+\sigma^{2})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Transforming the distribution of one variable into a distribution of another
+\end_layout
+
+\begin_layout Standard
+If one has a transform function that specifies how one variable is transformed
+ into another and a PDF describing the distribtion for one variable then
+ the PDF describing the distribtion of target variable can be calculated.
+\end_layout
+
+\begin_layout Standard
+The details are descibeded at [] Section 11 https://www.cl.cam.ac.uk/teaching/2003/P
+robability/prob11.pdf
+\end_layout
+
+\begin_layout Standard
+Then for a PDF 
+\begin_inset Formula $\intop_{a}^{b}f(x)\:dx$
+\end_inset
+
+ with a tranfromation function 
+\begin_inset Formula $y(x)$
+\end_inset
+
+ and inverse 
+\begin_inset Formula $x(y)$
+\end_inset
+
+ then the PDF of the transformed variable 
+\begin_inset Formula $\intop_{y(a)}^{y(b)}g(y)\:dy$
+\end_inset
+
+ is given by 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\intop_{y(a)}^{y(b)}f(x(y))\frac{dx}{dy}dy
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Transform of normal distribution of variable x to log normal variable y
 \end_layout
 
 \begin_layout Standard
 So taking a variable of x with a normal distribution which describes the
- gaseous/promordial dark mater, a variable y which describes the number
+ gaseous/primordial dark mater, a variable y which describes the number
  of log normal distrubutied galaxies
 \end_layout
 
@@ -6884,50 +7182,6 @@ as a result of the above processes where the process of conversion of x
 
 \begin_layout Standard
 Then the relationship between the two PDF's is as follows
-\end_layout
-
-\begin_layout Standard
-PDF Normal distribution
-\begin_inset Formula $\intop\frac{1}{\sigma_{1}\sqrt{2\pi}}e^{-\frac{\left[x-\mu_{1}\right]^{2}}{2\sigma_{1}^{2}}}$
-\end_inset
-
-where 
-\begin_inset Formula $\mu_{1}$
-\end_inset
-
- is the mean of the distribution and 
-\begin_inset Formula $\sigma_{1}$
-\end_inset
-
- is the variance of the distribtion.
-\end_layout
-
-\begin_layout Standard
-For a log normal distribtion the PDF is given by 
-\begin_inset Formula $\intop g(y)\:dy=\frac{1}{y\sigma_{2}\sqrt{2\pi}}e^{-\frac{\left[ln(y)-\mu_{2}\right]^{2}}{2\sigma_{2}^{2}}}$
-\end_inset
-
-where 
-\begin_inset Formula $\mu_{2}$
-\end_inset
-
- is the mean of the distribution and 
-\begin_inset Formula $\sigma_{2}$
-\end_inset
-
- is the variance of the distribtion.
-\end_layout
-
-\begin_layout Standard
-For a transfromation function 
-\begin_inset Formula $t(x)$
-\end_inset
-
- with an inverse function 
-\begin_inset Formula $s(y)$
-\end_inset
-
- then using equation 1 the relationship between the two PDF's is
 \end_layout
 
 \begin_layout Standard
@@ -6965,13 +7219,72 @@ Two sides of the equation equate when
 \end_layout
 
 \begin_layout Standard
+So assuming primordial gas and dark mater are distributed normally and research
+ determines that galaxies have a log normal distribution then the mathmatics
+ indicates that given a mean and variance of the initial normal distribution
+ of 
+\begin_inset Formula $\mu$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For the observed log normal the mean should be
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Mean=exp(\mu+\frac{\sigma^{2}}{2})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+And Variance
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Variance=\left(exp(\sigma^{2})-1\right)exp(2\mu+\sigma^{2})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Observed Distribtiions from GAMA data
+\end_layout
+
+\begin_layout Standard
 .
  
 \end_layout
 
 \begin_layout Standard
-For GAMA data not seeing log normal see plot??? but johnson which has a
- PDF of 
+For the distributions from GAMA see figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Distributions"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ The data does not appear to be normal or log normal see figure but johnson
+ which has a PDF of 
 \begin_inset Formula $\frac{\delta}{\lambda\sqrt{2\pi}}\frac{1}{\sqrt{1+t^{2}}}e^{-\frac{1}{2}\gamma\left(1+log(t)+\sqrt{1+t^{2}}\right)}$
 \end_inset
 
@@ -6986,6 +7299,21 @@ For GAMA data not seeing log normal see plot??? but johnson which has a
 Does not lend itself to the equating of the two PDF
 \end_layout
 
+\begin_layout Subsection
+Attempts to extract information from the distributions.
+\end_layout
+
+\begin_layout Standard
+Given that the source of galaxy creation is from gas clouds and primodial
+ dark matter which is mostly likely distributed normally which appears not
+ to be the case for galaxies an attempt was made to extract information
+ from the transition.
+\end_layout
+
+\begin_layout Subsubsection
+Cox Box Transformation 
+\end_layout
+
 \begin_layout Standard
 
 \color black
@@ -6995,114 +7323,15 @@ Statistics has a well known technique the Cox Box transformation that enables
 \end_layout
 
 \begin_layout Standard
-Looking at inverse of Cox Box Transform as a prossible transform from normal
- to current distribution of galaxies
-\end_layout
-
-\begin_layout Standard
-
-\color red
-It was decided to look at performing cox box transformations on the various
- distributions and look at the inverse of the transformations to see if
- they provided any useful information.
-\end_layout
-
-\begin_layout Standard
-
-\color red
-)
-\end_layout
-
-\begin_layout Standard
-
-\color red
-Forecasts of non-Gaussian parameter spaces using Box-Cox transformations
- Joachimi, B.
- ; Taylor, A.
- N.
- arXiv:1103.3370 
-\end_layout
-
-\begin_layout Standard
-
-\color red
-The origin of the Gaussian initial mass function of old globular cluster
- systems Geneviève Parmentier, Gerard Gilmore https://doi.org/10.1111/j.1365-2966.20
-07.11611.x
-\end_layout
-
-\begin_layout Standard
-
-\color red
-The Formation of Stellar Clusters: Gaussian Cloud Conditions I Ralf S.
- Klessen Andreas Burkert arXiv:astro-ph/9904090
-\end_layout
-
-\begin_layout Standard
-
-\color red
-The Formation of Stellar Clusters: Gaussian Cloud Conditions.
- II.
- R.
- Klessen, A.
- Burkert Published 1 June 2000 Physics The Astrophysical Journal
-\end_layout
-
-\begin_layout Standard
-
-\color red
-The dependence of star formation on initial conditions and molecular cloud
- structure M.
- Bate Physics 2009
-\end_layout
-
-\begin_layout Standard
-
-\color red
-The result is that inferences from distributions are at best likely to give
- hints of the physical process involved and better understandings can be
- obtained by creating models and testing if these produce results similar
- to actual observations.
- If the results do not match, then efforts are made to improve the model.
- If the models produce good results then this gives support to the proposition
- that physical reality is being well modelled.
-\end_layout
-
-\begin_layout Standard
-
-\color red
-The size distribution of galaxies in the Sloan Digital Sky Survey Shiyin
- Shen,et al https://doi.org/10.1046/j.1365-8711.2003.06740.x
-\end_layout
-
-\begin_layout Standard
-
-\color red
-A log-normal process is the statistical realization of the multiplicative
- product of many independent random variables, each of which is positive.
- This is justified by considering the central limit theorem in the log domain
- (sometimes called Gibrat's law).
-\end_layout
-
-\begin_layout Subsection
-Cox Box transformation 
-\color red
-not seen this used in astrophysics papers.
- It's worth having a literature search for this.
- 
-\end_layout
-
-\begin_layout Standard
-
-\color orange
-More detail cox box
+The hope was that looking at inverse of Cox Box Transforms as a prossible
+ transforms from normal to current distribution of galaxies
 \end_layout
 
 \begin_layout Standard
 The Cox Box transformation 
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-27"
+key "key-30"
 literal "false"
 
 \end_inset
@@ -7185,7 +7414,32 @@ noprefix "false"
 \end_layout
 
 \begin_layout Subsubsection
-Elliptical Galaxies
+Inverse Cox Box transform 
+\end_layout
+
+\begin_layout Standard
+To get to the observed distribution from a normal distribution then the
+ transform that would need to be applied is the inverse of the Cox Box transform
+ which for a non zero value of 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ is given by
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\lambda}{y^{\lambda}-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Coxbox transformations for Elliptical Galaxies
 \end_layout
 
 \begin_layout Standard
@@ -7235,6 +7489,12 @@ Elliptical Galaxy Distributions
 
 \begin_layout Subsubsection
 Spiral Galaxies
+\end_layout
+
+\begin_layout Standard
+
+\color red
+SPIRAL PLOTS
 \end_layout
 
 \begin_layout Subsubsection
@@ -8082,8 +8342,17 @@ noprefix "false"
 \end_inset
 
 .
- Now it is known from previous research[??] and confirmed by the results
- of correlation between uminusr and logmstar see table 
+ From figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Density-map-plot"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ and table 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:Correlation-results"
@@ -8093,13 +8362,13 @@ noprefix "false"
 
 \end_inset
 
- that there is a linear relationship which means a power of one and therefore
- one would not expect any difference in lambda.
+ we know that there is a linear relationship which means a power of one
+ and therefore one would not expect any difference in lambda.
  However the lambda for metallicity is quite different.
  Given star metallically is a result of stars of different sizes recycling
  material in supernova raises the question of whether any useful information
  could be obtained from looking at lambda for different ranges of metal
- values(Check Physics Logic).
+ values
 \end_layout
 
 \begin_layout Standard
@@ -8130,45 +8399,15 @@ Also it has been assumed that the formation of galaxies has given rise to
 The Shapiro tests for normality before any Cox Box transformation are high.
 \end_layout
 
-\begin_layout Standard
-
-\color red
-so, as was stated in could not solely be relied upon and would need to be
- supported by other research such as modelling.
-\end_layout
-
-\begin_layout Standard
-
-\color red
-The Cox-Box Lamda 
-\begin_inset Formula $\lambda$
-\end_inset
-
- is the exponent for a transform function that if applied would transform
- a distribution to another distribution which has a higher degree of fit
- with a Gaussian function.
- For ellipticals the Lamda values for redness(uminusr) and mass(logmstar)
- are quite similar with overlapping ranges.
- A 
-\begin_inset Formula $\lambda$
-\end_inset
-
- value of two would correspond to a square law but redness is beyond a square
- law.
- metallically for elliptical is quite low as there is much less creation
- of metals as a result of stars creating metals and recycling them at the
- end of their lives.
-\end_layout
-
-\begin_layout Standard
+\begin_layout Itemize
 
 \color red
 For Spirals the Lamda 
 \begin_inset Formula $\lambda$
 \end_inset
 
- value of redness is just under one so only a small change whereas for mass
- Lamda 
+ value of redness uminusr is just under one, so only a small change whereas
+ for mass logmstar Lamda 
 \begin_inset Formula $\lambda$
 \end_inset
 
@@ -8195,24 +8434,46 @@ obvious correlation was found between galaxy measures and environmental
  is a tracer.
 \end_layout
 
+\begin_layout Standard
+
+\color orange
+xxxxx
+\end_layout
+
 \begin_layout Subsection
-Inverse transform 
+Transform from Normal distribution to observed distribution.
 \end_layout
 
 \begin_layout Standard
-To get to the observed distribution from a normal distribution then the
- transform that would need to be applied is the inverse of the Cox Box transform
- which for a non zero value of 
-\begin_inset Formula $\lambda$
+What is required is to determine a transformation that would convert a normal
+ distribution to the observed distribtion.
+\end_layout
+
+\begin_layout Standard
+Taking a similar approach to CoxBox but assuming the transformation function
+ 
+\begin_inset Formula $t(x)$
 \end_inset
 
- is given by
+ take the form 
+\begin_inset Formula $y=x^{-a}$
+\end_inset
+
+ so has an inverse 
+\begin_inset Formula $s(y)=y^{a}$
+\end_inset
+
+ and a derivative 
+\begin_inset Formula $s'(y)=a.y^{a-1}$
+\end_inset
+
+ and using equation 1 we have
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\frac{\lambda}{y^{\lambda}-1}
+\intop_{-\infty}^{\infty}\frac{1}{\sigma_{1}\sqrt{2\pi}}e^{-\frac{\left[x-\mu_{1}\right]^{2}}{2\sigma_{1}^{2}}}dx=\intop\frac{1}{\sigma_{1}\sqrt{2\pi}}e^{-\frac{\left[s(y)-\mu_{1}\right]^{2}}{2\sigma_{1}^{2}}s^{'}(y)}
 \]
 
 \end_inset
@@ -8221,9 +8482,119 @@ To get to the observed distribution from a normal distribution then the
 \end_layout
 
 \begin_layout Standard
+\begin_inset Formula 
+\[
+\intop_{-\infty}^{\infty}\frac{1}{\sigma_{1}\sqrt{2\pi}}e^{-\frac{\left[x-\mu_{1}\right]^{2}}{2\sigma_{1}^{2}}}dx=\intop\frac{1}{\sigma_{1}\sqrt{2\pi}}e^{-\frac{\left[y^{a}-\mu_{1}\right]^{2}}{2\sigma_{1}^{2}}a.y^{a-1}}
+\]
 
-\color orange
-xxxxx
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Fitting the distribution of elliptical galaxies curves with
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{1}{\sigma_{1}\sqrt{2\pi}}e^{-\frac{\left[y^{a}-\mu_{1}\right]^{2}}{2\sigma_{1}^{2}}a.y^{a-1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+One obtains
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/Distributions_CurveFit_uminusr.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/Distributions_CurveFit_logmstar.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -8920,12 +9291,6 @@ Fisher Matrix ??? Forecasts of non-Gaussian parameter spaces using Box-Cox
 Results from distributions
 \end_layout
 
-\begin_layout Standard
-
-\color black
-≈
-\end_layout
-
 \begin_layout Section
 
 \color black
@@ -8998,7 +9363,7 @@ literal "false"
 
 \end_inset
 
-xxx Norberg et al.
+Norberg et al.
  2002; Zehavi et al.
  2005; Sheth et al.
  2006; Li et al.
@@ -9017,7 +9382,7 @@ literal "false"
 
 \end_inset
 
-yyyGalaxy Redshift Survey (2dFGRS; Colless et al.
+Galaxy Redshift Survey (2dFGRS; Colless et al.
  2001, 2003)
 \end_layout
 
@@ -9029,9 +9394,8 @@ literal "false"
 
 \end_inset
 
-zzz (SDSS; York et al.
- 2000; Alam et al.
- 2015)
+SDSS; York et al.
+ 2000; Alam et al.(2015)
 \end_layout
 
 \begin_layout Bibliography
@@ -9042,12 +9406,12 @@ literal "false"
 
 \end_inset
 
-aaa Peacock et al.
+Peacock et al.
  2001; Percival et al.
  2001, 2007; Tegmark et al.
  2004; Cole et al.
  2005; Eisenstein et al.
- 2005).
+ 2005.
 \end_layout
 
 \begin_layout Bibliography
@@ -9058,7 +9422,7 @@ literal "false"
 
 \end_inset
 
-bbb Dressler 1980; Whitmore et al.
+Dressler 1980; Whitmore et al.
  1993; Balogh et al.
  1997, 1998, 1999; Hashimoto et al.
  1998; Poggianti et al.
@@ -9077,7 +9441,7 @@ literal "false"
 
 \end_inset
 
-ccc Butcher & Oemler 1984; Couch & Sharples 1987; Dressler et al.
+Butcher & Oemler 1984; Couch & Sharples 1987; Dressler et al.
  1997; Andreon 1998; Fasano et al.
  2000; Goto et al.
  2003a, 2004).
@@ -9250,11 +9614,7 @@ literal "false"
 The GAMA end of survey report and data release 2 J.
  Liske, I.
  K.
- Baldry 
-\color red
-date
-\color inherit
- s
+ Baldry (2015)
 \end_layout
 
 \begin_layout Bibliography
@@ -9303,6 +9663,20 @@ literal "false"
 
 
 \color black
+The size distribution of galaxies in the Sloan Digital Sky Survey Shiyin
+ Shen,et al https://doi.org/10.1046/j.1365-8711.2003.06740.x
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-25"
+literal "false"
+
+\end_inset
+
+
+\color black
 A lognormal model for the cosmological mass distribution January 1991Monthly
  Notices of the Royal Astronomical Society 248(1):1-13 DOI:10.1093/mnras/248.1.1
  Authors: Peter Coles at National University of Ireland, Maynooth Peter
@@ -9314,7 +9688,7 @@ A lognormal model for the cosmological mass distribution January 1991Monthly
 \color black
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-25"
+key "key-26"
 literal "false"
 
 \end_inset
@@ -9327,7 +9701,22 @@ s from Dark Energy Survey maps L.
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-26"
+key "key-27"
+literal "false"
+
+\end_inset
+
+
+\color black
+The origin of the Gaussian initial mass function of old globular cluster
+ systems Geneviève Parmentier, Gerard Gilmore https://doi.org/10.1111/j.1365-2966.20
+07.11611.x
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-28"
 literal "false"
 
 \end_inset
@@ -9339,11 +9728,28 @@ The Formation of Stellar Clusters: Gaussian Cloud Conditions I - Klessen,Burket
 \end_layout
 
 \begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-29"
+literal "false"
+
+\end_inset
+
+
+\color black
+The Formation of Stellar Clusters: Gaussian Cloud Conditions.
+ II.
+ R.
+ Klessen, A.
+ Burkert Published 1 June 2000 Physics The Astrophysical Journal
+\end_layout
+
+\begin_layout Bibliography
 
 \color black
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-27"
+key "key-30"
 literal "false"
 
 \end_inset
@@ -9361,7 +9767,7 @@ Fragmentation and Evolution of Molecular Clouds.
 \color black
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-28"
+key "key-31"
 literal "false"
 
 \end_inset

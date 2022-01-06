@@ -7517,15 +7517,259 @@ Galaxy counts versus logmstar
 
 \end_layout
 
-\begin_layout Standard
-For redness uminusr the fitted curve to equation 2 matches the histogram
- well.
- For logmstar the distribution looks quite normal/gausian
+\begin_layout Subsubsection
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Curve fit variables
 \end_layout
 
-\begin_layout Standard
+\end_inset
 
-\color red
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="6">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+a
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\mu$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sigma$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+s(y)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+t(x)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+uminusr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.371
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+84.516
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+127.863
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $y^{6.371}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x^{-6.371}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+logmstar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.780
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10.256
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.545
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $y^{2.78}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x^{-2.78}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Observations
+\end_layout
+
+\begin_layout Itemize
+In the case of redness uminusr the distribution fitted curve to equation
+ 2 matches the histogram quite well.
+\end_layout
+
+\begin_layout Itemize
+For logmstar the distribution looks quite normal/gausian.
+\end_layout
+
+\begin_layout Itemize
+Is it wishful thinking that for logmstar the value for a is 2.78 which rounded
+ up to a whole number is 3 and that the mass of a galaxy is related to volume
+ of gas?
+\end_layout
+
+\begin_layout Itemize
+
+\color black
 In reality given the complexity of galaxy evolution as described in 8.3 the
  transform function and its inverse are highly likely to be quite complex
  functions
@@ -7535,14 +7779,107 @@ In reality given the complexity of galaxy evolution as described in 8.3 the
 Further work
 \end_layout
 
-\begin_layout Subsection
-Results from distributions
+\begin_layout Itemize
+Take into account error estimation and confidence ranges
+\end_layout
+
+\begin_layout Itemize
+With advice from theorists on galaxy evolution are there more promising
+ transfer and inverse functions
+\end_layout
+
+\begin_layout Itemize
+The newly launched James Webb Telescope should be able to observe light
+ from the time of star and galaxy formation and hence supply suitable distributi
+on information
+\end_layout
+
+\begin_layout Itemize
+The GAMA survey is limited 
+\color black
+due to the flux limited nature of the collected data future surveys will
+ hopefully allow the change of distribution for different redshift on galaxy
+ evolution scales
+\end_layout
+
+\begin_layout Subsubsection
+Transformation of multiple variables
+\end_layout
+
+\begin_layout Standard
+As well as transfromation of one variable into another a similar approach
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-34"
+literal "false"
+
+\end_inset
+
+ can be carried out for bivariable distributions, the relationship being
+\begin_inset Formula 
+\[
+g(y_{1},y_{2})=f(x_{1}(y_{1},y_{2}),x_{2}(y_{1},y_{2}))\left|\frac{\partial\,(x_{1,}x_{2})}{\partial\,(y_{1},y_{2})}\right|
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+With transform functions
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+t_{1}(x_{1},x_{2})\:and\:t_{2}(x_{1},x_{2})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+And Inverse functions
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+s_{1}(y_{1},y_{2})\:and\:s_{2}(y_{1},y_{2})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Given access to suitable data distributions for 
+\begin_inset Formula $x_{1}$
+\end_inset
+
+ a variable describing dark matter and 
+\begin_inset Formula $x_{2}$
+\end_inset
+
+ a variable describing gas cloud information plus setting 
+\begin_inset Formula $y_{1}$
+\end_inset
+
+ equal to 
+\begin_inset Formula $y_{2}$
+\end_inset
+
+ describing a galaxies
 \end_layout
 
 \begin_layout Section
 
 \color black
-Conclusions
+Overall Conclusions
 \end_layout
 
 \begin_layout Itemize
@@ -8047,6 +8384,17 @@ literal "false"
 https://stats.libretexts.org/Bookshelves/Probability_Theory/Probability_Mathematic
 al_Statistics_and_Stochastic_Processes_(Siegrist)/03%3A_Distributions/3.07%3A_Tra
 nsformations_of_Random_Variables
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-34"
+literal "false"
+
+\end_inset
+
+https://www.cl.cam.ac.uk/teaching/2003/Probability/prob12.pdf
 \end_layout
 
 \end_body

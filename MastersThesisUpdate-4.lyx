@@ -104,16 +104,16 @@ literal "false"
 
 \end_inset
 
-was examined looking for relationships between an elliptical galaxyies character
+ was examined looking for relationships between an elliptical galaxies character
 istics, colour, mass and metallicity and their local environment.
  Whilst a direct and obvious relationship was not found, some correlation
  between the characteristics of a galaxy's local group, especially averages
  of environmental measures were noted.
  In addition other aspects of a galaxy's local group were investigated such
- as separtion within a galaxies local group.
+ as separation within a galaxies local group.
  Looking at environment measures for galaxies in the various types of large
- scale structure, differences were observed especily for those deamed to
- be in a knot structure.
+ scale structure, differences were observed especially for those deemed
+ to be in a knot structure.
  In a similar way to previous research on a satellite galaxies has looked
  at galaxy types and red fraction, local groups with five or more galaxies
  were investigated and their dependance on environment observed.
@@ -161,8 +161,8 @@ literal "false"
 
 \end_inset
 
-such as has shown that there is a correlation between galaxy/halo/dark matter
- and the environment also that older galaxies are more strongly clustered
+ such as has shown that there is a correlation between galaxy/halo/dark
+ matter and the environment also that older galaxies are more strongly clustered
  in denser environments.
  Data from the Galaxy Redshift Survey
 \begin_inset CommandInset citation
@@ -172,7 +172,7 @@ literal "false"
 
 \end_inset
 
- and the Sloan Digital Sky Survey 
+ and the Sloan Digital Sky Survey
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-4"
@@ -180,8 +180,8 @@ literal "false"
 
 \end_inset
 
-accord very well with the premiss that large-scale structure formation is
- formed as a result of the cold dark matter (CDM) paradigm
+ accord very well with the premiss that large-scale structure formation
+ is formed as a result of the cold dark matter (CDM) paradigm
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-5"
@@ -204,7 +204,7 @@ literal "false"
 
 \end_inset
 
-with possible evolution 
+ with possible evolution 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-7"
@@ -212,7 +212,7 @@ literal "false"
 
 \end_inset
 
-leading to the conclusion that Galaxy properties depend on environmentm
+ leading to the conclusion that Galaxy properties depend on environment
  for red early-type galaxies dominate galaxy clusters.
 \end_layout
 
@@ -313,7 +313,7 @@ literal "false"
 
 \end_inset
 
-and the data analysed using the following python packages
+ and the data analysed using the following python packages
 \end_layout
 
 \begin_layout Itemize
@@ -4243,120 +4243,7 @@ The mode vales of uminusr and logmstar are consistent across the whole range
  of comoving distances.
 \end_layout
 
-\begin_layout Subsection
-
-\color red
-Spiral galaxies ??
-\end_layout
-
-\begin_layout Standard
-
-\color red
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\color red
-X-Range for last set of plotsb
-\end_layout
-
-\begin_layout Standard
-
-\color red
-Using the above for spiral galaxies
-\end_layout
-
-\begin_layout Enumerate
-
-\color red
-The values of uminusr are more evenly spread
-\end_layout
-
-\begin_layout Enumerate
-
-\color red
-uminusr - medium : 1.651 mode : 1.422
-\end_layout
-
-\begin_layout Enumerate
-
-\color red
-There is a larger range above the mode
-\end_layout
-
-\begin_layout Enumerate
-
-\color red
-Galaxies at some distance also have a considerable range of values.
- hard to know the significance of this without different types of visualization.
- or measure of standard deviation in bins of distance, for example.
- 
-\end_layout
-
-\begin_layout Standard
-
-\color red
-Table G3CGal provides the relative positions of galaxies within their local
- group.
- A subset of elliptical galaxies criteria for subset? produced the scatter
- and density plots in figure 
-\end_layout
-
-\begin_layout Itemize
-
-\color red
-logmstar - median : 10.528 mode : 9.894 
-\end_layout
-
-\begin_layout Itemize
-
-\color red
-Looking at the mass (logmstar) distribution in local groups figure , there
- are marked differences from the red colour uminusr figure , most notably
- there is no bulge for distant galaxies corresponding to the mode of the
- group.
-\end_layout
-
-\begin_layout Itemize
-
-\color red
-more distant galaxies are lower mass on average.
- useful result.
- 
-\end_layout
-
-\begin_layout Standard
-
-\color red
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-
-\color red
-Looking at figure , details of logmstar of spiral galaxies (within the same
- local group as elliptical galaxies) versus various measures of position
- from the centre of the local group produced very similar results as details
- of uminusr for spiral galaxies figure 
-\end_layout
-
-\begin_layout Itemize
-
-\color red
-possibly less mass segregation than for ellipticals.
-
-\color inherit
- 
-\end_layout
-
-\begin_layout Subsection
+\begin_layout Section
 Galaxy types within local group
 \end_layout
 
@@ -4578,7 +4465,7 @@ It can clearly be seen that
 \end_layout
 
 \begin_layout Itemize
-the number and ratio of red elliptical galaxies increases in local groups
+The number and ratio of red elliptical galaxies increases in local groups
  of larger mass.
 \end_layout
 
@@ -4686,9 +4573,7 @@ Galaxy type percentages versus mean of log10 environments
 \end_layout
 
 \begin_layout Standard
-Previous research
-\color red
- 
+Again the papers 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-20,key-21,key-22"
@@ -4696,15 +4581,10 @@ literal "false"
 
 \end_inset
 
-
-\color inherit
- looking at satellite galaxies had shown a relationship between the percentage
- of red elliptical galaxies and their environment, so a similar exercise
- was carried out to determine the percentages of galaxy types within a local
- group.
- This did not reveal a clear relationship until local groups with over 5
- galaxies were considered, the resulting density plots are shown in figure
- 
+had shown a relationship between the percentage of red satellite galaxies
+ and the environment so a similar exercise was carried out for local groups
+ which contained more than 5 galaxies.
+ The resulting density plots are shown in figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Density-Plots--"
@@ -5812,12 +5692,12 @@ noprefix "false"
 
 \begin_layout Standard
 Given that the density of the universe increases from voids though sheets
- and filaments to knots so does the total red magnitude TotRmag.
+ and filaments to knots, so does the total red magnitude TotRmag.
  The relationship between TotRmag and environment is clearest with galaxies
 \end_layout
 
 \begin_layout Standard
-classified as being part of a Sheet.
+classified as being part of a Sheet or Filament.
  It is important when viewing these plots to remember that the environmental
  measures change considerably between structural types see combined plots
  in figures 
@@ -6011,29 +5891,24 @@ Group sum (logmstar) mass versus environmental measures for galaxy types
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsubsection
 
-\color red
-Why not look similar need to
-\end_layout
-
-\begin_layout Standard
-
-\color red
+\color black
 Observations
 \end_layout
 
 \begin_layout Standard
 
-\color red
-For galaxy large-scale structural types filament and knot there is a clear
- correlation between the local group attribute and environment measures.
+\color black
+For galaxy large-scale structural types of filament and knot there is a
+ clearer correlation between the sum of the local group attribute logmass
+ and environment measures.
  The correlation is less clear for structural types voids and sheet.
 \end_layout
 
 \begin_layout Standard
 
-\color red
+\color black
 When broken down into galaxy structure types, the density maps for sum of
  local groups versus log(environmental measures) for uminusr figure 
 \begin_inset CommandInset ref
@@ -6058,57 +5933,6 @@ noprefix "false"
  but quite different between galaxy structure types, again emphasising the
  fact that galaxy environmental measures change quite significantly between
  galaxy structure types.
-\end_layout
-
-\begin_layout Standard
-
-\color red
-The possibility that there are two groups of red elliptical galaxies, as
- was indicative in the sum of group measures, is most obvious in galaxies
- allocated to a galaxy structure type of filament.
-\end_layout
-
-\begin_layout Standard
-
-\color red
-This is not clear and needs a better explanation
-\end_layout
-
-\begin_layout Itemize
-
-\color red
-On an individual elliptical galaxy basis, there is no obvious correlation
- between a galaxy's environment and parameters (redness, mass, metallicity).
-\end_layout
-
-\begin_layout Itemize
-
-\color red
-There is a degree of correlation between the sum of local groups not clear
- meaning and individual galaxy environment measures.
- This correlation is more obvious in galaxy structure types filament and
- knot.
-\end_layout
-
-\begin_layout Itemize
-
-\color red
-Looking at galaxies that are in the outer 5% of their local group, there
- does appear to be a link with environmental measure CountInCyl.
-\end_layout
-
-\begin_layout Itemize
-
-\color red
-Galaxy environment measures vary quite considerably between galaxy structural
- types.
-\end_layout
-
-\begin_layout Itemize
-
-\color red
-There is some variation between galaxy characteristics for different galaxy
- structure types.
 \end_layout
 
 \begin_layout Standard
@@ -6934,7 +6758,7 @@ Galaxy formation and evolution
 \end_layout
 
 \begin_layout Standard
-Now acording to research 
+Now according to research 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-24,key-25,key-26"
@@ -6943,7 +6767,7 @@ literal "false"
 \end_inset
 
  the distribution of galaxies of galaxies in the universe conform to lognormal
- distribtions.
+ distributions.
  Lognormal distributions come about from the statistical realisation of
  a multiplicity set of actions of many independent variables each with a
  positive contribution.
@@ -7023,8 +6847,8 @@ literal "false"
 \end_inset
 
 It is not unreasonable to assume that gaseous matter and or primordial dark
- matter that predates and lead to galaxy evoloution is highly random and
- hence has a normal/gaussien distribution.
+ matter that predates and lead to galaxy evolution is highly random and
+ hence has a normal/Gaussian distribution.
 \end_layout
 
 \begin_layout Subsection
@@ -7088,7 +6912,7 @@ PDF\:Log\:Normal\:Distribution\intop g(y)\:dy=\frac{1}{y\sigma_{2}\sqrt{2\pi}}e^
 \end_layout
 
 \begin_layout Standard
-The mean is gien by
+The mean is given by
 \end_layout
 
 \begin_layout Standard
@@ -7172,7 +6996,7 @@ Then for a PDF
 \begin_inset Formula $\intop_{a}^{b}f(x)\:dx$
 \end_inset
 
- with a tranfromation function 
+ with a transformation function 
 \begin_inset Formula $y(x)$
 \end_inset
 
@@ -7205,7 +7029,7 @@ Transform of normal distribution of variable x to log normal variable y
 \begin_layout Standard
 So taking a variable of x with a normal distribution PDF f(x) which describes
  the gaseous/primordial dark mater, a variable y distribution PDF g(y) which
- describes the number of log normal distrubutied galaxies
+ describes the number of log normal distributed galaxies
 \end_layout
 
 \begin_layout Standard
@@ -7226,7 +7050,7 @@ g(y)=f(x)\mid\frac{dx}{dy}\mid
 
 \begin_layout Standard
 as a result of the above processes where the process of conversion of x
- to galaxies y is a transfromation function t(x) and inverse s(y) and the
+ to galaxies y is a transformation function t(x) and inverse s(y) and the
  derivative of s(y) is 
 \begin_inset Formula $s^{'}(y)$
 \end_inset
@@ -7274,7 +7098,7 @@ Two sides of the equation equate when
 
 \begin_layout Standard
 So assuming primordial gas and dark mater are distributed normally and research
- determines that galaxies have a log normal distribution then the mathmatics
+ determines that galaxies have a log normal distribution then the mathematics
  indicates that given a mean and variance of the initial normal distribution
  of 
 \begin_inset Formula $\mu$
@@ -7318,7 +7142,7 @@ Variance=\left(exp(\sigma^{2})-1\right)exp(2\mu+\sigma^{2})
 \end_layout
 
 \begin_layout Subsubsection
-Observed Distribtiions from GAMA data
+Observed distributions from GAMA data
 \end_layout
 
 \begin_layout Standard
@@ -7366,7 +7190,7 @@ What is really required is to determine the transformation that would take
 
 \begin_layout Standard
 What is required is to determine a transformation that would convert a normal
- distribution to the observed distribtion.
+ distribution to the observed distribution.
 \end_layout
 
 \begin_layout Standard
@@ -7758,7 +7582,7 @@ In the case of redness uminusr the distribution fitted curve to equation
 \end_layout
 
 \begin_layout Itemize
-For logmstar the distribution looks quite normal/gausian.
+For logmstar the distribution looks quite normal/Gaussian
 \end_layout
 
 \begin_layout Itemize
@@ -7807,7 +7631,7 @@ Transformation of multiple variables
 \end_layout
 
 \begin_layout Standard
-As well as transfromation of one variable into another a similar approach
+As well as transformation of one variable into another, a similar approach
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-34"
@@ -7857,7 +7681,9 @@ s_{1}(y_{1},y_{2})\:and\:s_{2}(y_{1},y_{2})
 \end_layout
 
 \begin_layout Standard
-Given access to suitable data distributions for 
+A possible example given suitable data distributions primordial dark matter
+ and star forming gas cloud and the resulting galaxy distributions i.e.
+ using 
 \begin_inset Formula $x_{1}$
 \end_inset
 
@@ -7873,7 +7699,7 @@ Given access to suitable data distributions for
 \begin_inset Formula $y_{2}$
 \end_inset
 
- describing a galaxies
+ describing galaxies
 \end_layout
 
 \begin_layout Section
@@ -7910,7 +7736,7 @@ A relationship is observed between the fraction of elliptical galaxies in
  galaxies
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-14,key-15"
+key "key-20,key-21,key-22"
 literal "false"
 
 \end_inset

@@ -4243,120 +4243,7 @@ The mode vales of uminusr and logmstar are consistent across the whole range
  of comoving distances.
 \end_layout
 
-\begin_layout Subsection
-
-\color red
-Spiral galaxies ??
-\end_layout
-
-\begin_layout Standard
-
-\color red
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\color red
-X-Range for last set of plotsb
-\end_layout
-
-\begin_layout Standard
-
-\color red
-Using the above for spiral galaxies
-\end_layout
-
-\begin_layout Enumerate
-
-\color red
-The values of uminusr are more evenly spread
-\end_layout
-
-\begin_layout Enumerate
-
-\color red
-uminusr - medium : 1.651 mode : 1.422
-\end_layout
-
-\begin_layout Enumerate
-
-\color red
-There is a larger range above the mode
-\end_layout
-
-\begin_layout Enumerate
-
-\color red
-Galaxies at some distance also have a considerable range of values.
- hard to know the significance of this without different types of visualization.
- or measure of standard deviation in bins of distance, for example.
- 
-\end_layout
-
-\begin_layout Standard
-
-\color red
-Table G3CGal provides the relative positions of galaxies within their local
- group.
- A subset of elliptical galaxies criteria for subset? produced the scatter
- and density plots in figure 
-\end_layout
-
-\begin_layout Itemize
-
-\color red
-logmstar - median : 10.528 mode : 9.894 
-\end_layout
-
-\begin_layout Itemize
-
-\color red
-Looking at the mass (logmstar) distribution in local groups figure , there
- are marked differences from the red colour uminusr figure , most notably
- there is no bulge for distant galaxies corresponding to the mode of the
- group.
-\end_layout
-
-\begin_layout Itemize
-
-\color red
-more distant galaxies are lower mass on average.
- useful result.
- 
-\end_layout
-
-\begin_layout Standard
-
-\color red
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-
-\color red
-Looking at figure , details of logmstar of spiral galaxies (within the same
- local group as elliptical galaxies) versus various measures of position
- from the centre of the local group produced very similar results as details
- of uminusr for spiral galaxies figure 
-\end_layout
-
-\begin_layout Itemize
-
-\color red
-possibly less mass segregation than for ellipticals.
-
-\color inherit
- 
-\end_layout
-
-\begin_layout Subsection
+\begin_layout Section
 Galaxy types within local group
 \end_layout
 
@@ -4578,7 +4465,7 @@ It can clearly be seen that
 \end_layout
 
 \begin_layout Itemize
-the number and ratio of red elliptical galaxies increases in local groups
+The number and ratio of red elliptical galaxies increases in local groups
  of larger mass.
 \end_layout
 
@@ -4686,9 +4573,7 @@ Galaxy type percentages versus mean of log10 environments
 \end_layout
 
 \begin_layout Standard
-Previous research
-\color red
- 
+Again the papers 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-20,key-21,key-22"
@@ -4696,14 +4581,7 @@ literal "false"
 
 \end_inset
 
-
-\color inherit
- looking at satellite galaxies had shown a relationship between the percentage
- of red elliptical galaxies and their environment, so a similar exercise
- was carried out to determine the percentages of galaxy types within a local
- group.
- This did not reveal a clear relationship until local groups with over 5
- galaxies were considered, the resulting density plots are shown in figure
+had shown a realtionshipthe resulting density plots are shown in figure
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -5812,12 +5690,12 @@ noprefix "false"
 
 \begin_layout Standard
 Given that the density of the universe increases from voids though sheets
- and filaments to knots so does the total red magnitude TotRmag.
+ and filaments to knots, so does the total red magnitude TotRmag.
  The relationship between TotRmag and environment is clearest with galaxies
 \end_layout
 
 \begin_layout Standard
-classified as being part of a Sheet.
+classified as being part of a Sheet or Filament.
  It is important when viewing these plots to remember that the environmental
  measures change considerably between structural types see combined plots
  in figures 
@@ -6011,29 +5889,24 @@ Group sum (logmstar) mass versus environmental measures for galaxy types
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsubsection
 
-\color red
-Why not look similar need to
-\end_layout
-
-\begin_layout Standard
-
-\color red
+\color black
 Observations
 \end_layout
 
 \begin_layout Standard
 
-\color red
-For galaxy large-scale structural types filament and knot there is a clear
- correlation between the local group attribute and environment measures.
+\color black
+For galaxy large-scale structural types of filament and knot there is a
+ clearer correlation between the sum of the local group attribute logmassand
+ environment measures.
  The correlation is less clear for structural types voids and sheet.
 \end_layout
 
 \begin_layout Standard
 
-\color red
+\color black
 When broken down into galaxy structure types, the density maps for sum of
  local groups versus log(environmental measures) for uminusr figure 
 \begin_inset CommandInset ref
@@ -6058,57 +5931,6 @@ noprefix "false"
  but quite different between galaxy structure types, again emphasising the
  fact that galaxy environmental measures change quite significantly between
  galaxy structure types.
-\end_layout
-
-\begin_layout Standard
-
-\color red
-The possibility that there are two groups of red elliptical galaxies, as
- was indicative in the sum of group measures, is most obvious in galaxies
- allocated to a galaxy structure type of filament.
-\end_layout
-
-\begin_layout Standard
-
-\color red
-This is not clear and needs a better explanation
-\end_layout
-
-\begin_layout Itemize
-
-\color red
-On an individual elliptical galaxy basis, there is no obvious correlation
- between a galaxy's environment and parameters (redness, mass, metallicity).
-\end_layout
-
-\begin_layout Itemize
-
-\color red
-There is a degree of correlation between the sum of local groups not clear
- meaning and individual galaxy environment measures.
- This correlation is more obvious in galaxy structure types filament and
- knot.
-\end_layout
-
-\begin_layout Itemize
-
-\color red
-Looking at galaxies that are in the outer 5% of their local group, there
- does appear to be a link with environmental measure CountInCyl.
-\end_layout
-
-\begin_layout Itemize
-
-\color red
-Galaxy environment measures vary quite considerably between galaxy structural
- types.
-\end_layout
-
-\begin_layout Itemize
-
-\color red
-There is some variation between galaxy characteristics for different galaxy
- structure types.
 \end_layout
 
 \begin_layout Standard
@@ -7795,9 +7617,11 @@ on information
 \end_layout
 
 \begin_layout Itemize
-The GAMA survey is limited in 
+The GAMA survey is limited 
 \color black
-GAMA data due to the flux limited nature of the collected data,
+due to the flux limited nature of the collected data future surveys will
+ hopefully allow the change of distribution for different redshift on galaxy
+ evolution scales
 \end_layout
 
 \begin_layout Subsubsection
@@ -7805,7 +7629,7 @@ Transformation of multiple variables
 \end_layout
 
 \begin_layout Standard
-As well as transfromation of one variable into another a similar approach
+As well as transfromation of one variable into another, a similar approach
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-34"
@@ -7855,15 +7679,17 @@ s_{1}(y_{1},y_{2})\:and\:s_{2}(y_{1},y_{2})
 \end_layout
 
 \begin_layout Standard
-For example 
+A possible example given suitable data distributions priomordial dark matter
+ and star forming gas cloud and the resulting galaxy distributions i.e.
+ using 
 \begin_inset Formula $x_{1}$
 \end_inset
 
- could be a variable describing dark matter and 
+ a variable describing dark matter and 
 \begin_inset Formula $x_{2}$
 \end_inset
 
- a gas cloud variable plus setting 
+ a variable describing gas cloud information plus setting 
 \begin_inset Formula $y_{1}$
 \end_inset
 
@@ -7871,7 +7697,7 @@ For example
 \begin_inset Formula $y_{2}$
 \end_inset
 
- describing a galaxies
+ describing galaxies
 \end_layout
 
 \begin_layout Section

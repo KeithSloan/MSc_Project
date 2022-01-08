@@ -104,19 +104,19 @@ literal "false"
 
 \end_inset
 
-was examined looking for relationships between an elliptical galaxyies character
-istics, colour, mass and metallicity and their local environment.
+ was examined looking for relationships between elliptical galaxies characterist
+ics, colour, mass and metallicity and their local environments.
  Whilst a direct and obvious relationship was not found, some correlation
  between the characteristics of a galaxy's local group, especially averages
  of environmental measures were noted.
  In addition other aspects of a galaxy's local group were investigated such
- as separtion within a galaxies local group.
+ as separation within the local group.
  Looking at environment measures for galaxies in the various types of large
- scale structure, differences were observed especily for those deamed to
- be in a knot structure.
- In a similar way to previous research on a satellite galaxies has looked
- at galaxy types and red fraction, local groups with five or more galaxies
- were investigated and their dependance on environment observed.
+ scale structure, differences were observed especially for those deemed
+ to be in a knot structure.
+ In a similar way to previous research on a galaxy's satellites, local groups
+ with five or more galaxies were investigated looking at galaxy types and
+ red fraction and their dependance on environment.
  
 \end_layout
 
@@ -132,13 +132,13 @@ Introduction
 \end_layout
 
 \begin_layout Standard
-
-\color black
 The presiding inference from a large body of research is that the universe
- we see today is the result of initially very small deviations from the
- time when the universe was a plasma which have grown over very long timescales
- to form the structure we see today.
- We have evidence of the nature of the plasma before the recombination epoch
+ we see today is initially the result of very small deviations which have
+ grown over a very long timescale from the time when the universe was a
+ plasma.
+ 
+\color black
+We have evidence of the nature of the plasma before the recombination epoch
  in the form of the cosmic background radiation which has today has cooled
  and is a uniform 2.725 Kelvin with variations of only 0.0002K.
  The profile of the radiations wavelength follow a Planck function so well
@@ -153,7 +153,7 @@ We know that dark matter makes up around 27% of the universe and the consensus
  influence of gravity over a very long time, giving rise to the variations
  in regional density that we see today.
  That a galaxy's local environment is strongly influenced by dark matter
- halo mass, research
+ halo mass, research such as
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-2"
@@ -161,9 +161,9 @@ literal "false"
 
 \end_inset
 
-such as has shown that there is a correlation between galaxy/halo/dark matter
- and the environment also that older galaxies are more strongly clustered
- in denser environments.
+has shown that there is a correlation between galaxy/halo/dark matter and
+ the environment.
+ Older galaxies are also more strongly clustered in denser environments.
  Data from the Galaxy Redshift Survey
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -172,7 +172,7 @@ literal "false"
 
 \end_inset
 
- and the Sloan Digital Sky Survey 
+ and the Sloan Digital Sky Survey
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-4"
@@ -180,8 +180,8 @@ literal "false"
 
 \end_inset
 
-accord very well with the premiss that large-scale structure formation is
- formed as a result of the cold dark matter (CDM) paradigm
+ accord very well with the premiss that large-scale structure formation
+ is formed as a result of the cold dark matter (CDM) paradigm
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-5"
@@ -196,7 +196,7 @@ literal "false"
 
 \color black
 Intensive studies of galaxy clusters have demonstrated a clear connection
- between galaxy properties and environment 
+ between galaxy properties and environment
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-6"
@@ -204,7 +204,7 @@ literal "false"
 
 \end_inset
 
-with possible evolution 
+ with possible evolution
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-7"
@@ -212,8 +212,8 @@ literal "false"
 
 \end_inset
 
-leading to the conclusion that Galaxy properties depend on environmentm
- for red early-type galaxies dominate galaxy clusters.
+ leading to the conclusion that for red early-type galaxies which dominate
+ galaxy clusters their properties depend on their environment.
 \end_layout
 
 \begin_layout Standard
@@ -221,10 +221,11 @@ leading to the conclusion that Galaxy properties depend on environmentm
 \color black
 With such a large body of research indicating that the redness of early
  type galaxies is related to their environment then one would expect to
- find obvious and direct relationships between a galaxies redness and their
+ find obvious and direct relationships between a galaxy's redness and its
  environmental measures.
  The aim was therefore to examine the results of the GAMA survey for the
- relationships between galaxies characteristics and the environmental measures
+ relationships between a galaxy's characteristics and its environmental
+ measures.
 \end_layout
 
 \begin_layout Subsection
@@ -247,8 +248,8 @@ literal "false"
 The objective of the GAMA survey is the collection of data from various
  projects to facilitate study of cosmology and galaxy formation.
  It covers approximately 375,000 galaxies with magnitudes down to 19.8 rmag,
- over a 360 deg region of the sky looking at the structure at scales of
- 1kpc to 1Mpc
+ over a 360 degree region of the sky looking at the structure at scales
+ of 1kpc to 1Mpc
 \end_layout
 
 \begin_layout Standard
@@ -300,15 +301,16 @@ literal "false"
  website
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-32"
+key "key-10"
 literal "false"
 
 \end_inset
 
+.
  Python programs were created in Jupyter
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-33"
+key "key-11"
 literal "false"
 
 \end_inset
@@ -321,7 +323,7 @@ Astropy Tables
 \end_layout
 
 \begin_layout Itemize
-Matplot, numpy, scipy seaborn and pandas
+Matplot, numpy, scipy, seaborn and pandas
 \end_layout
 
 \begin_layout Subparagraph
@@ -329,15 +331,25 @@ Red elliptical galaxies
 \end_layout
 
 \begin_layout Itemize
-For single elliptical galaxy information the following tables were joined
- on CATAID, StellarMasses, EnvironmentMeasures, VisualMorphology and a subset
- created by selected just ELLIPTICAL_CODE = 1 i.e.
- elliptical galaxy.
+For single elliptical galaxy information, the following tables were joined
+ on CATAID, StellarMasses, EnvironmentMeasures and VisualMorphology.
+ A subset was created by just selecting
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+ELLIPTICAL\:CODE=1\;i.e\:elliptical\:galaxy.
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
-Prior to the join, the tables were subsetted to select only valid measurements
- and ranges
+Prior to the join, tables were subsetted to select only valid measurements
+ and ranges.
 \end_layout
 
 \begin_layout Subparagraph
@@ -351,31 +363,31 @@ For local group information
 \begin_deeper
 \begin_layout Itemize
 G3CGalv was used as the primary table joining others such as the above using
- CATAID
+ CATAID.
 \end_layout
 
 \begin_layout Itemize
-Selecting out GroupID = 0 to remove galaxies not in a local group
+Selecting out GroupID = 0 to remove galaxies not in a local group.
 \end_layout
 
 \begin_layout Itemize
 For galaxy information within its local group, a new table was created using
  the group_by(GroupID) facility and performing such calculations of mean
- etc
+ etc.
 \end_layout
 
 \begin_layout Itemize
-The resulting table was then joined with G3CFoFGroup using GroupID for local
- group information such as TotRMag
+The resulting table was then joined with G3CFoFGroup using GroupID in order
+ to obtain local group information such as TotRMag.
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Test Pearson and Spearman correlations between variables
+Test Pearson and Spearman correlations between variables.
 \end_layout
 
 \begin_layout Itemize
-Produce density maps and other charts
+Produce density maps and other charts.
 \end_layout
 
 \begin_layout Subsection
@@ -383,7 +395,7 @@ Units
 \end_layout
 
 \begin_layout Standard
-Though out the report 
+Thoughout the report 
 \end_layout
 
 \begin_layout Itemize
@@ -391,7 +403,7 @@ Colour redness uminusr is in magnitudes
 \end_layout
 
 \begin_layout Itemize
-Mass logmstar is in dex(Msun) which 
+Mass logmstar is in dex(Msun) which is 
 \begin_inset Formula $10^{x}\times M_{\odot}$
 \end_inset
 
@@ -403,7 +415,7 @@ Two galaxy groups
 \end_layout
 
 \begin_layout Standard
-It has been well researched that galaxies fall into two colour spaces 
+It has been well researched that galaxies fall into two colour spaces
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-12,key-13"
@@ -500,7 +512,7 @@ noprefix "false"
 
 \end_inset
 
- confirms that elliptical galaxies are redder and form one of the groups.
+ , confirms that elliptical galaxies are redder and form one of the groups.
  
 \end_layout
 
@@ -596,66 +608,17 @@ Correlation results of colour versus log mass
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="4" columns="5">
+<lyxtabular version="3" rows="5" columns="3">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
 <row>
-<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Correlation 
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Linear Regression
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+Correlation
 \end_layout
 
 \end_inset
@@ -669,29 +632,11 @@ Value
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-p
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Slope
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Intercept
+p
 \end_layout
 
 \end_inset
@@ -716,7 +661,7 @@ Pearson
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -725,11 +670,22 @@ Pearson
 
 \end_inset
 </cell>
+</row>
+<row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.360
+Spearman
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.741
 \end_layout
 
 \end_inset
@@ -738,7 +694,36 @@ Pearson
 \begin_inset Text
 
 \begin_layout Plain Layout
--1.590
+0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Regression
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Slope
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Intercept
 \end_layout
 
 \end_inset
@@ -749,7 +734,7 @@ Pearson
 \begin_inset Text
 
 \begin_layout Plain Layout
-Spearman
+Linear regression
 \end_layout
 
 \end_inset
@@ -758,25 +743,7 @@ Spearman
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.741
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+0.360
 \end_layout
 
 \end_inset
@@ -785,7 +752,7 @@ Spearman
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+-1.590
 \end_layout
 
 \end_inset
@@ -795,10 +762,6 @@ Spearman
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -812,7 +775,7 @@ Main Measures
 \end_layout
 
 \begin_layout Itemize
-uminusr - Rest frame (u-r) colour from Spectral Energy Distribution SED
+uminusr - Rest frame (u-r) colour from Spectral Energy Distribution (SED)
  fit
 \end_layout
 
@@ -822,7 +785,7 @@ logmstar - Estimated total stellar mass of all luminous material, at the
 \end_layout
 
 \begin_layout Itemize
-TotRMag - Sum of all r-band absolute magnitude for the group
+TotRMag - Sum of all r-band absolute magnitudes for the group
 \end_layout
 
 \begin_layout Section
@@ -831,7 +794,6 @@ Galaxy environmental measures
 
 \begin_layout Standard
 The measurement of local galaxy environment is covered in a number of papers
- 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-14,key-15,key-16,key-17"
@@ -845,27 +807,27 @@ literal "false"
 \end_layout
 
 \begin_layout Itemize
-Count In Cylinder
+CountInCyl
 \end_layout
 
 \begin_layout Itemize
-Distance to 5nn
+DistanceTo5nn
 \end_layout
 
 \begin_layout Itemize
-Surface Density
+SurfaceDensity
 \end_layout
 
 \begin_layout Itemize
 AgeDenPar
 \end_layout
 
-\begin_layout Subsubsection
-Count In Cylinder
+\begin_layout Subsection
+CountInCyl - Count In Cylinder
 \end_layout
 
 \begin_layout Standard
-The number of (other) galaxies from the density defining population within
+The number of other galaxies from the density defining population within
  a cylinder of co-moving radius 1 Mpc and a velocity range of 
 \begin_inset Formula $+/-1000km/s$
 \end_inset
@@ -880,25 +842,29 @@ The over density is given by
 \end_inset
 
  where 
-\begin_inset Formula $nbar\_ref=0.00734\:Mpc^{-}3$
+\begin_inset Formula $nbar\_ref=0.00734\:Mpc^{-3}$
 \end_inset
 
  is the average number density of the density defining population.
 \end_layout
 
-\begin_layout Subsubsection
-Distance to 5nn
+\begin_layout Subsection
+DistanceTo5nn - Distance to 5nn
 \end_layout
 
 \begin_layout Standard
 The distance to 5th nearest neighbour in comoving units 
-\color black
-with ±1000km s−1 within a pseudo- 231 2 176 volume limited density-defining
- population: Σ5 = 5/πd5
+\color red
+with
+\begin_inset Formula $±1000km/s$
+\end_inset
+
+ within a pseudo- 231 2 176 volume limited density-defining population:
+ Σ5 = 5/πd5
 \end_layout
 
-\begin_layout Subsubsection
-Surface Density
+\begin_layout Subsection
+SurfaceDensity - Surface Density
 \end_layout
 
 \begin_layout Standard
@@ -915,7 +881,7 @@ The surface density based on the distance to the 5th nearest neighbour among
 ).
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 AgeDenPar - Age Density
 \end_layout
 
@@ -923,7 +889,7 @@ AgeDenPar - Age Density
 
 \color black
 The adaptive Gaussian density parameter, as introduced by Schawinski et
- al 
+ al
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-18"
@@ -931,9 +897,7 @@ literal "false"
 
 \end_inset
 
-and later described by Yoon et al
-\color orange
- 
+ and later described by Yoon et al
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-19"
@@ -941,11 +905,10 @@ literal "false"
 
 \end_inset
 
-
-\color black
- The value is calculated by first identify all (other) galaxies from the
- density defining population in an adaptive Gaussian ellipsoid defined by
- the following
+.
+ The value is calculated by first identifying all other galaxies from the
+ density defining population in an adaptive Gaussian ellipsoid, defined
+ by the following
 \color inherit
 
 \begin_inset Formula 
@@ -972,7 +935,22 @@ where r_a and r_z are the distances from the centre of the ellipsoid (i.e.
 \begin_layout Standard
 \begin_inset Formula 
 \[
-AGEDenPar=1/sqrt(2*pi)/sigma*SUM\_i\:exp(-0.5*((r\_a,i/sigma)^{2}+(r\_z,i/AGEScale*sigma)^{2}))
+AGEScale=1+(0.2*n\_gals\_with\_2Mpc)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+is used to scale the value of sigma along the redshift axis
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+AGEDenPar=1/sqrt(2*pi)/sigma*SUM\_i\quad exp(-0.5*((r\_a,i/sigma)^{2}+(r\_z,i/AGEScale*sigma)^{2}))
 \]
 
 \end_inset
@@ -996,13 +974,13 @@ Galaxy
 
 \begin_layout Itemize
 uminusr - Rest frame (u-r) colour from spectral energy density fit - units
- magnitude
+ magnitude.
 \end_layout
 
 \begin_layout Itemize
 logmstar - Stellar mass within the photometric aperture i.e.
  not allowing for mass that falls outside of the aperture used for the spectral
- energy density measurement
+ energy density measurement.
 \end_layout
 
 \begin_layout Subsection
@@ -1062,20 +1040,21 @@ noprefix "false"
 \end_layout
 
 \begin_layout Itemize
-All elliptical galaxies
+All elliptical galaxies.
 \end_layout
 
 \begin_layout Itemize
-Elliptical galaxies that were in a local group of more than one galaxy
+Elliptical galaxies that were in a local group of more than one galaxy.
 \end_layout
 
 \begin_layout Itemize
 Isolated elliptical galaxies i.e.
- unique GroupID
+ unique GroupID.
 \end_layout
 
 \begin_layout Itemize
-Set of elliptical galaxies with logmstar > 11 
+Set of elliptical galaxies with logmstar > 11.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1123,7 +1102,7 @@ Redness density plots for environmental measures
 \begin_inset Graphics
 	filename ChartsPlots/Density_LocalGroup_Log10_Environments.png
 	lyxscale 30
-	scale 30
+	scale 50
 
 \end_inset
 
@@ -1135,7 +1114,7 @@ Redness density plots for environmental measures
 \begin_inset Graphics
 	filename ChartsPlots/DensityPlot_Isolated_uminusr-LogEnvironments.png
 	lyxscale 30
-	scale 30
+	scale 50
 
 \end_inset
 
@@ -1147,7 +1126,7 @@ Redness density plots for environmental measures
 \begin_inset Graphics
 	filename ChartsPlots/DensityPlot_HighMass_uminusr_Log10_Environments.png
 	lyxscale 30
-	scale 30
+	scale 50
 
 \end_inset
 
@@ -1556,82 +1535,6 @@ Sum of logmstar within the local group
 
 \end_layout
 
-\begin_layout Standard
-
-\color black
-One would not normally expect a high degree of correlation looking at a
- characteristic of a group versus different characteristics of individual
- members of the group.
- However a degree of correlation was found between group measures and the
- log of environmental measures of the galaxies within the local group.
- The fact that members of the local group have different environmental measures
- means these differences act as noise signal on any density plot or calculated
- Pearson, Spearman correlation see figures 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Density-Plots--"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- and 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Sum-of-logmstar"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
-\color orange
-.
- 
-\end_layout
-
-\begin_layout Standard
-
-\color black
-In order to achieve a one to one correspondence between group characteristic
- and environmental measure a similar exercise was performed on the group
- characteristics versus the means of logs of the environmental measures
- see figures 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Density-Plots-for"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- and 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Sum-of-logmstar-1"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
- The use of means being a different way of handling the differences within
- the local group.
- Given the differences between galaxies with a local group one would not
- expect to see values as high as 0.8 - 0.9 but the observed correlation values
- of 0.6 - 0.7 show there is some correlation.
- The most likely explanation as to why such correlations do not show up
- with the analysis of individual galaxies, is that there are a wide range
- of values for individual galaxies and it is only when you subset them on
- a group basis that some correlation is observed.
- The group characteristics being influenced by the density within the universe
- which is also effecting the individual environmental measures.
-\end_layout
-
 \begin_layout Subsection
 Method
 \end_layout
@@ -1673,9 +1576,36 @@ Means for group environmental measures were calculated using the GroupBy
 \end_layout
 
 \begin_layout Subsection
+Group Characteristics verses log10(Environment Measures)
+\end_layout
+
+\begin_layout Subsubsection
 Group Absolute Red Magnitude - TotRmag total 
 \color black
 versus log10(Environmental measures) 
+\end_layout
+
+\begin_layout Standard
+
+\color black
+One would not normally expect a high degree of correlation looking at a
+ characteristic of a group versus different characteristics of individual
+ members of the group.
+ However a degree of correlation was found between group measures and the
+ log of environmental measures of the galaxies within the local group.
+ The fact that members of the local group have different environmental measures
+ means these differences act as a sort of noise signal on any density plot
+ or calculated Pearson, Spearman correlation see figures 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Density-Plots--"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1821,7 +1751,7 @@ Spearman
 
 \end_inset
 </cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1830,7 +1760,7 @@ Linear Regression
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2184,579 +2114,7 @@ Log10(AGEDenPar)
 
 \end_layout
 
-\begin_layout Subsection
-Group Absolute Red Magnitude - TotRmag total 
-\color black
-versus log10 of Mean(Environmental measures)
-\color inherit
- within the Group
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Density-Plots-for"
-
-\end_inset
-
-Density Plots for TotRmag versus Log10 (Means of Environments)
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ChartsPlots/TotRmag_Log10_Mean_Environments.png
-	lyxscale 30
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\color red
-\begin_inset Float table
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\color red
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "tab:Correlations-and-linear"
-
-\end_inset
-
-Correlations and linear regression results for TotRMag versus log10(Mean(Environ
-ment Measures))
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="6" columns="7">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Environment Variable
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Pearson
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Spearman
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Linear Regression
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Correlation Coefficient
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-p-value
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Correlation Coefficient
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-p-value
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-m
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-c
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Log10(CountInCyl)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--0.353
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\color black
-4.01e-21
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\color black
--0.380
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\color black
-1.56e-24
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\color black
--1.152
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\color black
--20.58
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Log10(DistanceTo5nn)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\color black
-0.326
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\color black
-4.35e-18
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\color black
-0.369
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\color black
-3.6e-23
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\color black
-1.29
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\color black
--21.34
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Log10(SurfaceDensity)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\color black
--0.339
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\color black
-1.59e-19
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\color black
--0.385
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\color black
-3.22e-25
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\color black
--0.64
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\color black
--21.18
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Log10(AGEDenPar)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\color black
--0.256
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\color black
-1.55e-11
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\color black
--0.254
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\color black
-2.13e-11
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\color black
--0.702
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\color black
--21.15
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-The density maps for the mean environment measures show a small degree of
- correlation between TotRMag but comparing table 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:Linear-Regression-of"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- with 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:Correlations-and-linear"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-the Pearson and Spearman coefficients for the mean of environmental measures
- are less when comparing the individual galaxies grouped by local group.
-\end_layout
-
-\begin_layout Subsection
+\begin_layout Subsubsection
 Group mass - logmstar versus environmental measures
 \end_layout
 
@@ -3273,6 +2631,588 @@ As was found for colour uminusr, the sum of the masses for the local group
 \end_layout
 
 \begin_layout Subsection
+Group Characteristics verses Means of log10(Environment Measures)
+\end_layout
+
+\begin_layout Standard
+
+\color black
+In order to achieve a one to one correspondence between group characteristic
+ and environmental measure a similar exercise was performed on the group
+ characteristics versus the means of logs of the environmental measures
+ see figures 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Density-Plots-for"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Sum-of-logmstar-1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ The use of means being a different way of handling the differences within
+ the local group.
+ Given the differences between galaxies with a local group one would not
+ expect to see values as high as 0.8 - 0.9 but the observed correlation values
+ of 0.6 - 0.7 show there is some correlation.
+ The most likely explanation as to why such correlations do not show up
+ with the analysis of individual galaxies, is that there are a wide range
+ of values for individual galaxies and it is only when you subset them on
+ a group basis that some correlation is observed.
+ The group characteristics being influenced by the density within the universe
+ which is also effecting the individual environmental measures.
+\end_layout
+
+\begin_layout Subsubsection
+Group Absolute Red Magnitude - TotRmag total 
+\color black
+versus log10 of Mean(Environmental measures)
+\color inherit
+ within the Group
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Density-Plots-for"
+
+\end_inset
+
+Density Plots for TotRmag versus Log10 (Means of Environments)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ChartsPlots/TotRmag_Log10_Mean_Environments.png
+	lyxscale 30
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color red
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\color red
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Correlations-and-linear"
+
+\end_inset
+
+Correlations and linear regression results for TotRMag versus log10(Mean(Environ
+ment Measures))
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="7">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Environment Variable
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pearson
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Spearman
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Linear Regression
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Correlation Coefficient
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+p-value
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Correlation Coefficient
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+p-value
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+m
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+c
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Log10(CountInCyl)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.353
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color black
+4.01e-21
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color black
+-0.380
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color black
+1.56e-24
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color black
+-1.152
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color black
+-20.58
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Log10(DistanceTo5nn)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color black
+0.326
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color black
+4.35e-18
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color black
+0.369
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color black
+3.6e-23
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color black
+1.29
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color black
+-21.34
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Log10(SurfaceDensity)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color black
+-0.339
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color black
+1.59e-19
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color black
+-0.385
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color black
+3.22e-25
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color black
+-0.64
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color black
+-21.18
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Log10(AGEDenPar)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color black
+-0.256
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color black
+1.55e-1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color black
+-0.254
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color black
+2.13e-11
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color black
+-0.702
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color black
+-21.15
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
 Group mass - logmstar versus Log10 (Means(Environmental measures)
 \end_layout
 
@@ -3866,6 +3806,32 @@ noprefix "false"
  the results for TotRMag
 \end_layout
 
+\begin_layout Standard
+The density maps for the mean environment measures show a small degree of
+ correlation between TotRMag but comparing table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Linear-Regression-of"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ with 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Correlations-and-linear"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, the Pearson and Spearman coefficients for the mean of environmental measures
+ are less when comparing the individual galaxies grouped by local group.
+\end_layout
+
 \begin_layout Subsection
 Elliptical galaxies - variations of measures with positions within local
  group
@@ -3891,29 +3857,7 @@ noprefix "false"
 \end_inset
 
  .
- The comoving distances from galaxies to the 
-\color black
-brightest cluster galaxy BCG
-\color inherit
- (this being the commonest measure of centre of a local group) are split
- into eight equal ranges and a histogram of uminusr values for the range
- created.
- A second histogram is created for logmstar across the ranges.
- see figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:uminusr-versus-ranges"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
- As can be seen from the density plots and histograms the central core of
- uminsur and logmstar values occur over 75% of the range of CoSepBCG, also
- that there is a small number of galaxies nearer the centre of the local
- group with a larger range of values, especially with values below the mean.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -3994,6 +3938,12 @@ The Brightest Cluster Galaxy - BCG
 \begin_layout Itemize
 The brightest galaxy left after iteratively removing the most distant galaxies
  from the group centre of light - IterCen
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Table 7
 \end_layout
 
 \begin_layout Standard
@@ -4134,6 +4084,29 @@ Histogram Ranges
 \end_layout
 
 \begin_layout Standard
+The comoving distances from galaxies to the 
+\color black
+brightest cluster galaxy BCG
+\color inherit
+ (this being the commonest measure of centre of a local group) are split
+ into eight equal ranges and a histogram of uminusr values for the range
+ created.
+ A second histogram is created for logmstar across the ranges.
+ see figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:uminusr-versus-ranges"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
 The data uminusr & logmstar was also plotted as box plots for eight equal
  ranges of CoSepBCG
 \end_layout
@@ -4200,6 +4173,15 @@ Observations
 \end_layout
 
 \begin_layout Standard
+
+\color red
+As can be seen from the density plots and histograms the central core of
+ uminsur and logmstar values occur over 75% of the range of CoSepBCG, also
+ that there is a small number of galaxies nearer the centre of the local
+ group with a larger range of values, especially with values below the mean.
+\end_layout
+
+\begin_layout Standard
 From figures 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -4248,7 +4230,7 @@ Galaxy types within local group
 \end_layout
 
 \begin_layout Standard
-Several research papers 
+Several research papers
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-20,key-21,key-22"
@@ -4256,13 +4238,14 @@ literal "false"
 
 \end_inset
 
-have shown a correlation between the fraction of red satellite galaxies
+ have shown a correlation between the fraction of red satellite galaxies
  within a radial distribution,
 \color orange
  
 \color inherit
-although there is some uncertantity in the best measure to use for environmental
- characteristic.
+although there is some uncertantity over the best environmental measure
+ to use.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -4272,7 +4255,7 @@ It was decided to perform a similar exercise on the galaxy types with local
  of five a single galaxy would represent 20%
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Galaxy type and CoSepBCG
 \end_layout
 
@@ -4308,7 +4291,7 @@ As can be seen from the charts
 \end_layout
 
 \begin_layout Itemize
-The number of all galaxies decreases rapidly with comoving distance
+The number of all galaxies decreases rapidly with the comoving distance
 \end_layout
 
 \begin_layout Itemize
@@ -4316,7 +4299,7 @@ Spiral galaxies far out number older red elliptical galaxies
 \end_layout
 
 \begin_layout Itemize
-That the mixture of galaxy type does not change significantly with comoving
+That the mixture of galaxy type does not change significantly with the comoving
  distance
 \end_layout
 
@@ -4418,14 +4401,14 @@ Galaxy type percentages by range of coSepBCG
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Galaxy type within ranges of the sum of masses within local groups.
 \end_layout
 
 \begin_layout Standard
 A similar exercise was carried out for galaxy type within ten equal ranges
- of the sum of the masses of galaxies with the group.
- The sum being calculated as 
+ of the sum of the masses of galaxies with the group, the sum being calculated
+ as 
 \begin_inset Formula 
 \[
 \Sigma\:logmstar=log_{10}(\Sigma10^{logmstar})
@@ -4447,7 +4430,7 @@ noprefix "false"
 
 \end_inset
 
- and percentages in 
+ and percentages in figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Local-Group-:Percentages_logmstar"
@@ -4474,8 +4457,7 @@ That low mass groups are dominated by spiral galaxies
 \end_layout
 
 \begin_layout Itemize
-The occurrence of Large Blue Stars (LBS check) decreases in larger mass
- groups
+The occurrence of Large Blue Stars (LBS) decreases in larger mass groups
 \end_layout
 
 \begin_layout Standard
@@ -4568,12 +4550,12 @@ Local group : Galaxy type percentages for ranges of sum(logmstar)
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Galaxy type percentages versus mean of log10 environments
 \end_layout
 
 \begin_layout Standard
-Again the papers 
+Again the papers
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-20,key-21,key-22"
@@ -4581,21 +4563,23 @@ literal "false"
 
 \end_inset
 
-had shown a realtionshipthe resulting density plots are shown in figure
- 
+ had shown a relationship between the percentage of red satellite galaxies
+ and the environment so a similar exercise was carried out for local groups
+ which contained more than 5 galaxies.
+ The resulting density plots are shown in figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Density-Plots--"
+reference "fig:Density-Plots-LogMeans:"
 plural "false"
 caps "false"
 noprefix "false"
 
 \end_inset
 
-and the correlation results and linear regression in table 
+ and the correlation results and linear regression in table 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "tab:Correlations-and-linear"
+reference "tab:Correlation-LogMeans"
 plural "false"
 caps "false"
 noprefix "false"
@@ -4618,7 +4602,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Density-Plots-:"
+name "fig:Density-Plots-LogMeans:"
 
 \end_inset
 
@@ -4668,7 +4652,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "tab:Correlation-and-Linear"
+name "tab:Correlation-LogMeans"
 
 \end_inset
 
@@ -5102,9 +5086,9 @@ Log10(AGEDenPar)
 \begin_layout Standard
 Having established a degree of correlation between the percentage of elliptical
  galaxies and environments for galaxies in local groups with more than 5
- galaxies it was decided to revisit investigating any relationship between
+ galaxies, it was decided to revisit investigating any relationship between
  uminusr and logmstar for the subset of such galaxies.
- However the density plots and correlation results did not indicate any
+ However, the density plots and correlation results did not indicate any
  direct relationship see figures 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -5125,7 +5109,7 @@ noprefix "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -5233,9 +5217,9 @@ Galaxy structure classifications
 \end_layout
 
 \begin_layout Standard
-Whilst on very large scales, the universe is homogeneous, we know that on
- lesser scales there is structure influenced by the distribution of dark
- matter.
+Whilst on very large scales, the universe is homogeneous.
+ We know that on lesser scales there is structure influenced by the distribution
+ of dark matter.
  For GAMA II, equatorial regions were classified at each point as either
  in a
 \end_layout
@@ -5263,7 +5247,7 @@ Knot
 \begin_layout Standard
 The classification system is based on evaluation of the deformation tensor
  (i.e.
- the Hessian of the gravitational potential) on a grid 
+ the Hessian of the gravitational potential) on a grid
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-23"
@@ -5285,6 +5269,31 @@ literal "false"
 \begin_layout Subsection
 Distributions of galaxy counts by characteristic measures for the different
  galaxy structural types
+\end_layout
+
+\begin_layout Standard
+
+\color red
+fitted curves 
+\end_layout
+
+\begin_layout Standard
+Apart from the case of environment 
+\color black
+type knot, which has higher characteristic masses first,
+\color inherit
+ the distributions for the various galaxy environment types are similar
+ see figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Galaxy-counts-for"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -5357,12 +5366,10 @@ Galaxy counts for galaxy characteristics by galaxy structure type
 \end_layout
 
 \begin_layout Standard
-Apart from the case of environment 
-\color black
-type knot, which has higher characteristic masses first,
-\color inherit
- the distributions for the various galaxy environment types are similar
- see figure 
+With the possible exception of the knot, the distribution of galaxy characterist
+ics are not dissimilar between structural types.
+ On the other hand, the galaxy environmental measures do have marked variations
+ between galaxy structural types see figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Galaxy-counts-for"
@@ -5373,9 +5380,6 @@ noprefix "false"
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -5392,7 +5396,7 @@ The distribution of environmental measures between the four large scale
  versus environmental measures.
  The distribution curves were then plotted on the same chart.
  This illustrates that there are marked differences in the environmental
- measures between large scale structure types and was most obvious for he
+ measures between large scale structure types and was most obvious for the
  measures Distanceto5nn and AgeDenPar.
 \end_layout
 
@@ -5411,9 +5415,9 @@ noprefix "false"
 
 \end_inset
 
-provides for CountInCyl a histogram and fitted distribution for each of
- galaxy structural types and a combined fitted distribution for all structural
- types on one plot
+ provides for CountInCyl, a histogram and fitted distribution for each of
+ the galaxy structural types and a combined fitted distribution for all
+ structural types on one plot.
 \end_layout
 
 \begin_layout Standard
@@ -5498,9 +5502,9 @@ noprefix "false"
 
 \end_inset
 
-provides for DistanceTo5nn a histogram and fitted distribution for each
- of galaxy structural types and a combined fitted distribution for all structura
-l types on one plot
+ provides for DistanceTo5nn, a histogram and fitted distribution for each
+ of the galaxy structural types and a combined fitted distribution for all
+ structural types on one plot
 \end_layout
 
 \begin_layout Standard
@@ -5544,7 +5548,11 @@ Histogram and distributions plots for DistanceTo5nn
 \end_layout
 
 \begin_layout Plain Layout
+
+\color red
 Combined Distribution Plots
+\color inherit
+ Change plot title
 \begin_inset Graphics
 	filename ChartsPlots/GalaxyTypes-DistanceTo5nn.png
 	lyxscale 40
@@ -5579,9 +5587,9 @@ noprefix "false"
 
 \end_inset
 
-provides for AgeDenPar a histogram and fitted distribution for each of galaxy
- structural types and a combined fitted distribution for all structural
- types on one plot
+ provides for AgeDenPar, a histogram and fitted distribution for each of
+ galaxy structural types and a combined fitted distribution for all structural
+ types on one plot.
 \end_layout
 
 \begin_layout Standard
@@ -5646,20 +5654,9 @@ Observations
 \end_layout
 
 \begin_layout Standard
-With the possible exception of the knot, the distribution of galaxy characterist
-ics are not dissimilar between structural types.
- On the other hand, the galaxy environmental measures do have marked variation
- between galaxy structural types see figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Galaxy-counts-for"
-plural "false"
-caps "false"
-noprefix "false"
 
-\end_inset
-
-
+\color red
+Observations
 \end_layout
 
 \begin_layout Standard
@@ -5675,7 +5672,7 @@ Local group redness TotRmag by galaxy structural type
 
 \begin_layout Standard
 Splitting the data on structural type, density plots were produced for group
- redness TotRmag versus environment measures see figure 
+ redness TotRmag versus mean of log10(environment measures) see figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Local-Group--"
@@ -5692,10 +5689,7 @@ noprefix "false"
 Given that the density of the universe increases from voids though sheets
  and filaments to knots, so does the total red magnitude TotRmag.
  The relationship between TotRmag and environment is clearest with galaxies
-\end_layout
-
-\begin_layout Standard
-classified as being part of a Sheet or Filament.
+ classified as being part of a sheet or filament.
  It is important when viewing these plots to remember that the environmental
  measures change considerably between structural types see combined plots
  in figures 
@@ -5728,7 +5722,7 @@ noprefix "false"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -5778,53 +5772,8 @@ Local group - TotRmag versus Mean(Log10(Environment Measures)) for galaxy
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Group-Redness-sum"
-
-\end_inset
-
-Group redness sum of uminusr versus environmental measure for galaxy types
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ChartsPlots/GroupDensity_Sum_uminusr_LogEnvironmentsGalaxyType.png
-	lyxscale 40
-	scale 55
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 The density plots clearly show a relationship between TotRmag and the mean
  of log environmental measures.
-\begin_inset Newpage pagebreak
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -5897,16 +5846,16 @@ Observations
 
 \begin_layout Standard
 
-\color black
+\color red
 For galaxy large-scale structural types of filament and knot there is a
- clearer correlation between the sum of the local group attribute logmassand
- environment measures.
+ clearer correlation between the sum of the local group attribute logmass
+ and environment measures.
  The correlation is less clear for structural types voids and sheet.
 \end_layout
 
 \begin_layout Standard
 
-\color black
+\color red
 When broken down into galaxy structure types, the density maps for sum of
  local groups versus log(environmental measures) for uminusr figure 
 \begin_inset CommandInset ref
@@ -5934,6 +5883,8 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
+
+\color red
 .
  
 \end_layout
@@ -5949,13 +5900,6 @@ noprefix "false"
 Investigation into distributions
 \end_layout
 
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 Distributions 
 \end_layout
@@ -5966,17 +5910,17 @@ Distributions
 Lots of processes in astrophysics happen on large time scales, often many
  orders of magnitude longer than a human lifetime or the timescale of our
  scientific knowledge.
- The result is for a lot of processes we are not able to make measurements
- on timescales that would provide meaningful results.
- However as there are billions of stars in our own galaxy and billions of
- galaxies we can use the fact that we can observe a very large number of
+ For a lot of processes we are not able to make measurements on timescales
+ that would provide meaningful results.
+ However,as there are billions of stars in our own galaxy and billions of
+ galaxies, we can use the fact that we can observe a very large number of
  stars and galaxies to draw conclusions.
  The use of distributions is an attempt to gain insights by looking at the
  properties of various distributions.
- Distributions at different Redshifts would prove useful but given the timescale
-s for galaxy evolution differences in redshift of z=0.5 is generally required
+ Distributions at different redshifts would prove useful but given the timescale
+s for galaxy evolution, a differences in redshift of z=0.5 is generally required
  and this is not available with the GAMA data due to the flux limited nature
- of the collected data,
+ of the collected data.
 \end_layout
 
 \begin_layout Standard
@@ -6751,12 +6695,18 @@ Metallicity(metal)
 
 \end_layout
 
+\begin_layout Standard
+
+\color red
+Deatils of table 9
+\end_layout
+
 \begin_layout Subsection
 Galaxy formation and evolution
 \end_layout
 
 \begin_layout Standard
-Now acording to research 
+Now according to research
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-24,key-25,key-26"
@@ -6764,8 +6714,8 @@ literal "false"
 
 \end_inset
 
- the distribution of galaxies of galaxies in the universe conform to lognormal
- distribtions.
+, the distribution of galaxies in the universe conform to lognormal distribution
+s.
  Lognormal distributions come about from the statistical realisation of
  a multiplicity set of actions of many independent variables each with a
  positive contribution.
@@ -6830,13 +6780,13 @@ Expelling of gas via feedback, so not available for star creation
 \begin_layout Standard
 It would not be surprising that the distribution of galaxies turn out to
  be lognormal distributions.
- Now in the distant past the things that initially effect galaxy distribution
+ Now in the distant past,the things that initially effect galaxy distribution
  were probably distributed normally.
  We know from detailed measurements of the cosmic background that at the
- time of recombination that matter in the universe was very uniformly distribute
-d and at the much later time for initial star formation from clouds gas
- that it is standard procedure to assume normal distributions when modelling
- of the early stages of galaxy evolution.
+ time of recombination, matter in the universe was very uniformly distributed.
+ At the much later time for initial star formation from clouds of gas, it
+ is standard procedure to assume normal distributions when modelling of
+ the early stages of galaxy evolution
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-27,key-28,key-29,key-30,key-31"
@@ -6844,9 +6794,10 @@ literal "false"
 
 \end_inset
 
-It is not unreasonable to assume that gaseous matter and or primordial dark
- matter that predates and lead to galaxy evoloution is highly random and
- hence has a normal/gaussien distribution.
+.
+ It is not unreasonable to assume that gaseous matter and or primordial
+ dark matter that predates and leads to galaxy evolution is highly random
+ and hence has a normal/Gaussian distribution.
 \end_layout
 
 \begin_layout Subsection
@@ -6910,7 +6861,7 @@ PDF\:Log\:Normal\:Distribution\intop g(y)\:dy=\frac{1}{y\sigma_{2}\sqrt{2\pi}}e^
 \end_layout
 
 \begin_layout Standard
-The mean is gien by
+The mean is given by
 \end_layout
 
 \begin_layout Standard
@@ -6925,7 +6876,7 @@ Mean=exp(\mu+\frac{\sigma^{2}}{2})
 \end_layout
 
 \begin_layout Standard
-And Variance
+And variance
 \end_layout
 
 \begin_layout Standard
@@ -6965,7 +6916,7 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-For the transform to work the following conditions need to be meet.
+For the transform to work, the following conditions need to be meet.
 \end_layout
 
 \begin_layout Itemize
@@ -6994,7 +6945,7 @@ Then for a PDF
 \begin_inset Formula $\intop_{a}^{b}f(x)\:dx$
 \end_inset
 
- with a tranfromation function 
+ with a transformation function 
 \begin_inset Formula $y(x)$
 \end_inset
 
@@ -7002,7 +6953,7 @@ Then for a PDF
 \begin_inset Formula $x(y)$
 \end_inset
 
- then the PDF of the transformed variable 
+, the PDF of the transformed variable 
 \begin_inset Formula $\intop_{y(a)}^{y(b)}g(y)\:dy$
 \end_inset
 
@@ -7026,13 +6977,10 @@ Transform of normal distribution of variable x to log normal variable y
 
 \begin_layout Standard
 So taking a variable of x with a normal distribution PDF f(x) which describes
- the gaseous/primordial dark mater, a variable y distribution PDF g(y) which
- describes the number of log normal distrubutied galaxies
-\end_layout
-
-\begin_layout Standard
-The relationship between the two PDF's would conform to the following differenti
-al equation [2]
+ the gaseous/primordial dark matter, a variable y distribution PDF g(y)
+ which describes the number of log normal distributed galaxy's, the relationship
+ between the two PDFs would conform to the following differential equation
+ (2)
 \end_layout
 
 \begin_layout Standard
@@ -7047,9 +6995,9 @@ g(y)=f(x)\mid\frac{dx}{dy}\mid
 \end_layout
 
 \begin_layout Standard
-as a result of the above processes where the process of conversion of x
- to galaxies y is a transfromation function t(x) and inverse s(y) and the
- derivative of s(y) is 
+As a result of the above processes where the process of conversion of variable
+ x to y is a transformation function t(x) and inverse s(y) and the derivative
+ of s(y) is 
 \begin_inset Formula $s^{'}(y)$
 \end_inset
 
@@ -7057,7 +7005,7 @@ as a result of the above processes where the process of conversion of x
 \end_layout
 
 \begin_layout Standard
-Then the relationship between the two PDF's is as follows
+Then the relationship between the two PDFs is as follows
 \end_layout
 
 \begin_layout Standard
@@ -7095,10 +7043,10 @@ Two sides of the equation equate when
 \end_layout
 
 \begin_layout Standard
-So assuming primordial gas and dark mater are distributed normally and research
- determines that galaxies have a log normal distribution then the mathmatics
- indicates that given a mean and variance of the initial normal distribution
- of 
+So assuming primordial gas and dark matter are distributed normally and
+ research determines that galaxies have a log normal distribution, then
+ the mathematics indicates that given a mean and variance of the initial
+ normal distribution of 
 \begin_inset Formula $\mu$
 \end_inset
 
@@ -7106,11 +7054,7 @@ So assuming primordial gas and dark mater are distributed normally and research
 \begin_inset Formula $\sigma$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-For the observed log normal the mean should be
+the mean and variamce for the observed lognormal the mean should be
 \end_layout
 
 \begin_layout Standard
@@ -7125,7 +7069,7 @@ Mean=exp(\mu+\frac{\sigma^{2}}{2})
 \end_layout
 
 \begin_layout Standard
-And variance
+and variance
 \end_layout
 
 \begin_layout Standard
@@ -7140,7 +7084,7 @@ Variance=\left(exp(\sigma^{2})-1\right)exp(2\mu+\sigma^{2})
 \end_layout
 
 \begin_layout Subsubsection
-Observed Distribtiions from GAMA data
+Observed distributions from GAMA data
 \end_layout
 
 \begin_layout Standard
@@ -7188,7 +7132,7 @@ What is really required is to determine the transformation that would take
 
 \begin_layout Standard
 What is required is to determine a transformation that would convert a normal
- distribution to the observed distribtion.
+ distribution to the observed distribution.
 \end_layout
 
 \begin_layout Standard
@@ -7580,7 +7524,7 @@ In the case of redness uminusr the distribution fitted curve to equation
 \end_layout
 
 \begin_layout Itemize
-For logmstar the distribution looks quite normal/gausian.
+For logmstar the distribution looks quite normal/Gaussian
 \end_layout
 
 \begin_layout Itemize
@@ -7629,7 +7573,7 @@ Transformation of multiple variables
 \end_layout
 
 \begin_layout Standard
-As well as transfromation of one variable into another, a similar approach
+As well as transformation of one variable into another, a similar approach
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-34"
@@ -7679,7 +7623,7 @@ s_{1}(y_{1},y_{2})\:and\:s_{2}(y_{1},y_{2})
 \end_layout
 
 \begin_layout Standard
-A possible example given suitable data distributions priomordial dark matter
+A possible example given suitable data distributions primordial dark matter
  and star forming gas cloud and the resulting galaxy distributions i.e.
  using 
 \begin_inset Formula $x_{1}$
@@ -7734,7 +7678,7 @@ A relationship is observed between the fraction of elliptical galaxies in
  galaxies
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-14,key-15"
+key "key-20,key-21,key-22"
 literal "false"
 
 \end_inset

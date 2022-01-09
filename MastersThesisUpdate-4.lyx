@@ -28,7 +28,7 @@
 \use_dash_ligatures true
 \graphics default
 \default_output_format default
-\output_sync 0
+\output_sync 1
 \bibtex_command default
 \index_command default
 \float_placement H
@@ -62,8 +62,8 @@
 \color #008000
 \end_index
 \leftmargin 2cm
-\topmargin 2cm
-\bottommargin 3cm
+\topmargin 1.5cm
+\bottommargin 2.5cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -771,24 +771,6 @@ Linear regression
 \end_layout
 
 \begin_layout Section
-Main Measures
-\end_layout
-
-\begin_layout Itemize
-uminusr - Rest frame (u-r) colour from Spectral Energy Distribution (SED)
- fit
-\end_layout
-
-\begin_layout Itemize
-logmstar - Estimated total stellar mass of all luminous material, at the
- time of observation.
-\end_layout
-
-\begin_layout Itemize
-TotRMag - Sum of all r-band absolute magnitudes for the group
-\end_layout
-
-\begin_layout Section
 Galaxy environmental measures 
 \end_layout
 
@@ -827,16 +809,23 @@ CountInCyl - Count In Cylinder
 \end_layout
 
 \begin_layout Standard
+
+\color black
 The number of other galaxies from the density defining population within
- a cylinder of co-moving radius 1 Mpc and a velocity range of 
-\begin_inset Formula $+/-1000km/s$
+ a cylinder of co-moving radius 1 Mpc and a velocity range
+\color inherit
+ of
+\color black
+ 
+\begin_inset Formula ${\color{black}{\color{red}}}±1000km/s$
 \end_inset
 
- .
- 
+.
 \end_layout
 
 \begin_layout Standard
+
+\color black
 The over density is given by 
 \begin_inset Formula $CountInCyl/(nba\_ref*volume\_of\_cylinder)$
 \end_inset
@@ -856,9 +845,7 @@ DistanceTo5nn - Distance to 5nn
 The distance to 5th nearest neighbour in comoving units
 \color black
  within 
-\color red
-
-\begin_inset Formula $±1000km/s$
+\begin_inset Formula ${\color{black}{\color{red}}}±1000km/s$
 \end_inset
 
 .
@@ -966,7 +953,7 @@ Effectively, this parameter is equivalent to a weighted local volume density
 \end_layout
 
 \begin_layout Section
-Main galaxy characteristic measures
+Main characteristic measures
 \end_layout
 
 \begin_layout Subsection
@@ -974,8 +961,8 @@ Galaxy
 \end_layout
 
 \begin_layout Itemize
-uminusr - Rest frame (u-r) colour from spectral energy density fit - units
- magnitude.
+uminusr - Rest frame (u-r) colour from Spectral Energy Distribution (SED)
+ fit - units magnitude.
 \end_layout
 
 \begin_layout Itemize
@@ -999,6 +986,13 @@ TotRmag
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Investigation of correlations
 \end_layout
@@ -1016,8 +1010,8 @@ Density map plots and correlation uminusr versus
 \begin_inset Formula $log_{10}$
 \end_inset
 
- of the environmental measures fits for four sets of elliptical galaxies
- see figure 
+ of the environmental measures for four sets of elliptical galaxies see
+ figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:uminusr-density-plots"
@@ -1091,7 +1085,7 @@ Redness density plots for environmental measures
 \begin_inset Graphics
 	filename ChartsPlots/RedDensityLogEnvironments.png
 	lyxscale 30
-	scale 50
+	scale 40
 
 \end_inset
 
@@ -1103,7 +1097,7 @@ Redness density plots for environmental measures
 \begin_inset Graphics
 	filename ChartsPlots/Density_LocalGroup_Log10_Environments.png
 	lyxscale 30
-	scale 50
+	scale 40
 
 \end_inset
 
@@ -1115,7 +1109,7 @@ Redness density plots for environmental measures
 \begin_inset Graphics
 	filename ChartsPlots/DensityPlot_Isolated_uminusr-LogEnvironments.png
 	lyxscale 30
-	scale 50
+	scale 40
 
 \end_inset
 
@@ -1127,7 +1121,7 @@ Redness density plots for environmental measures
 \begin_inset Graphics
 	filename ChartsPlots/DensityPlot_HighMass_uminusr_Log10_Environments.png
 	lyxscale 30
-	scale 50
+	scale 40
 
 \end_inset
 
@@ -1576,12 +1570,19 @@ Means for group environmental measures were calculated using the GroupBy
  facility.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
-Group Characteristics verses log10(Environment Measures)
+Group characteristics verses log10(Environment measures)
 \end_layout
 
 \begin_layout Subsubsection
-Group Absolute Red Magnitude - TotRmag total 
+Group absolute red magnitude - TotRmag total 
 \color black
 versus log10(Environmental measures) 
 \end_layout
@@ -2109,6 +2110,10 @@ Log10(AGEDenPar)
 \end_layout
 
 \begin_layout Standard
+The diagonal nature of the contours show there is a correlation.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -2116,7 +2121,7 @@ Log10(AGEDenPar)
 \end_layout
 
 \begin_layout Subsubsection
-Group mass - logmstar versus environmental measures
+Group mass - sum logmstar versus log10(Environmental measures)
 \end_layout
 
 \begin_layout Standard
@@ -2628,11 +2633,19 @@ Log10(AGEDenPar)
 
 \begin_layout Standard
 As was found for colour uminusr, the sum of the masses for the local group
- had some correlation with galaxy environment measures.
+ had some correlation with galaxy environment measures and is supported
+ by the diagonal nature of the contours.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
-Group Characteristics verses Means of log10(Environment Measures)
+Group characteristics verses Means of log10(Environment measures)
 \end_layout
 
 \begin_layout Standard
@@ -2676,11 +2689,11 @@ noprefix "false"
 \end_layout
 
 \begin_layout Subsubsection
-Group Absolute Red Magnitude - TotRmag total 
+Group absolute red magnitude - TotRmag total 
 \color black
-versus log10 of Mean(Environmental measures)
+versus log10 of Mean(Environmental measures
 \color inherit
- within the Group
+) within the local group
 \end_layout
 
 \begin_layout Standard
@@ -2713,7 +2726,7 @@ s)
 \begin_inset Graphics
 	filename ChartsPlots/TotRmag_Log10_Mean_Environments.png
 	lyxscale 30
-	scale 40
+	scale 50
 
 \end_inset
 
@@ -2735,7 +2748,7 @@ status open
 
 \begin_layout Plain Layout
 
-\color red
+\color black
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -3214,8 +3227,21 @@ Log10(AGEDenPar)
 
 \end_layout
 
+\begin_layout Standard
+Which again shows a degree of correlation and contours that have a degree
+ of diagonality.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
-Group mass - logmstar versus Log10 (Means(Environmental measures)
+Group mass - sum logmstar versus log10 (Means(Environmental measures) within
+ the local group.
 \end_layout
 
 \begin_layout Standard
@@ -3223,10 +3249,6 @@ Group mass - logmstar versus Log10 (Means(Environmental measures)
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -3252,7 +3274,7 @@ s ))
 \begin_inset Graphics
 	filename ChartsPlots/GroupDensity-Sum-logmstar-Log-Mean-Environments.png
 	lyxscale 20
-	scale 40
+	scale 50
 
 \end_inset
 
@@ -3835,6 +3857,13 @@ noprefix "false"
  are less when comparing the individual galaxies grouped by local group.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Elliptical galaxies - variations of measures with positions within local
  group
@@ -3893,7 +3922,7 @@ Elliptical galaxies uminusr & logmstar density plots for comoving distances
 \begin_inset Graphics
 	filename ChartsPlots/GroupDensity_uminusr_CoMoving_Environments.png
 	lyxscale 15
-	scale 35
+	scale 40
 
 \end_inset
 
@@ -3905,7 +3934,7 @@ Elliptical galaxies uminusr & logmstar density plots for comoving distances
 \begin_inset Graphics
 	filename ChartsPlots/GroupDensity_logmstar_CoMoving_Environments.png
 	lyxscale 15
-	scale 35
+	scale 40
 
 \end_inset
 
@@ -4097,8 +4126,15 @@ logmstar
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
-Histogram Ranges
+Histogram ranges
 \end_layout
 
 \begin_layout Standard
@@ -4139,7 +4175,7 @@ status open
 
 \begin_layout Plain Layout
 
-\color red
+\color black
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -4162,7 +4198,7 @@ Elliptical galaxies uminusr & logmstar versus ranges of CoSepBCG
 \begin_inset Graphics
 	filename ChartsPlots/Boxplot_uminusr_CoSepBCG.png
 	lyxscale 30
-	scale 25
+	scale 50
 
 \end_inset
 
@@ -4174,7 +4210,7 @@ Elliptical galaxies uminusr & logmstar versus ranges of CoSepBCG
 \begin_inset Graphics
 	filename ChartsPlots/Boxplot_logmstar_CoSepBCG.png
 	lyxscale 30
-	scale 25
+	scale 50
 
 \end_inset
 
@@ -4221,7 +4257,7 @@ noprefix "false"
 
 
 \color black
-the central core of uminsur and logmstar values occur over only a small
+the central core of uminusr and logmstar values occur over only a small
  range of CoSepBCG, approx 0.25 for uminusr and 0.75 for logmstar
 \end_layout
 
@@ -4240,6 +4276,13 @@ Closer to the center of the local group there a small number of galaxies
 \begin_layout Itemize
 From the density plots, the spread of values below the mode for the local
  group is larger than that above.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -4353,14 +4396,10 @@ Galaxy type by range of CosepBCG
 \begin_inset Graphics
 	filename ChartsPlots/Histogram_GalaxyTypes_CoSepBCG.png
 	lyxscale 30
-	scale 40
+	scale 50
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -4402,7 +4441,7 @@ Galaxy type percentages by range of coSepBCG
 \begin_inset Graphics
 	filename ChartsPlots/Histogram_Percentage_Range_CoSepBCG.png
 	lyxscale 30
-	scale 30
+	scale 50
 
 \end_inset
 
@@ -4506,7 +4545,7 @@ Local group : galaxy type by range of sum(logmstar)
 \begin_inset Graphics
 	filename ChartsPlots/Histogram_GalaxyTypes_Range_Sum_logmstar.png
 	lyxscale 30
-	scale 40
+	scale 50
 
 \end_inset
 
@@ -4538,7 +4577,7 @@ name "fig:Local-Group-:Percentages_logmstar"
 
 \end_inset
 
-Local group : Galaxy type percentages for ranges of sum(logmstar)
+Local group : galaxy type percentages for ranges of sum(logmstar)
 \end_layout
 
 \end_inset
@@ -4551,7 +4590,7 @@ Local group : Galaxy type percentages for ranges of sum(logmstar)
 \begin_inset Graphics
 	filename ChartsPlots/Histogram_Percentage_Tange_Sum_logmstar.png
 	lyxscale 30
-	scale 40
+	scale 50
 
 \end_inset
 
@@ -4562,6 +4601,13 @@ Local group : Galaxy type percentages for ranges of sum(logmstar)
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -4637,7 +4683,7 @@ Density Plots : Elliptical galaxies in local groups with more than 5 galaxies
 \begin_inset Graphics
 	filename ChartsPlots/Local_Group5_RedPercent_versus_Log10_Mean_Environments.png
 	lyxscale 30
-	scale 30
+	scale 50
 
 \end_inset
 
@@ -4740,7 +4786,7 @@ Spearman
 
 \end_inset
 </cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4749,7 +4795,7 @@ Linear Regression
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5101,6 +5147,18 @@ Log10(AGEDenPar)
 \end_layout
 
 \begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Galaxy characteristics versus measures for local groups with more than 5
+ members
+\end_layout
+
+\begin_layout Standard
 Having established a degree of correlation between the percentage of elliptical
  galaxies and environments for galaxies in local groups with more than 5
  galaxies, it was decided to revisit investigating any relationship between
@@ -5229,6 +5287,13 @@ Density Plots : logmstar versus log10(environments) for the subset of elliptical
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Galaxy structure classifications
 \end_layout
@@ -5281,6 +5346,13 @@ literal "false"
  the G09, G12 or G15 regions with 0.04 < z < 0.263) to be determined by assigning
  the object the same environment as the cell of the grid in which the object
  is located.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -5382,18 +5454,7 @@ Elliptical galaxy counts for galaxy characteristics by galaxy structure
 \begin_layout Standard
 With the possible exception of the knot, the distribution of galaxy characterist
 ics are not dissimilar between structural types.
- On the other hand, the galaxy environmental measures do have marked variations
- between galaxy structural types see figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Galaxy-counts-for"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
+ 
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -5467,7 +5528,7 @@ Elliptical galaxies histogram and distributions plots for DistanceTo5nn
 \begin_inset Graphics
 	filename ChartsPlots/GalaxyTypes-CountInCyl_Histogram_and_Fit.png
 	lyxscale 40
-	scale 40
+	scale 50
 
 \end_inset
 
@@ -5499,6 +5560,13 @@ Elliptical galaxies histogram and distributions plots for DistanceTo5nn
 
 \color red
 Should bin count = max value for CountInCyl?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -5554,7 +5622,7 @@ Elliptical galaxies histogram and distributions plots for DistanceTo5nn
 \begin_inset Graphics
 	filename ChartsPlots/GalaxyTypes-DistanceTo5nn_Histogram_and_Fit.png
 	lyxscale 40
-	scale 40
+	scale 50
 
 \end_inset
 
@@ -5577,6 +5645,13 @@ Elliptical galaxies histogram and distributions plots for DistanceTo5nn
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -5635,7 +5710,7 @@ Elliptical galaxies histogram and distributions plots for AgeDenPar
 \begin_inset Graphics
 	filename ChartsPlots/GalaxyTypes-AGEDenPar_Histogram_and_Fit.png
 	lyxscale 40
-	scale 40
+	scale 50
 
 \end_inset
 
@@ -5665,7 +5740,19 @@ Observations
 
 \begin_layout Standard
 The combined fitted distribution plots for all environmental measures show
- significant differences between large scale structural type
+ significant differences between large scale structural type where as the
+ difference between the distribution of galaxy characteristics apart from
+ knot was quite small see figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Galaxy-counts-for"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -5855,7 +5942,7 @@ Observations
 
 \begin_layout Itemize
 The clearest indication of a correlation between the sum of logmass and
- environmental measures is shown in the degrees of diagonally in contours
+ environmental measures is shown in the degree of diagonally in contours
  for filament and knot and is less clear for structural types void and sheet.
 \end_layout
 
@@ -5983,6 +6070,9 @@ Distributions
 \end_layout
 
 \begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
 Table 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -5993,7 +6083,7 @@ noprefix "false"
 
 \end_inset
 
-summaries the fit variables for the various distribution types.
+ summaries the fit variables for the various distribution types.
 \end_layout
 
 \begin_layout Standard
@@ -6023,13 +6113,8 @@ Distribution fits for elliptical galaxies
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="14">
+<lyxtabular version="3" rows="5" columns="9">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -6085,7 +6170,7 @@ Johnson Fit
 
 \end_inset
 </cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6113,51 +6198,6 @@ Gamma Fit
 \end_inset
 </cell>
 <cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Normal
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Log Normal 
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6240,56 +6280,11 @@ loc
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-θ = 1/β
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-μ
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-σ
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-a
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-b
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-c
+θ = 1/β
 \end_layout
 
 \end_inset
@@ -6368,56 +6363,11 @@ Redness(uminusr)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-45.45
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2.107
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.256
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.0026
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--94.40
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-96.50
+45.45
 \end_layout
 
 \end_inset
@@ -6496,56 +6446,11 @@ Mass (logmstar)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-22.72
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-10.286
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.509
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.0055
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--81.79
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-92.07
+22.72
 \end_layout
 
 \end_inset
@@ -6624,11 +6529,264 @@ Metallicity(metal)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 1000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="6">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Characteristic
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Normal
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Log Normal 
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+μ
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+σ
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+a
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+b
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+c
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Redness(uminusr)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.107
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.256
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0026
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-94.40
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+96.50
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mass (logmstar)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10.286
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.509
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0055
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-81.79
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+92.07
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Metallicity(metal)
 \end_layout
 
 \end_inset
@@ -6770,7 +6928,7 @@ Expelling of gas via feedback, so not available for star creation
 \begin_layout Standard
 It would not be surprising that the distribution of galaxies turn out to
  be lognormal distributions.
- Now in the distant past,the things that initially effect galaxy distribution
+ Now in the distant past, the things that initially effect galaxy distribution
  were probably distributed normally.
  We know from detailed measurements of the cosmic background that at the
  time of recombination, matter in the universe was very uniformly distributed.
@@ -6788,6 +6946,13 @@ literal "false"
  It is not unreasonable to assume that gaseous matter and or primordial
  dark matter that predates and leads to galaxy evolution is highly random
  and hence has a normal/Gaussian distribution.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -6842,7 +7007,7 @@ PDF of Log Normal Distribution
 \begin_layout Standard
 \begin_inset Formula 
 \[
-PDF\:Log\:Normal\:Distribution\intop g(y)\:dy=\frac{1}{y\sigma_{2}\sqrt{2\pi}}e^{-\frac{\left[ln(y)-\mu_{2}\right]^{2}}{2\sigma_{2}^{2}}}dy
+PDF\:Log\:Normal\:Distribution\intop_{-\infty}^{\infty}g(y)\:dy=\frac{1}{y\sigma_{2}\sqrt{2\pi}}e^{-\frac{\left[ln(y)-\mu_{2}\right]^{2}}{2\sigma_{2}^{2}}}dy
 \]
 
 \end_inset
@@ -6943,7 +7108,11 @@ Then for a PDF
 \begin_inset Formula $x(y)$
 \end_inset
 
-, the PDF of the transformed variable 
+
+\end_layout
+
+\begin_layout Standard
+The PDF of the transformed variable 
 \begin_inset Formula $\intop_{y(a)}^{y(b)}g(y)\:dy$
 \end_inset
 
@@ -6953,9 +7122,16 @@ Then for a PDF
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\intop_{y(a)}^{y(b)}f(x(y))\frac{dx}{dy}dy
+g(y)=\intop_{y(a)}^{y(b)}f(x(y))\frac{dx}{dy}dy
 \end{equation}
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -7001,7 +7177,7 @@ Then the relationship between the two PDFs is as follows
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\intop\frac{1}{y\sigma_{2}\sqrt{2\pi}}e^{-\frac{\left[ln(y)-\mu_{2}\right]^{2}}{2\sigma_{2}^{2}}}=\intop\frac{1}{\sigma_{1}\sqrt{2\pi}}e^{-\frac{\left[s(y)-\mu_{1}\right]^{2}}{2\sigma_{1}^{2}}s^{'}(y)}
+\intop_{-\infty}^{\infty}\frac{1}{y\sigma_{1}\sqrt{2\pi}}e^{-\frac{\left[ln(y)-\mu_{1}\right]^{2}}{2\sigma_{1}^{2}}}=\intop_{-\infty}^{\infty}\frac{1}{\sigma_{2}\sqrt{2\pi}}e^{-\frac{\left[s(y)-\mu_{2}\right]^{2}}{2\sigma_{2}^{2}}s^{'}(y)}
 \]
 
 \end_inset
@@ -7044,7 +7220,7 @@ So assuming primordial gas and dark matter are distributed normally and
 \begin_inset Formula $\sigma$
 \end_inset
 
-the mean and variamce of the observed lognormal distribution should be
+the mean and variance of the observed lognormal distribution should be
 \end_layout
 
 \begin_layout Standard
@@ -7100,7 +7276,7 @@ noprefix "false"
 \begin_layout Standard
 \begin_inset Formula 
 \[
-PDF=\frac{\delta}{\lambda\sqrt{2\pi}}\frac{1}{\sqrt{1+t^{2}}}e^{-\frac{1}{2}\gamma\left(1+log(t)+\sqrt{1+t^{2}}\right)}
+PDF=\intop_{-\infty}^{\infty}\frac{\delta}{\lambda\sqrt{2\pi}}\frac{1}{\sqrt{1+t^{2}}}e^{-\frac{1}{2}\gamma\left(1+log(t)+\sqrt{1+t^{2}}\right)}
 \]
 
 \end_inset
@@ -7125,6 +7301,13 @@ t=\frac{x-\varepsilon}{\lambda}
 
 \begin_layout Standard
 does not lend itself to the equating of the two PDFs
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -7162,7 +7345,7 @@ Taking a similar approach to CoxBox but assuming the transformation function
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\intop_{-\infty}^{\infty}\frac{1}{\sigma_{1}\sqrt{2\pi}}e^{-\frac{\left[x-\mu_{1}\right]^{2}}{2\sigma_{1}^{2}}}dx=\intop\frac{1}{\sigma_{1}\sqrt{2\pi}}e^{-\frac{\left[s(y)-\mu_{1}\right]^{2}}{2\sigma_{1}^{2}}s^{'}(y)}
+\intop_{-\infty}^{\infty}\frac{1}{\sigma_{1}\sqrt{2\pi}}e^{-\frac{\left[x-\mu_{1}\right]^{2}}{2\sigma_{1}^{2}}}dx=\intop_{-\infty}^{\infty}\frac{1}{\sigma_{2}\sqrt{2\pi}}e^{-\frac{\left[s(y)-\mu_{2}\right]^{2}}{2\sigma_{2}^{2}}s^{'}(y)}
 \]
 
 \end_inset
@@ -7173,7 +7356,7 @@ Taking a similar approach to CoxBox but assuming the transformation function
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\intop_{-\infty}^{\infty}\frac{1}{\sigma_{1}\sqrt{2\pi}}e^{-\frac{\left[x-\mu_{1}\right]^{2}}{2\sigma_{1}^{2}}}dx=\intop\frac{1}{\sigma_{1}\sqrt{2\pi}}e^{-\frac{\left[y^{a}-\mu_{1}\right]^{2}}{2\sigma_{1}^{2}}a.y^{a-1}}
+\intop_{-\infty}^{\infty}\frac{1}{\sigma_{1}\sqrt{2\pi}}e^{-\frac{\left[x-\mu_{1}\right]^{2}}{2\sigma_{1}^{2}}}dx=\intop_{-\infty}^{\infty}\frac{1}{\sigma_{2}\sqrt{2\pi}}e^{-\frac{\left[y^{a}-\mu_{2}\right]^{2}}{2\sigma_{2}^{2}}a.y^{a-1}}
 \]
 
 \end_inset
@@ -7182,13 +7365,13 @@ Taking a similar approach to CoxBox but assuming the transformation function
 \end_layout
 
 \begin_layout Standard
-Fitting the distribution of elliptical galaxies curves with
+So the observed distribution should fit with
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\frac{1}{\sigma_{1}\sqrt{2\pi}}e^{-\frac{\left[y^{a}-\mu_{1}\right]^{2}}{2\sigma_{1}^{2}}a.y^{a-1}}
+g(y)=\frac{1}{\sigma_{2}\sqrt{2\pi}}e^{-\frac{\left[y^{a}-\mu_{2}\right]^{2}}{2\sigma_{2}^{2}}a.y^{a-1}}
 \end{equation}
 
 \end_inset
@@ -7196,8 +7379,47 @@ Fitting the distribution of elliptical galaxies curves with
 
 \end_layout
 
+\begin_layout Subsubsection
+Fitting of curve to distribution.
+\end_layout
+
 \begin_layout Standard
-one obtains
+Figures 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Fit-uminusr"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Fit-logmstar"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ are histogram plots of the distributions of uminusr and logmstar and the
+ results of fitting equation (3).
+ For comparison purposes, fitted johnson and normal distributions are also
+ shown.
+ The fitting variables for equation (3) are documented in table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Curve-fit-variables"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -7214,6 +7436,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Fit-uminusr"
+
+\end_inset
+
 Galaxy counts versus uminusr
 \end_layout
 
@@ -7234,10 +7462,6 @@ Galaxy counts versus uminusr
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -7250,13 +7474,15 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Fit-logmstar"
+
+\end_inset
+
 Galaxy counts versus logmstar
 \end_layout
 
@@ -7301,6 +7527,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Curve-fit-variables"
+
+\end_inset
+
 Curve fit variables
 \end_layout
 
@@ -7312,7 +7544,7 @@ Curve fit variables
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="3" columns="6">
+<lyxtabular version="3" rows="6" columns="6">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -7321,7 +7553,7 @@ Curve fit variables
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7330,7 +7562,7 @@ Curve fit variables
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7339,11 +7571,11 @@ a
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\mu$
+\begin_inset Formula $\mu_{2}$
 \end_inset
 
 
@@ -7351,11 +7583,11 @@ a
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\sigma$
+\begin_inset Formula $\sigma_{2}$
 \end_inset
 
 
@@ -7363,7 +7595,7 @@ a
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7372,7 +7604,7 @@ s(y)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7383,7 +7615,63 @@ t(x)
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7392,7 +7680,7 @@ uminusr
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7401,7 +7689,7 @@ uminusr
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7410,7 +7698,7 @@ uminusr
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7419,7 +7707,7 @@ uminusr
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7431,7 +7719,7 @@ uminusr
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7445,7 +7733,63 @@ uminusr
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7454,7 +7798,7 @@ logmstar
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7463,7 +7807,7 @@ logmstar
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7472,7 +7816,7 @@ logmstar
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7481,7 +7825,7 @@ logmstar
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7493,13 +7837,69 @@ logmstar
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 \begin_inset Formula $x^{-2.78}$
 \end_inset
 
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -7538,7 +7938,18 @@ For logmstar, the distribution looks quite normal/Gaussian
 \begin_layout Itemize
 Is it wishful thinking that for logmstar the value for a is 2.78 which rounded
  up to a whole number is 3 i.e.
- a cubic and that the mass of a galaxy is related to volume of gas?
+ a cubic and thus the distributions confirm that mass of a galaxy is related
+ to the initial volume of gas or dark matter
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Distribution-fits-for"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+?
 \end_layout
 
 \begin_layout Itemize
@@ -7565,7 +7976,7 @@ With advice from theorists on galaxy evolution are there more promising
 \begin_layout Itemize
 The newly launched James Webb Telescope should be able to observe light
  from the time of star and galaxy formation and hence supply suitable distributi
-on informatio.
+on information.
 \end_layout
 
 \begin_layout Itemize
@@ -7655,7 +8066,7 @@ Overall Conclusions
 \end_layout
 
 \begin_layout Standard
-Just to remined ourselves, 
+Just to remind ourselves, 
 \end_layout
 
 \begin_layout Itemize
@@ -7702,6 +8113,13 @@ Looking at the complete set of elliptical galaxies in the GAMA dataset there
  That studying of distributions has some promise and may prove fruitful
  as advances in telescopes allow us to look at distributions from earlier
  times and over larger values of redshift.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Bibliography

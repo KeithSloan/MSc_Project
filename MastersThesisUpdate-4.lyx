@@ -395,7 +395,7 @@ Units
 \end_layout
 
 \begin_layout Standard
-Thoughout the report 
+Throughout the report 
 \end_layout
 
 \begin_layout Itemize
@@ -853,14 +853,15 @@ DistanceTo5nn - Distance to 5nn
 \end_layout
 
 \begin_layout Standard
-The distance to 5th nearest neighbour in comoving units 
+The distance to 5th nearest neighbour in comoving units
+\color black
+ within 
 \color red
-with
+
 \begin_inset Formula $±1000km/s$
 \end_inset
 
- within a pseudo- 231 2 176 volume limited density-defining population:
- Σ5 = 5/πd5
+.
 \end_layout
 
 \begin_layout Subsection
@@ -2698,7 +2699,8 @@ name "fig:Density-Plots-for"
 
 \end_inset
 
-Density Plots for TotRmag versus Log10 (Means of Environments)
+Elliptical galaxies density Plots for TotRmag versus Log10 (Means of Environment
+s)
 \end_layout
 
 \end_inset
@@ -3236,7 +3238,8 @@ name "fig:Sum-of-logmstar-1"
 
 \end_inset
 
-Sum of logmstar for local group versus log10 ( Mean( Environments ))
+Elliptical galaxies of logmstar for local group versus log10 ( Mean( Environment
+s ))
 \end_layout
 
 \end_inset
@@ -3876,8 +3879,8 @@ name "fig:uminusr-&-logmstar"
 
 \end_inset
 
-uminusr & logmstar density plots for comoving distances to the center of
- the galaxies local group.
+Elliptical galaxies uminusr & logmstar density plots for comoving distances
+ to the center of the galaxies local group.
 \end_layout
 
 \end_inset
@@ -3941,9 +3944,18 @@ The brightest galaxy left after iteratively removing the most distant galaxies
 \end_layout
 
 \begin_layout Standard
+The statistics for local groups measures uminusr and logmstar are summarised
+ in table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Statistics-for-measures"
+plural "false"
+caps "false"
+noprefix "false"
 
-\color red
-Table 7
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -3960,6 +3972,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Statistics-for-measures"
+
+\end_inset
+
 Statistics for measures uminusr and logmstar
 \end_layout
 
@@ -4131,7 +4149,7 @@ name "fig:uminusr-versus-ranges"
 
 \end_inset
 
-uminusr versus ranges of CoSepBCG
+Elliptical galaxies uminusr & logmstar versus ranges of CoSepBCG
 \end_layout
 
 \end_inset
@@ -4172,17 +4190,12 @@ uminusr versus ranges of CoSepBCG
 Observations 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 
-\color red
-As can be seen from the density plots and histograms the central core of
- uminsur and logmstar values occur over 75% of the range of CoSepBCG, also
- that there is a small number of galaxies nearer the centre of the local
- group with a larger range of values, especially with values below the mean.
-\end_layout
+\color black
+As can be seen from the density plots 
+\color inherit
 
-\begin_layout Standard
-From figures 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:uminusr-&-logmstar"
@@ -4192,7 +4205,11 @@ noprefix "false"
 
 \end_inset
 
- and 
+
+\color black
+and box plot histograms 
+\color inherit
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:uminusr-versus-ranges"
@@ -4202,27 +4219,27 @@ noprefix "false"
 
 \end_inset
 
- the following can be observed
+
+\color black
+the central core of uminsur and logmstar values occur over only a small
+ range of CoSepBCG, approx 0.25 for uminusr and 0.75 for logmstar
 \end_layout
 
-\begin_layout Enumerate
-The spread of values below the mode for the local group is larger than that
- above.
+\begin_layout Itemize
+That this same core extends out for the first 6 of the 8 ranges i.e.
+ 75% of CoSepBCG ranges 
 \end_layout
 
-\begin_layout Enumerate
-The core range of uminusr and logmstar are consistent across the first 75%
- of the range of comoving distance from the center
-\end_layout
-
-\begin_layout Enumerate
+\begin_layout Itemize
 Closer to the center of the local group there a small number of galaxies
  have a larger range of values
+\color black
+, especially with values below the mean.
 \end_layout
 
-\begin_layout Enumerate
-The mode vales of uminusr and logmstar are consistent across the whole range
- of comoving distances.
+\begin_layout Itemize
+From the density plots, the spread of values below the mode for the local
+ group is larger than that above.
 \end_layout
 
 \begin_layout Section
@@ -4606,8 +4623,8 @@ name "fig:Density-Plots-LogMeans:"
 
 \end_inset
 
-Density Plots : Local groups with more than 5 galaxies versus log10(Mean(Environ
-ment Measures)
+Density Plots : Elliptical galaxies in local groups with more than 5 galaxies
+ versus log10(Mean(Environment Measures)
 \end_layout
 
 \end_inset
@@ -5132,8 +5149,8 @@ name "fig:Density-Plots-:-1-uminusr"
 
 \end_inset
 
-Density Plots : uminusr versus log10(environments) for the subset of galaxies
- in local groups containing 5 or more galaxies
+Density Plots : uminusr versus log10(environments) for the subset of elliptical
+ galaxies in local groups containing 5 or more galaxies
 \end_layout
 
 \end_inset
@@ -5182,8 +5199,8 @@ name "fig:Density-Plots-:-1-logmstar"
 
 \end_inset
 
-Density Plots : logmstar versus log10(environments) for the subset of galaxies
- in local groups containing 5 or more galaxies
+Density Plots : logmstar versus log10(environments) for the subset of elliptical
+ galaxies in local groups containing 5 or more galaxies
 \end_layout
 
 \end_inset
@@ -5272,18 +5289,7 @@ Distributions of galaxy counts by characteristic measures for the different
 \end_layout
 
 \begin_layout Standard
-
-\color red
-fitted curves 
-\end_layout
-
-\begin_layout Standard
-Apart from the case of environment 
-\color black
-type knot, which has higher characteristic masses first,
-\color inherit
- the distributions for the various galaxy environment types are similar
- see figure 
+Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Galaxy-counts-for"
@@ -5293,7 +5299,14 @@ noprefix "false"
 
 \end_inset
 
-
+show fitted distribution curves for galaxy measures uminusr, logmstar and
+ metal(metallicity) for elliptical galaxies.
+ Apart from the case of environment 
+\color black
+type knot, which has higher characteristic masses,
+\color inherit
+ the distributions for the various galaxy environment types are similar
+ 
 \end_layout
 
 \begin_layout Standard
@@ -5316,7 +5329,8 @@ name "fig:Galaxy-counts-for"
 
 \end_inset
 
-Galaxy counts for galaxy characteristics by galaxy structure type
+Elliptical galaxy counts for galaxy characteristics by galaxy structure
+ type
 \end_layout
 
 \end_inset
@@ -5440,7 +5454,7 @@ name "fig:Histogram-and-distributions-2"
 
 \end_inset
 
-Histogram and distributions plots for DistanceTo5nn
+Elliptical galaxies histogram and distributions plots for DistanceTo5nn
 \end_layout
 
 \end_inset
@@ -5527,7 +5541,7 @@ name "fig:Histogram-and-distributions"
 
 \end_inset
 
-Histogram and distributions plots for DistanceTo5nn
+Elliptical galaxies histogram and distributions plots for DistanceTo5nn
 \end_layout
 
 \end_inset
@@ -5548,11 +5562,7 @@ Histogram and distributions plots for DistanceTo5nn
 \end_layout
 
 \begin_layout Plain Layout
-
-\color red
-Combined Distribution Plots
-\color inherit
- Change plot title
+\align center
 \begin_inset Graphics
 	filename ChartsPlots/GalaxyTypes-DistanceTo5nn.png
 	lyxscale 40
@@ -5612,7 +5622,7 @@ name "fig:Histogram-and-distributions-1"
 
 \end_inset
 
-Histogram and distributions plots for AgeDenPar
+Elliptical galaxies histogram and distributions plots for AgeDenPar
 \end_layout
 
 \end_inset
@@ -5654,9 +5664,8 @@ Observations
 \end_layout
 
 \begin_layout Standard
-
-\color red
-Observations
+The combined fitted distribution plots for all environmental measures show
+ significant differences between large scale structural type
 \end_layout
 
 \begin_layout Standard
@@ -5772,8 +5781,8 @@ Local group - TotRmag versus Mean(Log10(Environment Measures)) for galaxy
 \end_layout
 
 \begin_layout Standard
-The density plots clearly show a relationship between TotRmag and the mean
- of log environmental measures.
+The density plots clearly show diagonal contours indicating a relationship
+ between TotRmag and the mean of log environmental measures.
 \end_layout
 
 \begin_layout Subsection
@@ -5844,42 +5853,15 @@ Group sum (logmstar) mass versus environmental measures for galaxy types
 Observations
 \end_layout
 
-\begin_layout Standard
-
-\color red
-For galaxy large-scale structural types of filament and knot there is a
- clearer correlation between the sum of the local group attribute logmass
- and environment measures.
- The correlation is less clear for structural types voids and sheet.
+\begin_layout Itemize
+The clearest indication of a correlation between the sum of logmass and
+ environmental measures is shown in the degrees of diagonally in contours
+ for filament and knot and is less clear for structural types void and sheet.
 \end_layout
 
-\begin_layout Standard
-
-\color red
-When broken down into galaxy structure types, the density maps for sum of
- local groups versus log(environmental measures) for uminusr figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Group-Redness-sum"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- look very similar to logmstar figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Group-Mass-sum"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- but quite different between galaxy structure types, again emphasising the
- fact that galaxy environmental measures change quite significantly between
- galaxy structure types.
+\begin_layout Itemize
+Looking at environmental measures SurfaceDensity and CountInCyl for elliptical
+ galaxies in structural types filament and knot there are hints of two groups.
 \end_layout
 
 \begin_layout Standard
@@ -5912,9 +5894,9 @@ Lots of processes in astrophysics happen on large time scales, often many
  scientific knowledge.
  For a lot of processes we are not able to make measurements on timescales
  that would provide meaningful results.
- However,as there are billions of stars in our own galaxy and billions of
- galaxies, we can use the fact that we can observe a very large number of
- stars and galaxies to draw conclusions.
+ However, as there are billions of stars in our own galaxy and billions
+ of galaxies, we can use the fact that we can observe a very large number
+ of stars and galaxies to draw conclusions.
  The use of distributions is an attempt to gain insights by looking at the
  properties of various distributions.
  Distributions at different redshifts would prove useful but given the timescale
@@ -5998,6 +5980,20 @@ Distributions
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Distribution-fits-for"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+summaries the fit variables for the various distribution types.
 \end_layout
 
 \begin_layout Standard
@@ -6695,12 +6691,6 @@ Metallicity(metal)
 
 \end_layout
 
-\begin_layout Standard
-
-\color red
-Deatils of table 9
-\end_layout
-
 \begin_layout Subsection
 Galaxy formation and evolution
 \end_layout
@@ -7104,12 +7094,30 @@ noprefix "false"
 
 \end_inset
 
- but a johnson distribution which has a PDF of 
-\begin_inset Formula $\frac{\delta}{\lambda\sqrt{2\pi}}\frac{1}{\sqrt{1+t^{2}}}e^{-\frac{1}{2}\gamma\left(1+log(t)+\sqrt{1+t^{2}}\right)}$
+ but a johnson distribution which has a PDF of
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+PDF=\frac{\delta}{\lambda\sqrt{2\pi}}\frac{1}{\sqrt{1+t^{2}}}e^{-\frac{1}{2}\gamma\left(1+log(t)+\sqrt{1+t^{2}}\right)}
+\]
+
 \end_inset
 
- where 
-\begin_inset Formula $t=\frac{x-\varepsilon}{\lambda}$
+
+\end_layout
+
+\begin_layout Standard
+where
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+t=\frac{x-\varepsilon}{\lambda}
+\]
+
 \end_inset
 
 
@@ -7529,8 +7537,8 @@ For logmstar, the distribution looks quite normal/Gaussian
 
 \begin_layout Itemize
 Is it wishful thinking that for logmstar the value for a is 2.78 which rounded
- up to a whole number is 3 and that the mass of a galaxy is related to volume
- of gas?
+ up to a whole number is 3 i.e.
+ a cubic and that the mass of a galaxy is related to volume of gas?
 \end_layout
 
 \begin_layout Itemize
@@ -7647,55 +7655,53 @@ Overall Conclusions
 \end_layout
 
 \begin_layout Standard
-with a resulting galaxy distributions i.e.
- using 
+Just to remined ourselves, 
 \end_layout
 
 \begin_layout Itemize
-Looking at galaxies as a whole, there does not appear to be a direct correlation
- between galaxy characteristics and environmental measures.
+Redness as measured by uminusr is given the nature of star and galaxy evolution
+ a measure of age.
  
 \end_layout
 
 \begin_layout Itemize
-Looking at a group level there is a degree of correlation between the group
- characteristics such as TotRMag, sum of logmstar and a galaxy's environmental
- measures, however this probably just due to these characteristics having
- higher values in denser parts of the universe which is reflected in the
- averages of group environmental measures.
- The environment of a galaxy is understandably being influenced by its local
- group i.e.
+That elliptical galaxies have evolved from and have a greater age than spiral
+ galaxies and therefore redder (have a larger measure of uminusr).
+ 
+\end_layout
+
+\begin_layout Itemize
+The various environmental measures a measure of the density of the local
+ universe.
+ 
+\end_layout
+
+\begin_layout Standard
+Looking at the complete set of elliptical galaxies in the GAMA dataset there
+ does not appear to be a direct correlation between galaxy characteristics
+ and environmental measures.
+ There is sufficient variation in uminusr and the environmental measures
+ that any correlation between the two is not obviously revealed.
+ Even just looking at the set of galaxies with large logmass no obvious
+ relationship is revealed.
+ If one looks at subsets of galaxies within a local group then one does
+ see some degree of correlation 0.5-0.6 between the groups redness TotRMag
+ and mass as in sum of logmstar and the means of environmental measures
+ of the galaxies within its local group.
+ Now the environmental measures of a galaxy in a local group is strongly
+ influenced by the local group as they are a measure of the local density,
+ for example DistanceTo5nn is a measure of the distance to the five nearest
+ neighbours.
  Where a local group is in a dense part of the universe the environmental
  measures of galaxies within the group will exhibit more dense environment
  measures, singularly and as a group.
  Likewise if the local group is in a less dense part of the universe the
  galaxy environmental measures will reflect this.
-\end_layout
-
-\begin_layout Itemize
-A relationship is observed between the fraction of elliptical galaxies in
- local groups with more than five members and their environmental measures
- and is consistent with previous research for an evaluation of satellite
- galaxies
-\begin_inset CommandInset citation
-LatexCommand cite
-key "key-20,key-21,key-22"
-literal "false"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-
-\color black
-Galaxy environment influences galaxy evolution from spiral to aged red elliptica
-ls
-\end_layout
-
-\begin_layout Itemize
-Environmental measures vary significantly with large scale structure
+ Galaxies within a local group are likely to have formed at similar times.
+ Environmental measures vary significantly with large scale structure.
+ That studying of distributions has some promise and may prove fruitful
+ as advances in telescopes allow us to look at distributions from earlier
+ times and over larger values of redshift.
 \end_layout
 
 \begin_layout Bibliography

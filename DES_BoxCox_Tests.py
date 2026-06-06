@@ -353,21 +353,51 @@ def main():
             raise ImportError("astropy is required to load FITS files: pip install astropy")
         print(f"Loading catalogue: {args.cat}")
         cat = Table.read(args.cat)
+        colnames = cat.colnames
 
-        # Column names for DES Y3 metacal catalogue — adjust if using redMaGiC
-        zcol = 'DNF_ZMC_SOF'
-        if args.colour == 'g-r':
-            c1, c2 = 'SOF_CM_MAG_G', 'SOF_CM_MAG_R'
-        elif args.colour == 'r-i':
-            c1, c2 = 'SOF_CM_MAG_R', 'SOF_CM_MAG_I'
+        # Support files produced by DES_DataLab_Download.py (standardised names)
+        # as well as raw DR1/DR2 column names and internal Y3 names.
+        # Photo-z column — try in order of preference
+        for zcol in ('DNF_ZMC_SOF', 'dnf_zmean_sof', 'DNF_ZMEAN_SOF',
+                     'PHOTOZ', 'z_phot'):
+            if zcol in colnames:
+                break
         else:
-            c1, c2 = 'SOF_CM_MAG_I', 'SOF_CM_MAG_Z'
+            raise KeyError(f"Cannot find photo-z column in {colnames[:10]}...")
 
-        # Quality cuts: gold flag, galaxy class
-        keep = (cat['FLAGS_GOLD'] == 0) & (cat['EXTENDED_CLASS_MASH_SOF'] >= 2)
-        colours = (cat[c1][keep] - cat[c2][keep]).data
-        z_phot = cat[zcol][keep].data
-        print(f"Loaded {keep.sum():,} galaxies after star/quality cuts.")
+        # Pre-computed colour columns from DES_DataLab_Download.py
+        if args.colour == 'g-r' and 'COLOUR_G_R' in colnames:
+            colours_raw = cat['COLOUR_G_R'].data.astype(float)
+            keep = np.ones(len(cat), dtype=bool)
+        elif args.colour == 'r-i' and 'COLOUR_R_I' in colnames:
+            colours_raw = cat['COLOUR_R_I'].data.astype(float)
+            keep = np.ones(len(cat), dtype=bool)
+        else:
+            # Fall back to magnitude columns
+            mag_map = {
+                'g-r': [('SOF_CM_MAG_G', 'mag_auto_g'), ('SOF_CM_MAG_R', 'mag_auto_r')],
+                'r-i': [('SOF_CM_MAG_R', 'mag_auto_r'), ('SOF_CM_MAG_I', 'mag_auto_i')],
+                'i-z': [('SOF_CM_MAG_I', 'mag_auto_i'), ('SOF_CM_MAG_Z', 'mag_auto_z')],
+            }
+            c1_opts, c2_opts = mag_map[args.colour]
+            c1 = c1_opts[0] if c1_opts[0] in colnames else c1_opts[1]
+            c2 = c2_opts[0] if c2_opts[0] in colnames else c2_opts[1]
+            colours_raw = (cat[c1].data - cat[c2].data).astype(float)
+            keep = np.ones(len(cat), dtype=bool)
+
+        # Quality cuts if flag/class columns present
+        if 'FLAGS_GOLD' in colnames:
+            keep &= (cat['FLAGS_GOLD'].data == 0)
+        elif 'flags' in colnames:
+            keep &= (cat['flags'].data == 0)
+        if 'EXTENDED_CLASS_MASH_SOF' in colnames:
+            keep &= (cat['EXTENDED_CLASS_MASH_SOF'].data >= 2)
+        elif 'extended_class_mash' in colnames:
+            keep &= (cat['extended_class_mash'].data >= 2)
+
+        colours = colours_raw[keep]
+        z_phot = cat[zcol].data.astype(float)[keep]
+        print(f"Loaded {keep.sum():,} galaxies after quality cuts.")
 
     run_analysis(colours, z_phot,
                  colour_name=args.colour,
